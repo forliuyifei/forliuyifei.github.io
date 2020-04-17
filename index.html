@@ -1,196 +1,901 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+<html lang="zh-CN">
 
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+  <meta name="theme-color" content="#2f4154">
+  <meta name="description" content="">
+  <meta name="author" content="冼仙">
+  <meta name="keywords" content="">
   <title>个人小站</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="个人小站">
-<meta property="og:url" content="http://forliuyifei.github.com/index.html">
-<meta property="og:site_name" content="个人小站">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="冼仙">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="个人小站" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+<link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/github-gist.min.css" />
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_fmb4a04yx8h.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_ijqayz9ro8k.css">
+
+
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
 
 <meta name="generator" content="Hexo 4.2.0"></head>
 
+
 <body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">个人小站</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>个人小站</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
         
-          <a class="main-nav-link" href="/">Home</a>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="iconfont icon-home-fill"></i>
+              首页</a>
+          </li>
         
-          <a class="main-nav-link" href="/archives">Archives</a>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/archives/">
+              <i class="iconfont icon-archive-fill"></i>
+              归档</a>
+          </li>
         
-      </nav>
-      <nav id="sub-nav">
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/categories/">
+              <i class="iconfont icon-category-fill"></i>
+              分类</a>
+          </li>
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/tags/">
+              <i class="iconfont icon-tags-fill"></i>
+              标签</a>
+          </li>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://forliuyifei.github.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/04/17/hello-world/" class="article-date">
-  <time datetime="2020-04-17T15:16:54.135Z" itemprop="datePublished">2020-04-17</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              <i class="iconfont icon-user-fill"></i>
+              关于</a>
+          </li>
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/17/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://forliuyifei.github.com/2020/04/17/hello-world/" data-id="ck94c9on7000030aa4vt3gc82" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
         
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2020/04/17/hello-world/">Hello World</a>
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
           </li>
         
       </ul>
     </div>
   </div>
+</nav>
 
-  
-</aside>
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/lyf.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.15)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E9%9D%92%E5%B1%B1%E4%B8%80%E9%81%93%E5%90%8C%E4%BA%91%E9%9B%A8-%E6%98%8E%E6%9C%88%E4%BD%95%E6%9B%BE%E6%98%AF%E4%B8%A4%E4%B9%A1/">青山一道同云雨 明月何曾是两乡</a>
+
+      <a href="/2020/04/18/%E9%9D%92%E5%B1%B1%E4%B8%80%E9%81%93%E5%90%8C%E4%BA%91%E9%9B%A8-%E6%98%8E%E6%9C%88%E4%BD%95%E6%9B%BE%E6%98%AF%E4%B8%A4%E4%B9%A1/" class="index-excerpt">
+        
+        
+          
+        
+        <div>
+送柴侍御
+唐代：王昌龄
+
+沅水通波接武冈，送君不觉有离伤。
+青山一道同云雨，明月何曾是两乡。
+
+赏析
+　　这是一首送别诗，诗人通过乐观开朗的诗词来减轻柴侍御的离愁。而实际上自己却是十分伤感。这种“道是无晴却有晴”的抒情手法。更能表达出诗人浓浓的离愁。
+　　“沅水通波接武冈，送君不觉有离伤”，点出了友人要去的地方，语调流畅而轻快，“流水”与“通波”蝉联而下，显得江河相连，道无艰阻，再加上一个“接”</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E8%AF%97%E8%AF%8D/">诗词</a>
+            
+          </div>
         
       </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 冼仙<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
-</footer>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%81%8B%E7%88%B1%E4%BC%B4%E4%BE%A3%E6%98%AF%E3%80%8C%E5%90%88%E9%80%82%E3%80%8D%E7%9A%84%EF%BC%9F%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AA%E6%96%B0%E6%A0%87%E5%87%86/">什么样的恋爱伴侣是「合适」的？这里有个新标准</a>
+
+      <a href="/2020/04/18/%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E6%81%8B%E7%88%B1%E4%BC%B4%E4%BE%A3%E6%98%AF%E3%80%8C%E5%90%88%E9%80%82%E3%80%8D%E7%9A%84%EF%BC%9F%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AA%E6%96%B0%E6%A0%87%E5%87%86/" class="index-excerpt">
+        
+        
+          
+        
+        <div>
+有数据表明，政治信仰也变成了筛选「合适」伴侣的标准之一
+
+▼
+
+在过往的恋爱生涯里，「我们不合适」是否是你收到/说过的分手理由爆款？
+当爱情消失后，意图以「不合适」把伤害降到最低，避免自己当恶人，却没把话说明白，到底哪里不合适？是你袜子乱扔还是我喜欢吃香菜榴莲？反过来想，在决定谈恋爱之前，觉得对方「合适」的标准又是什么呢？
+通过线上征集「你都是怎样筛选出“灵魂伴侣”的候选人？」的 4666 次表</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%88%B1%E6%83%85/">爱情</a>
+            
+          </div>
+        
+      </div>
     </div>
-    <nav id="mobile-nav">
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E8%87%AA%E5%B7%B1%E9%80%82%E4%B8%8D%E9%80%82%E5%90%88%E7%BB%93%E5%A9%9A/">如何判断自己适不适合结婚</a>
+
+      <a href="/2020/04/18/%E5%A6%82%E4%BD%95%E5%88%A4%E6%96%AD%E8%87%AA%E5%B7%B1%E9%80%82%E4%B8%8D%E9%80%82%E5%90%88%E7%BB%93%E5%A9%9A/" class="index-excerpt">
+        
+        
+          
+        
+        <div>
+汪有 
+04-12 来自 啥都有的iPhone XS Max 已编辑
+知乎上问：“如何判断对方适不适合结婚？”一个个都头头是道的。
+却少了个重要问题：“如何判断自己适不适合结婚？”
+自己都没整明白，都默认自己没毛病，拿自己当尺去量别人。就这水平基本也就告别幸福婚姻了。
+如图：知乎上连自己适不适合刘海都有人问，但没人疑惑自己不适合结婚。
+</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E5%90%90%E6%A7%BD/">吐槽</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%A9%A1%E7%9A%AE%E6%80%BB%E6%98%AF%E5%AE%B9%E6%98%93%E5%92%8C%E5%B0%BA%E5%AD%90%E9%BB%8F%E5%9C%A8%E4%B8%80%E8%B5%B7/">为什么橡皮总是容易和尺子黏在一起?</a>
+
+      <a href="/2020/04/18/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%A9%A1%E7%9A%AE%E6%80%BB%E6%98%AF%E5%AE%B9%E6%98%93%E5%92%8C%E5%B0%BA%E5%AD%90%E9%BB%8F%E5%9C%A8%E4%B8%80%E8%B5%B7/" class="index-excerpt">
+        
+        
+          
+        
+        <div>
+林瘦猫 
+4-12 23:03 已编辑
+为什么橡皮能把塑料尺子“溶化”？
+以聚乙烯基的白色橡皮为例，其主要成分和塑料袋／保鲜膜的差别在于分子量大小，也就是平均有多少个乙烯C2H4聚在一起。一般来说分子量越大，越接近固体，越坚硬。此外还有分子链的交联程度也会影响其硬度。
+橡皮中聚乙烯的平均分子量较小，在夏天的太阳下暴晒橡皮，很容易就晒化了。此时橡皮擦并没有真的融化，而是形成了粘流态，是一种分子与分</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E5%8C%96%E5%AD%A6/">化学</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/Windows-10%E7%9A%84%E4%B8%AD%E6%96%87%E7%94%A8%E6%88%B7%E5%90%8D%E6%80%8E%E4%B9%88%E6%94%B9%E6%88%90%E8%8B%B1%E6%96%87/">Windows 10的中文用户名怎么改成英文</a>
+
+      <a href="/2020/04/18/Windows-10%E7%9A%84%E4%B8%AD%E6%96%87%E7%94%A8%E6%88%B7%E5%90%8D%E6%80%8E%E4%B9%88%E6%94%B9%E6%88%90%E8%8B%B1%E6%96%87/" class="index-excerpt">
+        
+        
+          
+        
+        <div>Windows 10的中文用户名怎么改成英文？其实改名字很简单，难就难在后续把中文名称下的文件夹和用户数据也顺利统一到新名称下。
+第一步：快速启用Administrator账户
+以管理员模式启动命令提示符（Win+X组合键后就能看到），输入net user administrator /active:yes启用Administrator账户
+第二步：注销当前账户并且修改文件夹名称
+启用Admini</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/Windows/">Windows</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E6%99%93%E7%9C%8B%E5%A4%A9%E8%89%B2%E6%9A%AE%E7%9C%8B%E4%BA%91%EF%BC%8C%E8%A1%8C%E4%B9%9F%E6%80%9D%E5%90%9B%EF%BC%8C%E5%9D%90%E4%B9%9F%E6%80%9D%E5%90%9B/">晓看天色暮看云，行也思君，坐也思君</a>
+
+      <a href="/2020/04/18/%E6%99%93%E7%9C%8B%E5%A4%A9%E8%89%B2%E6%9A%AE%E7%9C%8B%E4%BA%91%EF%BC%8C%E8%A1%8C%E4%B9%9F%E6%80%9D%E5%90%9B%EF%BC%8C%E5%9D%90%E4%B9%9F%E6%80%9D%E5%90%9B/" class="index-excerpt">
+        
+        
+          
+        
+        <div>一剪梅·雨打梨花深闭门
+【作者】唐寅 【朝代】明
+雨打梨花深闭门，忘了青春，误了青春。
+赏心乐事共谁论？花下销魂，月下销魂。
+愁聚眉峰尽日颦，千点啼痕，万点啼痕。
+晓看天色暮看云，行也思君，坐也思君。
+</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E8%AF%97%E8%AF%8D/">诗词</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E7%96%AB%E6%83%85%E4%B9%8B%E4%B8%8B%E7%9A%84%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91%E8%80%85%E6%80%8E%E4%B9%88%E6%A0%B7%E4%BA%86%EF%BC%9F/">疫情之下的提前退休者怎么样了？</a>
+
+      <a href="/2020/04/18/%E7%96%AB%E6%83%85%E4%B9%8B%E4%B8%8B%E7%9A%84%E6%8F%90%E5%89%8D%E9%80%80%E4%BC%91%E8%80%85%E6%80%8E%E4%B9%88%E6%A0%B7%E4%BA%86%EF%BC%9F/" class="index-excerpt">
+        
+        
+          
+        
+        <div>
+评论尸 
+4-6 09:32 来自 Mac客户端 已编辑
+疫情之下的提前退休者怎么样了？
+欧美的80后和90后（千禧一代）曾经爆发过一次提前退休运动（FIRE Movement），这个运动的目标是在40岁之前使自己达到“有限度的财务自由”然后退休。
+什么叫有限度的财务自由呢，不是国内追求财务自由必须达到的资产过亿甚至过十亿。而是指投资收入的净值赶上自己40岁的收入水平，投资收入的增速赶上自己可预</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%96%AB%E6%83%85/">疫情</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E8%AE%A9TA%E5%AF%B9%E4%BD%A0%E4%BA%A7%E7%94%9F%E5%A5%BD%E6%84%9F%EF%BC%9F%E5%BF%83%E7%90%86%E5%AD%A6%E5%B0%8F%E6%8A%80%E5%B7%A7%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/">如何快速让TA对你产生好感？心理学小技巧了解一下</a>
+
+      <a href="/2020/04/18/%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E8%AE%A9TA%E5%AF%B9%E4%BD%A0%E4%BA%A7%E7%94%9F%E5%A5%BD%E6%84%9F%EF%BC%9F%E5%BF%83%E7%90%86%E5%AD%A6%E5%B0%8F%E6%8A%80%E5%B7%A7%E4%BA%86%E8%A7%A3%E4%B8%80%E4%B8%8B/" class="index-excerpt">
+        
+        
+          
+        
+        <div> “会哭的孩子有奶吃”，“撒娇女人最好命”……这样的说法还有很多，它们的共同特点就是强调示弱和求助的重要性。
+
+怎么讲，反正听起来非常不独立不自强，不符合当代社会价值观。
+ 
+
+
+但其实这些说法并不是毫无道理。
+
+心理学中的富兰克林效应早就指出：想要让别人喜欢你，最好的方法并不是你去帮助TA，而是让TA来帮助你。
+
+这是怎么一回事儿呢？
+↓↓↓   ↓↓↓
+
+ 图文版美国开国元勋本杰明·富兰克林曾</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E7%A4%BE%E4%BA%A4/">社交</a>
+            
+              <a href="/tags/%E5%AF%8C%E5%85%B0%E5%85%8B%E6%9E%97%E6%95%88%E5%BA%94/">富兰克林效应</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E7%BA%A2%E7%83%A7%E8%8A%8B%E5%A4%B4/">红烧芋头</a>
+
+      <a href="/2020/04/18/%E7%BA%A2%E7%83%A7%E8%8A%8B%E5%A4%B4/" class="index-excerpt">
+        
+        
+          
+        
+        <div>红烧芋头
+
+用料
+
+
+
+芋头
+适量
+
+
+
+
+蒜末
+5-7瓣
+
+
+姜末
+少量
+
+
+辣椒
+根据个人喜好放
+
+
+葱末
+适量
+
+
+胡椒粉
+适量
+
+
+生抽
+半勺
+
+
+老抽
+半勺
+
+
+盐
+适量
+
+
+白胡椒粉
+少量
+
+
+五香粉
+少量
+
+
+
+红烧芋头的做法
+
+
+芋头洗净放高压锅煮熟。
+
+
+我的是电压力锅选：肉/排骨.焖炖。
+
+
+煮芋头期间准备食材。
+
+
+芋头煮熟放凉。去皮。切块。
+
+
+起锅烧油。
+
+
+倒入蒜末 姜</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E9%A3%9F%E8%B0%B1/">食谱</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2020/04/18/%E4%BA%BA%E8%BF%98%E6%98%AF%E8%A6%81%E4%BF%9D%E6%8C%81%E5%9B%A0%E7%94%9F%E6%B4%BB%E7%BB%86%E7%A2%8E%E8%80%8C%E6%BB%A1%E8%B6%B3%E7%9A%84%E8%83%BD%E5%8A%9B/">人还是要保持因生活细碎而满足的能力</a>
+
+      <a href="/2020/04/18/%E4%BA%BA%E8%BF%98%E6%98%AF%E8%A6%81%E4%BF%9D%E6%8C%81%E5%9B%A0%E7%94%9F%E6%B4%BB%E7%BB%86%E7%A2%8E%E8%80%8C%E6%BB%A1%E8%B6%B3%E7%9A%84%E8%83%BD%E5%8A%9B/" class="index-excerpt">
+        
+        
+          
+        
+        <div>
+“人还是要保持因生活细碎而满足的能力，比如品尝久违的美食，重温熟悉的街角，买到钟意的裙子，感知温柔的刹那，这些看似鸡零狗碎的生活碎片却是通向快乐星球的秘密通道。”</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-04-18
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+            
+          </div>
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E9%97%B2%E8%AF%9D/">闲话</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
   
-    <a href="/" class="mobile-nav-link">Home</a>
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </main>
+
   
-    <a href="/archives" class="mobile-nav-link">Archives</a>
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
   
-</nav>
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    
 
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
+    
   </div>
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/main.js" ></script>
+
+
+  <script  src="/js/lazyload.js" ></script>
+
+
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+
+
+
+<!-- Plugins -->
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      getSearchFile(path);
+      this.onclick = null
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript">
+      //定义获取词语下标
+      var a_idx = 0;
+      jQuery(document).ready(function ($) {
+        //点击body时触发事件
+        $("body").click(function (e) {
+          //需要显示的词语
+          var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
+          //设置词语给span标签
+          var $i = $("<span/>").text(a[a_idx]);
+          //下标等于原来下标+1  余 词语总数
+          a_idx = (a_idx + 1) % a.length;
+          //获取鼠标指针的位置，分别相对于文档的左和右边缘。
+          //获取x和y的指针坐标
+          var x = e.pageX, y = e.pageY;
+          //在鼠标的指针的位置给$i定义的span标签添加css样式
+          $i.css({
+            "z-index": 999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": rand_color()
+          });
+          // 随机颜色
+          function rand_color() {
+            return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+          }
+          //在body添加这个标签
+          $("body").append($i);
+          //animate() 方法执行 CSS 属性集的自定义动画。
+          //该方法通过CSS样式将元素从一个状态改变为另一个状态。CSS属性值是逐渐改变的，这样就可以创建动画效果。
+          //详情请看http://www.w3school.com.cn/jquery/effect_animate.asp
+          $i.animate({
+            //将原来的位置向上移动180
+            "top": y - 180,
+            "opacity": 0
+            //1500动画的速度
+          }, 1500, function () {
+            //时间到了自动删除
+            $i.remove();
+          });
+        });
+      })
+      ;
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

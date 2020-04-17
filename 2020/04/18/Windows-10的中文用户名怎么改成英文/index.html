@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="冼仙">
   <meta name="keywords" content="">
-  <title>Hello World - 个人小站</title>
+  <title>Windows 10的中文用户名怎么改成英文 - 个人小站</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
@@ -132,8 +132,8 @@
               
                 <div class="mt-3 post-meta">
                   <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-                  <time datetime="2020-04-17 23:16">
-                    星期五, 四月 17日 2020, 11:16 晚上
+                  <time datetime="2020-04-18 02:38">
+                    星期六, 四月 18日 2020, 2:38 凌晨
                   </time>
                 </div>
               
@@ -143,7 +143,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    73 字
+                    369 字
                   </span>
                 
 
@@ -153,7 +153,7 @@
                       <i class="iconfont icon-clock-fill"></i>
                     
                     
-                    1
+                    4
                      分钟
                   </span>
                 
@@ -182,25 +182,56 @@
           <div class="post-content mx-auto" id="post">
             
             <article class="markdown-body">
-              <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+              <p>Windows 10的中文用户名怎么改成英文？其实改名字很简单，难就难在后续把中文名称下的文件夹和用户数据也顺利统一到新名称下。</p>
+<h5>第一步：快速启用Administrator账户</h5>
+<p>以管理员模式启动命令提示符（Win+X组合键后就能看到），输入<code>net user administrator /active:yes</code>启用Administrator账户</p>
+<h5>第二步：注销当前账户并且修改文件夹名称</h5>
+<p>启用Administrator账户完成后，注销当前账户，使用Administrator登录（更稳妥的方式是进入安全模式后用Administrator登录）</p>
+<p>进入C:Users文件夹下，在想要更名的中文文件夹（需要改名的文件夹）下点击鼠标右键，选择“重命名”，然后就随便改名字吧</p>
+<h5>第三步：修改注册表</h5>
+<p>别着急重启电脑或注销/切换账户，Win+R之后输入regedit进入注册表编辑器，定位到</p>
+<pre><code class="shell">--HKEY_LOCAL_MACHINE
+  --SOFTWARE
+    --Microsoft
+      --Windows NT
+         --CurrentVersion
+          --Profilelist
+</code></pre>
+<p>在它下面的几个子项中逐一查看名为“ProfileImagePath”的字符串值，直到找到数值数据为原中文名路径的项目；将其修改为更名后的路径就行了。</p>
+<div class="image-package">
+<div class="image-container" style="max-width: 700px; max-height: 525px;">
+<div></div>
+<div class="image-view" data-width="1025" data-height="525"><img src="http://www.xxx.com/wp-content/uploads/2020/04/frc-36f47664b05485eff2dac2942cd0abe2.jpg" srcset="/img/loading.gif" alt="Windows 10的中文用户名怎么改成英文Windows 10的中文用户名怎么改成英文" class="aligncenter"></div>
+</div>
+<div class="image-caption">image</div>
+</div>
+<h5>关闭Administrator账户</h5>
+<p>当我们不再需要Administrator账户时，就可以将其关闭。以管理员模式启动命令提示符（Win+X组合键后就能看到）</p>
+<pre><code class="shell">C:WINDOWSsystem32&gt;net user administrator /active:no
+命令成功完成。
+</code></pre>
+<blockquote>
+http://www.xitongtiandi.net/wenzhang/win10/15351.html
+</blockquote>
             </article>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Windows/">Windows</a>
+                    
+                  </div>
                 
               </div>
               
@@ -211,15 +242,21 @@
                   <div class="post-prev col-6">
                     
                     
-                      <a href="/2020/04/18/%E5%BA%94%E7%94%A8%E6%95%B4%E7%90%86/">
+                      <a href="/2020/04/18/%E4%B8%BA%E4%BB%80%E4%B9%88%E6%A9%A1%E7%9A%AE%E6%80%BB%E6%98%AF%E5%AE%B9%E6%98%93%E5%92%8C%E5%B0%BA%E5%AD%90%E9%BB%8F%E5%9C%A8%E4%B8%80%E8%B5%B7/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">应用整理</span>
+                        <span class="hidden-mobile">为什么橡皮总是容易和尺子黏在一起?</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </div>
                   <div class="post-next col-6">
                     
+                    
+                      <a href="/2020/04/18/%E6%99%93%E7%9C%8B%E5%A4%A9%E8%89%B2%E6%9A%AE%E7%9C%8B%E4%BA%91%EF%BC%8C%E8%A1%8C%E4%B9%9F%E6%80%9D%E5%90%9B%EF%BC%8C%E5%9D%90%E4%B9%9F%E6%80%9D%E5%90%9B/">
+                        <span class="hidden-mobile">晓看天色暮看云，行也思君，坐也思君</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </div>
                 </div>
@@ -356,7 +393,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Hello World&nbsp;",
+        "Windows 10的中文用户名怎么改成英文&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
