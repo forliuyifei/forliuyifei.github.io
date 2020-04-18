@@ -4,11 +4,38 @@
   
   
   <entry>
+    <title>用PS将半透明头像边缘线条处理圆滑</title>
+    <link href="/2020/04/18/%E7%94%A8PS%E5%B0%86%E5%8D%8A%E9%80%8F%E6%98%8E%E5%A4%B4%E5%83%8F%E8%BE%B9%E7%BC%98%E7%BA%BF%E6%9D%A1%E5%A4%84%E7%90%86%E5%9C%86%E6%BB%91/"/>
+    <url>/2020/04/18/%E7%94%A8PS%E5%B0%86%E5%8D%8A%E9%80%8F%E6%98%8E%E5%A4%B4%E5%83%8F%E8%BE%B9%E7%BC%98%E7%BA%BF%E6%9D%A1%E5%A4%84%E7%90%86%E5%9C%86%E6%BB%91/</url>
+    
+    <content type="html"><![CDATA[<p>1、打开图像，复制图层，关闭背景图层；</p><p>2、用”魔术棒工具“点击背景，选定背景，”选择–修改–羽化“1像素，”编辑–清除“；</p><p>3、”图层–修边–除边“，设置”宽度“为1像素，除边，完成。</p><h5 id="注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"><a href="#注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。" class="headerlink" title="注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"></a>注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。</h5>]]></content>
+    
+    
+    <categories>
+      
+      <category>原创</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>PS</tag>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Chrome错误提示:您的连接不是私密连接|目前无法访问因为此网站使用了HSTS</title>
     <link href="/2020/04/18/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8HSTS%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E9%87%8D%E7%BD%AE-%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA-%E6%82%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%B8%8D%E6%98%AF%E7%A7%81%E5%AF%86%E8%BF%9E%E6%8E%A5-%E7%9B%AE%E5%89%8D%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%9B%A0%E4%B8%BA%E6%AD%A4%E7%BD%91%E7%AB%99%E4%BD%BF%E7%94%A8%E4%BA%86HSTS/"/>
     <url>/2020/04/18/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8HSTS%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E9%87%8D%E7%BD%AE-%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA-%E6%82%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%B8%8D%E6%98%AF%E7%A7%81%E5%AF%86%E8%BF%9E%E6%8E%A5-%E7%9B%AE%E5%89%8D%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%9B%A0%E4%B8%BA%E6%AD%A4%E7%BD%91%E7%AB%99%E4%BD%BF%E7%94%A8%E4%BA%86HSTS/</url>
     
-    <content type="html"><![CDATA[<p>自定义域名<a href="liuyifei.club">liuyifei.club</a>直接解析到GitHub使用没问题,但增加一条国内Coding线路解析后,chrome打开网站出现错误,关键词 ‘HTTS’</p><h3 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案:"></a>临时解决方案:</h3><ul><li>输入下面链接回车</li></ul><pre><code class="hljs plain">chrome:&#x2F;&#x2F;net-internals&#x2F;#hsts</code></pre><p>​            或者<a href="chrome://net-internals/#hsts">chrome直接点开</a></p><ul><li>最后一框填入 liuyifei.club</li><li>刷新网站</li></ul>]]></content>
+    <content type="html"><![CDATA[<p>自定义域名<a href="liuyifei.club">liuyifei.club</a>直接解析到GitHub使用没问题,但增加一条国内Coding线路解析后,chrome打开网站出现错误,关键词 ‘HTTS’</p><h3 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案:"></a>临时解决方案:</h3><ul><li>输入下面链接回车</li></ul><pre><code class="hljs plain">chrome:&#x2F;&#x2F;net-internals&#x2F;#hsts</code></pre><p>​            或者<a href="chrome://net-internals/#hsts">chrome直接点开</a></p><ul><li>最后一框填入 liuyifei.club</li><li>刷新网站</li></ul><h3 id="长效解决办法"><a href="#长效解决办法" class="headerlink" title="长效解决办法"></a>长效解决办法</h3><p>因为本站是同时部署到GitHub和Coding的，解析设置为国内访问解析到Coding，海外访问解析到GitHub。</p><ul><li>先到域名解析设置里面把原先设置的海外解析路线暂停：</li></ul><p><img src="https://pic.downk.cc/item/5e9b174fc2a9a83be5f2180c.jpg" srcset="/img/loading.gif" alt=""></p><ul><li><p>再去Coding的 项目-&gt;静态网站-&gt;设置，继续申请证书，不出意外的话都能成功。<img src="https://pic.downk.cc/item/5e9b1912c2a9a83be5f37b19.jpg" srcset="/img/loading.gif" alt=""></p></li><li><p>申请成功后再恢复域名的海外解析路线即可。</p><p>GitHub和Coding都可以设置强制HTTPS</p></li></ul><p><img src="https://pic.downk.cc/item/5e9b1a9bc2a9a83be5f4965b.jpg" srcset="/img/loading.gif" alt=""></p><p>至此应该就能正常访问了。</p>]]></content>
     
     
     <categories>

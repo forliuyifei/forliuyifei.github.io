@@ -152,7 +152,7 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
-<ul class="category-tree-list"><li class="category-tree-list-item"><a class="category-tree-list-link" href="/categories/%E5%8E%9F%E5%88%9B/">原创</a><span class="category-tree-list-count">3</span></li><li class="category-tree-list-item"><a class="category-tree-list-link" href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a><span class="category-tree-list-count">2</span></li></ul>
+<ul class="category-tree-list"><li class="category-tree-list-item"><a class="category-tree-list-link" href="/categories/%E5%8E%9F%E5%88%9B/">原创</a><span class="category-tree-list-count">4</span></li><li class="category-tree-list-item"><a class="category-tree-list-link" href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a><span class="category-tree-list-count">2</span></li></ul>
 
               </div>
             </div>
@@ -191,6 +191,29 @@
   </div>
 </div>
   
+
+  
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'false' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"name","artist":"artist","url":"/songs/test.mp3","cover":"/img/cover.jpg"},{"name":"name","artist":"artist","url":"https://...url.mp3","cover":"https://...cover.jpg"}]
+    });
+  }
+</script>
 
   
 

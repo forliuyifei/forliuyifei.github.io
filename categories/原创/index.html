@@ -153,12 +153,18 @@
                 
 
 <div class="list-group">
-<!--  <p class="h4">共计 3 篇文章</p>-->
+<!--  <p class="h4">共计 4 篇文章</p>-->
   <hr>
   
     
       
       <p class="h5">2020</p>
+    
+    <a href="/2020/04/18/%E7%94%A8PS%E5%B0%86%E5%8D%8A%E9%80%8F%E6%98%8E%E5%A4%B4%E5%83%8F%E8%BE%B9%E7%BC%98%E7%BA%BF%E6%9D%A1%E5%A4%84%E7%90%86%E5%9C%86%E6%BB%91/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">用PS将半透明头像边缘线条处理圆滑</span>
+      <span style="float: right;">04-18</span>
+    </a>
+  
     
     <a href="/2020/04/18/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8HSTS%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E9%87%8D%E7%BD%AE-%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA-%E6%82%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%B8%8D%E6%98%AF%E7%A7%81%E5%AF%86%E8%BF%9E%E6%8E%A5-%E7%9B%AE%E5%89%8D%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%9B%A0%E4%B8%BA%E6%AD%A4%E7%BD%91%E7%AB%99%E4%BD%BF%E7%94%A8%E4%BA%86HSTS/" class="list-group-item list-group-item-action">
       <span class="archive-post-title">Chrome错误提示:您的连接不是私密连接|目前无法访问因为此网站使用了HSTS</span>
@@ -218,6 +224,29 @@
   </div>
 </div>
   
+
+  
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'false' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"name","artist":"artist","url":"/songs/test.mp3","cover":"/img/cover.jpg"},{"name":"name","artist":"artist","url":"https://...url.mp3","cover":"https://...cover.jpg"}]
+    });
+  }
+</script>
 
   
 

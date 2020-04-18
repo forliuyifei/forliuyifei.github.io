@@ -144,7 +144,7 @@
           >
           
             <div class="about-avatar">
-              <img src="/img/%E5%85%94%E5%AD%90.png" srcset="/img/loading.gif"
+              <img src="/img/wxtx.png" srcset="/img/loading.gif"
                    class="img-fluid" alt="avatar">
             </div>
           
@@ -162,15 +162,15 @@
         
         
         
-        <a href="https://github.com" target="_blank" rel="noopener" class="">
-          <i class="iconfont icon-github-fill" aria-hidden="true"></i>
+        <a href="https://www.weibo.com/liuyifeiofficial" target="_blank" rel="noopener" class="">
+          <i class="iconfont icon-weibo-fill" aria-hidden="true"></i>
           
         </a>
       
         
         
         
-        <a href="https://github.com" target="_blank" rel="noopener" class="">
+        <a href="https://movie.douban.com/celebrity/1049732/photos" target="_blank" rel="noopener" class="">
           <i class="iconfont icon-douban-fill" aria-hidden="true"></i>
           
         </a>
@@ -181,7 +181,7 @@
         <a href="javascript:;" class="qr-trigger">
           <i class="iconfont icon-wechat-fill" aria-hidden="true"></i>
           
-            <img class="qr-img" src="/img/favicon.png" srcset="/img/loading.gif" alt="qrcode" />
+            <img class="qr-img" src="https://q1.qlogo.cn/g?b=qq&amp;nk=1216883825&amp;src_uin=www.jlwz.cn&amp;s=0" srcset="/img/loading.gif" alt="qrcode" />
           
         </a>
       
@@ -229,6 +229,29 @@
   </div>
 </div>
   
+
+  
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'false' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"name","artist":"artist","url":"/songs/test.mp3","cover":"/img/cover.jpg"},{"name":"name","artist":"artist","url":"https://...url.mp3","cover":"https://...cover.jpg"}]
+    });
+  }
+</script>
 
   
 
