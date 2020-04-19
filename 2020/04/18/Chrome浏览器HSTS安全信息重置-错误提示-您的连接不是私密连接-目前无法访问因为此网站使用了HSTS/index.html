@@ -42,7 +42,8 @@
 <!-- 自定义样式保持在最底部 -->
 
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="个人小站" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -107,6 +108,15 @@
               关于</a>
           </li>
         
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">
+              <i class="iconfont icon-link-fill"></i>
+              友链</a>
+          </li>
+        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
@@ -143,7 +153,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    216 字
+                    265 字
                   </span>
                 
 
@@ -153,7 +163,7 @@
                       <i class="iconfont icon-clock-fill"></i>
                     
                     
-                    2
+                    3
                      分钟
                   </span>
                 
@@ -189,7 +199,7 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-warning">
-                本文最后更新于：星期六, 四月 18日 2020, 11:23 晚上
+                本文最后更新于：星期日, 四月 19日 2020, 4:29 下午
               </p>
             
             <article class="markdown-body">
@@ -197,7 +207,7 @@
 <h3 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案:"></a>临时解决方案:</h3><ul>
 <li>输入下面链接回车</li>
 </ul>
-<pre><code class="hljs plain">chrome:&#x2F;&#x2F;net-internals&#x2F;#hsts</code></pre>
+<pre><code class="hljs plain">chrome://net-internals/#hsts</code></pre>
 
 <p>​            或者<a href="chrome://net-internals/#hsts">chrome直接点开</a></p>
 <ul>
@@ -218,7 +228,25 @@
 </ul>
 <p><img src="https://pic.downk.cc/item/5e9b1a9bc2a9a83be5f4965b.jpg" srcset="/img/loading.gif" alt=""></p>
 <p>至此应该就能正常访问了。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </article>
             <hr>
             <div>
@@ -345,29 +373,6 @@
   </div>
 </div>
   
-
-  
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'none',
-      audio: [{"name":"name","artist":"artist","url":"/songs/test.mp3","cover":"/img/cover.jpg"},{"name":"name","artist":"artist","url":"https://...url.mp3","cover":"https://...cover.jpg"}]
-    });
-  }
-</script>
 
   
 

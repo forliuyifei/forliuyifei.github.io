@@ -42,7 +42,8 @@
 <!-- 自定义样式保持在最底部 -->
 
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="个人小站" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -107,6 +108,15 @@
               关于</a>
           </li>
         
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">
+              <i class="iconfont icon-link-fill"></i>
+              友链</a>
+          </li>
+        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
@@ -143,7 +153,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    263 字
+                    315 字
                   </span>
                 
 
@@ -153,7 +163,7 @@
                       <i class="iconfont icon-clock-fill"></i>
                     
                     
-                    2
+                    3
                      分钟
                   </span>
                 
@@ -189,7 +199,7 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-warning">
-                本文最后更新于：星期六, 四月 18日 2020, 4:35 下午
+                本文最后更新于：星期日, 四月 19日 2020, 4:30 下午
               </p>
             
             <article class="markdown-body">
@@ -197,7 +207,25 @@
 <p>一份可能导致卡死的文件</p>
 <h5 id="我遇到的情况："><a href="#我遇到的情况：" class="headerlink" title="我遇到的情况："></a>我遇到的情况：</h5><p>打开一本azw3格式的书籍，等待许久无反应。关闭Typora后再打开，依旧卡死，鼠标点击无响应，快捷键失效，无法新建文档。卸载重装，再次打开，依旧是原来的卡死界面，标题栏显示那本导致卡死的书籍文件名。上网搜索方案未果，遂成此文。</p>
 <h5 id="解决方案："><a href="#解决方案：" class="headerlink" title="解决方案："></a>解决方案：</h5><p>鼠标点击上方栏目<strong>帮助（H）</strong>或者快捷键alt+h，点击<strong>Quick Start</strong>强制新建一份官方入门文档，现在看似一切正常，但关闭软件再打开，依旧是原来的卡死界面。所以关键步骤是：把设置里的启动选项改为<strong><em>打开新文件\</em></strong>，接下来不用啰嗦，总算可以正常使用，之后可以改回去，自己写写东西还是不至于卡死。</p>
-
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </article>
             <hr>
             <div>
@@ -324,29 +352,6 @@
   </div>
 </div>
   
-
-  
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'none',
-      audio: [{"name":"name","artist":"artist","url":"/songs/test.mp3","cover":"/img/cover.jpg"},{"name":"name","artist":"artist","url":"https://...url.mp3","cover":"https://...cover.jpg"}]
-    });
-  }
-</script>
 
   
 

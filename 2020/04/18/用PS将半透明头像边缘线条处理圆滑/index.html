@@ -42,7 +42,8 @@
 <!-- 自定义样式保持在最底部 -->
 
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="个人小站" type="application/atom+xml">
+</head>
 
 
 <body>
@@ -107,6 +108,15 @@
               关于</a>
           </li>
         
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">
+              <i class="iconfont icon-link-fill"></i>
+              友链</a>
+          </li>
+        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
@@ -143,7 +153,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    100 字
+                    152 字
                   </span>
                 
 
@@ -153,7 +163,7 @@
                       <i class="iconfont icon-clock-fill"></i>
                     
                     
-                    1
+                    2
                      分钟
                   </span>
                 
@@ -189,14 +199,32 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-warning">
-                本文最后更新于：星期六, 四月 18日 2020, 10:19 晚上
+                本文最后更新于：星期日, 四月 19日 2020, 4:27 下午
               </p>
             
             <article class="markdown-body">
               <p>1、打开图像，复制图层，关闭背景图层；</p>
 <p>2、用”魔术棒工具“点击背景，选定背景，”选择–修改–羽化“1像素，”编辑–清除“；</p>
 <p>3、”图层–修边–除边“，设置”宽度“为1像素，除边，完成。</p>
-<h5 id="注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"><a href="#注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。" class="headerlink" title="注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"></a>注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。</h5>
+<h5 id="注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"><a href="#注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。" class="headerlink" title="注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"></a>注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。</h5><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
             </article>
             <hr>
             <div>
@@ -227,6 +255,12 @@
                 <div class="post-prevnext row">
                   <div class="post-prev col-6">
                     
+                    
+                      <a href="/2020/04/19/%E8%B1%86%E7%93%A3%E7%9B%B8%E5%86%8C%E4%B8%8D%E5%85%81%E8%AE%B8%E5%A4%96%E9%93%BE%E7%9B%B4%E6%8E%A5%E5%BC%95%E7%94%A8%EF%BC%9F/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">豆瓣相册不允许外链直接引用？</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </div>
                   <div class="post-next col-6">
@@ -319,29 +353,6 @@
   </div>
 </div>
   
-
-  
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'none',
-      audio: [{"name":"name","artist":"artist","url":"/songs/test.mp3","cover":"/img/cover.jpg"},{"name":"name","artist":"artist","url":"https://...url.mp3","cover":"https://...cover.jpg"}]
-    });
-  }
-</script>
 
   
 
