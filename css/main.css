@@ -1,6 +1,6 @@
 html,
 body {
-  font-size: 16px;
+  font-size: 15px;
   font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
 }
 html,
@@ -538,10 +538,10 @@ a.beian-police img {
   color: white;
 }
 .top-nav-collapse {
-  background-color: #2f4154;
+  background-color: #263238;
 }
 .navbar-col-show {
-  background-color: #2f4154;
+  background-color: #263238;
 }
 @media (max-width: 767px) {
   .navbar {
