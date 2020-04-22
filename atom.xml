@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forliuyifei.github.io/"/>
-  <updated>2020-04-21T16:35:52.715Z</updated>
+  <updated>2020-04-22T13:53:15.996Z</updated>
   <id>http://forliuyifei.github.io/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>给网页插入音视频的简单代码</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E4%B8%80%E4%BA%9B%E5%8F%AF%E8%83%BD%E7%94%A8%E5%BE%97%E7%9D%80%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%A3%E7%A0%81/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E4%B8%80%E4%BA%9B%E5%8F%AF%E8%83%BD%E7%94%A8%E5%BE%97%E7%9D%80%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%A3%E7%A0%81/</id>
-    <published>2020-04-21T15:46:00.000Z</published>
-    <updated>2020-04-21T16:35:52.715Z</updated>
+    <title>金庸作品集 序</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E9%87%91%E5%BA%B8%E4%BD%9C%E5%93%81%E9%9B%86-%E5%BA%8F/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E9%87%91%E5%BA%B8%E4%BD%9C%E5%93%81%E9%9B%86-%E5%BA%8F/</id>
+    <published>2020-04-22T12:41:00.000Z</published>
+    <updated>2020-04-22T13:53:15.996Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="自动播放背景音乐（直链）"><a href="#自动播放背景音乐（直链）" class="headerlink" title="自动播放背景音乐（直链）"></a>自动播放背景音乐（直链）</h3><pre><code class="hljs plain">&lt;iframe width="0" height="0" src="https://wsaudiobssdlbig.kugou.com/2004212200/aqLVbAF1CUDjkTc8pxtwUg/1587564033/bss/extname/wsaudio/2e5c4bc87cfaabf9133484b82eaba970.mp3" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre><iframe width="0" height="0" src="https://wsaudiobssdlbig.kugou.com/2004212200/aqLVbAF1CUDjkTc8pxtwUg/1587564033/bss/extname/wsaudio/2e5c4bc87cfaabf9133484b82eaba970.mp3" frameborder="0" allowfullscreen=""></iframe><h3 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h3><ul><li><p>固定大小   </p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=530 height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="530" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe>auto=0不自动播放，1自动播放。  </li><li><p>自适应宽度</p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe></li></ul><h3 id="插入视频-尺寸可调"><a href="#插入视频-尺寸可调" class="headerlink" title="插入视频(尺寸可调)"></a>插入视频(尺寸可调)</h3><pre><code class="hljs plain">&lt;video id="video" controls="" preload="none" poster="https://ww3.sinaimg.cn/thumb300/736f0c7ejw1ewh6ldlumyj20hs0dcta9.jpg" width=100% height=100%&gt;      &lt;source id="mp4" src="http://us.sinaimg.cn/000fYbGGjx06VLjZPJl50104010035qF0k01.mp4?KID=unistore,video&amp;Expires=1587490002&amp;ssig=lipoerWCAY&amp;KID=unistore,video" type="video/mp4"&gt;      &lt;/video&gt;</code></pre><video id="video" controls="" preload="none" poster="https://ww3.sinaimg.cn/thumb300/736f0c7ejw1ewh6ldlumyj20hs0dcta9.jpg" width="100%" height="100%">      <source id="mp4" src="http://us.sinaimg.cn/000fYbGGjx06VLjZPJl50104010035qF0k01.mp4?KID=unistore,video&amp;Expires=1587490002&amp;ssig=lipoerWCAY&amp;KID=unistore,video" type="video/mp4">      </video><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="金庸作品集-序"><a href="#金庸作品集-序" class="headerlink" title="金庸作品集 序"></a>金庸作品集 序</h1><p> 小说是写给人看的。小说的内容是人。</p><p> 小说写一个人、几个人、一群人、或成千成万人的性格和感情。他们的性格和感情从横面的环境中反映出来，从纵面的遭遇中反映出来，从人与人之间的交往与关系中反映出来。长篇小说中似乎只有《鲁滨逊飘流记》，才只写一个人，写他与自然之间的关系，但写到后来，终於也出现了一个仆人「星期五」。只写一个人的短篇小说多些，尤其是近代与现代的新小说，写一个人在与环境的接触中表现他外在的世界、内心的世界，尤其是内心世界。有些小说写动物、神仙、鬼怪、妖魔，但也把他们当作人来写。</p><p> 西洋传统的小说理论分别从环境、人物、情节三个方面去分析一篇作品。由於小说作者不同的个性与才能，往往有不同的偏重。</p><p> 基本上，武侠小说与别的小说一样，也是写人，只不过环境是古代的，主要人物是有武功的，情节偏重於激烈的斗争。任何小说都有它所特别侧重的一面。爱情小说写男女之间与性有关的感情，写实小说描绘一个特定时代的环境与人物，《三国演义》与《水浒》一类小说叙述大群人物的斗争经历，现代小说的重点往往放在人物的心理过程上。<br>  小说是艺术的一种，艺术的基本内容是人的感情和生命，主要形式是美，广义的、美学上的美。在小说，那是语言文笔之美、安排结构之美。关键在于怎样将人物的内心世界通过某种形式表现出来。什么形式都可以，或者是作者主观的剖析，或者是客观的叙述故事，从人物的行动和言语中客观的表达。<br>  读者阅读一部小说，是将小说的内容与自己的心理状态结合起来。同样一部小说，有的人感到强烈的震动，有的人却觉得无聊厌倦。读者的个性与感情，与小说中所表现的个性与感情相接触，产生了「化学反应」。 </p><p> 武侠小说只是表现人情的一种特定形式。作曲家或演奏家要表现一种情绪，用钢琴、小提琴、交响乐、或歌唱的形式都可以，画家可以选择油画、水彩、水墨、或版画的形式。问题不在采取甚麼形式，而是表现的手法好不好，能不能和读者、听者、观赏者的心灵相沟通，能不能使他的心产生共鸣。小说是艺术形式之一，有好的艺术，也有不好的艺术。 </p><p> <strong>好或者不好，在艺术上是属於美的范畴，不属於真或善的范畴。判断美的标准是美，是感情，不是科学上的真或不真（武功在生理上或科学上是否可能），道德上的善或不善，也不是经济上的值钱不值钱，政治上对统治者的有利或有害。当然，任何艺术作品都会发生社会影响，自也可以用社会影响的价值去估量，不过那是另一种评价。</strong> </p><p> 在中世纪的欧洲，基督教的势力及於一切，所以我们到欧美的博物院去参观，见到所有中世纪的绘画都以圣经故事为题材，表现女性的人也必须通过圣母的形象。直到文艺复兴之后，凡人的形象才在绘画和文学中表现出来，所谓文艺复兴，是在文艺上复兴希腊、罗马时代对「人」的描写，而不再集中於描写神与圣人。</p><p>  中国人的文艺观，长期以来是「文以载道」，那和中世纪欧洲黑暗时代的文艺思想是一致的，用「善或不善」的标准来衡量文艺。《诗经》中的情歌，要牵强附会地解释为讽刺君主或歌颂后妃。陶渊明的《闲情赋》，司马光、欧阳修、晏殊的相思爱恋之词，或者惋惜地评之为白璧之玷，或者好意地解释为另有所指。他们不相信文艺所表现的是感情，认为文字的唯一功能只是为政治或社会价值服务。【按：其实看评论一方面是学习，一方面是提炼评论者的思维逻辑与态度立场。】   </p><p> 我写武侠小说，只是塑造一些人物，描写他们在特定的武侠环境（中国古代的、没有法治的、以武力来解决争端的不合理社会）中的遭遇。当时的社会和现代社会已大不相同，人的性格和感情却没有多大变化。古代人的悲欢离合、喜怒哀乐，仍能在现代读者的心灵中引起相应的情绪。读者们当然可以觉得表现的手法拙劣，技巧不够成熟，描写殊不深刻，以美学观点来看是低级的艺术作品。无论如何，我不想载甚麼道。我在写武侠小说的同时，也写政治评论，也写与历史、哲学、宗教有关的文字，那与武侠小说完全不同。涉及思想的文字，是诉诸读者理智的，对这些文字，才有是非、真假的判断，读者或许同意，或许只部份同意，或许完全反对。 </p><p> 对於小说，我希望读者们只说喜欢或不喜欢，只说受到感动或觉得厌烦。我最高兴的是读者喜爱或憎恨我小说中的某些人物，如果有了那种感情，表示我小说中的人物已和读者的心灵发生联系了。小说作者最大的企求，莫过於创造一些人物，使得他们在读者心中变成活生生的、有血有肉的人。艺术是创造，音乐创造美的声音，绘画创造美的视觉形象，小说是想创造人物、创造故事，以及人的内心世界。假使只求如实反映外在世界，那麼有了录音机、照相机，何必再要音乐、绘画？有了报纸、历史书、记录电视片、社会调查统计、医生的病历纪录、党部与**局的人事档案，何必再要小说？ </p><p> 武侠小说虽说是通俗作品，以大众化、娱乐性强为重点，但对广大读者终究是会发生影响的。我希望传达的主旨，是：爱护尊重自己的国家民族，也尊重别人的国家民族；和平友好，互相帮助；重视正义和是非，反对损人利己；注重信义，歌颂纯真的爱情和友谊；歌颂奋不顾身的为了正义而奋斗；轻视争权夺利、自私可鄙的思想和行为。<strong>武侠小说并不单是让读者在阅读时做「白日梦」而沉缅在伟大成功的幻想之中，而希望读者们在幻想之时，想像自己是个好人，要努力做各种各样的好事，想像自己要爱国家、爱社会、帮助别人得到幸福，由於做了好事、作出积极贡献，得到所爱之人的欣赏和倾心。</strong> </p><p> 武侠小说并不是现实主义的作品。有不少批评家认定，文学上只可肯定现实主义一个流派，除此之外，全应否定。这等於是说：少林派武功好得很，除此之外，甚麼武当派、崆峒派、太极拳、八卦掌、弹腿、白鹤派、空手道、骀拳道、柔道、西洋拳、泰拳等等全部应当废除取消。我们主张多元主义，既尊重少林武功是武学中的泰山北斗，而觉得别的小门派也不妨并存，它们或许并不比少林派更好，但各有各的想法和创造。爱好广东菜的人，不必主张禁止京菜、川菜、鲁菜、徽菜、湘菜、维扬菜、杭州菜、法国菜、意大利菜等等派别，所谓「萝卜青菜，各有所爱」是也。不必把武侠小说提得高过其应有之份，也不必一笔抹杀。甚麼东西都恰如其份，也就是了。 </p><p>   撰写这套总数三十六册的《作品集》，是从一九五五年到七二年，前后约十三、四年，包括十二部长篇小说，两篇中篇小说，一篇短篇小说，一篇历史人物评传，以及若干篇历史考据文字。出版的过程很奇怪，不论在香港、台湾、海外地区，还是中国大陆，都是先出各种各样翻版盗印本，然后再出版经我校订、授权的正版本。在中国大陆，在「三联版」出版之前，只有天津百花文艺出版社一家，是经我授权而出版了《书剑恩仇录》。他们校印认真，依足合同支付版税。我依足法例缴付所得税，余数捐给了几家文化机构及支助围棋活动。这是一个愉快的经验。除此之外，完全是未经授权的，直到正式授权给北京三联书店出版。「三联版」的版权合同到二○○一年年底期满，以后中国内地的版本由另一家出版社出版，主因是地区邻近，业务上便於沟通合作。  </p><p> 翻版本不付版税，还在其次。许多版本粗制滥造，错讹百出。还有人借用「金庸」之名，撰写及出版武侠小说。写得好的，我不敢掠美；至於充满无聊打斗、色情描写之作，可不免令人不快了。也有些出版社翻印香港、台湾其他作家的作品而用我笔名出版发行。我收到过无数读者的来信揭露，大表愤慨。也有人未经我授权而自行点评，除冯其庸、严家炎、陈墨三位先生功力深厚、兼又认真其事，我深为拜嘉之外，其余的点评大都与作者原意相去甚远。好在现已停止出版，出版者正式道歉，纠纷已告结束。 </p><p> 有些翻版本中，还说我和古龙、倪匡合出了一个上联「冰比冰水冰」徵对，真正是大开玩笑了。汉语的对联有一定规律，上联的末一字通常是仄声，以便下联以平声结尾，但「冰」字属蒸韵，是平声。我们不会出这样的上联徵对。大陆地区有许许多多读者寄了下联给我，大家浪费时间心力。 </p><p> 为了使得读者易於分辨，我把我十四部长、中篇小说书名的第一个字凑成一副对联：「飞雪连天射白鹿，笑书神侠倚碧鸳」。(短篇《越女剑》不包括在内，偏偏我的围棋老师陈祖德先生说他最喜爱这篇《越女剑》。) 我写第一部小说时，根本不知道会不会再写第二部；写第二部时，也完全没有想到第三部小说会用甚麼题材，更加不知道会用甚麼书名。所以这副对联当然说不上工整，「飞雪」不能对「笑书」，「连天」不能对「神侠」，「白」与「碧」都是仄声。但如出一个上联徵对，用字完全自由，总会选几个比较有意思而合规律的字。 </p><p> 有不少读者来信提出一个同样的问题：「你所写的小说之中，你认为哪一部最好？最喜欢哪一部？」这个问题答不了。我在创作这些小说时有一个愿望：「不要重复已经写过的人物、情节、感情，甚至是细节。」限於才能，这愿望不见得能达到，然而总是朝著这方向努力，大致来说，这十五部小说是各不相同的，分别注入了我当时的感情和思想，主要是感情。我喜爱每部小说中的正面人物，为了他们的遭遇而快乐或惆怅、悲伤，有时会非常悲伤。至於写作技巧，后期比较有些进步。但技巧并非最重要，所重视的是个性和感情。<br> 这些小说在香港、台湾、中国内地、新加坡曾拍摄为电影和电视连续集，有的还拍了三、四个不同版本，此外有话剧、京剧、粤剧、音乐剧等。跟著来的是第二个问题：「你认为哪一部电影或电视剧改编演出得最成功？剧中的男女主角哪一个最符合原著中的人物？」电影和电视的表现形式和小说根本不同，很难拿来比较。电视的篇幅长，较易发挥；电影则受到更大限制。再者，<strong>阅读小说有一个作者和读者共同使人物形象化的过程，许多人读同一部小说，脑中所出现的男女主角却未必相同，因为在书中的文字之外，又加入了读者自己的经历、个性、情感和喜憎</strong>。你会在心中把书中的男女主角和自己或自己的情人融而为一，而每个不同读者、他的情人肯定和你的不同。电影和电视却把人物的形象固定了，观众没有自由想像的余地。我不能说那一部最好，但可以说：把原作改得面目全非的最坏、最自以为是，瞧不起原作者和广大读者。 </p><p> 武侠小说继承中国古典小说的长期传统。中国最早的武侠小说，应该是唐人传奇的《虬髯客传》、《红线》、《聂隐娘》、《昆仑奴》等精彩的文学作品。其后是《水浒传》、《三侠五义》、《儿女英雄传》等等。现代比较认真的武侠小说，更加重视正义、气节、舍己为人、锄强扶弱、民族精神、中国传统的伦理观念。读者不必过份推究其中某些夸张的武功描写，有些事实上不可能，只不过是中国武侠小说的传统。聂隐娘缩小身体潜入别人的肚肠，然后从他口中跃出，谁也不会相信是真事，然而聂隐娘的故事，千余年来一直为人所喜爱。 </p><p> 我初期所写的小说，汉人皇朝的正统观念很强。到了后期，中华民族各族一视同仁的观念成为基调，那是我的历史观比较有了些进步之故。这在《天龙八部》、《白马啸西风》、《鹿鼎记》中特别明显。韦小宝的父亲可能是汉、满、蒙、回、藏任何一族之人。即使在第一部小说《书剑恩仇录》中，主角陈家洛后来也对回教增加了认识和好感。<strong>每一个种族、每一门宗教、某一项职业中都有好人坏人。有坏的皇帝，也有好皇帝；有很坏的大官，也有真正爱护百姓的好官。书中汉人、满人、契丹人、蒙古人、西藏人……都有好人坏人。和尚、道士、喇嘛、书生、武士之中，也有各种各样的个性和品格。有些读者喜欢把人一分为二，好坏分明，同时由个体推论到整个群体，那决不是作者的本意。</strong> </p><p> 历史上的事件和人物，要放在当时的历史环境中去看。宋辽之际、元明之际、明清之际，汉族和契丹、蒙古、满族等民族有激烈争；蒙古、满人利用宗教作为政治工具。<strong>小说所想描述的，是当时人的观念和心态，不能用后世或现代人的观念去衡量。我写小说，旨在刻画个性，抒写人性中的喜愁悲欢。小说并不影射甚麼，如果有所斥责，那是人性中卑污阴暗的品质。政治观点、社会上的流行理念时时变迁，人性却变动极少。</strong> </p><p> 在刘再复先生与他千金刘剑梅合写的「父女两地书」（共悟人间）中，剑梅小姐提到她曾和李陀先生的一次谈话，李先生说，写小说也跟弹钢琴一样，没有任何捷径可言，是一级一级往上提高的，要经过每日的苦练和积累，读书不够多就不行。我很同意这个观点。我每日读书至少四五小时，从不间断，在报社退休后连续在中外大学中努力进修。这些年来，学问、知识、见解虽有长进，才气却长不了，因此，这些小说虽然改了三次，相信很多人看了还是要叹气。正如一个钢琴家每天练琴二十小时，如果天份不够，永远做不了萧邦、李斯特、拉赫曼尼诺夫、巴德鲁斯基，连鲁宾斯坦、霍洛维兹、阿胥肯那吉、刘诗昆、傅聪也做不成。 </p><p> 这次第三次修改，改正了许多错字讹字、以及漏失之处，多数由於得到了读者们的指正。有几段较长的补正改写，是吸收了评论者与研讨会中讨论的结果。仍有许多明显的缺点无法补救，限於作者的才力，那是无可如何的了。读者们对书中仍然存在的失误和不足之处，希望写信告诉我。我把每一位读者都当成是朋友，朋友们的指教和关怀，自然永远是欢迎的。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -38,9 +38,280 @@
       <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
     
     
+      <category term="金庸" scheme="http://forliuyifei.github.io/tags/%E9%87%91%E5%BA%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Typora使用手册</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/Typora%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/Typora%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/</id>
+    <published>2020-04-22T12:36:00.000Z</published>
+    <updated>2020-04-22T13:52:44.144Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-基本操作"><a href="#1-基本操作" class="headerlink" title="1 基本操作"></a>1 基本操作</h2><h3 id="1-1-内容目录"><a href="#1-1-内容目录" class="headerlink" title="1.1 内容目录"></a>1.1 内容目录</h3><hr><ul><li>语法</li></ul><pre><code class="hljs json">[toc]</code></pre><ul><li>效果</li></ul><p>[TOC]</p><h3 id="1-2-标题"><a href="#1-2-标题" class="headerlink" title="1.2 标题"></a>1.2 标题</h3><hr><ul><li>语法</li></ul><pre><code class="hljs bash"><span class="hljs-comment">#           一级标题</span><span class="hljs-comment">##          二级标题</span><span class="hljs-comment">###         三级标题</span><span class="hljs-comment">####        四级标题</span><span class="hljs-comment">#####       五级标题</span><span class="hljs-comment">######      六级标题</span></code></pre><h3 id="1-3-引用"><a href="#1-3-引用" class="headerlink" title="1.3 引用"></a>1.3 引用</h3><hr><ul><li>语法</li></ul><pre><code class="hljs ruby">&gt; 引用内容<span class="hljs-number">1</span><span class="hljs-meta">&gt;&gt;</span> 引用内容<span class="hljs-number">2</span></code></pre><ul><li><p>效果</p><blockquote><p>引用内容1</p><blockquote><p>引用内容2</p></blockquote></blockquote></li></ul><h3 id="1-4-文本居中"><a href="#1-4-文本居中" class="headerlink" title="1.4 文本居中"></a>1.4 文本居中</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">center</span>&gt;</span>居中文本<span class="hljs-tag">&lt;/<span class="hljs-name">center</span>&gt;</span></code></pre><ul><li><p>效果</p><center>居中文本</center></li></ul><h2 id="2-代码"><a href="#2-代码" class="headerlink" title="2 代码"></a>2 代码</h2><h3 id="2-1-单行代码"><a href="#2-1-单行代码" class="headerlink" title="2.1 单行代码"></a>2.1 单行代码</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs dart">‘<span class="hljs-built_in">String</span> str1 = <span class="hljs-string">"hello Typora"</span>;`</code></pre><ul><li><p>效果</p><p><code>String str1 = "hello Typota";</code></p></li></ul><h3 id="2-2-多行代码"><a href="#2-2-多行代码" class="headerlink" title="2.2 多行代码"></a>2.2 多行代码</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs go"><span class="hljs-string">``</span><span class="hljs-string">`(~~~) language</span><span class="hljs-string">`</span><span class="hljs-string">``</span>              -&gt;普通文本<span class="hljs-string">``</span><span class="hljs-string">`c             -&gt;c语言</span><span class="hljs-string">`</span><span class="hljs-string">``</span>python        -&gt;python <span class="hljs-string">``</span><span class="hljs-string">`c++           -&gt;c++</span></code></pre><ul><li>效果</li></ul>  <pre><code class="hljs c"><span class="hljs-keyword">int</span> a = <span class="hljs-number">10</span>;<span class="hljs-keyword">int</span> b = <span class="hljs-number">20</span>;<span class="hljs-keyword">int</span> c = a + b;<span class="hljs-built_in">cout</span> &lt;&lt; c &lt;&lt; <span class="hljs-built_in">endl</span>;</code></pre><h2 id="3-列表"><a href="#3-列表" class="headerlink" title="3 列表"></a>3 列表</h2><h3 id="3-1-无序列表"><a href="#3-1-无序列表" class="headerlink" title="3.1 无序列表"></a>3.1 无序列表</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs undefined">* 无序列表1+ 无序列表2- 无序列表3</code></pre><ul><li><p>效果</p><ul><li><p>无序列表1</p></li><li><p>无序列表2</p></li><li><p>无序列表3</p></li></ul></li></ul><h3 id="3-2-有序列表"><a href="#3-2-有序列表" class="headerlink" title="3.2  有序列表"></a>3.2  有序列表</h3><hr><ul><li>语法</li></ul><pre><code class="hljs undefined">1. 有序列表12. 有序列表23. 有序列表3</code></pre><h3 id="3-3-任务列表"><a href="#3-3-任务列表" class="headerlink" title="3.3 任务列表"></a>3.3 任务列表</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs css"><span class="hljs-selector-tag">-</span> <span class="hljs-selector-attr">[ ]</span> 橘子<span class="hljs-selector-tag">-</span> <span class="hljs-selector-attr">[x]</span> 苹果<span class="hljs-selector-tag">-</span> <span class="hljs-selector-attr">[ ]</span> 香蕉</code></pre><ul><li><p>效果</p><ul><li><input disabled="" type="checkbox"> 橘子</li><li><input checked="" disabled="" type="checkbox"> 苹果</li><li><input disabled="" type="checkbox"> 香蕉</li></ul></li></ul><h3 id="3-3-表格"><a href="#3-3-表格" class="headerlink" title="3.3 表格"></a>3.3 表格</h3><hr><ul><li>语法1(<em>直接输入</em>)</li></ul>  <pre><code class="hljs ruby"><span class="hljs-params">|姓名|</span>性别<span class="hljs-params">|年龄|</span>手机号<span class="hljs-params">|</span><span class="hljs-params">|</span><span class="hljs-symbol">:---|</span><span class="hljs-symbol">:--</span><span class="hljs-symbol">:|</span><span class="hljs-symbol">:--</span><span class="hljs-symbol">:|</span><span class="hljs-symbol">:---</span><span class="hljs-symbol">:|</span><span class="hljs-params">|张三|</span>男<span class="hljs-params">|21|</span><span class="hljs-number">18975346876</span><span class="hljs-params">|</span><span class="hljs-params">|</span>李四<span class="hljs-params">|女|</span><span class="hljs-number">23</span><span class="hljs-params">|17789548964|</span><span class="hljs-params">|王五|</span>男<span class="hljs-params">|25|</span><span class="hljs-number">15876513546</span><span class="hljs-params">|</span></code></pre><ul><li><p>效果1</p><table><thead><tr><th align="left">姓名</th><th align="center">性别</th><th align="center">年龄</th><th align="center">手机号</th></tr></thead><tbody><tr><td align="left">张三</td><td align="center">男</td><td align="center">21</td><td align="center">18975346876</td></tr><tr><td align="left">李四</td><td align="center">女</td><td align="center">23</td><td align="center">17789548964</td></tr><tr><td align="left">王五</td><td align="center">男</td><td align="center">25</td><td align="center">15876513546</td></tr></tbody></table></li><li><p>语法2(<em>使用快捷键</em>)</p></li></ul>  <pre><code class="hljs css">快捷键<span class="hljs-selector-attr">[ctrl + T]</span>, 设置行数和列数</code></pre><ul><li><p>效果2</p><table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table></li></ul><h2 id="4-链接"><a href="#4-链接" class="headerlink" title="4 链接"></a>4 链接</h2><h3 id="4-1-图片"><a href="#4-1-图片" class="headerlink" title="4.1 图片"></a>4.1 图片</h3><hr><ul><li>语法1(<em>本地图片</em>)</li></ul>  <pre><code class="hljs undefined">直接拖进来</code></pre><ul><li>语法2(<em>网络图片</em>)</li></ul>  <pre><code class="hljs cpp">![typora.jpg](https:<span class="hljs-comment">//wxt.sinaimg.cn/thumb300/c260f7ably1gbnw6y8c2aj22c0340e89.jpg?tags=%5B%5D)</span></code></pre><p>![img]<a href="https://wxt.sinaimg.cn/thumb300/c260f7ably1gbnw6y8c2aj22c0340e89.jpg?tags=%5B%5D" target="_blank" rel="noopener">https://wxt.sinaimg.cn/thumb300/c260f7ably1gbnw6y8c2aj22c0340e89.jpg?tags=%5B%5D</a>)</p><p>typora.jpg</p><h3 id="4-2-超链接"><a href="#4-2-超链接" class="headerlink" title="4.2 超链接"></a>4.2 超链接</h3><hr><ul><li>语法1(<em>不显示链接网址</em>)</li></ul>  <pre><code class="hljs csharp">[<span class="hljs-meta">百度</span>](https:<span class="hljs-comment">//www.baidu.com)</span></code></pre><ul><li><p>效果1</p><p><a href="https://links.jianshu.com/go?to=www.baidu.com" target="_blank" rel="noopener">百度</a></p></li><li><p>语法2(只显示url链接地址)</p></li></ul>  <pre><code class="hljs css">&lt;<span class="hljs-selector-tag">www</span><span class="hljs-selector-class">.baidu</span><span class="hljs-selector-class">.com</span>&gt;</code></pre><ul><li><p>效果2</p><p>&lt;<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.baidu.com" target="_blank" rel="noopener">www.baidu.com</a>&gt;</p></li></ul><h2 id="5-其他"><a href="#5-其他" class="headerlink" title="5 其他"></a>5 其他</h2><h3 id="5-1-斜体"><a href="#5-1-斜体" class="headerlink" title="5.1 斜体"></a>5.1 斜体</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs undefined">*斜体*_斜体_</code></pre><ul><li><p>效果</p><p><em>斜体</em></p></li></ul><h3 id="5-2-加粗"><a href="#5-2-加粗" class="headerlink" title="5.2 加粗"></a>5.2 加粗</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs undefined">**加粗**__加粗__</code></pre><ul><li><p>效果</p><p><strong>加粗</strong></p></li></ul><h3 id="5-3-加粗斜体"><a href="#5-3-加粗斜体" class="headerlink" title="5.3 加粗斜体"></a>5.3 加粗斜体</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs undefined">***加粗斜体***___加粗斜体___</code></pre><ul><li><p>效果</p><p><strong><em>加粗斜体\</em></strong></p></li></ul><h3 id="5-4-下划线"><a href="#5-4-下划线" class="headerlink" title="5.4 下划线"></a>5.4 下划线</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">u</span>&gt;</span>下划线<span class="hljs-tag">&lt;/<span class="hljs-name">u</span>&gt;</span></code></pre><ul><li><p>效果</p><p><u>下划线</u></p></li></ul><h3 id="5-5-删除线"><a href="#5-5-删除线" class="headerlink" title="5.5 删除线"></a>5.5 删除线</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs undefined">~~删除线~~</code></pre><ul><li><p>效果</p><p><del>删除线</del></p></li></ul><h3 id="5-6-分割线"><a href="#5-6-分割线" class="headerlink" title="5.6 分割线"></a>5.6 分割线</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs undefined">***---___</code></pre><ul><li><p>效果</p><hr></li></ul><h3 id="5-7-注释"><a href="#5-7-注释" class="headerlink" title="5.7 注释"></a>5.7 注释</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs css"><span class="hljs-selector-tag">Typora</span><span class="hljs-selector-attr">[^1]</span></code></pre><ul><li><p>效果</p><p>Typora[^1]</p></li></ul><h3 id="5-8-符号输入"><a href="#5-8-符号输入" class="headerlink" title="5.8 符号输入"></a>5.8 符号输入</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs bash">\\   反斜线\`   反引号\*   星号\_   底线\{ \}  花括号\[ \]  方括号\( \)  括弧\<span class="hljs-comment">#   井字号</span>\+   加号\-   减号\.   英文句点\!   惊叹号</code></pre><ul><li><p>效果</p><p>\  `</p></li></ul><h3 id="5-8-特殊字符"><a href="#5-8-特殊字符" class="headerlink" title="5.8 特殊字符"></a>5.8 特殊字符</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs bash">&amp;copy;      版权      &amp;reg;       注册商标&amp;trade;     商标&amp;nbsp;      空格&amp;amp;       和号&amp;quot;      引号&amp;apos;      撇号&amp;lt;        小于号&amp;gt;        大于号&amp;ne;        不等号&amp;le;        小于等于&amp;ge;        大于等于&amp;cent;      分&amp;pound;     磅&amp;euro;      欧元&amp;yen;       元&amp;sect;      节&amp;<span class="hljs-built_in">times</span>;     乘号&amp;divide;    除号&amp;plusmn;    正负号</code></pre><h3 id="5-9-表情"><a href="#5-9-表情" class="headerlink" title="5.9 表情"></a>5.9 表情</h3><hr><ul><li>语法</li></ul>  <pre><code class="hljs css"><span class="hljs-selector-pseudo">:smiley</span>:</code></pre><ul><li><p>效果</p><p>:smiley:</p></li></ul><h2 id="6-操作"><a href="#6-操作" class="headerlink" title="6 操作"></a>6 操作</h2><h3 id="6-1-换行与换段"><a href="#6-1-换行与换段" class="headerlink" title="6.1 换行与换段"></a>6.1 换行与换段</h3><ul><li>语法</li></ul>  <pre><code class="hljs csharp">[<span class="hljs-meta">down</span>]                  不换行继续写[<span class="hljs-meta">enter</span>]                 换行[<span class="hljs-meta">shift + tab</span>]           缩进</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="http://forliuyifei.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+      <category term="Typora" scheme="http://forliuyifei.github.io/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>影视截图[刘亦菲]</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%88%98%E4%BA%A6%E8%8F%B2/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%88%98%E4%BA%A6%E8%8F%B2/</id>
+    <published>2020-04-22T08:53:00.000Z</published>
+    <updated>2020-04-22T13:54:39.676Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="神雕侠侣"><a href="#神雕侠侣" class="headerlink" title="神雕侠侣"></a>神雕侠侣</h4><p><img src="https://pic.downk.cc/item/5ea0061ec2a9a83be570a1d0.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0063bc2a9a83be570b8d5.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00649c2a9a83be570c81a.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;神雕侠侣&quot;&gt;&lt;a href=&quot;#神雕侠侣&quot; class=&quot;headerlink&quot; title=&quot;神雕侠侣&quot;&gt;&lt;/a&gt;神雕侠侣&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0061ec2a9a83be570a1d0.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0063bc2a9a83be570b8d5.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00649c2a9a83be570c81a.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="神雕侠侣" scheme="http://forliuyifei.github.io/tags/%E7%A5%9E%E9%9B%95%E4%BE%A0%E4%BE%A3/"/>
+    
+      <category term="台词" scheme="http://forliuyifei.github.io/tags/%E5%8F%B0%E8%AF%8D/"/>
+    
+      <category term="金庸" scheme="http://forliuyifei.github.io/tags/%E9%87%91%E5%BA%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[影视截图]04</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-04/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-04/</id>
+    <published>2020-04-22T08:45:28.000Z</published>
+    <updated>2020-04-22T13:55:08.533Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="刺猬的优雅"><a href="#刺猬的优雅" class="headerlink" title="刺猬的优雅"></a>刺猬的优雅</h4><p><img src="https://pic.downk.cc/item/5ea0041bc2a9a83be56ee231.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0044fc2a9a83be56efece.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00469c2a9a83be56f11fd.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0047fc2a9a83be56f2c86.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="CMBYN"><a href="#CMBYN" class="headerlink" title="CMBYN"></a>CMBYN</h4><p><img src="https://pic.downk.cc/item/5ea004a3c2a9a83be56f54f2.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea004dac2a9a83be56f871c.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea004f5c2a9a83be56f9f58.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00509c2a9a83be56faed4.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00519c2a9a83be56fbe02.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="十二猴子"><a href="#十二猴子" class="headerlink" title="十二猴子"></a>十二猴子</h4><p><img src="https://pic.downk.cc/item/5ea00562c2a9a83be5700680.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0057cc2a9a83be5702081.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0058cc2a9a83be57031f8.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea005a1c2a9a83be57043f0.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea005b6c2a9a83be57058c3.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;刺猬的优雅&quot;&gt;&lt;a href=&quot;#刺猬的优雅&quot; class=&quot;headerlink&quot; title=&quot;刺猬的优雅&quot;&gt;&lt;/a&gt;刺猬的优雅&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0041bc2a9a83be56ee231.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0044fc2a9a83be56efece.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00469c2a9a83be56f11fd.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0047fc2a9a83be56f2c86.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;CMBYN&quot;&gt;&lt;a href=&quot;#CMBYN&quot; class=&quot;headerlink&quot; title=&quot;CMBYN&quot;&gt;&lt;/a&gt;CMBYN&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea004a3c2a9a83be56f54f2.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea004dac2a9a83be56f871c.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea004f5c2a9a83be56f9f58.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00509c2a9a83be56faed4.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00519c2a9a83be56fbe02.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;十二猴子&quot;&gt;&lt;a href=&quot;#十二猴子&quot; class=&quot;headerlink&quot; title=&quot;十二猴子&quot;&gt;&lt;/a&gt;十二猴子&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00562c2a9a83be5700680.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0057cc2a9a83be5702081.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0058cc2a9a83be57031f8.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea005a1c2a9a83be57043f0.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea005b6c2a9a83be57058c3.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[影视截图]03</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-03/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-03/</id>
+    <published>2020-04-22T08:37:00.000Z</published>
+    <updated>2020-04-22T13:55:00.242Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="无间道"><a href="#无间道" class="headerlink" title="无间道"></a>无间道</h4><p><img src="https://pic.downk.cc/item/5ea0026dc2a9a83be56dc733.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0022dc2a9a83be56d8ff8.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00285c2a9a83be56dddfc.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="倩女幽魂"><a href="#倩女幽魂" class="headerlink" title="倩女幽魂"></a>倩女幽魂</h4><p><img src="https://pic.downk.cc/item/5ea002c8c2a9a83be56e1535.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea002eac2a9a83be56e2bfc.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea002f9c2a9a83be56e362a.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0030ac2a9a83be56e3f1d.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00321c2a9a83be56e499b.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00332c2a9a83be56e533c.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00348c2a9a83be56e5d36.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0035bc2a9a83be56e6702.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00379c2a9a83be56e7582.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;无间道&quot;&gt;&lt;a href=&quot;#无间道&quot; class=&quot;headerlink&quot; title=&quot;无间道&quot;&gt;&lt;/a&gt;无间道&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0026dc2a9a83be56dc733.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0022dc2a9a83be56d8ff8.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00285c2a9a83be56dddfc.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;倩女幽魂&quot;&gt;&lt;a href=&quot;#倩女幽魂&quot; class=&quot;headerlink&quot; title=&quot;倩女幽魂&quot;&gt;&lt;/a&gt;倩女幽魂&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea002c8c2a9a83be56e1535.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea002eac2a9a83be56e2bfc.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea002f9c2a9a83be56e362a.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0030ac2a9a83be56e3f1d.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00321c2a9a83be56e499b.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00332c2a9a83be56e533c.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00348c2a9a83be56e5d36.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0035bc2a9a83be56e6702.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00379c2a9a83be56e7582.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
+      <category term="影视截图" scheme="http://forliuyifei.github.io/tags/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
+    
+      <category term="王祖贤" scheme="http://forliuyifei.github.io/tags/%E7%8E%8B%E7%A5%96%E8%B4%A4/"/>
+    
+      <category term="梁朝伟" scheme="http://forliuyifei.github.io/tags/%E6%A2%81%E6%9C%9D%E4%BC%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[影视截图][大话西游]</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8/</id>
+    <published>2020-04-22T08:32:00.000Z</published>
+    <updated>2020-04-22T13:55:25.758Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="大话西游"><a href="#大话西游" class="headerlink" title="大话西游"></a>大话西游</h4><p><img src="https://pic.downk.cc/item/5ea00130c2a9a83be56ca28b.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00144c2a9a83be56cb736.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00158c2a9a83be56ccc75.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00170c2a9a83be56ce94b.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00188c2a9a83be56d005f.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00197c2a9a83be56d0d7a.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;大话西游&quot;&gt;&lt;a href=&quot;#大话西游&quot; class=&quot;headerlink&quot; title=&quot;大话西游&quot;&gt;&lt;/a&gt;大话西游&lt;/h4&gt;&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00130c2a9a83be56ca28b.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00144c2a9a83be56cb736.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00158c2a9a83be56ccc75.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00170c2a9a83be56ce94b.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00188c2a9a83be56d005f.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea00197c2a9a83be56d0d7a.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="影视截图" scheme="http://forliuyifei.github.io/tags/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
+    
+      <category term="大话西游" scheme="http://forliuyifei.github.io/tags/%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8/"/>
+    
+      <category term="爱情" scheme="http://forliuyifei.github.io/tags/%E7%88%B1%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[影视截图]02</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-02/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-02/</id>
+    <published>2020-04-22T08:29:00.000Z</published>
+    <updated>2020-04-22T13:55:35.358Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="白日梦想家"><a href="#白日梦想家" class="headerlink" title="白日梦想家"></a>白日梦想家</h4><p>2017-07-09<br><img src="https://pic.downk.cc/item/5e9ffd28c2a9a83be568c6c9.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="摔跤吧爸爸"><a href="#摔跤吧爸爸" class="headerlink" title="摔跤吧爸爸"></a>摔跤吧爸爸</h4><p>2017-07-24<br><img src="https://pic.downk.cc/item/5e9ffda6c2a9a83be5690b69.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="神奇女侠"><a href="#神奇女侠" class="headerlink" title="神奇女侠"></a>神奇女侠</h4><p>2017-07-30<br><img src="https://pic.downk.cc/item/5e9ffdd8c2a9a83be5695160.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ffe16c2a9a83be569ae21.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ffe07c2a9a83be569984e.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="瑞士军刀男"><a href="#瑞士军刀男" class="headerlink" title="瑞士军刀男"></a>瑞士军刀男</h4><p>2017-08-26<br><img src="https://pic.downk.cc/item/5e9ffe4ac2a9a83be569f822.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="恋空"><a href="#恋空" class="headerlink" title="恋空"></a>恋空</h4><p>2017-08-30<br><img src="https://pic.downk.cc/item/5e9ffefac2a9a83be56ac821.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff09c2a9a83be56ad2a7.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff34c2a9a83be56af0fa.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff44c2a9a83be56afc34.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff70c2a9a83be56b2b36.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="逃耻"><a href="#逃耻" class="headerlink" title="逃耻"></a>逃耻</h4><p>2017-08-31<br><img src="https://pic.downk.cc/item/5e9fffd3c2a9a83be56b770b.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="李狗嗨"><a href="#李狗嗨" class="headerlink" title="李狗嗨"></a>李狗嗨</h4><p>2017-09-06<br><img src="https://pic.downk.cc/item/5ea0002bc2a9a83be56bb991.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;白日梦想家&quot;&gt;&lt;a href=&quot;#白日梦想家&quot; class=&quot;headerlink&quot; title=&quot;白日梦想家&quot;&gt;&lt;/a&gt;白日梦想家&lt;/h4&gt;&lt;p&gt;2017-07-09&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffd28c2a9a83be568c6c9.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;摔跤吧爸爸&quot;&gt;&lt;a href=&quot;#摔跤吧爸爸&quot; class=&quot;headerlink&quot; title=&quot;摔跤吧爸爸&quot;&gt;&lt;/a&gt;摔跤吧爸爸&lt;/h4&gt;&lt;p&gt;2017-07-24&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffda6c2a9a83be5690b69.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;神奇女侠&quot;&gt;&lt;a href=&quot;#神奇女侠&quot; class=&quot;headerlink&quot; title=&quot;神奇女侠&quot;&gt;&lt;/a&gt;神奇女侠&lt;/h4&gt;&lt;p&gt;2017-07-30&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffdd8c2a9a83be5695160.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffe16c2a9a83be569ae21.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffe07c2a9a83be569984e.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;瑞士军刀男&quot;&gt;&lt;a href=&quot;#瑞士军刀男&quot; class=&quot;headerlink&quot; title=&quot;瑞士军刀男&quot;&gt;&lt;/a&gt;瑞士军刀男&lt;/h4&gt;&lt;p&gt;2017-08-26&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffe4ac2a9a83be569f822.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;恋空&quot;&gt;&lt;a href=&quot;#恋空&quot; class=&quot;headerlink&quot; title=&quot;恋空&quot;&gt;&lt;/a&gt;恋空&lt;/h4&gt;&lt;p&gt;2017-08-30&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffefac2a9a83be56ac821.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9fff09c2a9a83be56ad2a7.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9fff34c2a9a83be56af0fa.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9fff44c2a9a83be56afc34.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9fff70c2a9a83be56b2b36.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;逃耻&quot;&gt;&lt;a href=&quot;#逃耻&quot; class=&quot;headerlink&quot; title=&quot;逃耻&quot;&gt;&lt;/a&gt;逃耻&lt;/h4&gt;&lt;p&gt;2017-08-31&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9fffd3c2a9a83be56b770b.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;李狗嗨&quot;&gt;&lt;a href=&quot;#李狗嗨&quot; class=&quot;headerlink&quot; title=&quot;李狗嗨&quot;&gt;&lt;/a&gt;李狗嗨&lt;/h4&gt;&lt;p&gt;2017-09-06&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5ea0002bc2a9a83be56bb991.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
+      <category term="影视截图" scheme="http://forliuyifei.github.io/tags/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[影视截图][断发]</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E6%96%AD%E5%8F%91/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E6%96%AD%E5%8F%91/</id>
+    <published>2020-04-22T08:08:00.000Z</published>
+    <updated>2020-04-22T13:55:53.772Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="哈尔的移动城堡"><a href="#哈尔的移动城堡" class="headerlink" title="哈尔的移动城堡"></a>哈尔的移动城堡</h4><p>2016-07-14</p><p><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffbd1c2a9a83be567fbef.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffbf0c2a9a83be5681057.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc14c2a9a83be568257a.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc29c2a9a83be5683669.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="天空之城"><a href="#天空之城" class="headerlink" title="天空之城"></a>天空之城</h4><p>2016-07-14</p><p><img src="https://pic.downk.cc/item/5e9ffc78c2a9a83be56862f5.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc9cc2a9a83be5687ec4.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffcb0c2a9a83be5688b45.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;哈尔的移动城堡&quot;&gt;&lt;a href=&quot;#哈尔的移动城堡&quot; class=&quot;headerlink&quot; title=&quot;哈尔的移动城堡&quot;&gt;&lt;/a&gt;哈尔的移动城堡&lt;/h4&gt;&lt;p&gt;2016-07-14&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffbd1c2a9a83be567fbef.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffbf0c2a9a83be5681057.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffc14c2a9a83be568257a.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffc29c2a9a83be5683669.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;天空之城&quot;&gt;&lt;a href=&quot;#天空之城&quot; class=&quot;headerlink&quot; title=&quot;天空之城&quot;&gt;&lt;/a&gt;天空之城&lt;/h4&gt;&lt;p&gt;2016-07-14&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffc78c2a9a83be56862f5.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffc9cc2a9a83be5687ec4.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffcb0c2a9a83be5688b45.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
+      <category term="影视截图" scheme="http://forliuyifei.github.io/tags/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
+    
+      <category term="断发" scheme="http://forliuyifei.github.io/tags/%E6%96%AD%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[影视截图]01</title>
+    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
+    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/</id>
+    <published>2020-04-22T07:34:00.000Z</published>
+    <updated>2020-04-22T13:56:05.400Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="功夫熊猫3"><a href="#功夫熊猫3" class="headerlink" title="功夫熊猫3"></a>功夫熊猫3</h4><p>2016-02-29<br><img src="https://pic.downk.cc/item/5e9ff30ec2a9a83be5622827.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff3ffc2a9a83be562a8ee.png" srcset="/img/loading.gif" alt=""></p><h4 id="千与千寻"><a href="#千与千寻" class="headerlink" title="千与千寻"></a>千与千寻</h4><p>2016-04-09<br><img src="https://pic.downk.cc/item/5e9ff634c2a9a83be563fbb5.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff655c2a9a83be56418aa.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff66bc2a9a83be5642e6a.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff602c2a9a83be563df58.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff5dfc2a9a83be563c8fe.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff5afc2a9a83be5639edc.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff59ac2a9a83be563892e.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff560c2a9a83be563605d.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="疯狂动物城"><a href="#疯狂动物城" class="headerlink" title="疯狂动物城　　"></a>疯狂动物城　　</h4><p>2016-04-29<br><img src="https://pic.downk.cc/item/5e9ff7b9c2a9a83be5650d97.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff748c2a9a83be564cf76.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff80ac2a9a83be565443b.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff83ec2a9a83be5656984.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="像素大战"><a href="#像素大战" class="headerlink" title="像素大战"></a>像素大战</h4><p>2016-04-30<br><img src="https://pic.downk.cc/item/5e9ff4cbc2a9a83be5630728.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="我的特工爷爷"><a href="#我的特工爷爷" class="headerlink" title="我的特工爷爷"></a>我的特工爷爷</h4><p>2016-05-28<br><img src="https://pic.downk.cc/item/5e9ff92ec2a9a83be56602f8.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff977c2a9a83be5663113.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="盗梦空间"><a href="#盗梦空间" class="headerlink" title="盗梦空间"></a>盗梦空间</h4><p>2016-07-02<br><img src="https://pic.downk.cc/item/5e9ffa1cc2a9a83be566b381.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ffaa0c2a9a83be5670b77.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;功夫熊猫3&quot;&gt;&lt;a href=&quot;#功夫熊猫3&quot; class=&quot;headerlink&quot; title=&quot;功夫熊猫3&quot;&gt;&lt;/a&gt;功夫熊猫3&lt;/h4&gt;&lt;p&gt;2016-02-29&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff30ec2a9a83be5622827.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff3ffc2a9a83be562a8ee.png&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;千与千寻&quot;&gt;&lt;a href=&quot;#千与千寻&quot; class=&quot;headerlink&quot; title=&quot;千与千寻&quot;&gt;&lt;/a&gt;千与千寻&lt;/h4&gt;&lt;p&gt;2016-04-09&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff634c2a9a83be563fbb5.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff655c2a9a83be56418aa.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff66bc2a9a83be5642e6a.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff602c2a9a83be563df58.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff5dfc2a9a83be563c8fe.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff5afc2a9a83be5639edc.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff59ac2a9a83be563892e.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff560c2a9a83be563605d.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;疯狂动物城&quot;&gt;&lt;a href=&quot;#疯狂动物城&quot; class=&quot;headerlink&quot; title=&quot;疯狂动物城　　&quot;&gt;&lt;/a&gt;疯狂动物城　　&lt;/h4&gt;&lt;p&gt;2016-04-29&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff7b9c2a9a83be5650d97.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff748c2a9a83be564cf76.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff80ac2a9a83be565443b.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff83ec2a9a83be5656984.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;像素大战&quot;&gt;&lt;a href=&quot;#像素大战&quot; class=&quot;headerlink&quot; title=&quot;像素大战&quot;&gt;&lt;/a&gt;像素大战&lt;/h4&gt;&lt;p&gt;2016-04-30&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff4cbc2a9a83be5630728.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;我的特工爷爷&quot;&gt;&lt;a href=&quot;#我的特工爷爷&quot; class=&quot;headerlink&quot; title=&quot;我的特工爷爷&quot;&gt;&lt;/a&gt;我的特工爷爷&lt;/h4&gt;&lt;p&gt;2016-05-28&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff92ec2a9a83be56602f8.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ff977c2a9a83be5663113.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;盗梦空间&quot;&gt;&lt;a href=&quot;#盗梦空间&quot; class=&quot;headerlink&quot; title=&quot;盗梦空间&quot;&gt;&lt;/a&gt;盗梦空间&lt;/h4&gt;&lt;p&gt;2016-07-02&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffa1cc2a9a83be566b381.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9ffaa0c2a9a83be5670b77.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
+      <category term="影视截图" scheme="http://forliuyifei.github.io/tags/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给网页插入音视频的简单代码</title>
+    <link href="http://forliuyifei.github.io/2020/04/21/%E4%B8%80%E4%BA%9B%E5%8F%AF%E8%83%BD%E7%94%A8%E5%BE%97%E7%9D%80%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%A3%E7%A0%81/"/>
+    <id>http://forliuyifei.github.io/2020/04/21/%E4%B8%80%E4%BA%9B%E5%8F%AF%E8%83%BD%E7%94%A8%E5%BE%97%E7%9D%80%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%A3%E7%A0%81/</id>
+    <published>2020-04-21T15:46:00.000Z</published>
+    <updated>2020-04-22T16:43:04.536Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="自动播放背景音乐（直链）"><a href="#自动播放背景音乐（直链）" class="headerlink" title="自动播放背景音乐（直链）"></a>自动播放背景音乐（直链）</h3><pre><code class="hljs plain">&lt;iframe width="0" height="0" src="https://wsaudiobssdlbig.kugou.com/2004212200/aqLVbAF1CUDjkTc8pxtwUg/1587564033/bss/extname/wsaudio/2e5c4bc87cfaabf9133484b82eaba970.mp3" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre><iframe width="0" height="0" src="https://wsaudiobssdlbig.kugou.com/2004212200/aqLVbAF1CUDjkTc8pxtwUg/1587564033/bss/extname/wsaudio/2e5c4bc87cfaabf9133484b82eaba970.mp3" frameborder="0" allowfullscreen=""></iframe><h3 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h3><ul><li><p>固定大小   </p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe><p>auto=0不自动播放，1自动播放。  </p></li><li><p>自适应宽度</p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe></li></ul><h3 id="插入视频-尺寸可调"><a href="#插入视频-尺寸可调" class="headerlink" title="插入视频(尺寸可调)"></a>插入视频(尺寸可调)</h3><pre><code class="hljs plain">&lt;video src="https://download.cloud.189.cn/file/downloadFile.action?dt=51&amp;expired=1587581999976&amp;play=1&amp;sk=784b9a06-507b-4bb7-af28-d539c8079468&amp;ufi=1130127955500883&amp;zyc=180&amp;token=cloud4&amp;sig=BP5yzGITZTc5FaDLInQeijwoB7U%3D" width="100%" height="100%" controls="controls"&gt;&lt;/video&gt;</code></pre><p><video src="https://download.cloud.189.cn/file/downloadFile.action?dt=51&amp;expired=1587581999976&amp;play=1&amp;sk=784b9a06-507b-4bb7-af28-d539c8079468&amp;ufi=1130127955500883&amp;zyc=180&amp;token=cloud4&amp;sig=BP5yzGITZTc5FaDLInQeijwoB7U%3D" width="500" height="50%" controls="controls"></video></p><pre><code class="hljs plain">&lt;video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="50%" controls="controls"&gt;&lt;/video&gt;</code></pre><p><video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="50%" controls="controls"></video></p><div class="note note-success">            <p>上面两个链接都是在天翼云盘PC网页端在线播放mp4的时用鼠标右键获取的，建议选择h.264编码的MP4格式的视频，其它格式可用格式工厂转换。<br>但愿不会太快失效吧😑</p>          </div><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;自动播放背景音乐（直链）&quot;&gt;&lt;a href=&quot;#自动播放背景音乐（直链）&quot; class=&quot;headerlink&quot; title=&quot;自动播放背景音乐（直链）&quot;&gt;&lt;/a&gt;自动播放背景音乐（直链）&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;hljs plain&quot;&gt;&amp;lt;iframe width=&quot;0&quot; height=&quot;0&quot; src=&quot;https://wsaudiobssdlbig.kugou.com/2004212200/aqLVbAF1CUDjkTc8pxtwUg/1587564033/bss/extname/wsaudio/2e5c4bc87cfaabf9133484b82eaba970.mp3&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&quot;0&quot; height=&quot;0&quot; src=&quot;https://wsaudiobssdlbig.kugou.com/2004212200/aqLVbAF1CUDjkTc8pxtwUg/1587564033/bss/extname/wsaudio/2e5c4bc87cfaabf9133484b82eaba970.mp3&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+
+&lt;h3 id=&quot;网易云音乐插件&quot;&gt;&lt;a href=&quot;#网易云音乐插件&quot; class=&quot;headerlink&quot; title=&quot;网易云音乐插件&quot;&gt;&lt;/a&gt;网易云音乐插件&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;固定大小   &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs plain&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=330 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=740558&amp;amp;auto=0&amp;amp;height=66&quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=740558&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;auto=0不自动播放，1自动播放。  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;自适应宽度&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs plain&quot;&gt;&amp;lt;iframe frameborder=&quot;no&quot; border=&quot;1&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=100% height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=740558&amp;amp;auto=0&amp;amp;height=66&quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe frameborder=&quot;no&quot; border=&quot;1&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;100%&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;amp;id=740558&amp;amp;auto=0&amp;amp;height=66&quot;&gt;&lt;/iframe&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;插入视频-尺寸可调&quot;&gt;&lt;a href=&quot;#插入视频-尺寸可调&quot; class=&quot;headerlink&quot; title=&quot;插入视频(尺寸可调)&quot;&gt;&lt;/a&gt;插入视频(尺寸可调)&lt;/h3&gt;&lt;pre&gt;&lt;code class=&quot;hljs plain&quot;&gt;&amp;lt;video src=&quot;https://download.cloud.189.cn/file/downloadFile.action?dt=51&amp;amp;expired=1587581999976&amp;amp;play=1&amp;amp;sk=784b9a06-507b-4bb7-af28-d539c8079468&amp;amp;ufi=1130127955500883&amp;amp;zyc=180&amp;amp;token=cloud4&amp;amp;sig=BP5yzGITZTc5FaDLInQeijwoB7U%3D&quot; width=&quot;100%&quot; height=&quot;100%&quot; controls=&quot;controls&quot;&amp;gt;&amp;lt;/video&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;video src=&quot;https://download.cloud.189.cn/file/downloadFile.action?dt=51&amp;amp;expired=1587581999976&amp;amp;play=1&amp;amp;sk=784b9a06-507b-4bb7-af28-d539c8079468&amp;amp;ufi=1130127955500883&amp;amp;zyc=180&amp;amp;token=cloud4&amp;amp;sig=BP5yzGITZTc5FaDLInQeijwoB7U%3D&quot; width=&quot;500&quot; height=&quot;50%&quot; controls=&quot;controls&quot;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs plain&quot;&gt;&amp;lt;video src=&quot;https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4&quot; width=&quot;50%&quot; height=&quot;50%&quot; controls=&quot;controls&quot;&amp;gt;&amp;lt;/video&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;video src=&quot;https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4&quot; width=&quot;50%&quot; height=&quot;50%&quot; controls=&quot;controls&quot;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;div class=&quot;note note-success&quot;&gt;
+            &lt;p&gt;上面两个链接都是在天翼云盘PC网页端在线播放mp4的时用鼠标右键获取的，建议选择h.264编码的MP4格式的视频，其它格式可用格式工厂转换。&lt;br&gt;但愿不会太快失效吧😑&lt;/p&gt;
+          &lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
       <category term="教程" scheme="http://forliuyifei.github.io/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="复制粘贴" scheme="http://forliuyifei.github.io/tags/%E5%A4%8D%E5%88%B6%E7%B2%98%E8%B4%B4/"/>
+    
+      <category term="音乐" scheme="http://forliuyifei.github.io/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+      <category term="视频" scheme="http://forliuyifei.github.io/tags/%E8%A7%86%E9%A2%91/"/>
     
   </entry>
   
@@ -290,243 +561,6 @@
     
     
       <category term="哲学" scheme="http://forliuyifei.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>劳动力是不是商品</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E5%8A%B3%E5%8A%A8%E5%8A%9B%E6%98%AF%E4%B8%8D%E6%98%AF%E5%95%86%E5%93%81/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E5%8A%B3%E5%8A%A8%E5%8A%9B%E6%98%AF%E4%B8%8D%E6%98%AF%E5%95%86%E5%93%81/</id>
-    <published>2020-04-21T08:35:00.000Z</published>
-    <updated>2020-04-21T12:23:07.814Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>劳动力是不是商品，取决于所有制形式和实行的劳动制度如何。<br>关键在于劳动者是不是占有生产资料和劳动力是不是属于劳动者个人所有，并且劳动者是否能够随意自由地支配它。<br>因此，一些非公有企事业单位中的职工，如对外合资企业的员工，农村家庭雇工、帮工，对外劳务出口中的职工等，他们的劳动力是作为特殊商品向用人单位出卖的；在一切公有企事业单位和国家机关中工作的职工都是生产资料的主人，他们的劳动力不是商品。同样，在统包统配的劳动制度下，不存在劳动力的商品交换关系；在实行劳动合同制的条件下，双方的劳动关系取得了契约的形式，是一种典型的商品交换关系。 </p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="问题" scheme="http://forliuyifei.github.io/tags/%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>所言公，公言之;所言私，王者无私。</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E6%B1%89%E4%B9%A6%C2%B7%E7%BA%AA%C2%B7%E6%96%87%E5%B8%9D%E7%BA%AA-%E6%91%98%E5%BD%95/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E6%B1%89%E4%B9%A6%C2%B7%E7%BA%AA%C2%B7%E6%96%87%E5%B8%9D%E7%BA%AA-%E6%91%98%E5%BD%95/</id>
-    <published>2020-04-21T07:53:00.000Z</published>
-    <updated>2020-04-21T08:01:31.710Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　孝文皇帝，高祖中子也，母曰薄姬。高祖十一年，诛陈豨，定代地，立为代王，都中都。十七年秋，高后崩，诸吕谋为乱，欲危刘氏。丞相陈平、太尉周勃、朱虚侯刘章等共诛之，谋立代王。语在《高后纪》、《高五王传》。</p><p>　　大臣遂使人迎代王。郎中令张武等议，皆曰：“汉大臣皆故高帝时将，习兵事，多谋诈，其属意非止此也，特畏高帝、吕太后威耳。今已诛诸吕，新喋血京师，以迎大王为名，实不可信。愿称疾无往，以观其变。”中尉宋昌进曰：“群臣之议皆非也。夫秦失其政，豪杰并起，人人自以为得之者以万数，然卒践天子位者，刘氏也，天下绝望，一矣。高帝王子弟，地犬牙相制，所谓盘石之宗也，天下服其强，二矣。汉兴，除秦烦苛，约法令，施德惠，人人自安，难动摇，三矣。夫以吕太后之严，立诸吕为三王，擅权专制，然而太尉以一节入北军，一呼士皆袒左，为刘氏，畔诸吕，卒以灭之。<a href="">此乃天授，非人力也</a>。今大臣虽欲为变，百姓弗为使，其党宁能专一邪?内有朱虚、东牟之亲，外畏吴、楚、淮南、琅邪、齐、代之强。方今高帝子独淮南王与大王，大王又长，贤圣仁孝闻于天下，故大臣因天下之心而欲迎立大王，大王勿疑也。”代王报太后，计犹豫未定。卜之，兆得大横。占曰：“大横庚庚，余为天王，夏启以光。”代王曰：“寡人固已为王，又何王乎?”卜人曰：“所谓天王者，乃天子也。”于是代王乃遣太后弟薄昭见太尉勃，勃等具言所以迎立王者。昭还报曰：“信矣，无可疑者。”代王笑谓宋昌曰：“果如公言。”乃令宋昌骖乘，张武等六人乘六乘传，诣长安，至高陵止，而使宋昌先之长安观变。</p><p>　　昌至渭桥，丞相已下皆迎。昌还报，代王乃进至渭桥。群臣拜谒称臣，代王下拜。太尉勃进曰：“愿请间。”宋昌曰：“<a href="">所言公，公言之;所言私，王者无私。</a>”太尉勃乃跪上天子玺。代王谢曰：“至邸而议之。”</p><p>　　闰月己酉，入代邸。群臣从至，上议曰：“丞相臣平、太尉臣勃、大将军臣武、御史大夫臣苍、宗正臣郢、朱虚侯臣章、东牟侯臣兴居、典客臣揭再拜言大王足下：子弘等皆非孝惠皇帝子，不当奉宗庙。臣谨请阴安侯、顷王后、琅邪王、列侯、吏二千石议，大王高皇帝子，宜为嗣，愿大王即天子位。”代王曰：“奉高帝宗庙，重事也。寡人不佞，不足以称。愿请楚王计宜者，寡人弗敢当。”群臣皆伏，固请。代王西乡让者三，南乡让者再。丞相平等皆曰：“臣伏计之，大王奉高祖宗庙最宜称，虽天下诸侯万民皆以为宜。臣等为宗庙、社稷计，不敢忽。愿大王幸听臣等。臣谨奉天子玺、符再拜上。”代王曰：“宗室、将、相、王、列侯以为莫宜寡人，寡人不敢辞。”遂即天子位。群臣以次侍。使太仆婴、东牟侯兴居先清宫，奉天子法驾迎代邸。皇帝即日夕入未央宫。夜拜宋昌为卫将军，领南、北军，张武为郎中令，行殿中。还坐前殿，下诏曰：“制诏丞相、太尉、御史大夫：间者诸吕用事擅权，谋为大逆，欲危刘氏宗庙，赖将、相、列侯、宗室、大臣诛之，皆伏其辜。朕初即位，其赦天下，赐民爵一级，女子百户牛、酒，酺五日。”</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="拾人牙慧" scheme="http://forliuyifei.github.io/tags/%E6%8B%BE%E4%BA%BA%E7%89%99%E6%85%A7/"/>
-    
-      <category term="古文" scheme="http://forliuyifei.github.io/tags/%E5%8F%A4%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>笑话一则</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E7%AC%91%E8%AF%9D%E4%B8%80%E5%88%99/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E7%AC%91%E8%AF%9D%E4%B8%80%E5%88%99/</id>
-    <published>2020-04-21T06:41:00.000Z</published>
-    <updated>2020-04-21T06:44:11.975Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>一群伟大的科学家死后在天堂里玩藏猫猫，轮到爱因斯坦抓人，他数到100睁开眼睛，看到所有人都藏起来了，只见伏特趴在不远处。</p><p>　　爱因斯坦走过去说：“伏特，我抓住你了。”</p><p>　　伏特说：“不，你没有抓到我。”</p><p>　　爱因斯坦：“你不是伏特你是谁？”</p><p>　　伏特：“你看我身下是什么？”</p><p>　　爱因斯坦低头看到在伏特身下，居然是安培！</p><p>　　伏特：“我身下是安培，我俩就是伏特/安培，所以你抓住的不是我，你抓住的是….”</p><p>　　……</p><p>　　欧姆！</p><p>　　爱因斯坦反应迅速，于是改口喊，“欧姆，我抓住你了！”　　</p><p>　　说时迟那时快，伏特和安培一个鱼跃站了起来，但是仍然紧紧抱在一起，</p><p>　　爱因斯坦大惑～</p><p>　　他俩不紧不慢地说，现在，我们不再是欧姆，而是伏特×安培， 变成瓦特了～</p><p>　　爱因斯坦觉得有道理，于是喊，那我终于抓到你了，瓦特！</p><p>　　这时候，安培慢慢悠悠地说：“你看我俩这样抱着已经有好几秒了，所以，我们不再是瓦特，而是瓦特×秒，</p><p>　　我们现在是焦耳啦～”</p><p>　　　　爱因斯坦被说的哑口无言，于是默默地转过身，这时，他看到牛顿站在不远处，爱因斯坦于是跑过去说：“牛顿，我抓住你了。”</p><p>　　牛顿：“不，你没有抓到牛顿。” 　　爱因斯坦：“你不是牛顿你是谁？”</p><p>　　牛顿：“你看我脚下是什么？”</p><p>　　爱因斯坦低头看到牛顿站在一块长宽都是一米的正方形的地板砖上，不解。</p><p>　　牛顿：“我脚下这是一平方米的方块，我站在上面就是牛顿/平方米，所以你抓住的不是牛顿，你抓住的是帕斯卡”</p><p>　　爱因斯坦倍受挫折，终于忍无可忍地爆发了，于是飞起一脚，踹在牛顿身上，把牛顿踹出了那块一平米的地板砖，</p><p>　　然后吼到：“说！你还敢说你是帕斯卡？？”</p><p>　　牛顿慢慢地从地上爬起来，说：“不，我已经不是帕斯卡了，你刚刚让我牛顿移动了一米的距离，所以，我现在也是焦耳了”</p><p>焦耳这次学聪明了,一把扑到了阿伏伽德罗在自己身下,说：“你看,我现在是J/mol啦”,正当爱因斯坦思考J/mol是什么东西的时候,亥姆霍兹和吉布斯这两个自由能吵了起来,都说是对方.</p><p>为了不至于两败俱伤,他们一脚把开尔文踹到焦耳下面,把阿伏伽德罗顶了出来.</p><p>“看!”他俩说,“现在是J/K,是熵啦,要抓就抓克劳修斯吧”游戏继续这次是安培被爱因斯坦发现了,眼看安培就要被抓了.</p><p>安培顺势往地上一躺,伸直身体对站在身边不远处的爱因斯坦说：“等等,我在你站的地方产生了磁场.”</p><p>正当爱因斯坦在考虑该抓高斯还是特斯拉的时候,发现他俩一人找了一块地板砖抱着,说：“不麻烦你老了,我们现在是磁通量B·S,去找韦伯吧.”</p><p>等到爱因斯坦要抓住韦伯的时候,发现韦伯在做深蹲.爱因斯坦问：“你干嘛呢.”</p><p>韦伯回答说：“你没看到我一会儿变大,一会儿变小,我在产生感应电动势呢.”</p><p>这时伏特一下子慌了,一把抓住密立根的衣领,说：“你成天拿个油壶乱喷什么.”</p><p>“测定元电荷.”密立根回答道.</p><p>“太好了!”伏特一把抱住密立根说,“从现在起,我们就是eV,也就是焦耳.”</p><p>“靠,今天是邪了门啦”焦耳嘀咕道一把把赫兹压在身下,说：“看,现在是E/v,是普朗克啦”</p><p>普朗克也不是好惹的,他突然发现远处有个来自东方的老头在地上写下了22/7和355/113,很是得意,一打听此人姓祖,心里大喜,急忙跑过去,把这两个分数照抄了一遍,趴在这四个分数上面.对刚气喘嘘嘘赶来的爱因斯坦说：“看现在是h/4pi,”</p><p>“那又怎样?”爱因斯坦问.“是我的好哥们海森堡教我的,说这样我就不是我了,有什么事尽管找他.”</p><p>“好,那他在哪里?”“这个,还真说不准.”爱因斯坦恼羞成怒,正准备对普朗克大打出手.</p><p>普朗克说：“等等,海森堡有个姓薛的好哥们,就躲在前面的箱子里.”</p><p>“这个箱子连通风口都没有,” 爱因斯坦问.</p><p>“这个就得你亲自去打开看看了.”</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="http://forliuyifei.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-      <category term="笑话" scheme="http://forliuyifei.github.io/tags/%E7%AC%91%E8%AF%9D/"/>
-    
-      <category term="物理" scheme="http://forliuyifei.github.io/tags/%E7%89%A9%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>npm 镜像源的设置和删除</title>
-    <link href="http://forliuyifei.github.io/2020/04/19/npm%E9%95%9C%E5%83%8F%E6%BA%90/"/>
-    <id>http://forliuyifei.github.io/2020/04/19/npm%E9%95%9C%E5%83%8F%E6%BA%90/</id>
-    <published>2020-04-19T13:46:00.000Z</published>
-    <updated>2020-04-19T14:41:57.156Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>npm查看源：</p><pre><code class="hljs plain">npm config get registry</code></pre><p>或者</p><pre><code class="hljs plain">npm config list</code></pre><p>设置成淘宝源:</p><pre><code class="hljs plain">npm config set registry https://registry.npm.taobao.org/</code></pre><p>设置成npm官方源:</p><pre><code class="hljs plain">npm config set registry https://registry.npmjs.org/</code></pre><p>或者暴力还原，使用rm 命令：</p><pre><code class="hljs plain">npm config rm registry</code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-      <category term="hexo笔记" scheme="http://forliuyifei.github.io/tags/hexo%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>YAML 语法简介</title>
-    <link href="http://forliuyifei.github.io/2020/04/19/yaml/"/>
-    <id>http://forliuyifei.github.io/2020/04/19/yaml/</id>
-    <published>2020-04-19T11:48:00.000Z</published>
-    <updated>2020-04-19T11:56:14.761Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>使用 Hexo 并不需要掌握过多的 YAML 语法知识，只需要简单的了解一下就可以。</p><h2 id="Markdown-文件内使用-YAML"><a href="#Markdown-文件内使用-YAML" class="headerlink" title="#Markdown 文件内使用 YAML"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#markdown-文件内使用-yaml" target="_blank" rel="noopener">#</a>Markdown 文件内使用 YAML</h2><p>在 Hexo 中写文档，通常需要在头部写一些关于文章的信息，这些都是需要使用 YAML 语言来写的，例如</p><pre><code class="hljs yaml"><span class="hljs-meta">---</span><span class="hljs-attr">title:</span> <span class="hljs-string">录制视频时显示按键</span><span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-10</span><span class="hljs-number">-28</span> <span class="hljs-number">22</span><span class="hljs-string">:54:43</span><span class="hljs-attr">tags:</span> <span class="hljs-string">[软件,</span> <span class="hljs-string">随便水水]</span><span class="hljs-attr">keywords:</span> <span class="hljs-string">KeyCastOW</span> <span class="hljs-string">录屏技巧</span> <span class="hljs-string">按键显示</span><span class="hljs-attr">comments:</span> <span class="hljs-literal">true</span><span class="hljs-meta">---</span></code></pre><p>提醒</p><p>此部分一般叫做 <code>Front-matter</code> 。</p><p>文章内部的 YAML 配置都是以 <code>---</code> 开始和结束的，而且，结束之后通常还要再有一行的空行，用以区分 Markdown 语法。</p><h2 id="config-yml-中使用-YAML"><a href="#config-yml-中使用-YAML" class="headerlink" title="#_config.yml 中使用 YAML"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#config-yml-中使用-yaml" target="_blank" rel="noopener">#</a>_config.yml 中使用 YAML</h2><p>这个就太常见了，Hexo 的配置文件和主题的配置文件都需要使用 YAML 语言来写。</p><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="#基本语法"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#基本语法" target="_blank" rel="noopener">#</a>基本语法</h2><p>YAML 使用键值对的形式记录信息，标准格式是</p><pre><code class="hljs yaml"><span class="hljs-attr">key:</span> <span class="hljs-string">value</span><span class="hljs-string">键:</span> <span class="hljs-string">值</span></code></pre><h3 id="基本规则"><a href="#基本规则" class="headerlink" title="#基本规则"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#基本规则" target="_blank" rel="noopener">#</a>基本规则</h3><ol><li>大小写敏感</li><li><strong>使用缩进表示层级关系</strong></li><li>禁止使用 tab 缩进，只能使用空格键</li><li>缩进长度没有限制，只要元素对齐就表示这些元素属于一个层级</li><li>使用 <code>#</code> 表示注释</li><li>字符串可以不用引号标注（但是建议你最好还是加上引号）</li></ol><p>例如：</p><pre><code class="hljs yaml"><span class="hljs-attr">hexo-tag-dplayer:</span>  <span class="hljs-attr">cdn:</span>    <span class="hljs-bullet">-</span> <span class="hljs-string">https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js</span>    <span class="hljs-bullet">-</span> <span class="hljs-string">https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css</span>  <span class="hljs-attr">default:</span>     <span class="hljs-attr">api:</span> <span class="hljs-string">https://api.prprpr.me/dplayer3/</span>    <span class="hljs-attr">loop:</span> <span class="hljs-literal">yes</span>    <span class="hljs-attr">screenshot:</span> <span class="hljs-literal">yes</span></code></pre><p>其中 <code>hexo-tag-dplayer</code> 是最高一级的，在模板里一般表示为 <code>config.hexo-tag-dplayer</code> ;<br>观察缩进情况，可以发现 <code>cdn</code> 和 <code>default</code> 是同一级的，模板里一般表示为 <code>config.hexo-tag-dplayer.cdn</code> 和 <code>config.hexo-tag-dplayer.default</code> ；<br>同理， <code>default</code> 下的三个选项又是一级，以此类推，只要记住缩进表示层级关系就可以了。</p><p><a href="https://easyhexo.com/5-Add/5-2-yaml.html#markdown-%E6%96%87%E4%BB%B6%E5%86%85%E4%BD%BF%E7%94%A8-yaml" target="_blank" rel="noopener">原文来自easyhexo.com</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="http://forliuyifei.github.io/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-      <category term="hexo笔记" scheme="http://forliuyifei.github.io/tags/hexo%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>fluid主题文章摘要显示多余代码的bug（其实是hexo的问题）</title>
-    <link href="http://forliuyifei.github.io/2020/04/19/fluid%E4%B8%BB%E9%A2%98%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81%E7%9A%84bug/"/>
-    <id>http://forliuyifei.github.io/2020/04/19/fluid%E4%B8%BB%E9%A2%98%E6%96%87%E7%AB%A0%E6%91%98%E8%A6%81%E7%9A%84bug/</id>
-    <published>2020-04-19T07:22:00.000Z</published>
-    <updated>2020-04-22T06:54:37.566Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>已开启自动摘要,没加</p><pre><code class="hljs plain">&lt;!--more--&gt;</code></pre><p>手动摘要,并且正文过短的情况下,文章预览会跑出这个多余的<br><img src="https://pic.downk.cc/item/5e9bfed0c2a9a83be5e724b6.jpg" srcset="/img/loading.gif" alt=""></p><p>解决办法，进行手动摘要：<br><img src="https://pic.downk.cc/item/5e9c04b2c2a9a83be5eddab8.jpg" srcset="/img/loading.gif" alt=""><br>正文过短的都记得手动more一下<br><img src="https://pic.downk.cc/item/5e9bfe19c2a9a83be5e65a89.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;已开启自动摘要,没加&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;hljs plain&quot;&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;手动摘要,并且正文过短的情况下,文章预览会跑出这个多余的&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9bfed0c2a9a83be5e724b6.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;解决办法，进行手动摘要：&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9c04b2c2a9a83be5eddab8.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;正文过短的都记得手动more一下&lt;br&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9bfe19c2a9a83be5e65a89.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="原创" scheme="http://forliuyifei.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
-    
-    
-      <category term="问题&amp;解决" scheme="http://forliuyifei.github.io/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
-    
-      <category term="hexo-Fluid主题" scheme="http://forliuyifei.github.io/tags/hexo-Fluid%E4%B8%BB%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>豆瓣相册不允许外链直接引用？</title>
-    <link href="http://forliuyifei.github.io/2020/04/19/%E8%B1%86%E7%93%A3%E7%9B%B8%E5%86%8C%E4%B8%8D%E5%85%81%E8%AE%B8%E5%A4%96%E9%93%BE%E7%9B%B4%E6%8E%A5%E5%BC%95%E7%94%A8%EF%BC%9F/"/>
-    <id>http://forliuyifei.github.io/2020/04/19/%E8%B1%86%E7%93%A3%E7%9B%B8%E5%86%8C%E4%B8%8D%E5%85%81%E8%AE%B8%E5%A4%96%E9%93%BE%E7%9B%B4%E6%8E%A5%E5%BC%95%E7%94%A8%EF%BC%9F/</id>
-    <published>2020-04-19T03:59:00.000Z</published>
-    <updated>2020-04-19T08:23:18.938Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p><img src="https://pic.downk.cc/item/5e9bcc6bc2a9a83be5ae2c26.jpg" srcset="/img/loading.gif" alt=""><br>从豆瓣相册的图片直接复制图片地址↗<br>结果加载不出？</p><a id="more"></a><p><img src="https://pic.downk.cc/item/5e9bccffc2a9a83be5aee2ce.jpg" srcset="/img/loading.gif" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://pic.downk.cc/item/5e9bcc6bc2a9a83be5ae2c26.jpg&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;br&gt;从豆瓣相册的图片直接复制图片地址↗&lt;br&gt;结果加载不出？&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="原创" scheme="http://forliuyifei.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
-    
-    
-      <category term="问题" scheme="http://forliuyifei.github.io/tags/%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用PS将半透明头像边缘线条处理圆滑</title>
-    <link href="http://forliuyifei.github.io/2020/04/18/%E7%94%A8PS%E5%B0%86%E5%8D%8A%E9%80%8F%E6%98%8E%E5%A4%B4%E5%83%8F%E8%BE%B9%E7%BC%98%E7%BA%BF%E6%9D%A1%E5%A4%84%E7%90%86%E5%9C%86%E6%BB%91/"/>
-    <id>http://forliuyifei.github.io/2020/04/18/%E7%94%A8PS%E5%B0%86%E5%8D%8A%E9%80%8F%E6%98%8E%E5%A4%B4%E5%83%8F%E8%BE%B9%E7%BC%98%E7%BA%BF%E6%9D%A1%E5%A4%84%E7%90%86%E5%9C%86%E6%BB%91/</id>
-    <published>2020-04-18T14:11:00.000Z</published>
-    <updated>2020-04-19T08:27:06.645Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>1、打开图像，复制图层，关闭背景图层；</p><p>2、用”魔术棒工具“点击背景，选定背景，”选择–修改–羽化“1像素，”编辑–清除“；</p><p>3、”图层–修边–除边“，设置”宽度“为1像素，除边，完成。</p><h5 id="注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"><a href="#注意-进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。" class="headerlink" title="注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。"></a>注意:进行第3步时不是选择选区，而是直接在图层状态下，否则”修边”按钮是灰色的无法点击。</h5><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="原创" scheme="http://forliuyifei.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
-    
-    
-      <category term="教程" scheme="http://forliuyifei.github.io/tags/%E6%95%99%E7%A8%8B/"/>
-    
-      <category term="PS" scheme="http://forliuyifei.github.io/tags/PS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Chrome错误提示:您的连接不是私密连接|目前无法访问因为此网站使用了HSTS</title>
-    <link href="http://forliuyifei.github.io/2020/04/18/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8HSTS%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E9%87%8D%E7%BD%AE-%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA-%E6%82%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%B8%8D%E6%98%AF%E7%A7%81%E5%AF%86%E8%BF%9E%E6%8E%A5-%E7%9B%AE%E5%89%8D%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%9B%A0%E4%B8%BA%E6%AD%A4%E7%BD%91%E7%AB%99%E4%BD%BF%E7%94%A8%E4%BA%86HSTS/"/>
-    <id>http://forliuyifei.github.io/2020/04/18/Chrome%E6%B5%8F%E8%A7%88%E5%99%A8HSTS%E5%AE%89%E5%85%A8%E4%BF%A1%E6%81%AF%E9%87%8D%E7%BD%AE-%E9%94%99%E8%AF%AF%E6%8F%90%E7%A4%BA-%E6%82%A8%E7%9A%84%E8%BF%9E%E6%8E%A5%E4%B8%8D%E6%98%AF%E7%A7%81%E5%AF%86%E8%BF%9E%E6%8E%A5-%E7%9B%AE%E5%89%8D%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E5%9B%A0%E4%B8%BA%E6%AD%A4%E7%BD%91%E7%AB%99%E4%BD%BF%E7%94%A8%E4%BA%86HSTS/</id>
-    <published>2020-04-18T08:17:00.000Z</published>
-    <updated>2020-04-19T08:29:15.551Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>自定义域名<a href="liuyifei.club">liuyifei.club</a>直接解析到GitHub使用没问题,但增加一条国内Coding线路解析后,chrome打开网站出现错误,关键词 ‘HTTS’</p><h3 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案:"></a>临时解决方案:</h3><ul><li>输入下面链接回车</li></ul><pre><code class="hljs plain">chrome://net-internals/#hsts</code></pre><p>​            或者<a href="chrome://net-internals/#hsts">chrome直接点开</a></p><ul><li>最后一框填入 liuyifei.club</li><li>刷新网站</li></ul><h3 id="长效解决办法"><a href="#长效解决办法" class="headerlink" title="长效解决办法"></a>长效解决办法</h3><p>因为本站是同时部署到GitHub和Coding的，解析设置为国内访问解析到Coding，海外访问解析到GitHub。</p><ul><li>先到域名解析设置里面把原先设置的海外解析路线暂停：</li></ul><p><img src="https://pic.downk.cc/item/5e9b174fc2a9a83be5f2180c.jpg" srcset="/img/loading.gif" alt=""></p><ul><li><p>再去Coding的 项目-&gt;静态网站-&gt;设置，继续申请证书，不出意外的话都能成功。<img src="https://pic.downk.cc/item/5e9b1912c2a9a83be5f37b19.jpg" srcset="/img/loading.gif" alt=""></p></li><li><p>申请成功后再恢复域名的海外解析路线即可。</p><p>GitHub和Coding都可以设置强制HTTPS</p></li></ul><p><img src="https://pic.downk.cc/item/5e9b1a9bc2a9a83be5f4965b.jpg" srcset="/img/loading.gif" alt=""></p><p>至此应该就能正常访问了。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="原创" scheme="http://forliuyifei.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
-    
-    
-      <category term="问题&amp;解决" scheme="http://forliuyifei.github.io/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
     
   </entry>
   
