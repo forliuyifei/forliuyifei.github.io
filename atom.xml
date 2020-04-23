@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forliuyifei.github.io/"/>
-  <updated>2020-04-22T13:53:15.996Z</updated>
+  <updated>2020-04-23T15:10:16.717Z</updated>
   <id>http://forliuyifei.github.io/</id>
   
   <author>
@@ -17,9 +17,64 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>[电脑好软]洋芋田图像工具箱</title>
+    <link href="http://forliuyifei.github.io/posts/35787.html"/>
+    <id>http://forliuyifei.github.io/posts/35787.html</id>
+    <published>2020-04-23T14:30:00.000Z</published>
+    <updated>2020-04-23T15:10:16.717Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="官网"><a href="#官网" class="headerlink" title="官网"></a><a href="https://imagetoolkit.potatofield.cn/" target="_blank" rel="noopener">官网</a></h4><p>以下是官方说明,</p><ul><li><p>图片加水印工具<br>具备丰富的样式设置，水印的内容和外观均可随心定制。可单张处理，亦可批量处理，操作便捷高效。性能良好，处理图片迅速；运行稳定，大尺寸图片轻松应对。</p></li><li><p>长图拼接工具<br>可以将若干图片拼接为一张长图，也能为单张图片添加简单边框。不限制输入图片数量，最大支持输出单边长度为 16000 像素或面积为 256000000 像素的图片，能尽可能多地保留原图片的细节。</p></li><li><p>图片裁剪工具<br>可以采用自由模式裁剪，可以采用预置的多种常用比例裁剪，也可以自定义比例裁剪。支持批量导入图片，在工作流程中能够维持裁剪设置和保存设置不变，提升效率。</p></li><li><p>图片分割工具<br>将一张图片按行和列切割成多张小图，支持自定义行数和列数。可以优先确保每张小图为正方形并舍弃图片多余部分，也可以优先确保整张图片都被分割。支持批量分割图片。</p></li><li><p>富文本制图工具<br>将富文本内容输出为图片，支持文本、标题、项目列表、图片和引用内容。每一类富文本元素都有丰富的自定义设置，可以随心定制外观样式，还可以将样式保存为模板以供下次使用。</p></li><li><p>尺寸调整工具<br>对图片进行批量调整大小的操作，支持固定比例、固定长边和固定短边三种模式。同样具有良好的性能和稳定性，短时间内可以处理大量图片，也可以处理大尺寸图片。</p></li><li><p>图片压缩工具<br>对 JPEG 和 WEBP 格式文件进行压缩，减小文件体积。支持自定义输出质量。在不损失肉眼所见画质或保存画质损失较小的情况下压缩文件大小，便于存储和传输。支持自定义输出图片质量。</p></li><li><p>格式转换工具<br>将图片文件转换为其他格式，支持 JPEG 文件和 PNG 文件以及 WEBP 文件之间的相互转化。</p></li><li><p>EXIF 读取工具<br>从 JPEG 文件中读取 EXIF 信息，支持相机制造商、型号等设备信息和曝光补偿、镜头焦距、光圈、快门、感光度等曝光参数以及作者、图像尺寸等图像文件信息。</p></li><li><p>色彩提取工具<br>从照片中提取色彩，可以获得最能代表照片的主题色以及由十种能代表照片基本色调的颜色组成的色板。支持将色板导出为图片，也可以将色板拼接在原图片下方导出。</p></li><li><p>字体管理工具<br>管理本地字体库，还可以从在线字体库中下载字体。在线字体库现有数十款字体，全部为商用免费字体，且仍在持续更新。支持将下载的字体用于其他工具，也能设为界面字体。</p></li><li><p>自动更新<br>具备自动更新能力，每次启动时检查更新，也支持手动检查更新。后续将随更新完善已有功能，并继续添加更多工具。</p></li><li><p>开放源码<br>遵循MIT协议开放源代码，所有功能安全透明。<br>点此访问<a href="https://github.com/CNOliverZhang/PotatofieldImageToolkit" target="_blank" rel="noopener">代码仓库</a></p></li></ul><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-23_22-35-35.png" srcset="/img/loading.gif" alt=""><br><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/yyt.webp" srcset="/img/loading.gif" alt=""></p><p>新软件暂时还有不少细节小问题没处理好,但胜在轻量和功能性强👌</p><hr><h5 id="顺便测试一下GitHub的图床好不好用"><a href="#顺便测试一下GitHub的图床好不好用" class="headerlink" title="顺便测试一下GitHub的图床好不好用"></a>顺便测试一下GitHub的图床好不好用</h5><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/20200423225349.png" srcset="/img/loading.gif" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="http://forliuyifei.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="工具" scheme="http://forliuyifei.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="图片处理" scheme="http://forliuyifei.github.io/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本站“刘亦菲.club”打包成app</title>
+    <link href="http://forliuyifei.github.io/posts/2086.html"/>
+    <id>http://forliuyifei.github.io/posts/2086.html</id>
+    <published>2020-04-23T14:06:00.000Z</published>
+    <updated>2020-04-23T15:12:47.385Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>使用断更两年的Fusion App 制作而成,图标暂时没空没心情弄,搜索功能无效,等大佬教教我吧,看不懂local-search怎么调用的🙄<br><a href="https://lanzous.com/ibu6x0f" target="_blank" rel="noopener">下载地址</a><br><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/result-2020-04-23-22-12-12.webp" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用断更两年的Fusion App 制作而成,图标暂时没空没心情弄,搜索功能无效,等大佬教教我吧,看不懂local-search怎么调用的🙄&lt;br&gt;&lt;a href=&quot;https://lanzous.com/ibu6x0f&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;下载地址&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;https://raw.githubusercontent.com/forliuyifei/img/mater/img/result-2020-04-23-22-12-12.webp&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="http://forliuyifei.github.io/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="Fusion " scheme="http://forliuyifei.github.io/tags/Fusion/"/>
+    
+      <category term="问题" scheme="http://forliuyifei.github.io/tags/%E9%97%AE%E9%A2%98/"/>
+    
+      <category term="工具" scheme="http://forliuyifei.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>金庸作品集 序</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E9%87%91%E5%BA%B8%E4%BD%9C%E5%93%81%E9%9B%86-%E5%BA%8F/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E9%87%91%E5%BA%B8%E4%BD%9C%E5%93%81%E9%9B%86-%E5%BA%8F/</id>
+    <link href="http://forliuyifei.github.io/posts/62840.html"/>
+    <id>http://forliuyifei.github.io/posts/62840.html</id>
     <published>2020-04-22T12:41:00.000Z</published>
     <updated>2020-04-22T13:53:15.996Z</updated>
     
@@ -44,8 +99,8 @@
   
   <entry>
     <title>Typora使用手册</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/Typora%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/Typora%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/</id>
+    <link href="http://forliuyifei.github.io/posts/58413.html"/>
+    <id>http://forliuyifei.github.io/posts/58413.html</id>
     <published>2020-04-22T12:36:00.000Z</published>
     <updated>2020-04-22T13:52:44.144Z</updated>
     
@@ -70,8 +125,8 @@
   
   <entry>
     <title>影视截图[刘亦菲]</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%88%98%E4%BA%A6%E8%8F%B2/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%88%98%E4%BA%A6%E8%8F%B2/</id>
+    <link href="http://forliuyifei.github.io/posts/29894.html"/>
+    <id>http://forliuyifei.github.io/posts/29894.html</id>
     <published>2020-04-22T08:53:00.000Z</published>
     <updated>2020-04-22T13:54:39.676Z</updated>
     
@@ -95,8 +150,8 @@
   
   <entry>
     <title>[影视截图]04</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-04/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-04/</id>
+    <link href="http://forliuyifei.github.io/posts/33265.html"/>
+    <id>http://forliuyifei.github.io/posts/33265.html</id>
     <published>2020-04-22T08:45:28.000Z</published>
     <updated>2020-04-22T13:55:08.533Z</updated>
     
@@ -116,8 +171,8 @@
   
   <entry>
     <title>[影视截图]03</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-03/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-03/</id>
+    <link href="http://forliuyifei.github.io/posts/17328.html"/>
+    <id>http://forliuyifei.github.io/posts/17328.html</id>
     <published>2020-04-22T08:37:00.000Z</published>
     <updated>2020-04-22T13:55:00.242Z</updated>
     
@@ -144,8 +199,8 @@
   
   <entry>
     <title>[影视截图][大话西游]</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E5%A4%A7%E8%AF%9D%E8%A5%BF%E6%B8%B8/</id>
+    <link href="http://forliuyifei.github.io/posts/13755.html"/>
+    <id>http://forliuyifei.github.io/posts/13755.html</id>
     <published>2020-04-22T08:32:00.000Z</published>
     <updated>2020-04-22T13:55:25.758Z</updated>
     
@@ -174,8 +229,8 @@
   
   <entry>
     <title>[影视截图]02</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-02/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-02/</id>
+    <link href="http://forliuyifei.github.io/posts/33649.html"/>
+    <id>http://forliuyifei.github.io/posts/33649.html</id>
     <published>2020-04-22T08:29:00.000Z</published>
     <updated>2020-04-22T13:55:35.358Z</updated>
     
@@ -203,8 +258,8 @@
   
   <entry>
     <title>[影视截图][断发]</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E6%96%AD%E5%8F%91/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE-%E6%96%AD%E5%8F%91/</id>
+    <link href="http://forliuyifei.github.io/posts/51590.html"/>
+    <id>http://forliuyifei.github.io/posts/51590.html</id>
     <published>2020-04-22T08:08:00.000Z</published>
     <updated>2020-04-22T13:55:53.772Z</updated>
     
@@ -237,8 +292,8 @@
   
   <entry>
     <title>[影视截图]01</title>
-    <link href="http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
-    <id>http://forliuyifei.github.io/2020/04/22/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/</id>
+    <link href="http://forliuyifei.github.io/posts/33329.html"/>
+    <id>http://forliuyifei.github.io/posts/33329.html</id>
     <published>2020-04-22T07:34:00.000Z</published>
     <updated>2020-04-22T13:56:05.400Z</updated>
     
@@ -265,8 +320,8 @@
   
   <entry>
     <title>给网页插入音视频的简单代码</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E4%B8%80%E4%BA%9B%E5%8F%AF%E8%83%BD%E7%94%A8%E5%BE%97%E7%9D%80%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%A3%E7%A0%81/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E4%B8%80%E4%BA%9B%E5%8F%AF%E8%83%BD%E7%94%A8%E5%BE%97%E7%9D%80%E7%9A%84%E7%AE%80%E5%8D%95%E4%BB%A3%E7%A0%81/</id>
+    <link href="http://forliuyifei.github.io/posts/16408.html"/>
+    <id>http://forliuyifei.github.io/posts/16408.html</id>
     <published>2020-04-21T15:46:00.000Z</published>
     <updated>2020-04-22T16:43:04.536Z</updated>
     
@@ -317,8 +372,8 @@
   
   <entry>
     <title>波心荡,冷月无声</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E6%89%AC%E5%B7%9E%E6%85%A2/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E6%89%AC%E5%B7%9E%E6%85%A2/</id>
+    <link href="http://forliuyifei.github.io/posts/25351.html"/>
+    <id>http://forliuyifei.github.io/posts/25351.html</id>
     <published>2020-04-21T13:47:00.000Z</published>
     <updated>2020-04-21T16:17:23.503Z</updated>
     
@@ -345,8 +400,8 @@
   
   <entry>
     <title>获取网易云音乐直链</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E8%8E%B7%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%9B%B4%E9%93%BE/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E8%8E%B7%E5%8F%96%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%9B%B4%E9%93%BE/</id>
+    <link href="http://forliuyifei.github.io/posts/59836.html"/>
+    <id>http://forliuyifei.github.io/posts/59836.html</id>
     <published>2020-04-21T13:21:00.000Z</published>
     <updated>2020-04-22T06:31:26.029Z</updated>
     
@@ -373,8 +428,8 @@
   
   <entry>
     <title>为什么越守规矩的好人，往往越吃亏？| 公地悲剧</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E5%AE%88%E8%A7%84%E7%9F%A9%E7%9A%84%E5%A5%BD%E4%BA%BA%EF%BC%8C%E5%BE%80%E5%BE%80%E8%B6%8A%E5%90%83%E4%BA%8F%EF%BC%9F-%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B6%8A%E5%AE%88%E8%A7%84%E7%9F%A9%E7%9A%84%E5%A5%BD%E4%BA%BA%EF%BC%8C%E5%BE%80%E5%BE%80%E8%B6%8A%E5%90%83%E4%BA%8F%EF%BC%9F-%E5%85%AC%E5%9C%B0%E6%82%B2%E5%89%A7/</id>
+    <link href="http://forliuyifei.github.io/posts/47881.html"/>
+    <id>http://forliuyifei.github.io/posts/47881.html</id>
     <published>2020-04-21T09:18:31.000Z</published>
     <updated>2020-04-21T12:29:45.545Z</updated>
     
@@ -397,8 +452,8 @@
   
   <entry>
     <title>[梦]世外高人</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E6%A2%A6-%E4%B8%96%E5%A4%96%E9%AB%98%E4%BA%BA/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E6%A2%A6-%E4%B8%96%E5%A4%96%E9%AB%98%E4%BA%BA/</id>
+    <link href="http://forliuyifei.github.io/posts/35226.html"/>
+    <id>http://forliuyifei.github.io/posts/35226.html</id>
     <published>2020-04-21T09:05:00.000Z</published>
     <updated>2020-04-21T12:29:01.766Z</updated>
     
@@ -420,8 +475,8 @@
   
   <entry>
     <title>好好说话</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E5%A5%BD%E5%A5%BD%E8%AF%B4%E8%AF%9D/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E5%A5%BD%E5%A5%BD%E8%AF%B4%E8%AF%9D/</id>
+    <link href="http://forliuyifei.github.io/posts/42114.html"/>
+    <id>http://forliuyifei.github.io/posts/42114.html</id>
     <published>2020-04-21T09:03:00.000Z</published>
     <updated>2020-04-21T12:28:27.959Z</updated>
     
@@ -441,8 +496,8 @@
   
   <entry>
     <title>房间里的大象</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E6%88%BF%E9%97%B4%E9%87%8C%E7%9A%84%E5%A4%A7%E8%B1%A1/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E6%88%BF%E9%97%B4%E9%87%8C%E7%9A%84%E5%A4%A7%E8%B1%A1/</id>
+    <link href="http://forliuyifei.github.io/posts/37175.html"/>
+    <id>http://forliuyifei.github.io/posts/37175.html</id>
     <published>2020-04-21T08:59:00.000Z</published>
     <updated>2020-04-21T12:27:55.429Z</updated>
     
@@ -465,8 +520,8 @@
   
   <entry>
     <title>徐徐图之</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E5%BE%90%E5%BE%90%E5%9B%BE%E4%B9%8B/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E5%BE%90%E5%BE%90%E5%9B%BE%E4%B9%8B/</id>
+    <link href="http://forliuyifei.github.io/posts/49442.html"/>
+    <id>http://forliuyifei.github.io/posts/49442.html</id>
     <published>2020-04-21T08:55:00.000Z</published>
     <updated>2020-04-21T12:26:59.526Z</updated>
     
@@ -491,8 +546,8 @@
   
   <entry>
     <title>迷信</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E8%BF%B7%E4%BF%A1/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E8%BF%B7%E4%BF%A1/</id>
+    <link href="http://forliuyifei.github.io/posts/63700.html"/>
+    <id>http://forliuyifei.github.io/posts/63700.html</id>
     <published>2020-04-21T08:51:00.000Z</published>
     <updated>2020-04-21T12:26:17.550Z</updated>
     
@@ -512,55 +567,6 @@
     
     
       <category term="毛" scheme="http://forliuyifei.github.io/tags/%E6%AF%9B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>你还是最爱自己</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/Untitled/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/Untitled/</id>
-    <published>2020-04-21T08:50:00.000Z</published>
-    <updated>2020-04-21T12:25:42.086Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>在爱情的事上如果你考虑起自尊心来，那只能有一个原因：实际上你还是最爱自己。<br>——毛姆 《月亮与六便士》 ​</p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在爱情的事上如果你考虑起自尊心来，那只能有一个原因：实际上你还是最爱自己。&lt;br&gt;——毛姆 《月亮与六便士》 ​&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="拾人牙慧" scheme="http://forliuyifei.github.io/tags/%E6%8B%BE%E4%BA%BA%E7%89%99%E6%85%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>神与哲学</title>
-    <link href="http://forliuyifei.github.io/2020/04/21/%E5%90%84%E7%A7%8D%E7%A5%9E%E8%AE%BA/"/>
-    <id>http://forliuyifei.github.io/2020/04/21/%E5%90%84%E7%A7%8D%E7%A5%9E%E8%AE%BA/</id>
-    <published>2020-04-21T08:41:00.000Z</published>
-    <updated>2020-04-21T12:23:42.201Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h4 id="宗教哲学"><a href="#宗教哲学" class="headerlink" title="宗教哲学"></a>宗教哲学</h4><ul><li>一神论：上帝向我举手击掌。</li><li>多神论：至少有一个上帝与我举手击掌。</li><li>单一主神论：可能还存在其他神，也可能没有，但我只知道我崇拜的那个与我举手击掌的神。</li><li>单神崇拜论：肯定存在许多个神，但我只崇拜那个与我举手击掌的神。</li><li>泛神论：宇宙就是神，神就是宇宙，与我举手击掌。</li><li>万有在神论：宇宙到处都体现着神性，因为神创造了宇宙及其运行规则，但神高于宇宙，神与我举手击掌。</li><li>全神论：所有宗教的神都以各自的方式与你举手击掌，但没有哪一个宗教的神独自可以给予你举手击掌的完整体验。</li><li>泛心论：宇宙中的一切都有意识，因此都可以与我举手击掌。</li><li>应有神论：应该有某种神在与我击掌，但除此以外，谁知道呢？<br>不可知论：可能有神与我击掌，但也可能是我在与自己击掌，谁知道呢？</li><li>无神论：我与自己击掌，与神无关。</li><li>自神论：我自己与自己击掌，我就是神。</li><li>远神论：神是否存在与神是否与人击掌之间根本没有关系。你们是完全没事儿做吗？成天想这些东西。</li><li>漠视论：“神”这个概念根本没有明确的定义，因此，讨论神是否存在、是否与人击掌毫无意义。</li><li>自然神论：神肯定存在（不管有几个），但神从来不会干涉人类的事务，因此，我很确定他们从来没有与我击过掌。</li><li>二元论：这个世界上既有善，也有恶。因此，每一次击掌行为必然对应着令人心情低落、毫无干劲儿的反面行为。</li><li>反神论：肯定不存在与人击掌的神，不过，如果神存在，我完全放任神继续这么做。</li><li>恶神论：与人击掌的神肯定存在，但其采用的方式令人心生厌恶。<br>唯我论：我自己与自己击掌。遗憾的是，这种击掌的行为也只是我想象出来的，因为除了我的思维之外，根本不存在任何东西。</li><li>世俗人文主义：没有神会与我们击掌，但我们仍要友善相处……我们仍然可以互相取暖、互相激励。</li></ul><h4 id="关于存在的哲学"><a href="#关于存在的哲学" class="headerlink" title="关于存在的哲学"></a>关于存在的哲学</h4><ul><li>虚无主义：别说举手击掌了，一切都不存在，一切都没有意义。</li><li>存在主义：别说举手击掌了，一切都不存在，一切都没有意义。因此，我们要尽可能真诚地互相激励，从而赋予这个世界存在的意义。</li><li>决定论：我现在在与你击掌，但这并不是自由意志的结果，自由意志只是幻觉。如果你能让时光倒流，重启这个宇宙，一切都会和现在一模一样。结果就是，此时此刻，我仍旧会向你举起手准备击掌。</li><li>结果主义：无论过程有多么邪恶可怖，只要结果是令我高兴和被肯定的，那它就是正义的。</li><li>功利主义：无论过程有多么邪恶可怖，只要结果能让大多数的人受到最大程度的激励，那它就是正义的。</li><li>实证主义：你让我相信举手击掌的行为确实存在，那我得先看看相关的科学依据。</li><li>客观主义：击掌是我的合理个人权利。任何强权以任何形式无视我的个人权利，强行与我击掌，都是不对的。</li><li>享乐主义：击掌让我感觉很棒，开心的感觉真是太美妙了。因此，只要我想或我需要，就会激励自己。别和我谈什么后果。如果做爱时击掌也能让我感觉良好的话……我真的要试试。</li><li>实用主义：只有当击掌能够产生某些正面影响时，它们才是有益的。</li><li>经验主义：别相信直觉，也别相信传统。彻底理解击掌行为的作用的唯一方法就是亲身施与并接受激励。</li><li>斯多葛主义：情绪会导致错误的判断，而错误的判断又会干扰清晰、客观的思考过程。因此，最好的击掌一定是出于极度理性的原因才做出的。</li><li>绝对论：特定行为从本质上就有对错之分。比如，偷盗总是错的，哪怕你偷盗是为了给一只饿得奄奄一息的小狗喂食。而击掌的行为总是对的，哪怕你想以击掌的方式激励别人时狠狠地把巴掌甩在了对方脸上。</li><li>伊壁鸠鲁主义：能够得到快乐当然很棒，但最大的快乐则是能够摆脱痛苦与恐惧。因此，我只会与你以合理的次数击掌，毕竟我不想把自己的手掌拍得生疼。</li><li>荒诞主义：光是理解单次击掌这种激励方式的规模、范围、潜在影响力就已经着实困难了，要彻底了解所有击掌行为的真实意义就更加毫无可能了。于是，对击掌行为的合理回应就是自杀或者痴心妄想未来某一天某个神明会彻底究明击掌行为的意义。如果这两个情况都没有发生的话，那么就稀里糊涂地接受这种行为的荒诞性，继续没心没肺地开心击掌吧。</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="哲学" scheme="http://forliuyifei.github.io/tags/%E5%93%B2%E5%AD%A6/"/>
     
   </entry>
   

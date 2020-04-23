@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#263238">
+  <meta name="description" content="">
+  <meta name="author" content="冼仙">
+  <meta name="keywords" content="">
+  <title>Typora使用手册 - 个人小站</title>
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
+<link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/github-gist.min.css" />
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_fmb4a04yx8h.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_ijqayz9ro8k.css">
+
+
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+<meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="个人小站" type="application/atom+xml">
+</head>
+
+
+<body>
+  <header style="height: 50vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>liuyifei.club</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/">
+              <i class="iconfont icon-home-fill"></i>
+              首页</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/archives/">
+              <i class="iconfont icon-archive-fill"></i>
+              归档</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/categories/">
+              <i class="iconfont icon-category-fill"></i>
+              分类</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/tags/">
+              <i class="iconfont icon-tags-fill"></i>
+              标签</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              <i class="iconfont icon-user-fill"></i>
+              关于</a>
+          </li>
+        
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/links/">
+              <i class="iconfont icon-link-fill"></i>
+              友链</a>
+          </li>
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
+                class="iconfont icon-search"></i>&nbsp;&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="view intro-2" id="background" parallax=true
+         style="background: url('/img/gy.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="container text-center white-text fadeInUp">
+            <span class="h2" id="subtitle">
+              
+            </span>
+
+            
+              
+                <div class="mt-3 post-meta">
+                  <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+                  <time datetime="2020-04-22 20:36">
+                    星期三, 四月 22日 2020, 8:36 晚上
+                  </time>
+                </div>
+              
+
+              <div class="mt-1">
+                
+                  
+                  <span class="post-meta mr-2">
+                    <i class="iconfont icon-chart"></i>
+                    784 字
+                  </span>
+                
+
+                
+                  
+                  <span class="post-meta mr-2">
+                      <i class="iconfont icon-clock-fill"></i>
+                    
+                    
+                    3
+                     分钟
+                  </span>
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  <span id="busuanzi_container_page_pv" class="post-meta" style="display: none">
+                    <i class="iconfont icon-eye" aria-hidden="true"></i>
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>
+                
+              </div>
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+              <p class="note note-info">
+                本文最后更新于：星期三, 四月 22日 2020, 9:52 晚上
+              </p>
+            
+            <article class="markdown-body">
+              <h2 id="1-基本操作"><a href="#1-基本操作" class="headerlink" title="1 基本操作"></a>1 基本操作</h2><h3 id="1-1-内容目录"><a href="#1-1-内容目录" class="headerlink" title="1.1 内容目录"></a>1.1 内容目录</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+<pre><code class="hljs json">[toc]</code></pre>
+
+<ul>
+<li>效果</li>
+</ul>
+<p>[TOC]</p>
+<h3 id="1-2-标题"><a href="#1-2-标题" class="headerlink" title="1.2 标题"></a>1.2 标题</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+<pre><code class="hljs bash"><span class="hljs-comment">#           一级标题</span>
+<span class="hljs-comment">##          二级标题</span>
+<span class="hljs-comment">###         三级标题</span>
+<span class="hljs-comment">####        四级标题</span>
+<span class="hljs-comment">#####       五级标题</span>
+<span class="hljs-comment">######      六级标题</span></code></pre>
+
+<h3 id="1-3-引用"><a href="#1-3-引用" class="headerlink" title="1.3 引用"></a>1.3 引用</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+<pre><code class="hljs ruby">&gt; 引用内容<span class="hljs-number">1</span>
+<span class="hljs-meta">&gt;&gt;</span> 引用内容<span class="hljs-number">2</span></code></pre>
+
+<ul>
+<li><p>效果</p>
+<blockquote>
+<p>引用内容1</p>
+<blockquote>
+<p>引用内容2</p>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<h3 id="1-4-文本居中"><a href="#1-4-文本居中" class="headerlink" title="1.4 文本居中"></a>1.4 文本居中</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">center</span>&gt;</span>居中文本<span class="hljs-tag">&lt;/<span class="hljs-name">center</span>&gt;</span></code></pre>
+
+<ul>
+<li><p>效果</p>
+<center>居中文本</center>
+
+</li>
+</ul>
+<h2 id="2-代码"><a href="#2-代码" class="headerlink" title="2 代码"></a>2 代码</h2><h3 id="2-1-单行代码"><a href="#2-1-单行代码" class="headerlink" title="2.1 单行代码"></a>2.1 单行代码</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs dart">‘<span class="hljs-built_in">String</span> str1 = <span class="hljs-string">"hello Typora"</span>;`</code></pre>
+
+<ul>
+<li><p>效果</p>
+<p><code>String str1 = "hello Typota";</code></p>
+</li>
+</ul>
+<h3 id="2-2-多行代码"><a href="#2-2-多行代码" class="headerlink" title="2.2 多行代码"></a>2.2 多行代码</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs go"><span class="hljs-string">``</span><span class="hljs-string">`(~~~) language</span>
+<span class="hljs-string">`</span><span class="hljs-string">``</span>              -&gt;普通文本
+<span class="hljs-string">``</span><span class="hljs-string">`c             -&gt;c语言</span>
+<span class="hljs-string">`</span><span class="hljs-string">``</span>python        -&gt;python 
+<span class="hljs-string">``</span><span class="hljs-string">`c++           -&gt;c++</span></code></pre>
+
+<ul>
+<li>效果</li>
+</ul>
+  <pre><code class="hljs c"><span class="hljs-keyword">int</span> a = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">int</span> b = <span class="hljs-number">20</span>;
+<span class="hljs-keyword">int</span> c = a + b;
+<span class="hljs-built_in">cout</span> &lt;&lt; c &lt;&lt; <span class="hljs-built_in">endl</span>;</code></pre>
+
+<h2 id="3-列表"><a href="#3-列表" class="headerlink" title="3 列表"></a>3 列表</h2><h3 id="3-1-无序列表"><a href="#3-1-无序列表" class="headerlink" title="3.1 无序列表"></a>3.1 无序列表</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs undefined">* 无序列表1
++ 无序列表2
+- 无序列表3</code></pre>
+
+<ul>
+<li><p>效果</p>
+<ul>
+<li><p>无序列表1</p>
+</li>
+<li><p>无序列表2</p>
+</li>
+<li><p>无序列表3</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-2-有序列表"><a href="#3-2-有序列表" class="headerlink" title="3.2  有序列表"></a>3.2  有序列表</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+<pre><code class="hljs undefined">1. 有序列表1
+2. 有序列表2
+3. 有序列表3</code></pre>
+
+<h3 id="3-3-任务列表"><a href="#3-3-任务列表" class="headerlink" title="3.3 任务列表"></a>3.3 任务列表</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs css"><span class="hljs-selector-tag">-</span> <span class="hljs-selector-attr">[ ]</span> 橘子
+<span class="hljs-selector-tag">-</span> <span class="hljs-selector-attr">[x]</span> 苹果
+<span class="hljs-selector-tag">-</span> <span class="hljs-selector-attr">[ ]</span> 香蕉</code></pre>
+
+<ul>
+<li><p>效果</p>
+<ul>
+<li><input disabled="" type="checkbox"> 橘子</li>
+<li><input checked="" disabled="" type="checkbox"> 苹果</li>
+<li><input disabled="" type="checkbox"> 香蕉</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-3-表格"><a href="#3-3-表格" class="headerlink" title="3.3 表格"></a>3.3 表格</h3><hr>
+<ul>
+<li>语法1(<em>直接输入</em>)</li>
+</ul>
+  <pre><code class="hljs ruby"><span class="hljs-params">|姓名|</span>性别<span class="hljs-params">|年龄|</span>手机号<span class="hljs-params">|</span>
+<span class="hljs-params">|</span><span class="hljs-symbol">:---|</span><span class="hljs-symbol">:--</span><span class="hljs-symbol">:|</span><span class="hljs-symbol">:--</span><span class="hljs-symbol">:|</span><span class="hljs-symbol">:---</span><span class="hljs-symbol">:|</span>
+<span class="hljs-params">|张三|</span>男<span class="hljs-params">|21|</span><span class="hljs-number">18975346876</span><span class="hljs-params">|</span>
+<span class="hljs-params">|</span>李四<span class="hljs-params">|女|</span><span class="hljs-number">23</span><span class="hljs-params">|17789548964|</span>
+<span class="hljs-params">|王五|</span>男<span class="hljs-params">|25|</span><span class="hljs-number">15876513546</span><span class="hljs-params">|</span></code></pre>
+
+<ul>
+<li><p>效果1</p>
+<table>
+<thead>
+<tr>
+<th align="left">姓名</th>
+<th align="center">性别</th>
+<th align="center">年龄</th>
+<th align="center">手机号</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">张三</td>
+<td align="center">男</td>
+<td align="center">21</td>
+<td align="center">18975346876</td>
+</tr>
+<tr>
+<td align="left">李四</td>
+<td align="center">女</td>
+<td align="center">23</td>
+<td align="center">17789548964</td>
+</tr>
+<tr>
+<td align="left">王五</td>
+<td align="center">男</td>
+<td align="center">25</td>
+<td align="center">15876513546</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>语法2(<em>使用快捷键</em>)</p>
+</li>
+</ul>
+  <pre><code class="hljs css">快捷键<span class="hljs-selector-attr">[ctrl + T]</span>, 设置行数和列数</code></pre>
+
+<ul>
+<li><p>效果2</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<h2 id="4-链接"><a href="#4-链接" class="headerlink" title="4 链接"></a>4 链接</h2><h3 id="4-1-图片"><a href="#4-1-图片" class="headerlink" title="4.1 图片"></a>4.1 图片</h3><hr>
+<ul>
+<li>语法1(<em>本地图片</em>)</li>
+</ul>
+  <pre><code class="hljs undefined">直接拖进来</code></pre>
+
+<ul>
+<li>语法2(<em>网络图片</em>)</li>
+</ul>
+  <pre><code class="hljs cpp">![typora.jpg](https:<span class="hljs-comment">//wxt.sinaimg.cn/thumb300/c260f7ably1gbnw6y8c2aj22c0340e89.jpg?tags=%5B%5D)</span></code></pre>
+
+<p>![img]<a href="https://wxt.sinaimg.cn/thumb300/c260f7ably1gbnw6y8c2aj22c0340e89.jpg?tags=%5B%5D" target="_blank" rel="noopener">https://wxt.sinaimg.cn/thumb300/c260f7ably1gbnw6y8c2aj22c0340e89.jpg?tags=%5B%5D</a>)</p>
+<p>typora.jpg</p>
+<h3 id="4-2-超链接"><a href="#4-2-超链接" class="headerlink" title="4.2 超链接"></a>4.2 超链接</h3><hr>
+<ul>
+<li>语法1(<em>不显示链接网址</em>)</li>
+</ul>
+  <pre><code class="hljs csharp">[<span class="hljs-meta">百度</span>](https:<span class="hljs-comment">//www.baidu.com)</span></code></pre>
+
+<ul>
+<li><p>效果1</p>
+<p><a href="https://links.jianshu.com/go?to=www.baidu.com" target="_blank" rel="noopener">百度</a></p>
+</li>
+<li><p>语法2(只显示url链接地址)</p>
+</li>
+</ul>
+  <pre><code class="hljs css">&lt;<span class="hljs-selector-tag">www</span><span class="hljs-selector-class">.baidu</span><span class="hljs-selector-class">.com</span>&gt;</code></pre>
+
+<ul>
+<li><p>效果2</p>
+<p>&lt;<a href="https://links.jianshu.com/go?to=http%3A%2F%2Fwww.baidu.com" target="_blank" rel="noopener">www.baidu.com</a>&gt;</p>
+</li>
+</ul>
+<h2 id="5-其他"><a href="#5-其他" class="headerlink" title="5 其他"></a>5 其他</h2><h3 id="5-1-斜体"><a href="#5-1-斜体" class="headerlink" title="5.1 斜体"></a>5.1 斜体</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs undefined">*斜体*
+_斜体_</code></pre>
+
+<ul>
+<li><p>效果</p>
+<p><em>斜体</em></p>
+</li>
+</ul>
+<h3 id="5-2-加粗"><a href="#5-2-加粗" class="headerlink" title="5.2 加粗"></a>5.2 加粗</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs undefined">**加粗**
+__加粗__</code></pre>
+
+<ul>
+<li><p>效果</p>
+<p><strong>加粗</strong></p>
+</li>
+</ul>
+<h3 id="5-3-加粗斜体"><a href="#5-3-加粗斜体" class="headerlink" title="5.3 加粗斜体"></a>5.3 加粗斜体</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs undefined">***加粗斜体***
+___加粗斜体___</code></pre>
+
+<ul>
+<li><p>效果</p>
+<p><strong><em>加粗斜体\</em></strong></p>
+</li>
+</ul>
+<h3 id="5-4-下划线"><a href="#5-4-下划线" class="headerlink" title="5.4 下划线"></a>5.4 下划线</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">u</span>&gt;</span>下划线<span class="hljs-tag">&lt;/<span class="hljs-name">u</span>&gt;</span></code></pre>
+
+<ul>
+<li><p>效果</p>
+<p><u>下划线</u></p>
+</li>
+</ul>
+<h3 id="5-5-删除线"><a href="#5-5-删除线" class="headerlink" title="5.5 删除线"></a>5.5 删除线</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs undefined">~~删除线~~</code></pre>
+
+<ul>
+<li><p>效果</p>
+<p><del>删除线</del></p>
+</li>
+</ul>
+<h3 id="5-6-分割线"><a href="#5-6-分割线" class="headerlink" title="5.6 分割线"></a>5.6 分割线</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs undefined">***
+---
+___</code></pre>
+
+<ul>
+<li><p>效果</p>
+<hr>
+</li>
+</ul>
+<h3 id="5-7-注释"><a href="#5-7-注释" class="headerlink" title="5.7 注释"></a>5.7 注释</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs css"><span class="hljs-selector-tag">Typora</span><span class="hljs-selector-attr">[^1]</span></code></pre>
+
+<ul>
+<li><p>效果</p>
+<p>Typora[^1]</p>
+</li>
+</ul>
+<h3 id="5-8-符号输入"><a href="#5-8-符号输入" class="headerlink" title="5.8 符号输入"></a>5.8 符号输入</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs bash">\\   反斜线
+\`   反引号
+\*   星号
+\_   底线
+\{ \}  花括号
+\[ \]  方括号
+\( \)  括弧
+\<span class="hljs-comment">#   井字号</span>
+\+   加号
+\-   减号
+\.   英文句点
+\!   惊叹号</code></pre>
+
+<ul>
+<li><p>效果</p>
+<p>\  `</p>
+</li>
+</ul>
+<h3 id="5-8-特殊字符"><a href="#5-8-特殊字符" class="headerlink" title="5.8 特殊字符"></a>5.8 特殊字符</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs bash">&amp;copy;      版权      
+&amp;reg;       注册商标
+&amp;trade;     商标
+&amp;nbsp;      空格
+&amp;amp;       和号
+&amp;quot;      引号
+&amp;apos;      撇号
+&amp;lt;        小于号
+&amp;gt;        大于号
+&amp;ne;        不等号
+&amp;le;        小于等于
+&amp;ge;        大于等于
+&amp;cent;      分
+&amp;pound;     磅
+&amp;euro;      欧元
+&amp;yen;       元
+&amp;sect;      节
+&amp;<span class="hljs-built_in">times</span>;     乘号
+&amp;divide;    除号
+&amp;plusmn;    正负号</code></pre>
+
+<h3 id="5-9-表情"><a href="#5-9-表情" class="headerlink" title="5.9 表情"></a>5.9 表情</h3><hr>
+<ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs css"><span class="hljs-selector-pseudo">:smiley</span>:</code></pre>
+
+<ul>
+<li><p>效果</p>
+<p>:smiley:</p>
+</li>
+</ul>
+<h2 id="6-操作"><a href="#6-操作" class="headerlink" title="6 操作"></a>6 操作</h2><h3 id="6-1-换行与换段"><a href="#6-1-换行与换段" class="headerlink" title="6.1 换行与换段"></a>6.1 换行与换段</h3><ul>
+<li>语法</li>
+</ul>
+  <pre><code class="hljs csharp">[<span class="hljs-meta">down</span>]                  不换行继续写
+[<span class="hljs-meta">enter</span>]                 换行
+[<span class="hljs-meta">shift + tab</span>]           缩进</code></pre>
+
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Typora/">Typora</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/posts/62840.html">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">金庸作品集 序</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/posts/29894.html">
+                        <span class="hidden-mobile">影视截图[刘亦菲]</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script defer src="https://cdn.staticfile.org/valine/1.4.4/Valine.min.js" ></script>
+
+  <script type="text/javascript">
+    var oldLoadVa = window.onload;
+    window.onload = function () {
+      oldLoadVa && oldLoadVa();
+
+      new Valine({
+        el: "#vcomments",
+        app_id: "1J6Q1jxQoNCihhNQiLbkRIAm-gzGzoHsz",
+        app_key: "FTjP6PahKXj4GNmBOVj66FYW",
+        placeholder: "说点什么吧~",
+        path: window.location.pathname,
+        avatar: "robohash",
+        meta: ["nick","mail","link"],
+        pageSize: "10",
+        lang: "zh-CN",
+        highlight: false,
+        recordIP: true,
+        serverURLs: "",
+        mathJax: false
+      });
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
+
+              </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+  <div class="col-lg-7 mx-auto nopadding-md">
+    <div class="container custom post-content mx-auto">
+      <center><span id="jinrishici-sentence">正在加载今日诗词....</span> <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center>
+    </div>
+  </div>
+
+
+    
+  </main>
+
+  
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
+  
+
+  
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  
+
+  
+
+  <footer class="mt-5">
+  <div class="text-center py-3">
+    <div>
+      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+      <i class="iconfont icon-love"></i>
+      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>
+    </div>
+    
+
+    
+
+    
+  </div>
+
+  <div> <center>
+    <span id="timeDate">载入天数...</span>
+    <span id="times">载入时分秒...</span>
+    <script>
+    var now = new Date();
+    function createtime(){
+        var grt= new Date("04/18/2020 02:10:00");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if(String(mnum).length ==1 ){
+                  mnum = "0" + mnum;
+        }
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if(String(snum).length ==1 ){
+                  snum = "0" + snum;
+        }
+        document.getElementById("timeDate").innerHTML = "本站已安全运行&nbsp"+dnum+"&nbsp天";
+        document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
+    }
+    setInterval("createtime()",250);
+    </script> </center>
+  </div>
+
+</footer>
+
+<!-- SCRIPTS -->
+<script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
+<script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/main.js" ></script>
+
+
+  <script  src="/js/lazyload.js" ></script>
+
+
+
+  
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '.post-content',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
+
+
+  <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
+  <script  src="/js/clipboard-use.js" ></script>
+
+
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+<!-- Plugins -->
+
+
+
+  <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
+  <script>
+    var typed = new Typed('#subtitle', {
+      strings: [
+        '  ',
+        "Typora使用手册&nbsp;",
+      ],
+      cursorChar: "_",
+      typeSpeed: 70,
+      loop: false,
+    });
+    typed.stop();
+    $(document).ready(function () {
+      $(".typed-cursor").addClass("h2");
+      typed.start();
+    });
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
+  <script>
+    anchors.options = {
+      placement: "right",
+      visible: "hover",
+      
+    };
+    var el = "h1,h2,h3,h4,h5,h6".split(",");
+    var res = [];
+    for (item of el) {
+      res.push(".markdown-body > " + item)
+    }
+    anchors.add(res.join(", "))
+  </script>
+
+
+
+  <script  src="/js/local-search.js" ></script>
+  <script>
+    var path = "/local-search.xml";
+    var inputArea = document.querySelector("#local-search-input");
+    inputArea.onclick = function () {
+      getSearchFile(path);
+      this.onclick = null
+    }
+  </script>
+
+
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript">
+      //定义获取词语下标
+      var a_idx = 0;
+      jQuery(document).ready(function ($) {
+        //点击body时触发事件
+        $("body").click(function (e) {
+          //需要显示的词语
+          var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善","奶子","奶子");
+          //设置词语给span标签
+          var $i = $("<span/>").text(a[a_idx]);
+          //下标等于原来下标+1  余 词语总数
+          a_idx = (a_idx + 1) % a.length;
+          //获取鼠标指针的位置，分别相对于文档的左和右边缘。
+          //获取x和y的指针坐标
+          var x = e.pageX, y = e.pageY;
+          //在鼠标的指针的位置给$i定义的span标签添加css样式
+          $i.css({
+            "z-index": 999,
+            "top": y - 20,
+            "left": x,
+            "position": "absolute",
+            "font-weight": "bold",
+            "color": rand_color()
+          });
+          // 随机颜色
+          function rand_color() {
+            return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+          }
+          //在body添加这个标签
+          $("body").append($i);
+          //animate() 方法执行 CSS 属性集的自定义动画。
+          //该方法通过CSS样式将元素从一个状态改变为另一个状态。CSS属性值是逐渐改变的，这样就可以创建动画效果。
+          //详情请看http://www.w3school.com.cn/jquery/effect_animate.asp
+          $i.animate({
+            //将原来的位置向上移动180
+            "top": y - 180,
+            "opacity": 0
+            //1500动画的速度
+          }, 1500, function () {
+            //时间到了自动删除
+            $i.remove();
+          });
+        });
+      })
+      ;
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

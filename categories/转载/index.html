@@ -170,31 +170,31 @@
       
       <p class="h5">2020</p>
     
-    <a href="/2020/04/22/Typora%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/" class="list-group-item list-group-item-action">
+    <a href="/posts/58413.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">Typora使用手册</span>
       <span style="float: right;">04-22</span>
     </a>
   
     
-    <a href="/2020/04/21/%E7%AC%91%E8%AF%9D%E4%B8%80%E5%88%99/" class="list-group-item list-group-item-action">
+    <a href="/posts/34972.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">笑话一则</span>
       <span style="float: right;">04-21</span>
     </a>
   
     
-    <a href="/2020/04/19/yaml/" class="list-group-item list-group-item-action">
+    <a href="/posts/54954.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">YAML 语法简介</span>
       <span style="float: right;">04-19</span>
     </a>
   
     
-    <a href="/2020/04/18/%E4%B8%80%E7%A7%8D%E6%87%92%E6%83%B0/" class="list-group-item list-group-item-action">
+    <a href="/posts/51966.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">一种懒惰</span>
       <span style="float: right;">04-18</span>
     </a>
   
     
-    <a href="/2020/04/18/%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E9%98%85%E8%AF%BB/" class="list-group-item list-group-item-action">
+    <a href="/posts/1472.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">人为什么要阅读</span>
       <span style="float: right;">04-18</span>
     </a>
@@ -259,6 +259,39 @@
 
     
   </div>
+
+  <div> <center>
+    <span id="timeDate">载入天数...</span>
+    <span id="times">载入时分秒...</span>
+    <script>
+    var now = new Date();
+    function createtime(){
+        var grt= new Date("04/18/2020 02:10:00");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if(String(mnum).length ==1 ){
+                  mnum = "0" + mnum;
+        }
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if(String(snum).length ==1 ){
+                  snum = "0" + snum;
+        }
+        document.getElementById("timeDate").innerHTML = "本站已安全运行&nbsp"+dnum+"&nbsp天";
+        document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
+    }
+    setInterval("createtime()",250);
+    </script> </center>
+  </div>
+
 </footer>
 
 <!-- SCRIPTS -->
