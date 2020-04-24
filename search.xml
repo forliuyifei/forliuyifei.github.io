@@ -4,6 +4,54 @@
   
     
     <entry>
+      <title>测试捐赠功能</title>
+      <link href="/posts/49222.html"/>
+      <url>/posts/49222.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>源码来自<a href="https://kaiyuan.github.io/sponsor-page/" target="_blank" rel="noopener">Sponsor-Page</a></p><a id="more"></a><iframe src="https://forliuyifei.github.io/donate-page/drinks/index.html" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;" frameborder="0" scrolling="no"></iframe><center>上面这个似乎有问题</center><iframe src="https://forliuyifei.github.io/donate-page/simple/" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;" frameborder="0" scrolling="no"></iframe><center>这个正常，不过暂时没有PayPal和比特币账户</center><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo博客文章封面添加触摸过渡动画</title>
+      <link href="/posts/15656.html"/>
+      <url>/posts/15656.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"><a href="#不会css的小白如何给hexo博客文章封面添加触摸过渡动画？" class="headerlink" title="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"></a>不会css的小白如何给hexo博客文章封面添加触摸过渡动画？</h2><p>几天前看到晴初大佬写的面向小白的用css美化网站的教程，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p><p>但我想要的只是给文章封面添加触摸变大过渡动画。</p><p>先用万能的右键检查定位到自己需要改动的地方：</p><p><img src="https://github.com/forliuyifei/img/blob/mater/img/Snipaste_2020-04-24_18-23-39.jpg?raw=true" srcset="/img/loading.gif" alt=""></p><p>大概就是这个 <strong>.index_img</strong> 了，具体如何实现呢？</p><p>百度一下找到这篇教程</p><blockquote><h4 id="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"><a href="#css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）" class="headerlink" title="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"></a><a href="https://www.cnblogs.com/yangslin/p/9347075.html" target="_blank" rel="noopener">css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）</a></h4><p>1）.CSS3的transform:scale()可以实现按比例放大或者缩小功能。</p><p>2）.CSS3的transition允许CSS的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。</p><p>3）.transition: all 0.6s;表示所有的属性变化在0.6s的时间段内完成。</p><p>4）transform: scale(1.4);表示在鼠标放到图片上的时候图片按比例放大1.4倍。</p><pre><code class="hljs plain">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset="UTF-8"&gt;&lt;title&gt;&lt;/title&gt;&lt;style type="text/css"&gt;div{　　width: 300px;　　height: 300px;　　border: #000 solid 1px;　　margin: 50px auto;　　overflow: hidden;}div img{　　cursor: pointer;　　transition: all 0.6s;}div img:hover{　　transform: scale(1.4);}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;　　&lt;div&gt;　　　　&lt;img src="img/focus.png" /&gt;　　&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</code></pre></blockquote><p>有些傻眼，方向大概对了但格式不是我想要的🤪</p><p>再查查现在用的Fluid主题配置说明</p><blockquote><h4 id="自定义-JS-CSS-HTML"><a href="#自定义-JS-CSS-HTML" class="headerlink" title="自定义 JS / CSS / HTML"></a><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener">自定义 JS / CSS / HTML</a></h4><p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p><pre><code class="hljs yaml"><span class="hljs-comment"># 指定自定义 js 文件路径，路径是相对 source 目录</span><span class="hljs-attr">custom_js:</span> <span class="hljs-string">/js/custom.js</span><span class="hljs-comment"># 指定自定义 css 文件路径，路径是相对 source 目录</span><span class="hljs-attr">custom_css:</span> <span class="hljs-string">/css/custom.css</span></code></pre></blockquote><p>似乎还是麻烦了点🤔</p><p>💡Fluid主题的css配置文件夹里肯定有相关内容，找出来直接往后补充就是了，不行就Crtl+Z撤回</p><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.gif" alt=""></p><p>对齐img的下一级内容</p><pre><code class="hljs plain">border-radius .25remcursor: pointertransition: all 0.6s&amp;:hover  transform: scale(1.1)</code></pre><p>保存刷新页面看看，成功了！<br>速度和大小都合适。</p><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-46-12.png" srcset="/img/loading.gif" alt=""></p><iframe src="https://forliuyifei.github.io/donate-page/simple/" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;" frameborder="0" scrolling="no"></iframe><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 原创 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 问题&amp;解决 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> 美化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[电脑好软]洋芋田图像工具箱</title>
       <link href="/posts/35787.html"/>
       <url>/posts/35787.html</url>
