@@ -4,6 +4,96 @@
   
   
   <entry>
+    <title>豪猪理论</title>
+    <link href="/posts/4985.html"/>
+    <url>/posts/4985.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><blockquote><p>由于人的内在空虚和单调而产生出来的社交需要把人们赶到一块。<br>但各人许多令人厌恶的素质和无法让人容忍的缺点又把人们分开。<br>人们最后找到的、可以让大家在一起而又能相互容忍的适中距离就是礼貌周到和文雅规矩。</p></blockquote><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>名词解释</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>[刷机记录]PE→MIUI12→Havoc</title>
+    <link href="/posts/28684.html"/>
+    <url>/posts/28684.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul><li><p>进rec时卡在橙狐的启动界面，更至最新版recovery.img，成功进入  </p></li><li><p>退出谷歌账号以防万一。<br>PE更新竟然出现问题，rom刷入成功但无限重启至rec，无法开机<br>找到之前的完整包应该能解决,但想换换口味了,这几个月的PE也不是很好用😶 </p></li><li><p>备份部分数据至硬盘，格式化data，刷入MIUI 12内测版<br>成功开机，但极其卡顿，按照别人的前车之鉴更新桌面、改主题，依旧各种卡死，无奈🙄</p></li><li><p>老规矩格式化data，刷Havoc3.4版，出现错误7<br>删除updater-script文件内前两行机型验证代码后重刷成功。</p></li></ul><hr><h3 id="Havoc特色："><a href="#Havoc特色：" class="headerlink" title="Havoc特色："></a>Havoc特色：</h3><blockquote><ul><li>流畅省电自定义丰富，最基本的</li><li>手势可设置长滑触发操作项</li><li>长截图(不是很完美但也差不多够用)</li><li>动画舒服，配合sub主题liv white，细节更漂亮</li><li><code>自带支持内录音频的录屏​功能</code></li><li>fps和CPU小浮窗  </li><li>最近任务界面切换及其顺滑  </li><li>平时鸡肋旦某些情况下可能有用的屏幕稳定功能  </li><li>动画精确至0.1x级别调整</li><li><code>SafetyNet完美通过</code>，微信和支付宝指纹支付正常使用</li><li>WiFi信号比用PE的时候强一些</li><li>对双卡用户更友好，<code>支持磁贴快速切换双卡数据</code>(以前用过的类原生RR、AEX、LOS、PE、魔趣等等系统切卡都不方便)</li><li>其它原生系统有的功能它也基本不缺</li></ul></blockquote><hr><p>暂时就这些吧，想到再补充(￣▽￣)”</p><p><em><del>最近经常纠结要不要句号</del>🤔</em></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>刷机</tag>
+      
+      <tag>Havoc</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>晋灵公不君</title>
+    <link href="/posts/39717.html"/>
+    <url>/posts/39717.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>晋灵公不君<br>先秦：左丘明</p><p>　　晋灵公不君。厚敛以雕墙。从台上弹人，而观其辟丸也。宰夫胹熊蹯不熟，杀之，寘诸畚，使妇人载以过朝。赵盾、士季见其手，问其故而患之。将谏，士季曰：“谏而不入，则莫之继也。会请先，不入，则子继之。”三进及溜，而后视之。曰： “吾知所过矣，将改之。”稽首而对曰：“人谁无过？过而能改，善莫大焉。诗曰：‘靡不有初，鲜克有终。’夫如是，则能补过者鲜矣。君能有终，则社稷之固也，岂惟群臣赖之。又曰：‘衮职有阙，惟仲山甫补之。’能补过也。君能补过，衮不废矣。”</p><p>　　犹不改。宣子骤谏。公患之，使鉏麑贼之。晨往，寝门辟矣。盛服将朝，尚早，坐而假寐。麑退，叹而言曰：“不忘恭敬，民之主也。贼民之主，不忠；弃君之命，不信。有一于此，不如死也。”触槐而死。</p><p>　　秋九月，晋侯饮赵盾酒，伏甲将攻之。其右提弥明知之, 趋登，曰：“臣侍君宴，过三爵，非礼也。”遂扶以下。公嗾夫獒焉。明搏而杀之。盾曰：“弃人用犬，虽猛何为！”斗且出。提弥明死之。</p><p>　　初，宣子田于首山，舍于翳桑。见灵辄饿，问其病，曰： “不食三日矣。”食之，舍其半。问之，曰：“宦三年矣，未知母之存否。今近焉，请以遗之。”使尽之，而为之箪食与肉，寘诸橐以与之。既而与为公介，倒戟以御公徒，而免之。问何故，对曰：“翳桑之饿人也。”问其名居，不告而退。——遂自亡也。</p><p>　　乙丑，赵穿攻灵公于桃园。宣子未出山而复。大史书曰： “赵盾弑其君。”以示于朝。宣子曰：“不然。”对曰：“子为正卿， 亡不越竟，反不讨贼，非子而谁？”宣子曰：“乌呼！‘我之怀矣，自诒伊戚’，其我之谓矣！”</p><p>　　孔子曰：“董狐，古之良史也，书法不隐。赵盾，古之良大夫也，为法受恶。惜也，越竟乃免。”</p><p>　　宣子使赵穿逆公子黑臀于周而立之。壬申，朝于武宫。</p><p> 译文<br>　　晋灵公不行君道，大量征收赋税来满足奢侈的生活。他从高台上用弹弓射行人，观看他们躲避弹丸的样子。厨师没有把熊掌炖烂，他就把厨师杀了，放在筐里，让宫女们用车载经过朝廷。大臣赵盾和士季看见露出的死人手，便询问他被杀的原因，并为晋灵公的无道而忧虑。他们准备规劝晋灵公，士季说：“如果您去进谏而国君不听，那就没有人能接着进谏了。让我先去规劝，他不接受，您就接着去劝谏。”士季去见晋灵公时往前走了三次（伏地行礼三次，晋灵公假装没有看见他），到了屋檐下，晋灵公才抬头看他，并说：“我已经知道自己的过错了，打算改正。”士季叩头回答说：“哪个人能不犯错误呢，犯了错误能够改正，没有比这更大的好事了。《诗·大雅· 荡》说：‘没有谁向善没一个开始的，但很少（有人）能坚持到底。’如果这样，那么弥补过失的人就太少了。您如能始终坚持向善，那么国家就有了保障，而不止是臣子们有了依靠。《诗·大雅·烝民》又说： ‘周宣王有了过失，只有仲山甫来弥补。’这是说周宣王能补救过失。 国君能够弥补过失，君位就不会失去了。”</p><p>　　可是晋灵公仍然没有改正。赵盾又多次劝谏，使晋灵公感到厌烦，晋灵公便派鉏麑去刺杀赵盾。鉏麑一大早就去了赵盾的家，只见卧室的门开着，赵盾穿戴好礼服准备上朝，时间还早，他和衣坐着打盹儿。鉏麑退了出来，感叹地说：“时刻不忘记恭敬国君（指按时上朝），真是百姓的靠山啊。杀害百姓的靠山，这是不忠；背弃国君的命令，这是失信。不忠不信中有一样违背了，还不如去死！”于是，鉏麑一头撞在槐树上死了。</p><p>　　秋天九月，晋灵公请赵盾喝酒，事先埋伏下武士，准备杀掉赵盾。赵盾的车夫提弥明发现了这个阴谋，快步走上殿堂，说：“臣下陪君王宴饮，酒过三巡还不告退，就不合礼仪了。”于是他扶起赵盾走下殿堂。晋灵公唤出了猛犬来咬赵盾。提弥明徒手上前搏斗，打死了猛犬。赵盾说：“不用人而用狗，即使凶猛，又有什么用！”他们两人与埋伏的武士边打边退。结果，提弥明为赵盾战死了。</p><p>　　当初，赵盾到首阳山打猎，住在翳桑。他看见有个叫灵辄的人晕倒了，便去问他的病情。灵辄说：“我已经多日没吃东西了。”赵盾给他东西吃，他留下了一半。赵盾询问原因，灵辄说：“我在外当奴仆已经多年了，不知道家中老母是否活着。现在离家近了，请允许我把这一半留给她。”赵盾让他把食物吃完，另外给他准备了一篮饭和肉，放在口袋里给他。不久灵辄做了晋灵公的武士，他在搏杀中把武器倒过来抵挡晋灵公手下的人，使赵盾得以脱险。赵盾问他为什么这样做，他回答说：“我就是在翳桑的饿汉。”赵盾再问他的姓名和住处，他没有回答就退走了。赵盾自己也逃亡了。</p><p>　　九月二十六日，赵穿在桃园杀掉了晋灵公。赵盾还没有走出国境的山界，听到灵公被杀便回来了。晋国太史董狐记载道：“赵盾弑杀了他的国君。”他还把这个说法拿到朝廷上公布。赵盾说： “不是这样。”董狐说：“您身为正卿，逃亡而不出国境，回来后又不讨伐叛贼，不是您杀了国君又是谁呢？”赵盾说：“哎！《诗经》中说：‘由于我怀念祖国，反而自己找来了忧患。’这话大概说的是我吧。”</p><p>　　孔子说：“董狐是古代的好史官，记载史事的原则是直言不讳。赵盾是古代的好大夫，因为史官的记事原则而蒙受了弑君的恶名。 可惜啊，如果他出了国境，就会避免弑君之名了。”</p><p>　　赵盾派赵穿到成周去迎接晋国公子黑臀，把他立为国君。十月初三，公子黑臀去朝拜了武公庙。</p><p>赏析</p><p>　　不知道是否有心理学家专门研究过历史上的暴君的心理，这种研究肯定很有意思。在平常人看来，暴君们的言行举止都有些异乎寻常，按正常人来说是匪夷所思的。比如，夏桀的宠姬妺喜爱听裂帛声，建造过“酒池肉林”；商纣王的酷刑“金瓜击顶”、“炮烙”、“虿盆”、做人的肉羹、活剖孕妇等等。</p><p>　　晋灵公弹射路人、杀厨子游尸的举动，仅仅用一般的残暴、狠是难以说明的，恐怕总有些变态心理，或者歇斯底里症一类的精神病，才能解释他的怪癖行径。如果真是这样，除了治病、关进疯人院之外，没有任何办法让他改邪归正，或者像赵穿那样，将其杀掉，以免危害更多的人。</p><p>　　中国传统政治制度致命的痼疾就在于，无论所谓的“天子”多么愚笨、痴呆，无论多么残暴、缺德，无论多么变态。病入膏肓，都是“神圣”的，不可冒犯的，不可弹劾讨伐的，否则，便会犯下各种“罪行”：欺君，亵渎，犯上作乱，直至弑君。而且，这些罪行都是弥天大罪，不可赦免，甚至可以诛灭九族。</p><p>　　虽然有此痼疾，但让人感叹不已的是，无论在哪个时代，只要有昏情残暴的暴政。苛政存在，就有敢于诤言直谏的义士出现，并有敢于弑君的勇士出现，前者如赵盾，后者如赵穿。他们明知自己的行为将要以自己的生命作为代价，甚至还包括以自己亲人的生命为代价，依然大义凛然，慷慨陈词，视死如归。</p><p>　　这些词语，只有用在这些义士、勇士身上才是沉甸甸的、掷地有声的、名实相符的。</p><p>　　其实，敢于直谏、敢于弑暴君，已远不止是一种一时冲动的个人行为，更不是宗教信徒的迷狂。它是一种非常清醒的、理智的选择，是不得不如此的抉择。有时，明知暴君不可理喻，有时明知自己的行动无异于以卵击石，自投罗网，如荆柯刺秦临行前 所唱：“风萧萧兮易水寒，壮士一去兮不复还”，但是，它们所体现的是一种精神，是一种具有普遍意义的永恒的正义，即决不向残暴专制、黑暗腐朽屈膝让步的决心。</p><p>　　正如希腊神话传说中的西西弗斯明知自己推上山的巨石要滚下来一样，依然坚持不懈地推下去。人类的精神和行动的意义，就在过程之中显示了出来，结果则是次要的了，甚至并不重要了。</p><p>　　面对残暴和死亡而敢于挺身而出，这种行为表示了一种严正的抗议，表示了一种不屈的精神。翻看历史，这种抗议和精神从来就没有中断过，就好比光明和黑暗从来都是相随相伴，哪一方都没有消失过一样。也许，光明和黑暗永远都会这么抗衡下去，直到人类不再存在。▲</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>收藏</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>古文</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>[笑话]历史人物</title>
+    <link href="/posts/14751.html"/>
+    <url>/posts/14751.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="历史上有哪些著名的笑话？"><a href="#历史上有哪些著名的笑话？" class="headerlink" title="历史上有哪些著名的笑话？"></a><a href="https://www.zhihu.com/question/285172918/answer/1171582662" target="_blank" rel="noopener">历史上有哪些著名的笑话？</a></h2><p><a href="https://www.zhihu.com/people/liu-yun-qi-71" target="_blank" rel="noopener">山田起主任</a></p><p>兄弟情深李世民，善待功臣朱元璋。好为人父石敬瑭，妙笔生花张宗昌。</p><p>安分守己李闯王，忠心耿耿冯玉祥。收复幽云赵光义，血战东北张学良。</p><p>爱民如子张献忠，变法先驱司马光。横扫英法咸丰帝，独尊儒术秦始皇。</p><p>忠孝两全伍子胥，两袖清风和中堂。灭蜀先锋夏侯霸，抗金志士张邦昌。</p><p>寿比南山王子安，白头偕老胶东王。饮马嫩江宋徽宗，威震关中秦舞阳。</p><p>身轻如燕安禄山，铁血男儿魏忠贤。死守长安李隆基，保卫潼关哥舒翰。</p><p>天生丽质贾南风，母慈子孝武则天。冰清玉洁刘楚玉，不近女色洪秀全。</p><p>忠君爱国洪承畴，五年复辽袁崇焕。男儿自强张易之，坐怀不乱柳三变。</p><p>宽厚仁爱完颜亮，大魏忠臣司马炎。不事二主刘玄德，匡扶汉室曹子桓。</p><p>铁面无私严惟中，民族英雄张弘范。九尺大汉宋公明，贞洁烈女赵飞燕。</p><p>伉俪情深张灵甫，扫黄始祖管夷吾。忠君之士宇文护，东晋恩公刘寄奴。</p><p>白手起家周亚夫，千里援侄明成祖。睦邻友好金兀术，憨厚老实李林甫。</p><p>义助表弟唐国公，爱惜朝臣尔朱荣。完体将军李克用，大唐栋梁朱全忠。</p><p>佛性禅心唐武宗，用兵如神李景隆。算无遗策司马衷，捍卫大隋王世充。</p><p>花园救旱常凯申，心慈好善来俊臣。薛礼爱将郭待封，蹈节死义朱祁镇。</p><p>谦恭奉君贺六浑，艰苦朴素石季伦。东林骨干许显纯，仁义无双多尔衮。</p><p>承欢膝下隋明帝，思明孝子史朝义。冬泳好手钱谦益，慈悲为怀公孙起。</p><p>千金难买百里奚，誓不谋反侯君集。战无不胜李广利，攻城达人尹子奇。</p><p>荡平辽国杜重威，迁都上京石重贵。反清复明吴三桂，马革裹尸汪精卫。</p><p>开发建康侯元景，建设洛阳董仲颖。柴氏股肱赵匡胤，屈己待人祢正平。</p><p>励精图治嬴胡亥，飞夺泸定石达开。口齿伶俐邓士载，剿匪义士高从海。</p><p>自主创业孙仲谋，功成身退淮阴侯。卖肾犒军西太后，戒酒楷模欧阳修。</p><p>平壤英雄叶志超，襄阳烈士贾似道。居家宅男朱厚照，大宋忠魂李元昊。</p><p>不爱人妻曹孟德，视死如归于文则。铁骨铮铮郭沫若，玉树临风李辅国。</p><p>只手遮天元善见，清心寡欲朱文公。安土重迁姚广孝，青梅竹马唐玄宗。</p><p>女权斗士辜鸿铭，儒雅随和李如松。兄友弟恭郑寤生，阖家团圆方孝孺。</p><p>健步如飞朱高炽，居功至伟陈后主。纯真少年刘子业，儿孙满堂嬴子楚。</p><p>肤白貌美欧阳询，尊老爱幼汉高祖。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>转载</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>笑话</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>[技巧][chrome]视频强行画中画模式</title>
     <link href="/posts/37473.html"/>
     <url>/posts/37473.html</url>
@@ -160,7 +250,7 @@
   
   
   <entry>
-    <title>影视截图[刘亦菲]</title>
+    <title>[影视截图] 刘亦菲</title>
     <link href="/posts/29894.html"/>
     <url>/posts/29894.html</url>
     
@@ -183,49 +273,7 @@
   
   
   <entry>
-    <title>[影视截图]04</title>
-    <link href="/posts/33265.html"/>
-    <url>/posts/33265.html</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="刺猬的优雅"><a href="#刺猬的优雅" class="headerlink" title="刺猬的优雅"></a>刺猬的优雅</h4><p><img src="https://pic.downk.cc/item/5ea0041bc2a9a83be56ee231.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0044fc2a9a83be56efece.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00469c2a9a83be56f11fd.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0047fc2a9a83be56f2c86.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="CMBYN"><a href="#CMBYN" class="headerlink" title="CMBYN"></a>CMBYN</h4><p><img src="https://pic.downk.cc/item/5ea004a3c2a9a83be56f54f2.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea004dac2a9a83be56f871c.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea004f5c2a9a83be56f9f58.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00509c2a9a83be56faed4.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00519c2a9a83be56fbe02.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="十二猴子"><a href="#十二猴子" class="headerlink" title="十二猴子"></a>十二猴子</h4><p><img src="https://pic.downk.cc/item/5ea00562c2a9a83be5700680.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0057cc2a9a83be5702081.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0058cc2a9a83be57031f8.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea005a1c2a9a83be57043f0.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea005b6c2a9a83be57058c3.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>[影视截图]03</title>
-    <link href="/posts/17328.html"/>
-    <url>/posts/17328.html</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="无间道"><a href="#无间道" class="headerlink" title="无间道"></a>无间道</h4><p><img src="https://pic.downk.cc/item/5ea0026dc2a9a83be56dc733.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0022dc2a9a83be56d8ff8.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00285c2a9a83be56dddfc.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="倩女幽魂"><a href="#倩女幽魂" class="headerlink" title="倩女幽魂"></a>倩女幽魂</h4><p><img src="https://pic.downk.cc/item/5ea002c8c2a9a83be56e1535.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea002eac2a9a83be56e2bfc.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea002f9c2a9a83be56e362a.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0030ac2a9a83be56e3f1d.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00321c2a9a83be56e499b.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00332c2a9a83be56e533c.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00348c2a9a83be56e5d36.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0035bc2a9a83be56e6702.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00379c2a9a83be56e7582.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-    <categories>
-      
-      <category>收藏</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>影视截图</tag>
-      
-      <tag>王祖贤</tag>
-      
-      <tag>梁朝伟</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>[影视截图][大话西游]</title>
+    <title>[影视截图] 大话西游</title>
     <link href="/posts/13755.html"/>
     <url>/posts/13755.html</url>
     
@@ -248,32 +296,7 @@
   
   
   <entry>
-    <title>[影视截图]02</title>
-    <link href="/posts/33649.html"/>
-    <url>/posts/33649.html</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="白日梦想家"><a href="#白日梦想家" class="headerlink" title="白日梦想家"></a>白日梦想家</h4><p>2017-07-09<br><img src="https://pic.downk.cc/item/5e9ffd28c2a9a83be568c6c9.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="摔跤吧爸爸"><a href="#摔跤吧爸爸" class="headerlink" title="摔跤吧爸爸"></a>摔跤吧爸爸</h4><p>2017-07-24<br><img src="https://pic.downk.cc/item/5e9ffda6c2a9a83be5690b69.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="神奇女侠"><a href="#神奇女侠" class="headerlink" title="神奇女侠"></a>神奇女侠</h4><p>2017-07-30<br><img src="https://pic.downk.cc/item/5e9ffdd8c2a9a83be5695160.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ffe16c2a9a83be569ae21.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ffe07c2a9a83be569984e.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="瑞士军刀男"><a href="#瑞士军刀男" class="headerlink" title="瑞士军刀男"></a>瑞士军刀男</h4><p>2017-08-26<br><img src="https://pic.downk.cc/item/5e9ffe4ac2a9a83be569f822.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="恋空"><a href="#恋空" class="headerlink" title="恋空"></a>恋空</h4><p>2017-08-30<br><img src="https://pic.downk.cc/item/5e9ffefac2a9a83be56ac821.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff09c2a9a83be56ad2a7.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff34c2a9a83be56af0fa.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff44c2a9a83be56afc34.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9fff70c2a9a83be56b2b36.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="逃耻"><a href="#逃耻" class="headerlink" title="逃耻"></a>逃耻</h4><p>2017-08-31<br><img src="https://pic.downk.cc/item/5e9fffd3c2a9a83be56b770b.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="李狗嗨"><a href="#李狗嗨" class="headerlink" title="李狗嗨"></a>李狗嗨</h4><p>2017-09-06<br><img src="https://pic.downk.cc/item/5ea0002bc2a9a83be56bb991.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-    <categories>
-      
-      <category>收藏</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>影视截图</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>[影视截图][断发]</title>
+    <title>[影视截图] 断发</title>
     <link href="/posts/51590.html"/>
     <url>/posts/51590.html</url>
     
@@ -292,31 +315,6 @@
       <tag>影视截图</tag>
       
       <tag>断发</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>[影视截图]01</title>
-    <link href="/posts/33329.html"/>
-    <url>/posts/33329.html</url>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="功夫熊猫3"><a href="#功夫熊猫3" class="headerlink" title="功夫熊猫3"></a>功夫熊猫3</h4><p>2016-02-29<br><img src="https://pic.downk.cc/item/5e9ff30ec2a9a83be5622827.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff3ffc2a9a83be562a8ee.png" srcset="/img/loading.gif" alt=""></p><h4 id="千与千寻"><a href="#千与千寻" class="headerlink" title="千与千寻"></a>千与千寻</h4><p>2016-04-09<br><img src="https://pic.downk.cc/item/5e9ff634c2a9a83be563fbb5.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff655c2a9a83be56418aa.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff66bc2a9a83be5642e6a.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff602c2a9a83be563df58.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff5dfc2a9a83be563c8fe.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff5afc2a9a83be5639edc.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff59ac2a9a83be563892e.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff560c2a9a83be563605d.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="疯狂动物城"><a href="#疯狂动物城" class="headerlink" title="疯狂动物城　　"></a>疯狂动物城　　</h4><p>2016-04-29<br><img src="https://pic.downk.cc/item/5e9ff7b9c2a9a83be5650d97.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff748c2a9a83be564cf76.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff80ac2a9a83be565443b.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff83ec2a9a83be5656984.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="像素大战"><a href="#像素大战" class="headerlink" title="像素大战"></a>像素大战</h4><p>2016-04-30<br><img src="https://pic.downk.cc/item/5e9ff4cbc2a9a83be5630728.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="我的特工爷爷"><a href="#我的特工爷爷" class="headerlink" title="我的特工爷爷"></a>我的特工爷爷</h4><p>2016-05-28<br><img src="https://pic.downk.cc/item/5e9ff92ec2a9a83be56602f8.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ff977c2a9a83be5663113.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="盗梦空间"><a href="#盗梦空间" class="headerlink" title="盗梦空间"></a>盗梦空间</h4><p>2016-07-02<br><img src="https://pic.downk.cc/item/5e9ffa1cc2a9a83be566b381.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5e9ffaa0c2a9a83be5670b77.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-    <categories>
-      
-      <category>收藏</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>影视截图</tag>
       
     </tags>
     
@@ -521,7 +519,7 @@
     <link href="/posts/63700.html"/>
     <url>/posts/63700.html</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>边区群众中的迷信现象，现在比从前少多了，但是还不能消灭，其中一个最主要的原因就是医药卫生工作还不普及。群众没有旁的方法战胜疾病、死亡的威胁，只有相信神仙。</p><p>选自《关于陕甘宁边区的文化教育问题》 (一九四四年三月二十二日) 毛文集 ​​​</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>边区群众中的迷信现象，现在比从前少多了，但是还不能消灭，其中一个最主要的原因就是医药卫生工作还不普及。群众没有旁的方法战胜疾病、死亡的威胁，只有相信神仙。</p><a id="more"></a><p>选自《关于陕甘宁边区的文化教育问题》 (一九四四年三月二十二日) 毛文集 ​​​</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     
     <categories>
