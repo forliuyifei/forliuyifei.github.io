@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://forliuyifei.github.io/"/>
-  <updated>2020-05-16T08:00:21.148Z</updated>
+  <updated>2020-05-16T16:04:24.845Z</updated>
   <id>http://forliuyifei.github.io/</id>
   
   <author>
@@ -17,13 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>免费图床怎么选</title>
+    <link href="http://forliuyifei.github.io/posts/19229.html"/>
+    <id>http://forliuyifei.github.io/posts/19229.html</id>
+    <published>2020-05-16T15:23:16.000Z</published>
+    <updated>2020-05-16T16:04:24.845Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><h5 id="GitHub仓库"><a href="#GitHub仓库" class="headerlink" title="GitHub仓库"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub仓库</a></h5><p>背靠微软，家大业大,不怕丢失文件</p><p><em>国内速度慢，上传图片会压缩，仓库必须公开</em></p><p>适合小图或者webp格式图片，没挂梯子加载大图容易使人心态爆炸</p></li></ol><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/20200424131925.png" srcset="/img/loading.gif" alt=""></p><ol start="2"><li><h5 id="sm-ms"><a href="#sm-ms" class="headerlink" title="sm.ms"></a><a href="[https://sm.ms](https://sm.ms/">sm.ms</a></h5><p>在业内也算有名，应该不容易挂</p><p>5G免费空间，单图最大5M</p><p>上传速度稳定</p><p>支持管理历史上传图片</p><p><em>图片加载速度似乎不是很快，也许是我的网络问题，而且自动压图成webp</em></p><p>适合放些<code>不重画质，只专注于传达内容</code>的教程图片</p></li></ol><p><img src="https://i.loli.net/2020/05/16/OSR1ZYqGrgUupnM.jpg" srcset="/img/loading.gif" alt="u=3394317671,3209380658&amp;fm=173&amp;app=49&amp;f=JPEG.jpeg"></p><ol start="3"><li><h5 id="聚合图床"><a href="#聚合图床" class="headerlink" title="聚合图床"></a><a href="https://www.superbed.cn" target="_blank" rel="noopener">聚合图床</a></h5><p>将图片分发到多处备份，借助其本身的CDN加速功能，节省服务器流量</p><p>并且不用担心图片被删除，即便其中某几个图床上的图片被删除了，还有其他备份，保证万无一失</p><p>支持匿名和注册管理</p><p>免费版图片限制5M</p><p>速度还行</p><p>上传了几十张图片,过去将近一个月,并未发现失效</p><p><em>似乎会压图</em></p><p><em>至少100一年的基础会员还是太贵了，继续白嫖吧</em><br><a href="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf" srcset="/img/loading.gif" alt=""></a></p></li><li><h5 id="牛图网"><a href="#牛图网" class="headerlink" title="牛图网"></a><a href="https://www.niupic.com/" target="_blank" rel="noopener">牛图网</a></h5><p>高速外链：上传的照片可以分享给任何国家的任何人,自动选择离访客最近的云存储节点</p><p>无流量限制</p><p>无水印</p><p><em>无注册上传，应该算个缺点，不能管理历史图片</em></p><p><em>经测试，5.18MB的图片上传后再下载变成5.51MB，不清楚加了啥料</em></p><p>也许能用来放壁纸画像<br><img src="https://i.niupic.com/images/2020/05/16/7SbO.png" srcset="/img/loading.gif" alt=""></p></li></ol><hr><p>暂时主要用上面这些,各种各样的图床弄得很头大,<del>你说有钱多好</del></p><p>其它图床有待测试</p><p>有任何推荐可在评论区随意留言👇</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="白嫖" scheme="http://forliuyifei.github.io/tags/%E7%99%BD%E5%AB%96/"/>
+    
+      <category term="图床" scheme="http://forliuyifei.github.io/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
+  
+  <entry>
     <title>昨晚瞅见的神仙身材</title>
     <link href="http://forliuyifei.github.io/posts/63355.html"/>
     <id>http://forliuyifei.github.io/posts/63355.html</id>
     <published>2020-05-16T07:39:00.000Z</published>
-    <updated>2020-05-16T08:00:21.148Z</updated>
+    <updated>2020-05-16T13:40:29.589Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>如图<br><img src="https://scontent-hkt1-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/71825270_528485981302608_2200182316431026725_n.jpg?_nc_ht=scontent-hkt1-1.cdninstagram.com&amp;_nc_cat=100&amp;_nc_ohc=IQG05YRI-EsAX89NKSF&amp;oh=8772fc34a7412b2f767250ed2ec93dcb&amp;oe=5EEB17BB" srcset="/img/loading.gif" alt=""></p><p><del>7分练3分吃，90分靠基因</del>🍋🍋🍋   </p><p><del>希望图链别挂</del><br>图源 <a href="https://www.instagram.com/azraelrenee" target="_blank" rel="noopener">@azraelrenee</a></p><hr><p><del><a href="https://scontent-hkt1-1.cdninstagram.com/v/t51.2885-15/e35/79867120_181583796295653_452105490775147601_n.jpg?_nc_ht=scontent-hkt1-1.cdninstagram.com&amp;_nc_cat=109&amp;_nc_ohc=ihZIY99aH8wAX8XQDK4&amp;oh=45aa7041dd477562726b6c46843279d7&amp;oe=5EE92615&amp;ig_cache_key=MjIxMTU3NDA3ODY5NDEyNjYyMg%3D%3D.2&amp;ig_cache_prefix=full_size_" target="_blank" rel="noopener">当年勇</a></del></p><p>再次启动锻炼计划🙄</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>如图<br><img src="https://i.niupic.com/images/2020/05/16/7SbO.png" srcset="/img/loading.gif" alt="牛图网"></p><p><del>7分练3分吃，90分靠基因</del>🍋🍋🍋   </p><p><del>希望图链别挂</del><br>图源 <a href="https://www.instagram.com/azraelrenee" target="_blank" rel="noopener">@azraelrenee</a></p><hr><p><del><a href="https://scontent-hkt1-1.cdninstagram.com/v/t51.2885-15/e35/79867120_181583796295653_452105490775147601_n.jpg?_nc_ht=scontent-hkt1-1.cdninstagram.com&amp;_nc_cat=109&amp;_nc_ohc=ihZIY99aH8wAX8XQDK4&amp;oh=45aa7041dd477562726b6c46843279d7&amp;oe=5EE92615&amp;ig_cache_key=MjIxMTU3NDA3ODY5NDEyNjYyMg%3D%3D.2&amp;ig_cache_prefix=full_size_" target="_blank" rel="noopener">当年勇</a></del></p><p>再次启动锻炼计划🙄</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -194,7 +220,7 @@
     <link href="http://forliuyifei.github.io/posts/27208.html"/>
     <id>http://forliuyifei.github.io/posts/27208.html</id>
     <published>2020-05-16T06:36:00.000Z</published>
-    <updated>2020-05-16T07:10:31.427Z</updated>
+    <updated>2020-05-16T16:00:59.362Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>血的教训，更新系统之前记得先卸载substratum的所有叠加层，更新完之后再重新安装，不然轻则手机变卡，重则无限黑屏。</p><p>解决办法：  </p><ol><li>/data/adb/modules/substratum/，清空文件夹，重启</li><li>救砖方法：进recovery随便刷个旧版的magisk或者你对应版本的uninstall_magisk，然后进一次系统，再进recovery把magisk刷回来</li></ol><p><del>未经测试</del></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -212,6 +238,8 @@
       <category term="问题&amp;解决" scheme="http://forliuyifei.github.io/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
     
       <category term="substratum" scheme="http://forliuyifei.github.io/tags/substratum/"/>
+    
+      <category term="刷机" scheme="http://forliuyifei.github.io/tags/%E5%88%B7%E6%9C%BA/"/>
     
   </entry>
   
@@ -298,7 +326,7 @@
     <link href="http://forliuyifei.github.io/posts/46255.html"/>
     <id>http://forliuyifei.github.io/posts/46255.html</id>
     <published>2020-05-06T15:41:00.000Z</published>
-    <updated>2020-05-06T15:50:26.842Z</updated>
+    <updated>2020-05-16T15:58:33.510Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="文与可画筼筜谷偃竹记"><a href="#文与可画筼筜谷偃竹记" class="headerlink" title="文与可画筼筜谷偃竹记"></a>文与可画筼筜谷偃竹记</h3><p>宋代：苏轼</p><p>　　竹之始生，一寸之萌耳，而节叶具焉。自蜩腹蛇蚹以至于剑拔十寻者，生而有之也。今画者乃节节而为之，叶叶而累之，岂复有竹乎？故画竹，必先得成竹于胸中，执笔熟视，乃见其所欲画者，急起从之，振笔直遂，以追其所见，如兔起鹘落，少纵则逝矣。与可之教予如此。予不能然也，而心识其所以然。夫既心识其所以然而不能然者，内外不一，心手不相应，不学之过也。故凡有见于中而操之不熟者，平居自视了然，而临事忽焉丧之，岂独竹乎？子由为《墨竹赋》以遗与可曰：“庖丁，解牛者也，而养生者取之；轮扁，斫轮者也，而读书者与之。今夫夫子之托于斯竹也，而予以为有道者，则非邪？“子由未尝画也，故得其意而已。若予者，岂独得其意，并得其法。</p><p>　　与可画竹，初不自贵重，四方之人，持缣素而请者，足相蹑于其门。与可厌之，投诸地而骂曰：“吾将以为袜！“士大夫传之，以为口实。及与可自洋州还，而余为徐州。与可以书遗余曰：“近语士大夫，吾墨竹一派，近在彭城，可往求之。袜材当萃于子矣。“书尾复写一诗，其略云：“拟将一段鹅溪绢，扫取寒梢万尺长。“予谓与可：“竹长万尺，当用绢二百五十匹，知公倦于笔砚，愿得此绢而已！“与可无以答，则曰：“吾言妄矣，世岂有万尺竹哉？“余因而实之，答其诗曰：“世间亦有千寻竹，月落庭空影许长。“与可笑曰：“苏子辩矣，然二百五十匹绢，吾将买田而归老焉。“因以所画《筼筜谷偃竹》遗予曰：“此竹数尺耳，而有万尺之势。“筼筜谷在洋州，与可尝令予作《洋州三十咏》，《筼筜谷》其一也。予诗云：“汉川修竹贱如蓬，斤斧何曾赦箨龙。料得清贫馋太守，渭滨千亩在胸中。“与可是日与其妻游谷中，烧笋晚食，发函得诗，失笑喷饭满案。</p><p>　　元丰二年正月二十日，与可没于陈州。是岁七月七日，予在湖州曝书画，见此竹，废卷而哭失声。昔曹孟德祭桥公文，有车过腹痛之语。而余亦载与可畴昔戏笑之言者，以见与可于予亲厚无间如此也。</p><h3 id="译文"><a href="#译文" class="headerlink" title="译文"></a>译文</h3><p>　　竹子刚生时，只是一寸长的嫩芽，可是却节、叶俱全。从蝉腹、蛇鳞般的小笋，长到挺直的几丈高的巨竹，从来都是有节有叶的。可是现在的人画竹时，却是一节一节的接起来，一叶一叶地堆上去，这样做哪里还有竹子呢？所以说画竹，一定要心里有完整的竹子，拿着笔凝神而视，就能看到自己心里想要画的竹子了。这时快速地跟着自己的所见去画，去捕捉看到的形象，就像兔子刚蹿起来，鹘就猛扑下去，稍有一点放松就错过去了。这是与可教给我的。我不能做到，但心里却明白这样做的道理。既然心里明白应该这样做，却不能做到，认识和行动不统一，理解道理和实际操作不能一致，这都是学习不够的毛病。所以，常常是对事情心里了解而不能熟练地去做，平时自以为很清楚，但事到临头却忽然不明白了，难道只有画竹才是如此吗！子由写了《墨竹赋》给与可，说：“庖丁，是宰牛的，可是（他讲的道理）却为养生的人所采纳；轮扁，是制造车轮的，可是（他的经验）却被读书人所运用。现在，您在画竹上所寄托的思想情感，我以为是有道者的认识，难道不是吗？”子由从来不画画，所以，只知道大致的意思而已。而像我呢，不只是理解与可的绘画理论，还学得了他的绘画方法。</p><p>　　起初，与可对自己的墨竹画并不看重。各地拿着丝绢前来求画的人，一个接着一个地找上门来。与可很厌烦，把丝绢抛在地上骂道：“我要拿这些丝绢去做袜子！”致使士大夫把这当成话柄相传。后来，与可自洋州回京师，我去徐州任知州，与可跟我说：“我近来告诉士大夫们说：我们墨竹画派近在彭城，你们可以去那里求画。这回袜子材料应当集中到你那里了。”信尾还写了一首诗，其中说道：“拟将一段鹅溪绢，扫取寒梢万尺长。”我向与可说：“竹子长万尺，应该用二百五十匹绢，我知道您是懒怠做画，只是想要得到这些绢而已！”与可无言可对，就说：“我说错了，世上哪里有万尺长的竹子呢？”我对这做出了解释，回答他的诗说：“世间亦有千寻竹，月落庭空影许长。”与可笑道：“苏公真善辩啊！若有二百五十匹绢，我就要拿它买田还乡养老了。”随着把他所画的《筼筜谷偃竹》赠给了我，说：“这竹子只不过数尺，却有万尺的气势。”筼筜谷在洋州，与可曾经让我作《洋州三十咏》诗，《筼筜谷》就是其中的一首。我的诗说：“汉川修竹贱如蓬，斤斧何曾赦箨龙。料得清贫馋太守，渭滨千亩在胸中。”与可那天正和他的妻子在谷中游赏，烧笋当晚饭吃，打开信封看到诗，禁不住大笑，把嘴里的饭喷了满桌子。</p><p>　　元丰二年正月二十日，与可死于陈州。那一年的七月七日，我在湖州晾书画，见到这幅墨竹图，便停止了晾书，失声痛哭起来。以前曹操祭奠桥公文中有车过坟前就会腹痛的话，而我也记载下来过去和与可开玩笑的话，可以看出我和与可之间的亲密、深厚的情谊。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -318,8 +346,6 @@
       <category term="道" scheme="http://forliuyifei.github.io/tags/%E9%81%93/"/>
     
       <category term="友情" scheme="http://forliuyifei.github.io/tags/%E5%8F%8B%E6%83%85/"/>
-    
-      <category term="知行合一" scheme="http://forliuyifei.github.io/tags/%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80/"/>
     
   </entry>
   
@@ -486,29 +512,6 @@
       <category term="刷机" scheme="http://forliuyifei.github.io/tags/%E5%88%B7%E6%9C%BA/"/>
     
       <category term="Havoc" scheme="http://forliuyifei.github.io/tags/Havoc/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>晋灵公不君</title>
-    <link href="http://forliuyifei.github.io/posts/39717.html"/>
-    <id>http://forliuyifei.github.io/posts/39717.html</id>
-    <published>2020-04-28T13:10:00.000Z</published>
-    <updated>2020-05-02T16:53:32.836Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="晋灵公不君"><a href="#晋灵公不君" class="headerlink" title="晋灵公不君"></a>晋灵公不君</h3><p>先秦：左丘明</p><p>　　晋灵公不君。厚敛以雕墙。从台上弹人，而观其辟丸也。宰夫胹熊蹯不熟，杀之，寘诸畚，使妇人载以过朝。赵盾、士季见其手，问其故而患之。将谏，士季曰：“谏而不入，则莫之继也。会请先，不入，则子继之。”三进及溜，而后视之。曰： “吾知所过矣，将改之。”稽首而对曰：“人谁无过？过而能改，善莫大焉。诗曰：‘靡不有初，鲜克有终。’夫如是，则能补过者鲜矣。君能有终，则社稷之固也，岂惟群臣赖之。又曰：‘衮职有阙，惟仲山甫补之。’能补过也。君能补过，衮不废矣。”</p><p>　　犹不改。宣子骤谏。公患之，使鉏麑贼之。晨往，寝门辟矣。盛服将朝，尚早，坐而假寐。麑退，叹而言曰：“不忘恭敬，民之主也。贼民之主，不忠；弃君之命，不信。有一于此，不如死也。”触槐而死。</p><p>　　秋九月，晋侯饮赵盾酒，伏甲将攻之。其右提弥明知之, 趋登，曰：“臣侍君宴，过三爵，非礼也。”遂扶以下。公嗾夫獒焉。明搏而杀之。盾曰：“弃人用犬，虽猛何为！”斗且出。提弥明死之。</p><p>　　初，宣子田于首山，舍于翳桑。见灵辄饿，问其病，曰： “不食三日矣。”食之，舍其半。问之，曰：“宦三年矣，未知母之存否。今近焉，请以遗之。”使尽之，而为之箪食与肉，寘诸橐以与之。既而与为公介，倒戟以御公徒，而免之。问何故，对曰：“翳桑之饿人也。”问其名居，不告而退。——遂自亡也。</p><p>　　乙丑，赵穿攻灵公于桃园。宣子未出山而复。大史书曰： “赵盾弑其君。”以示于朝。宣子曰：“不然。”对曰：“子为正卿， 亡不越竟，反不讨贼，非子而谁？”宣子曰：“乌呼！‘我之怀矣，自诒伊戚’，其我之谓矣！”</p><p>　　孔子曰：“董狐，古之良史也，书法不隐。赵盾，古之良大夫也，为法受恶。惜也，越竟乃免。”</p><p>　　宣子使赵穿逆公子黑臀于周而立之。壬申，朝于武宫。</p><h3 id="译文"><a href="#译文" class="headerlink" title="译文"></a>译文</h3><p>　　晋灵公不行君道，大量征收赋税来满足奢侈的生活。他从高台上用弹弓射行人，观看他们躲避弹丸的样子。厨师没有把熊掌炖烂，他就把厨师杀了，放在筐里，让宫女们用车载经过朝廷。大臣赵盾和士季看见露出的死人手，便询问他被杀的原因，并为晋灵公的无道而忧虑。他们准备规劝晋灵公，士季说：“如果您去进谏而国君不听，那就没有人能接着进谏了。让我先去规劝，他不接受，您就接着去劝谏。”士季去见晋灵公时往前走了三次（伏地行礼三次，晋灵公假装没有看见他），到了屋檐下，晋灵公才抬头看他，并说：“我已经知道自己的过错了，打算改正。”士季叩头回答说：“哪个人能不犯错误呢，犯了错误能够改正，没有比这更大的好事了。《诗·大雅· 荡》说：‘没有谁向善没一个开始的，但很少（有人）能坚持到底。’如果这样，那么弥补过失的人就太少了。您如能始终坚持向善，那么国家就有了保障，而不止是臣子们有了依靠。《诗·大雅·烝民》又说： ‘周宣王有了过失，只有仲山甫来弥补。’这是说周宣王能补救过失。 国君能够弥补过失，君位就不会失去了。”</p><p>　　可是晋灵公仍然没有改正。赵盾又多次劝谏，使晋灵公感到厌烦，晋灵公便派鉏麑去刺杀赵盾。鉏麑一大早就去了赵盾的家，只见卧室的门开着，赵盾穿戴好礼服准备上朝，时间还早，他和衣坐着打盹儿。鉏麑退了出来，感叹地说：“时刻不忘记恭敬国君（指按时上朝），真是百姓的靠山啊。杀害百姓的靠山，这是不忠；背弃国君的命令，这是失信。不忠不信中有一样违背了，还不如去死！”于是，鉏麑一头撞在槐树上死了。</p><p>　　秋天九月，晋灵公请赵盾喝酒，事先埋伏下武士，准备杀掉赵盾。赵盾的车夫提弥明发现了这个阴谋，快步走上殿堂，说：“臣下陪君王宴饮，酒过三巡还不告退，就不合礼仪了。”于是他扶起赵盾走下殿堂。晋灵公唤出了猛犬来咬赵盾。提弥明徒手上前搏斗，打死了猛犬。赵盾说：“不用人而用狗，即使凶猛，又有什么用！”他们两人与埋伏的武士边打边退。结果，提弥明为赵盾战死了。</p><p>　　当初，赵盾到首阳山打猎，住在翳桑。他看见有个叫灵辄的人晕倒了，便去问他的病情。灵辄说：“我已经多日没吃东西了。”赵盾给他东西吃，他留下了一半。赵盾询问原因，灵辄说：“我在外当奴仆已经多年了，不知道家中老母是否活着。现在离家近了，请允许我把这一半留给她。”赵盾让他把食物吃完，另外给他准备了一篮饭和肉，放在口袋里给他。不久灵辄做了晋灵公的武士，他在搏杀中把武器倒过来抵挡晋灵公手下的人，使赵盾得以脱险。赵盾问他为什么这样做，他回答说：“我就是在翳桑的饿汉。”赵盾再问他的姓名和住处，他没有回答就退走了。赵盾自己也逃亡了。</p><p>　　九月二十六日，赵穿在桃园杀掉了晋灵公。赵盾还没有走出国境的山界，听到灵公被杀便回来了。晋国太史董狐记载道：“赵盾弑杀了他的国君。”他还把这个说法拿到朝廷上公布。赵盾说： “不是这样。”董狐说：“您身为正卿，逃亡而不出国境，回来后又不讨伐叛贼，不是您杀了国君又是谁呢？”赵盾说：“哎！《诗经》中说：‘由于我怀念祖国，反而自己找来了忧患。’这话大概说的是我吧。”</p><p>　　孔子说：“董狐是古代的好史官，记载史事的原则是直言不讳。赵盾是古代的好大夫，因为史官的记事原则而蒙受了弑君的恶名。 可惜啊，如果他出了国境，就会避免弑君之名了。”</p><p>　　赵盾派赵穿到成周去迎接晋国公子黑臀，把他立为国君。十月初三，公子黑臀去朝拜了武公庙。</p><h3 id="赏析"><a href="#赏析" class="headerlink" title="赏析"></a>赏析</h3><p>　　不知道是否有心理学家专门研究过历史上的暴君的心理，这种研究肯定很有意思。在平常人看来，暴君们的言行举止都有些异乎寻常，按正常人来说是匪夷所思的。比如，夏桀的宠姬妺喜爱听裂帛声，建造过“酒池肉林”；商纣王的酷刑“金瓜击顶”、“炮烙”、“虿盆”、做人的肉羹、活剖孕妇等等。</p><p>　　晋灵公弹射路人、杀厨子游尸的举动，仅仅用一般的残暴、狠是难以说明的，恐怕总有些变态心理，或者歇斯底里症一类的精神病，才能解释他的怪癖行径。如果真是这样，除了治病、关进疯人院之外，没有任何办法让他改邪归正，或者像赵穿那样，将其杀掉，以免危害更多的人。</p><p>　　中国传统政治制度致命的痼疾就在于，无论所谓的“天子”多么愚笨、痴呆，无论多么残暴、缺德，无论多么变态。病入膏肓，都是“神圣”的，不可冒犯的，不可弹劾讨伐的，否则，便会犯下各种“罪行”：欺君，亵渎，犯上作乱，直至弑君。而且，这些罪行都是弥天大罪，不可赦免，甚至可以诛灭九族。</p><p>　　虽然有此痼疾，但让人感叹不已的是，无论在哪个时代，只要有昏情残暴的暴政。苛政存在，就有敢于诤言直谏的义士出现，并有敢于弑君的勇士出现，前者如赵盾，后者如赵穿。他们明知自己的行为将要以自己的生命作为代价，甚至还包括以自己亲人的生命为代价，依然大义凛然，慷慨陈词，视死如归。</p><p>　　这些词语，只有用在这些义士、勇士身上才是沉甸甸的、掷地有声的、名实相符的。</p><p>　　其实，敢于直谏、敢于弑暴君，已远不止是一种一时冲动的个人行为，更不是宗教信徒的迷狂。它是一种非常清醒的、理智的选择，是不得不如此的抉择。有时，明知暴君不可理喻，有时明知自己的行动无异于以卵击石，自投罗网，如荆柯刺秦临行前 所唱：“风萧萧兮易水寒，壮士一去兮不复还”，但是，它们所体现的是一种精神，是一种具有普遍意义的永恒的正义，即决不向残暴专制、黑暗腐朽屈膝让步的决心。</p><p>　　正如希腊神话传说中的西西弗斯明知自己推上山的巨石要滚下来一样，依然坚持不懈地推下去。人类的精神和行动的意义，就在过程之中显示了出来，结果则是次要的了，甚至并不重要了。</p><p>　　面对残暴和死亡而敢于挺身而出，这种行为表示了一种严正的抗议，表示了一种不屈的精神。翻看历史，这种抗议和精神从来就没有中断过，就好比光明和黑暗从来都是相随相伴，哪一方都没有消失过一样。也许，光明和黑暗永远都会这么抗衡下去，直到人类不再存在。▲</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      中国传统政治制度致命的痼疾就在于，无论所谓的“天子”多么愚笨、痴呆，无论多么残暴、缺德，无论多么变态。病入膏肓，都是“神圣”的，不可冒犯的，不可弹劾讨伐的，否则，便会犯下各种“罪行”：欺君，亵渎，犯上作乱，直至弑君。而且，这些罪行都是弥天大罪，不可赦免，甚至可以诛灭九族。
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="http://forliuyifei.github.io/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="古文" scheme="http://forliuyifei.github.io/tags/%E5%8F%A4%E6%96%87/"/>
     
   </entry>
   
