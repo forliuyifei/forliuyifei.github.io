@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>个人小站</title>
+  <title>饿龙不是龙哩</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-05-16T16:04:24.845Z</updated>
+  <updated>2020-05-17T09:03:48.445Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Google 「站点地图可读取，但存在错误」</title>
+    <link href="https://liuyifei.club/posts/30773.html"/>
+    <id>https://liuyifei.club/posts/30773.html</id>
+    <published>2020-05-17T05:41:00.000Z</published>
+    <updated>2020-05-17T09:03:48.445Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」"><a href="#向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」" class="headerlink" title="向Google提交hexo站点地图时出现 「站点地图可读取，但存在错误」"></a>向Google提交hexo站点地图时出现 <strong>「站点地图可读取，但存在错误」</strong></h4><img src="https://i.loli.net/2020/05/17/82ELiGAhJ3KQVj1.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 40%;"><p>打开sitemap页面，发现原因：博客网址不匹配  </p><img src="https://i.loli.net/2020/05/17/jwJ7OY4B3vtZ5Gh.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 50%;">  <h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><ol><li>在hexo的_config.yml配置文件中正确填写博客网址（我之前填的是GitHub给的网址，因为当时还没配置好腾讯云的DNS解析）  </li></ol><img src="https://i.loli.net/2020/05/17/9jDFLf8ekrOI3ov.png" srcset="/img/loading.gif" alt="image.png" style="zoom:50%;">  <ol start="2"><li><p>保存_config.yml文件后，老规矩</p><pre><code class="hljs plain">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</code></pre></li></ol><ol start="3"><li>更新部署后，删除之前提交的站点地图，重新提交，成功√</li></ol><p><img src="https://i.loli.net/2020/05/17/FS7hIinPsAYRbdL.png" srcset="/img/loading.gif" alt="image.png"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
+    
+      <category term="问题&amp;&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>免费图床怎么选</title>
     <link href="https://liuyifei.club/posts/19229.html"/>
     <id>https://liuyifei.club/posts/19229.html</id>
-    <published>2020-05-16T15:23:16.000Z</published>
-    <updated>2020-05-16T16:04:24.845Z</updated>
+    <published>2020-05-16T15:23:00.000Z</published>
+    <updated>2020-05-17T05:52:01.806Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><h5 id="GitHub仓库"><a href="#GitHub仓库" class="headerlink" title="GitHub仓库"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub仓库</a></h5><p>背靠微软，家大业大,不怕丢失文件</p><p><em>国内速度慢，上传图片会压缩，仓库必须公开</em></p><p>适合小图或者webp格式图片，没挂梯子加载大图容易使人心态爆炸</p></li></ol><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/20200424131925.png" srcset="/img/loading.gif" alt=""></p><ol start="2"><li><h5 id="sm-ms"><a href="#sm-ms" class="headerlink" title="sm.ms"></a><a href="[https://sm.ms](https://sm.ms/">sm.ms</a></h5><p>在业内也算有名，应该不容易挂</p><p>5G免费空间，单图最大5M</p><p>上传速度稳定</p><p>支持管理历史上传图片</p><p><em>图片加载速度似乎不是很快，也许是我的网络问题，而且自动压图成webp</em></p><p>适合放些<code>不重画质，只专注于传达内容</code>的教程图片</p></li></ol><p><img src="https://i.loli.net/2020/05/16/OSR1ZYqGrgUupnM.jpg" srcset="/img/loading.gif" alt="u=3394317671,3209380658&amp;fm=173&amp;app=49&amp;f=JPEG.jpeg"></p><ol start="3"><li><h5 id="聚合图床"><a href="#聚合图床" class="headerlink" title="聚合图床"></a><a href="https://www.superbed.cn" target="_blank" rel="noopener">聚合图床</a></h5><p>将图片分发到多处备份，借助其本身的CDN加速功能，节省服务器流量</p><p>并且不用担心图片被删除，即便其中某几个图床上的图片被删除了，还有其他备份，保证万无一失</p><p>支持匿名和注册管理</p><p>免费版图片限制5M</p><p>速度还行</p><p>上传了几十张图片,过去将近一个月,并未发现失效</p><p><em>似乎会压图</em></p><p><em>至少100一年的基础会员还是太贵了，继续白嫖吧</em><br><a href="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf" srcset="/img/loading.gif" alt=""></a></p></li><li><h5 id="牛图网"><a href="#牛图网" class="headerlink" title="牛图网"></a><a href="https://www.niupic.com/" target="_blank" rel="noopener">牛图网</a></h5><p>高速外链：上传的照片可以分享给任何国家的任何人,自动选择离访客最近的云存储节点</p><p>无流量限制</p><p>无水印</p><p><em>无注册上传，应该算个缺点，不能管理历史图片</em></p><p><em>经测试，5.18MB的图片上传后再下载变成5.51MB，不清楚加了啥料</em></p><p>也许能用来放壁纸画像<br><img src="https://i.niupic.com/images/2020/05/16/7SbO.png" srcset="/img/loading.gif" alt=""></p></li></ol><hr><p>暂时主要用上面这些,各种各样的图床弄得很头大,<del>你说有钱多好</del></p><p>其它图床有待测试</p><p>有任何推荐可在评论区随意留言👇</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -34,6 +62,8 @@
     
     </summary>
     
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
     
     
       <category term="白嫖" scheme="https://liuyifei.club/tags/%E7%99%BD%E5%AB%96/"/>
@@ -373,11 +403,11 @@
   </entry>
   
   <entry>
-    <title>2%徽章</title>
+    <title>爱因斯坦的“2%徽章”</title>
     <link href="https://liuyifei.club/posts/12835.html"/>
     <id>https://liuyifei.club/posts/12835.html</id>
     <published>2020-05-06T15:12:00.000Z</published>
-    <updated>2020-05-06T15:18:43.829Z</updated>
+    <updated>2020-05-17T05:51:20.196Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://m.weibo.cn/profile/1959830294" target="_blank" rel="noopener"><img src="https://tva3.sinaimg.cn/crop.0.0.180.180.180/74d0a316jw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1588788637&amp;ssig=Nx6ljTfpwJ" srcset="/img/loading.gif" alt="img" style="zoom:25%;"></a></p><p><a href="https://m.weibo.cn/profile/1959830294" target="_blank" rel="noopener">汪有 </a></p><h4 id="昨天-22-59-来自-啥都有的iPhone-XS-Max-已编辑"><a href="#昨天-22-59-来自-啥都有的iPhone-XS-Max-已编辑" class="headerlink" title="昨天 22:59 来自 啥都有的iPhone XS Max 已编辑"></a>昨天 22:59 来自 啥都有的iPhone XS Max 已编辑</h4><p>我又发现了一个巨大的商机。</p><p>我看过一些科学史上的复刻周边，1:1的牛顿反射式望远镜啊啥的，都是很小众的圈子，分享一点小爱好。<br>没啥影响力。<br>如果让我选一款更有意义的，我会选爱因斯坦的“2%徽章”。</p><p>1930年，欧洲刚刚从一战后的重建中复苏，又开始酝酿下一次大战。<br>爱因斯坦做了一次反战演讲，呼吁“不妥协地抵制战争，任何情况下都拒绝兵役”，他表示不要担心自己势孤力单——哪怕只有2%的人宣布拒绝打仗，那么政府就会无能为力，他们不敢把那么多人送进监狱。</p><p>2%这个数字，迅速成为反战领域最著名的一个数字。<br>和平主义者们和美国藤校的学生们纷纷制作了徽章别在胸前，上面只印着2%一个数字。<br>在欧洲大陆，立即有学生因为佩戴徽章被捕。你看，战争贩子真的会怕哪怕是数字上很渺小的2%。</p><p>虽然后来二战依然爆发，但在那个节点，和平主义也真的成为了一时之风潮。</p><p>我们今天不太会再面对战争威胁，但同样有许许多多来自周遭的不平等和恶意。<br>爱因斯坦告诉我们，不要担心势单力薄，只需要2%。</p><p>比如：<br>如果有2%的网络作者出来呼吁，抵制阅文的霸王合同；<br>2%的被性骚扰者站出来，勇敢指认侵犯一方；<br>2%被不公正裁员者申请劳动仲裁；<br>2%的关键岗位负责人站出来正面开杠996。<br>2%就可能变成4%，变成10%。</p><p>最开始的2%，当然要冒着莫大的恶意，要鼓起绝大的勇气。<br>但转发链上的每个人，也都在做出自己的有限推动。<br>十年来网络环境愈发收紧，但还是会有些观念上我们眼见的进步，都是从2%发展起来的。</p><p>爱因斯坦当然也属于2%。<br>以爱因斯坦的声望，也同样会因为敢于成为2%遭到打压。<br>二战胜利后，美国陷入一片反共产思潮中。<br>麦卡锡时代，公民们被随时要求“说出别人的名字”，在对自己及同事的忠诚调查中做证。<br>爱因斯坦又一次成为2%，呼吁：<br>“每一位受到委员会传讯的知识分子都应当拒绝作证。”</p><p>批评纷至沓来，社会群起攻之，各大媒体口诛笔伐，迅速将他批驳为“公知”。<br>评论包括：<br>“一个颇有成就获得无数荣誉的学者被为他提供避难所国家的敌人用做宣传工具，特别可悲。”<br>“你最应该知道，是这个国家，让你免遭希特勒的魔掌。”</p><p>他也开始影响其他人。<br>在一次麦卡锡在场的秘密听证会上，一位知识分子被问到“是否是共产者”。<br>他回答：“我拒绝回答，我采用的是爱因斯坦教授的建议。”<br>麦卡锡问他：你认识爱因斯坦？<br>他回答：其实不认识，但见过面。<br>这就是他的2%，最终带动了4%和10%，</p><p>我一直觉得，爱因斯坦当年的徽章，到现在也具有其现实意义。<br>以及，我第一次读到这个故事时，里面写的是“纽扣”。<br>应该是译者没加考证，直接把button这个词想当然翻译而成。</p><p>不过想想这种误会也还好，放在现在，我们确实没有别一个大徽章的习惯，可能确实做成精致一点的纽扣袖扣比较合适。<br>定制一枚，放在衬衫袖口、缝在衣服最上。<br>提醒自己，不要怯于做2%，不要吝于为2%发声。</p><p>说到这里气氛刚刚好，应该放一个设计概念图和众筹链接了。<br>但是你们知道，我对挣钱没兴趣。<br>这么好的商机免费送给你们了，交个朋友。<br>谁做出来了记得给我一个，我想要。<br>咱们下期再见👋</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -486,32 +516,6 @@
     
     
       <category term="名词解释" scheme="https://liuyifei.club/tags/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[刷机记录]PE→MIUI12→Havoc</title>
-    <link href="https://liuyifei.club/posts/28684.html"/>
-    <id>https://liuyifei.club/posts/28684.html</id>
-    <published>2020-04-29T14:23:20.000Z</published>
-    <updated>2020-05-02T16:18:25.095Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul><li><p>进rec时卡在橙狐的启动界面，更至最新版recovery.img，成功进入  </p></li><li><p>退出谷歌账号以防万一。<br>PE更新竟然出现问题，rom刷入成功但无限重启至rec，无法开机<br>找到之前的完整包应该能解决,但想换换口味了,这几个月的PE也不是很好用😶 </p></li><li><p>备份部分数据至硬盘，格式化data，刷入MIUI 12内测版<br>成功开机，但极其卡顿，按照别人的前车之鉴更新桌面、改主题，依旧各种卡死，无奈🙄</p></li><li><p>老规矩格式化data，刷Havoc3.4版，出现错误7<br>删除updater-script文件内前两行机型验证代码后重刷成功。</p></li></ul><hr><h3 id="Havoc特色："><a href="#Havoc特色：" class="headerlink" title="Havoc特色："></a>Havoc特色：</h3><blockquote><ul><li>流畅省电自定义丰富，最基本的</li><li>手势可设置长滑触发操作项</li><li>长截图(不是很完美但也差不多够用)</li><li>动画舒服，配合sub主题liv white，细节更漂亮</li><li><code>自带支持内录音频的录屏​功能</code></li><li>fps和CPU小浮窗  </li><li>最近任务界面切换及其顺滑  </li><li>平时鸡肋旦某些情况下可能有用的屏幕稳定功能  </li><li>动画精确至0.1x级别调整</li><li><code>SafetyNet完美通过</code>，微信和支付宝指纹支付正常使用</li><li>WiFi信号比用PE的时候强一些</li><li>对双卡用户更友好，<code>支持磁贴快速切换双卡数据</code>(以前用过的类原生RR、AEX、LOS、PE、魔趣等等系统切卡都不方便)</li><li>其它原生系统有的功能它也基本不缺</li></ul></blockquote><hr><p>暂时就这些吧，想到再补充(￣▽￣)”</p><p><em><del>最近经常纠结要不要句号</del>🤔</em></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-      <category term="刷机" scheme="https://liuyifei.club/tags/%E5%88%B7%E6%9C%BA/"/>
-    
-      <category term="Havoc" scheme="https://liuyifei.club/tags/Havoc/"/>
     
   </entry>
   

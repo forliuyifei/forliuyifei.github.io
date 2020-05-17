@@ -1,0 +1,15 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /tags/
+Allow: /about/
+Allow: /links/
+Allow: /posts/
+
+
+Disallow: /categories/
+Disallow: /contact/
+Disallow: /tags/梦/
+
+Sitemap: https://liuyifei.club/sitemap.xml

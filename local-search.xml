@@ -4,12 +4,45 @@
   
   
   <entry>
+    <title>Google 「站点地图可读取，但存在错误」</title>
+    <link href="/posts/30773.html"/>
+    <url>/posts/30773.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」"><a href="#向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」" class="headerlink" title="向Google提交hexo站点地图时出现 「站点地图可读取，但存在错误」"></a>向Google提交hexo站点地图时出现 <strong>「站点地图可读取，但存在错误」</strong></h4><img src="https://i.loli.net/2020/05/17/82ELiGAhJ3KQVj1.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 40%;"><p>打开sitemap页面，发现原因：博客网址不匹配  </p><img src="https://i.loli.net/2020/05/17/jwJ7OY4B3vtZ5Gh.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 50%;">  <h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><ol><li>在hexo的_config.yml配置文件中正确填写博客网址（我之前填的是GitHub给的网址，因为当时还没配置好腾讯云的DNS解析）  </li></ol><img src="https://i.loli.net/2020/05/17/9jDFLf8ekrOI3ov.png" srcset="/img/loading.gif" alt="image.png" style="zoom:50%;">  <ol start="2"><li><p>保存_config.yml文件后，老规矩</p><pre><code class="hljs plain">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</code></pre></li></ol><ol start="3"><li>更新部署后，删除之前提交的站点地图，重新提交，成功√</li></ol><p><img src="https://i.loli.net/2020/05/17/FS7hIinPsAYRbdL.png" srcset="/img/loading.gif" alt="image.png"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>原创</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+      <tag>问题&amp;&amp;解决</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>免费图床怎么选</title>
     <link href="/posts/19229.html"/>
     <url>/posts/19229.html</url>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><h5 id="GitHub仓库"><a href="#GitHub仓库" class="headerlink" title="GitHub仓库"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub仓库</a></h5><p>背靠微软，家大业大,不怕丢失文件</p><p><em>国内速度慢，上传图片会压缩，仓库必须公开</em></p><p>适合小图或者webp格式图片，没挂梯子加载大图容易使人心态爆炸</p></li></ol><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/20200424131925.png" srcset="/img/loading.gif" alt=""></p><ol start="2"><li><h5 id="sm-ms"><a href="#sm-ms" class="headerlink" title="sm.ms"></a><a href="[https://sm.ms](https://sm.ms/">sm.ms</a></h5><p>在业内也算有名，应该不容易挂</p><p>5G免费空间，单图最大5M</p><p>上传速度稳定</p><p>支持管理历史上传图片</p><p><em>图片加载速度似乎不是很快，也许是我的网络问题，而且自动压图成webp</em></p><p>适合放些<code>不重画质，只专注于传达内容</code>的教程图片</p></li></ol><p><img src="https://i.loli.net/2020/05/16/OSR1ZYqGrgUupnM.jpg" srcset="/img/loading.gif" alt="u=3394317671,3209380658&amp;fm=173&amp;app=49&amp;f=JPEG.jpeg"></p><ol start="3"><li><h5 id="聚合图床"><a href="#聚合图床" class="headerlink" title="聚合图床"></a><a href="https://www.superbed.cn" target="_blank" rel="noopener">聚合图床</a></h5><p>将图片分发到多处备份，借助其本身的CDN加速功能，节省服务器流量</p><p>并且不用担心图片被删除，即便其中某几个图床上的图片被删除了，还有其他备份，保证万无一失</p><p>支持匿名和注册管理</p><p>免费版图片限制5M</p><p>速度还行</p><p>上传了几十张图片,过去将近一个月,并未发现失效</p><p><em>似乎会压图</em></p><p><em>至少100一年的基础会员还是太贵了，继续白嫖吧</em><br><a href="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf" srcset="/img/loading.gif" alt=""></a></p></li><li><h5 id="牛图网"><a href="#牛图网" class="headerlink" title="牛图网"></a><a href="https://www.niupic.com/" target="_blank" rel="noopener">牛图网</a></h5><p>高速外链：上传的照片可以分享给任何国家的任何人,自动选择离访客最近的云存储节点</p><p>无流量限制</p><p>无水印</p><p><em>无注册上传，应该算个缺点，不能管理历史图片</em></p><p><em>经测试，5.18MB的图片上传后再下载变成5.51MB，不清楚加了啥料</em></p><p>也许能用来放壁纸画像<br><img src="https://i.niupic.com/images/2020/05/16/7SbO.png" srcset="/img/loading.gif" alt=""></p></li></ol><hr><p>暂时主要用上面这些,各种各样的图床弄得很头大,<del>你说有钱多好</del></p><p>其它图床有待测试</p><p>有任何推荐可在评论区随意留言👇</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
+    
+    <categories>
+      
+      <category>原创</category>
+      
+    </categories>
     
     
     <tags>
@@ -340,7 +373,7 @@
   
   
   <entry>
-    <title>2%徽章</title>
+    <title>爱因斯坦的“2%徽章”</title>
     <link href="/posts/12835.html"/>
     <url>/posts/12835.html</url>
     
@@ -561,9 +594,9 @@
     
     <tags>
       
-      <tag>问题&amp;解决</tag>
-      
       <tag>hexo</tag>
+      
+      <tag>问题&amp;解决</tag>
       
       <tag>美化</tag>
       
@@ -1153,9 +1186,9 @@
     
     <tags>
       
-      <tag>问题&amp;解决</tag>
-      
       <tag>hexo</tag>
+      
+      <tag>问题&amp;解决</tag>
       
     </tags>
     
