@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-05-18T21:10:40.415Z</updated>
+  <updated>2020-05-19T05:57:01.252Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好消息🎉本站已启用Cloudflare CDN加速</title>
+    <link href="https://liuyifei.club/posts/1862.html"/>
+    <id>https://liuyifei.club/posts/1862.html</id>
+    <published>2020-05-19T03:44:00.000Z</published>
+    <updated>2020-05-19T05:57:01.252Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>白嫖一时爽，一直白嫖一直爽🤪<br><img src="https://i.loli.net/2020/05/19/MojNlB9fPaG5kiq.png" srcset="/img/loading.gif" alt="image.png"></p><p><img src="https://i.loli.net/2020/05/19/zQOPDlMZw7K8gCe.png" srcset="/img/loading.gif" alt="image.png"></p><p><img src="https://i.loli.net/2020/05/19/S9q81XD3AObEYoy.png" srcset="/img/loading.gif" alt="image.png"></p><p><img src="https://i.loli.net/2020/05/19/nO2XuRMd9QiG8HK.png" srcset="/img/loading.gif" alt="image.png"></p><p>响应速度提升明显🎉<br><img src="https://i.loli.net/2020/05/19/4VnLxqwaistMYWO.png" srcset="/img/loading.gif" alt="image.png"></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;白嫖一时爽，一直白嫖一直爽🤪&lt;br&gt;&lt;img src=&quot;https://i.loli.net/2020/05/19/MojNlB9fPaG5kiq.png&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/05/19/zQOPDlMZw7K8gCe.png&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/05/19/S9q81XD3AObEYoy.png&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2020/05/19/nO2XuRMd9QiG8HK.png&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;响应速度提升明显🎉&lt;br&gt;&lt;img src=&quot;https://i.loli.net/2020/05/19/4VnLxqwaistMYWO.png&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="白嫖" scheme="https://liuyifei.club/tags/%E7%99%BD%E5%AB%96/"/>
+    
+  </entry>
   
   <entry>
     <title>似是故人来 Miss Loafing</title>
@@ -95,11 +120,11 @@
   </entry>
   
   <entry>
-    <title>免费图床怎么选</title>
+    <title>免费图床怎么选🧐</title>
     <link href="https://liuyifei.club/posts/19229.html"/>
     <id>https://liuyifei.club/posts/19229.html</id>
     <published>2020-05-16T15:23:00.000Z</published>
-    <updated>2020-05-17T05:52:01.806Z</updated>
+    <updated>2020-05-19T05:58:04.254Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><h5 id="GitHub仓库"><a href="#GitHub仓库" class="headerlink" title="GitHub仓库"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub仓库</a></h5><p>背靠微软，家大业大,不怕丢失文件</p><p><em>国内速度慢，上传图片会压缩，仓库必须公开</em></p><p>适合小图或者webp格式图片，没挂梯子加载大图容易使人心态爆炸</p></li></ol><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/20200424131925.png" srcset="/img/loading.gif" alt=""></p><ol start="2"><li><h5 id="sm-ms"><a href="#sm-ms" class="headerlink" title="sm.ms"></a><a href="[https://sm.ms](https://sm.ms/">sm.ms</a></h5><p>在业内也算有名，应该不容易挂</p><p>5G免费空间，单图最大5M</p><p>上传速度稳定</p><p>支持管理历史上传图片</p><p><em>图片加载速度似乎不是很快，也许是我的网络问题，而且自动压图成webp</em></p><p>适合放些<code>不重画质，只专注于传达内容</code>的教程图片</p></li></ol><p><img src="https://i.loli.net/2020/05/16/OSR1ZYqGrgUupnM.jpg" srcset="/img/loading.gif" alt="u=3394317671,3209380658&amp;fm=173&amp;app=49&amp;f=JPEG.jpeg"></p><ol start="3"><li><h5 id="聚合图床"><a href="#聚合图床" class="headerlink" title="聚合图床"></a><a href="https://www.superbed.cn" target="_blank" rel="noopener">聚合图床</a></h5><p>将图片分发到多处备份，借助其本身的CDN加速功能，节省服务器流量</p><p>并且不用担心图片被删除，即便其中某几个图床上的图片被删除了，还有其他备份，保证万无一失</p><p>支持匿名和注册管理</p><p>免费版图片限制5M</p><p>速度还行</p><p>上传了几十张图片,过去将近一个月,并未发现失效</p><p><em>似乎会压图</em></p><p><em>至少100一年的基础会员还是太贵了，继续白嫖吧</em><br><a href="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf" srcset="/img/loading.gif" alt=""></a></p></li><li><h5 id="牛图网"><a href="#牛图网" class="headerlink" title="牛图网"></a><a href="https://www.niupic.com/" target="_blank" rel="noopener">牛图网</a></h5><p>高速外链：上传的照片可以分享给任何国家的任何人,自动选择离访客最近的云存储节点</p><p>无流量限制</p><p>无水印</p><p><em>无注册上传，应该算个缺点，不能管理历史图片</em></p><p><em>经测试，5.18MB的图片上传后再下载变成5.51MB，不清楚加了啥料</em></p><p>也许能用来放壁纸画像<br><img src="https://i.niupic.com/images/2020/05/16/7SbO.png" srcset="/img/loading.gif" alt=""></p></li></ol><hr><p>暂时主要用上面这些,各种各样的图床弄得很头大,<del>你说有钱多好</del></p><p>其它图床有待测试</p><p>有任何推荐可在评论区随意留言👇</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -150,13 +175,13 @@
     <link href="https://liuyifei.club/posts/48703.html"/>
     <id>https://liuyifei.club/posts/48703.html</id>
     <published>2020-05-16T07:00:00.000Z</published>
-    <updated>2020-05-18T19:46:01.865Z</updated>
+    <updated>2020-05-19T08:13:37.226Z</updated>
     
     <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Maybe you are not her🙄" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">请输入密码</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="109079625548da6809b503f49cce03ca40a83f8602f7b8c5d7495bc0025dcdd7">50d47c38a0f90608ef5c8c63da96d76d5fcffe42269b00c05ebc8e9ef1f2e99ffe0399fa817c3ae90d48ffb9f2877e6f34e56fe54ed71f0d55f58b5f0796062ced5df0c489bdfebc2c5f15d21ad9f13412b88c94dca206790ab55c16911a38ada25af941759e6359d3451676e51e11b4ca13464e2859757393a11ff2f6de6e98d4b535c949c80c15a36821d1036441b6d6f582daf27595abecfb1c5f677da997e12313c2097024b7e73d8d515735ebf327d4bf6a93ff95c31c33573a73a3a92db4c0800351ea22f7772a72ea37f35e06528236ecdc1423adaa0d697ad290d7e6f5e31312f901d840819b26705bd15bfd4b4fb10a5e7e5a7b2c63c898efe7ede926a7e514b4139f186bc456800b4df40b74358e9f340a25a1bff646e781fccf343acb54ae46b076378af2efc779a00570575acc93c05abf9d64f8d4906b94673ed9634e6d83a05f9f2a2f432b981a40d4dacf22330da655ceb6ad3b2bf1e08e3935d850ad7b091601579493876183baf8303e804092d00e602814269e3978c83592c64149ee6635f5487c489837094cccc3a28f24ee6057acce4436711666d55723760c857cd7afb02d490c78a5339a492ad45dda61d7eeb8cc63ba050fc1de28889ecfb2d5f2027dc23a29002a537212ff2246dea261b4f6cb8ffa70a838800721b05f48697f534518cc444582e40a70c24dde93c4b6e97b68f5c5e936b6f27840fcd7f4e9d0ea8e623ee1c7c8d5bb1436fed5bc3e3ba5f3e0f5eb288c2c0659708fd5630df676522b3d54ce2b2a8afd8bf2bbc5f425da8e8e78205c478a4206f0267dd6e39f76640a30619214377d09c69e13def03d96c79939a2fe5968f98ad02d210f3cb8149713c8e079d2fd4e735acb504c5d06921bda5f5fdf82c9f42b10e8b4cb7f8979150986d604cb6169c20e219f46707261d7668c11977e7610c38f7bd6e6e75ed0de8dfaa9926f0e1cc8051ded35271533d524f73e801cd68f3d94505c6f63754c840d991aa762d3c8c99b70ca10584b7dfb8ea3df41aaceb8fba7b5d80a3bc1fe95a868aa33e0b4eeda91a8f0345841fe2248a576b679c8c55551b7ffdf75c69e84fd596277c7662e8e876245f698c8cde95e6d241f7cbfba587eaff0ae5a1702da06dd81834cdaf7915b261067e68328d2894dc7326282c948103cb5361a3b572f0075cf8898cf7de8e5358e51ab923de8f845b6aff5e42bbda063915b58a51740323206c377b13fba3ab3f3d51a18d0037471aac72dcfba3b9be623d53c6883b86caa37401c54511c7c181b3ff99eba3bef0d0d715419fbe11d6952220bc860ae0dfd2c6cafb3a56a35cdc29ccb9f1e276a41067e4cf4ab794a360f5c826b1e764d77354505c35f6312c3c5401a08060335290c722009bc6df89450ff2a4d3d87c348cffd666133d6835ff937cb8387fe1d2dd73b25f7ad9a67eeed9b743e4112a345c4eeaa388046505a7b03b6e519e31cffd610516e5418a14b8c5f89161c3bfdbe6e6d0d0c196160efb7c3ea3fa6698aa7eb06a27d2dd3b2aaed4e076d92c590580a1ce7086315168d6881c7ac15f11bec395ba81aff259e8a3a2cf0a4cdc5e0305b09529bfee0820ce1ef2f06db71035946ce70d00f57a54c4c60dce4ea2f302e1e7c955c1ff5f53bf8efcfce9c957632222a63995b72</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
-      Password required. (Tips:Your English name)
+      Password required.
     
     </summary>
     
@@ -214,11 +239,11 @@
   </entry>
   
   <entry>
-    <title>xposed edge pro设置应用锁</title>
+    <title>xposed edge pro设置应用锁🔒</title>
     <link href="https://liuyifei.club/posts/30756.html"/>
     <id>https://liuyifei.club/posts/30756.html</id>
     <published>2020-05-16T06:44:00.000Z</published>
-    <updated>2020-05-16T07:34:13.257Z</updated>
+    <updated>2020-05-19T07:38:09.265Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>具体就是，先设置一个条件，应用打开后检测某个变量是否存在，没有就停止应用。</p><p>而这个变量，要通过其它操作来生成，并且只存在几秒钟</p><p>比如:应用启动后不退出需要的变量是C3</p><p>单击音量键，检测有没有C2<br>没有就生成变量C1 5秒后清除C1<br>有就生成变量C3 5秒后清除C3</p><p>双击音量键<br>检测如果有变量C1，就生成变量C2 5秒后清除C2</p><p>这样开启应用之前就得单击→双击→单击音量键，并且5秒内打开应用才能不直接退出应用</p><hr><p>仅提供一个思路,更多玩法自行研究</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -235,11 +260,11 @@
       <category term="转载" scheme="https://liuyifei.club/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-      <category term="教程" scheme="https://liuyifei.club/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="技巧" scheme="https://liuyifei.club/tags/%E6%8A%80%E5%B7%A7/"/>
     
       <category term="xp模块" scheme="https://liuyifei.club/tags/xp%E6%A8%A1%E5%9D%97/"/>
+    
+      <category term="教程" scheme="https://liuyifei.club/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -270,11 +295,11 @@
   </entry>
   
   <entry>
-    <title>搜索lite使用技巧</title>
+    <title>搜索lite使用技巧🔎</title>
     <link href="https://liuyifei.club/posts/11503.html"/>
     <id>https://liuyifei.club/posts/11503.html</id>
     <published>2020-05-16T06:38:00.000Z</published>
-    <updated>2020-05-16T07:31:11.969Z</updated>
+    <updated>2020-05-19T06:04:37.832Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="搜索lite使用技巧"><a href="#搜索lite使用技巧" class="headerlink" title="搜索lite使用技巧"></a><a href="https://www.coolapk.com/apk/com.orekie.search" target="_blank" rel="noopener">搜索lite</a>使用技巧</h3><ul><li><p>输完搜索结果再输一个“-”可以选择搜索引擎</p></li><li><p>在输入框输入空格可以浏览剪切板和历史搜索记录</p></li><li><p>搜索框输入“一行白鹭上西天”（西天！不是青天）可以开启隐藏的设置项，输入“日照香炉生紫烟”可以隐藏掉该设置</p></li><li><p>Android N以上系统可以通过添加通知栏瓷块在任意页面使用搜索和OCR功能</p></li><li><p>弹出搜索框的时候下拉可以<code>不显示建议模式</code>，防止想回车进入搜索结果页面却激活第一条建议打开app的尴尬场景出现</p></li><li><p>将应用设为“电池未优化”可以加快打开速度</p></li><li><p>直接调用微博搜索</p><blockquote><p>sinaweibo://searchall/?q=%s</p></blockquote></li><li><p>直接调用<a href="">英语√</a>翻译</p><blockquote><p>translateit://query.act/?text=%s</p></blockquote></li><li><p>更多app的搜索url，探寻…</p></li></ul><p>​</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -296,11 +321,11 @@
   </entry>
   
   <entry>
-    <title>substratum踩坑</title>
+    <title>substratum踩坑🚶‍♂️</title>
     <link href="https://liuyifei.club/posts/27208.html"/>
     <id>https://liuyifei.club/posts/27208.html</id>
     <published>2020-05-16T06:36:00.000Z</published>
-    <updated>2020-05-16T16:00:59.362Z</updated>
+    <updated>2020-05-19T06:06:05.446Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>血的教训，更新系统之前记得先卸载substratum的所有叠加层，更新完之后再重新安装，不然轻则手机变卡，重则无限黑屏。</p><p>解决办法：  </p><ol><li>/data/adb/modules/substratum/，清空文件夹，重启</li><li>救砖方法：进recovery随便刷个旧版的magisk或者你对应版本的uninstall_magisk，然后进一次系统，再进recovery把magisk刷回来</li></ol><p><del>未经测试</del></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -324,11 +349,11 @@
   </entry>
   
   <entry>
-    <title>单独设置微信深色主题而非跟随系统</title>
+    <title>单独设置微信深色主题而非跟随系统🌘</title>
     <link href="https://liuyifei.club/posts/30685.html"/>
     <id>https://liuyifei.club/posts/30685.html</id>
     <published>2020-05-16T02:56:00.000Z</published>
-    <updated>2020-05-16T07:09:24.198Z</updated>
+    <updated>2020-05-19T07:39:10.242Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>如何自行设置微信的主题而不是只能跟随系统：<br>需要Root且仅适用于当前微信可以跟随Android系统深色模式的情况，太旧的版本就算了。<br>新版微信使用</p><pre><code class="hljs plain">am start -n com.tencent.mm/.plugin.setting.ui.setting.SettingDarkMode</code></pre><p>旧版微信使用</p><pre><code class="hljs plain">am start -n com.tencent.mm/.plugin.setting.ui.setting.SettingRedesign</code></pre><p>有Xposed的也可以通过 <a href="https://www.coolapk.com/apk/com.mihotel.startanyactivitypermission" target="_blank" rel="noopener">解除打开活动限制</a> 来免Root打开类似未导出的活动  </p><p><img src="https://pic.downk.cc/item/5ebf584dc2a9a83be5904dce.jpg" srcset="/img/loading.gif" alt=""></p><hr><p>原文来自<a href="http://www.coolapk.com/u/460110" target="_blank" rel="noopener">dadaeqw</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -377,11 +402,11 @@
   </entry>
   
   <entry>
-    <title>不气不气</title>
+    <title>不气不气😶</title>
     <link href="https://liuyifei.club/posts/21420.html"/>
     <id>https://liuyifei.club/posts/21420.html</id>
     <published>2020-05-06T15:52:00.000Z</published>
-    <updated>2020-05-16T06:58:24.801Z</updated>
+    <updated>2020-05-19T06:07:13.293Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>教育傻子等于给死人治病。<br>Дураков учить все равно что мертвых лечить.</p><p>Н. С. 列斯科夫《大堂神父》</p><hr><p>#放下助人情结,尊重他人命运#</p><hr><p>教育只能让聪明人变得比之前聪明一点儿，但却会让傻瓜变得比之前危险很多。——《随机生存的智慧》</p><hr><p>愚蠢是养成的，而不是天生的。任何暴力行动，都似乎在大量的人当中造成了愚蠢的大发作。一方的力量需要另一方的愚蠢。愚人可能常常十分顽固，而自己却认为自己有独立性。人们无法与之进行肝胆相照的交谈，因为你碰到的不是他本人，而是一连串标语口号之类的东西，这些东西有力量的控制他。——朋霍费尔</p><hr><p>互联网需要的不是客观、正确/准确或含情脉脉，而是流量、争议和曝光。<br><del>所以网上很多令人迷惑的怪人怪事就可以理解了</del></p><hr><p>“一夜白头是真的吗？”<br>“要知道答案，首先要知道头发为什么黑…”<br>“别扯那些没用的，我就问你是不是真的”<br>“假的”<br>“我看电视上演的就是真的啊，好多都这么演”<br>“唔，电视剧都是编的啊”<br>“怎么可能瞎编乱造，肯定是真的”<br>“很多都是瞎编的啊，比如闻麝香并不会流产，口服珍珠粉并不美白…”<br>“你又不是拍电视的，你又知道了？”<br>“我学医的啊，虽然是口腔医但这些都是基础”<br>“呵呵，读过两天书就觉得自己什么都懂？我邻居家表孙子也是学医的他就不懂这个。怎么就你懂？别想忽悠我！”  </p><p>——一个瞎编的小段子，没有原型，没有影射</p><p>by @林瘦猫</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -474,11 +499,11 @@
   </entry>
   
   <entry>
-    <title>爱因斯坦的“2%徽章”</title>
+    <title>爱因斯坦的“2%徽章”🏅</title>
     <link href="https://liuyifei.club/posts/12835.html"/>
     <id>https://liuyifei.club/posts/12835.html</id>
     <published>2020-05-06T15:12:00.000Z</published>
-    <updated>2020-05-17T05:51:20.196Z</updated>
+    <updated>2020-05-19T07:41:03.658Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://m.weibo.cn/profile/1959830294" target="_blank" rel="noopener"><img src="https://tva3.sinaimg.cn/crop.0.0.180.180.180/74d0a316jw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1588788637&amp;ssig=Nx6ljTfpwJ" srcset="/img/loading.gif" alt="img" style="zoom:25%;"></a></p><p><a href="https://m.weibo.cn/profile/1959830294" target="_blank" rel="noopener">汪有 </a></p><h4 id="昨天-22-59-来自-啥都有的iPhone-XS-Max-已编辑"><a href="#昨天-22-59-来自-啥都有的iPhone-XS-Max-已编辑" class="headerlink" title="昨天 22:59 来自 啥都有的iPhone XS Max 已编辑"></a>昨天 22:59 来自 啥都有的iPhone XS Max 已编辑</h4><p>我又发现了一个巨大的商机。</p><p>我看过一些科学史上的复刻周边，1:1的牛顿反射式望远镜啊啥的，都是很小众的圈子，分享一点小爱好。<br>没啥影响力。<br>如果让我选一款更有意义的，我会选爱因斯坦的“2%徽章”。</p><p>1930年，欧洲刚刚从一战后的重建中复苏，又开始酝酿下一次大战。<br>爱因斯坦做了一次反战演讲，呼吁“不妥协地抵制战争，任何情况下都拒绝兵役”，他表示不要担心自己势孤力单——哪怕只有2%的人宣布拒绝打仗，那么政府就会无能为力，他们不敢把那么多人送进监狱。</p><p>2%这个数字，迅速成为反战领域最著名的一个数字。<br>和平主义者们和美国藤校的学生们纷纷制作了徽章别在胸前，上面只印着2%一个数字。<br>在欧洲大陆，立即有学生因为佩戴徽章被捕。你看，战争贩子真的会怕哪怕是数字上很渺小的2%。</p><p>虽然后来二战依然爆发，但在那个节点，和平主义也真的成为了一时之风潮。</p><p>我们今天不太会再面对战争威胁，但同样有许许多多来自周遭的不平等和恶意。<br>爱因斯坦告诉我们，不要担心势单力薄，只需要2%。</p><p>比如：<br>如果有2%的网络作者出来呼吁，抵制阅文的霸王合同；<br>2%的被性骚扰者站出来，勇敢指认侵犯一方；<br>2%被不公正裁员者申请劳动仲裁；<br>2%的关键岗位负责人站出来正面开杠996。<br>2%就可能变成4%，变成10%。</p><p>最开始的2%，当然要冒着莫大的恶意，要鼓起绝大的勇气。<br>但转发链上的每个人，也都在做出自己的有限推动。<br>十年来网络环境愈发收紧，但还是会有些观念上我们眼见的进步，都是从2%发展起来的。</p><p>爱因斯坦当然也属于2%。<br>以爱因斯坦的声望，也同样会因为敢于成为2%遭到打压。<br>二战胜利后，美国陷入一片反共产思潮中。<br>麦卡锡时代，公民们被随时要求“说出别人的名字”，在对自己及同事的忠诚调查中做证。<br>爱因斯坦又一次成为2%，呼吁：<br>“每一位受到委员会传讯的知识分子都应当拒绝作证。”</p><p>批评纷至沓来，社会群起攻之，各大媒体口诛笔伐，迅速将他批驳为“公知”。<br>评论包括：<br>“一个颇有成就获得无数荣誉的学者被为他提供避难所国家的敌人用做宣传工具，特别可悲。”<br>“你最应该知道，是这个国家，让你免遭希特勒的魔掌。”</p><p>他也开始影响其他人。<br>在一次麦卡锡在场的秘密听证会上，一位知识分子被问到“是否是共产者”。<br>他回答：“我拒绝回答，我采用的是爱因斯坦教授的建议。”<br>麦卡锡问他：你认识爱因斯坦？<br>他回答：其实不认识，但见过面。<br>这就是他的2%，最终带动了4%和10%，</p><p>我一直觉得，爱因斯坦当年的徽章，到现在也具有其现实意义。<br>以及，我第一次读到这个故事时，里面写的是“纽扣”。<br>应该是译者没加考证，直接把button这个词想当然翻译而成。</p><p>不过想想这种误会也还好，放在现在，我们确实没有别一个大徽章的习惯，可能确实做成精致一点的纽扣袖扣比较合适。<br>定制一枚，放在衬衫袖口、缝在衣服最上。<br>提醒自己，不要怯于做2%，不要吝于为2%发声。</p><p>说到这里气氛刚刚好，应该放一个设计概念图和众筹链接了。<br>但是你们知道，我对挣钱没兴趣。<br>这么好的商机免费送给你们了，交个朋友。<br>谁做出来了记得给我一个，我想要。<br>咱们下期再见👋</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -497,27 +522,6 @@
       <category term="勇气" scheme="https://liuyifei.club/tags/%E5%8B%87%E6%B0%94/"/>
     
       <category term="战争&amp;和平" scheme="https://liuyifei.club/tags/%E6%88%98%E4%BA%89-%E5%92%8C%E5%B9%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Physical Record Form</title>
-    <link href="https://liuyifei.club/posts/31289.html"/>
-    <id>https://liuyifei.club/posts/31289.html</id>
-    <published>2020-05-05T15:04:00.000Z</published>
-    <updated>2020-05-18T19:54:40.229Z</updated>
-    
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="不许偷看🙄" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">身体数据记录</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="421059d188a6e480e4852e559d3420f9301e695aed44cdf35d8857cb37c1ad2a">57f4983264bf2a7d1543ab5c7334fa7d526c223b657361cf106e101ede079f20e7b0e975f67c8e0c149aa61734a50d74ce272d2752d9b7ac6f85e03925768a8808a322731c4293afb78d1295e63905adba14b29b48dc4198f84ea3248c58a63409d1d6a35c36ba32abea327abf29af751220550d7ad7f02b03efff4dd882c4acdd865eeaa9f720211f5a57308f5444180ad5091d2f0c1434191f619e56fdfac4516683ae16d04d93292e0d543bf91a2adb3f17921801ea66b7826f2ed40fbc55f911b1c43e34bfe0d012190cf52ed241ad3bd253b5155765d3bb2c879848a5089c887654ede199fac33d799815ca9ed601fb9295c14fb9faaeeb3049b8c04cfe420a1c12ec031a0aeabc71c25a8677ac69212002f7ed17e45255ec2e2a83e67b5cd9fe5d7f332a92765b0ece9a197ecac1d6e65c9fdd28759732fb7464c95c4f4bfb7f41fcfde73880504d2b9f7029d34b64097208c8b214836ba871bb48a378b3d83db63f61b0affe9247e2a35d538b506b3e7cde0eab91baddb548c32ea0b0d7afd8d7c859d82f52653624d721a709cd2ed4ef23ddf3f37564acf2f06bcfcb6a1fa85b11aed54650aa7275a1c181df5782d9ef66e6e4e408afd89157c045580de3e3206fde23f0dfa5dc33faba096104349a33e06133096c3c64e752fdaa1816f169ff2ddad24b0b565aa04cb57e6815f29161ede88a9e25ea14691c10a09217280c738ff5858af51cd7282c530e3987173d6dc0d5e50318b81097b5498e09246c6d2ddcaedb3d318f96e5d9f5207f093918aa145086cb8d3e1db670c139cd6f54f8332b0d91ebfae9991ce705943c283d398d2a95dbd784b25f302750570e7cc7e24cd8fb5bffd06c1fd92e81b6e0f3bdbfdbb896759a520bb6b78f34c5cf2e6560c4cfbad2a847c53a273a7316ccb0d1fddde8aa5b863feb0a924d109de2b3e4e328ac83b18c26f6af5d489743d4b0fbbae0321396e473618f479b6785b22ad2012a3dc996bb624455acb59c178c05e438d35c5ef7d883c62a7f460f0fdb22f25716b1e6f10cfeaf32b91e794158221f0722606c9551927f9245f78671e46589ad299262b50c266a621d6ceaef22a1c2a9dde1616d04857f8827b97ac6c79dd893101f5529c8512e273d1dbc9678b64b81891815e81393be67b1e8ef416908f663d34ae4d2e8df862504914550ea0716c3901697f41dacb8ef984dd309cdeaa04c47246c561f495f80bfac65214bae1b294cc3609a8ca21406b0163f2e3597b4a2eae8e1428777baef3e4d657c231ba24bf64674ba009ed11667c6e1417d79a510ece39efce4046127dcb236736e68aaafb0dd37ab1dfaa4b469662cc94356152514c4c451c5458eb6925be0c1a71356af1e9964c53433164532b5163b4b4e561a0d6e0249c1379a27f4a5944a1ca7a0fceed78562317caf17ca93ca2e6093407e05c88252231c78622752fc0e0e0051ebaea9a34cb79a8655e03c608b2ae19d809ed0a2e6a70e658397f4879d2ff37b3cbf80992769da816073f833aa1f1a935470ba480af40912d8789073af6bbde7de80680f0ac68ea5a8fe880a8fa2516e93caa8b7bc6bf95a59e14d318bea859a3cfa0e1e5ef6aa5c83e93b28d28c57820dea9d4e0c8992deabf87bb54a62dc3cf107f691e8f46470fe1cddd899e82f129c9635ac289d23b7b59bbc4203b9c4f69ba456f3d9be520737598b93a1cb48c920e369321d55338df56df0d18464da7aea77dd2e15d4685f59c18244275c4c8177dd476e694cdfef5f272f34e2f6fb46fa9c897ddb3dac8f7c7f03ef031c4745266c7f94fb016784bffe407ed635c5023e32390d03efd039bd935ee5a129c8e9660df6a1b37b7fd291881fafae0dd5207b7dc89482ce829edc313f0e8d79dc50fe4932c5a9b61df53e65886496740d73dfc175ba1c0d619cf8c70efcb10d0f4c78c5be53eee4ff13af83c56e254c493a3b5b01f93107e11656185b45a02622142b5f52e28e2352c31a3d0f7cc57f28fe6f66c7ea313fcc64284291d93f60ce01f31432e4d2414be244175fb2390d0264dc8a6ceb093499e4006bf8e72d13e8e74c721f1657f10f311037b7fed105907238d5dd3aff72759f35e532744092c2584be4afd71e63172a855519e0c0da46a98bd1d3365eb533d376a98cc7225208e5d8fa0caaf354f13bbd2f1f7499a6686bea62a25cac43cf32fab486ea49c1e11dd938ac0e087400c3decbd97896c4018cd826efef36395e25c4428b06d69c3c99d855a2d17aa03b35658cc63505067e4b340227d90b532c44544ce4cdff322793b04b298269bc91fc0145012005a464219c101262fcbde1341704c9aaf95574a2481291a5981aba26b4d9b7fca780132928ce5753984fce8879d15ca88a3ecbde4c1dd7d331842e8ebea373836a00e122ad51feb1909c83832c93077154eb7b5056320c43b1313ad3d01bc371a7d5e6c6bdcb439cc9119bf90132b86b1a1cf8851c103d71b3c12e6347923ee83560c13b4917dc009815442d7f700e38ea75ad4edcd156206f796f88d568e7cf38f992e92d49876cd6ec781abd16e48a1fd6efa9ea5ba48d12ed60e0bd4976ac5f92b5fbdb5cd572161656133855cefaa1951d95532511fcd470e947c8d301b71b2ba941df0d8657ac38057d715173015ebbe719a7423f617af87109b1fbb09688a4fa3bb505de1ddc7e290d1bfa30005e47ba7638c4840f640ebbe81e93daf8cb9c2cb4f06369dd57a8e78e67c3c98328796330a4b853fc0e20ace3d6c687a38d0559951450037c7f838a2bb3a5a24b9513f6108523ebce9d48b78c7c27d62382a6719f34ad55021adfc434ab7e4655a2324a542ad677d8b7e367f7c401e6f3177ed9c60a2db19e65ac69c722153921164712bcf4e23c7c0b8b16bb9539956ee6ce948bf31e3391c07b7e128b703ddd551e0772f22a6ab9da8eea1748024be5f92941bfbd132287073874b47e8d0179282f9cfdf67d393558c952f81aefc68bf7084ab871a93babb5f1b0a5d6cf5b8e1bfb9c12552cbd28ede109445cffec91656b522e4c0ed6b5e42508d45608f201e7116d80f1e501721de9997671c8578d6212ec985fb852ec8f89c4833261380388f626cfd3edb409a8499dccc039ce8b9f088e94462de2708f3a7c58f3b0bd81d10e77f7b25be433d95f6f1c5691caa0e48c75fb14e4cff3955511818ba4b8df58ff9681845138f4f4381654d86c7ef2a612cc0b3a04a1471c709defbba59523155b952ddf33ac0368202bb13fa7e28554482d45774ad62e073f31172f155e1f3531bc7620f8cb23d69b82f28a0e4f8fc7b3e64062b1a4567d06e745a7cb0e955222a6d6b9bd97e8c3d10b2c637b208d78d35ab50aa7697b2b08d33d7f0ac1c4617c1183b9fb34bab566badf166ee058515366e83a6f7a315bd78169030fade23fa09680c6b1517c641a533638eac916240b3caee34d0a14a0bf4d4ef70c7af4757b72f7164cc21d8a85b066d6a211ed2b1b4adc611a54242046f6a2f5035c9fe3b7c9b4fc4fbcb69fcbcd42e200c266cdabf32d674c4e40335cf7226818876e28deca231f7e6a6583a8d3d4aa9bf5131c9f6400a07ac2533bcca577ea37c0008d8b86dd17b31553f268824401162458e74c60b2d10e6b3968b6153af4dd584f986342a44549ef6b842e5c3dfb26f3249c1a527c98bafe600c0e2ce915620544fc1755a47345f7943ba90a2fc447f5c32c55581665889c247b338c8df5d19b884a3dfedf579abfa35ef1500e92096fc45ac5b2cc3982766ee645385643c287c51e642446ab564abeddbc3aa59cdad1a5cf59558de6edc109d2c6d4495e2e21eeae986a3abfc378d7656e9a35d67a990adce23d2743f552832a757b24ff6d71c86313e3d80a5cb515fb266d8ad19709d99a43af19e32bc89bda4f957a4c2ac69ceb2c594ba2ac28f6555c999af65e094e8fa7fd4b961bdd63243ebf626524ab04c9bf532ced9a52dbe44fe8ac80d1a5efbf60e0a75534c67ff301c75b588a70bd259f0ab99ccc14c16ff4b74b506b4172c940eb263c0bf3925d3e70299e91d7508ce8891c7c1c398327da3449fa55dba8b913</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    <summary type="html">
-    
-      Password required.
-    
-    </summary>
-    
-    
-    
-      <category term="记录" scheme="https://liuyifei.club/tags/%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
