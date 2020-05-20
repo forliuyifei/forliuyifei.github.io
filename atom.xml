@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-05-19T05:57:01.252Z</updated>
+  <updated>2020-05-20T17:34:45.257Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -17,11 +17,99 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>超星云盘视频直链获取</title>
+    <link href="https://liuyifei.club/posts/49990.html"/>
+    <id>https://liuyifei.club/posts/49990.html</id>
+    <published>2020-05-20T17:10:00.000Z</published>
+    <updated>2020-05-20T17:34:45.257Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一图流<br><img src="https://i.loli.net/2020/05/21/acMmzOthdNGlFsU.png" srcset="/img/loading.gif" alt="image.png">  </p><h4 id="具体方法："><a href="#具体方法：" class="headerlink" title="具体方法："></a>具体方法：</h4><ul><li>登录网页版<a href="http://pan-yz.chaoxing.com/" target="_blank" rel="noopener">超星云盘</a>，点击所需视频文件的下载按钮。</li><li>进入浏览器的下载界面，右键正在下载的文件，复制其下载链接。</li><li>这个复制出来的链接，就是直链。可以直接发给别人，对方免登录也能下载。</li><li>至于直链的其它用途，你懂的🙊且用且珍惜，别把羊薅死了，大家都没得用。</li><li>手机用户可以考虑<a href="https://liuyifei.club/posts/40720.html#via">via浏览器</a>，不推荐使用它的资源探嗅功能获取超星云盘直链，403⚠</li><li>也有人拿超星云盘做图床，学生狗表示观望😶</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="教程" scheme="https://liuyifei.club/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="云盘" scheme="https://liuyifei.club/tags/%E4%BA%91%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo美化之APlayer自动靠边收拢</title>
+    <link href="https://liuyifei.club/posts/48183.html"/>
+    <id>https://liuyifei.club/posts/48183.html</id>
+    <published>2020-05-20T14:27:00.000Z</published>
+    <updated>2020-05-20T17:48:51.626Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>aplayer自带的<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%90%B8%E5%BA%95%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener">fixed和mini模式</a>在本站的显示效果一直很糟糕，碍眼，减低观赏性，还影响正文阅读，平时只能关闭它。</p><p><img src="https://i.loli.net/2020/05/20/Bux5M68NUFXPIoS.jpg" srcset="/img/loading.gif" alt="手机截图"></p><p>直至遇到这篇教程：<br><a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener">hexo集成Aplayer实现全局播放器吸底模式</a>  </p><p>可恕吾愚钝，一直学不会引入自定义css😶<br><img src="https://i.loli.net/2020/05/20/FwPYLEfyiRpKoDs.png" srcset="/img/loading.gif" alt="image.png"></p><h5 id="来自群友的指导💡"><a href="#来自群友的指导💡" class="headerlink" title="来自群友的指导💡"></a>来自群友的指导💡</h5><p><img src="https://i.loli.net/2020/05/20/LHE4fgKIxSBciW2.png" srcset="/img/loading.gif" alt="image.png"></p><h4 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h4><ul><li><p>直接修改main.styl，填入以下代码</p><pre><code class="hljs plain">//aplayer自动收起.aplayer.aplayer-fixed.aplayer-narrow   .aplayer-body    left: -66px !important  .aplayer-body:hover    left: 0px !important</code></pre><p><img src="https://i.loli.net/2020/05/20/CTuMibmKPXwVGSs.png" srcset="/img/loading.gif" alt="image.png"></p></li><li><p>保存</p></li><li><p>刷新本地页面查看效果  </p></li></ul><p><a href="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" srcset="/img/loading.gif" alt=""></a></p><p><del>嗯又多了个不想更新主题的借口</del>🙊</p><hr><p>用到的工具：</p><ul><li><a href="https://www.upyun.com/webp?utm_source=zhihu&amp;utm_medium=referral&amp;utm_campaign=250760803&amp;utm_term=webp" target="_blank" rel="noopener">又拍云GIF转webp</a></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
+    
+      <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="美化" scheme="https://liuyifei.club/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo踩坑之添加站点描述&amp;关键词</title>
+    <link href="https://liuyifei.club/posts/63794.html"/>
+    <id>https://liuyifei.club/posts/63794.html</id>
+    <published>2020-05-20T12:32:00.000Z</published>
+    <updated>2020-05-20T13:10:00.992Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天对博客做了些许改动，执行hexo clean后，竟然又报错：</p><blockquote><p>FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 9, column 9:  </p></blockquote><p><img src="https://i.loli.net/2020/05/20/QljK4VyBrMLctsJ.png" srcset="/img/loading.gif" alt="image.png"><br>好熟悉的错误🌚（之前也遇过，冒号非英文或少空格所致，但这次翻来覆去看也没发现哪里少空格）<br>网上一查错误代码，都说少空格，<del>可我明明没少空格</del>🤬<br>请教大佬帮忙看看<br><img src="https://i.loli.net/2020/05/20/PBm7tVlrSfhD4e9.png" srcset="/img/loading.gif" alt="image.png"><br><img src="https://i.loli.net/2020/05/20/vGWlOcRg2n1kz6t.png" srcset="/img/loading.gif" alt="image.png"><br>继续<del>嘴硬眼瞎</del><br><img src="https://i.loli.net/2020/05/20/14lfbMR59rDwtnd.png" srcset="/img/loading.gif" alt="image.png"><br>原来是<code>'</code>的问题😭可是改成中文单引号<code>’</code>好丑，人家就是要<code>'</code>咋办🙊  </p><h4 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h4><p>百度一下html转义：<br><code>'</code>对应<code>&amp;acute;</code><br>替换、保存<br><img src="https://i.loli.net/2020/05/20/Ofi63klUj47bmsW.png" srcset="/img/loading.gif" alt="image.png"></p><pre><code class="hljs plain">hexo g</code></pre><p>没报错，完结撒花。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
+    
+      <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="记录" scheme="https://liuyifei.club/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>好消息🎉本站已启用Cloudflare CDN加速</title>
     <link href="https://liuyifei.club/posts/1862.html"/>
     <id>https://liuyifei.club/posts/1862.html</id>
     <published>2020-05-19T03:44:00.000Z</published>
-    <updated>2020-05-19T05:57:01.252Z</updated>
+    <updated>2020-05-20T11:00:46.780Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>白嫖一时爽，一直白嫖一直爽🤪<br><img src="https://i.loli.net/2020/05/19/MojNlB9fPaG5kiq.png" srcset="/img/loading.gif" alt="image.png"></p><p><img src="https://i.loli.net/2020/05/19/zQOPDlMZw7K8gCe.png" srcset="/img/loading.gif" alt="image.png"></p><p><img src="https://i.loli.net/2020/05/19/S9q81XD3AObEYoy.png" srcset="/img/loading.gif" alt="image.png"></p><p><img src="https://i.loli.net/2020/05/19/nO2XuRMd9QiG8HK.png" srcset="/img/loading.gif" alt="image.png"></p><p>响应速度提升明显🎉<br><img src="https://i.loli.net/2020/05/19/4VnLxqwaistMYWO.png" srcset="/img/loading.gif" alt="image.png"></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -96,7 +184,7 @@
     <link href="https://liuyifei.club/posts/30773.html"/>
     <id>https://liuyifei.club/posts/30773.html</id>
     <published>2020-05-17T05:41:00.000Z</published>
-    <updated>2020-05-17T09:03:48.445Z</updated>
+    <updated>2020-05-20T17:36:08.875Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」"><a href="#向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」" class="headerlink" title="向Google提交hexo站点地图时出现 「站点地图可读取，但存在错误」"></a>向Google提交hexo站点地图时出现 <strong>「站点地图可读取，但存在错误」</strong></h4><img src="https://i.loli.net/2020/05/17/82ELiGAhJ3KQVj1.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 40%;"><p>打开sitemap页面，发现原因：博客网址不匹配  </p><img src="https://i.loli.net/2020/05/17/jwJ7OY4B3vtZ5Gh.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 50%;">  <h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><ol><li>在hexo的_config.yml配置文件中正确填写博客网址（我之前填的是GitHub给的网址，因为当时还没配置好腾讯云的DNS解析）  </li></ol><img src="https://i.loli.net/2020/05/17/9jDFLf8ekrOI3ov.png" srcset="/img/loading.gif" alt="image.png" style="zoom:50%;">  <ol start="2"><li><p>保存_config.yml文件后，老规矩</p><pre><code class="hljs plain">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</code></pre></li></ol><ol start="3"><li>更新部署后，删除之前提交的站点地图，重新提交，成功√</li></ol><p><img src="https://i.loli.net/2020/05/17/FS7hIinPsAYRbdL.png" srcset="/img/loading.gif" alt="image.png"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -115,7 +203,7 @@
     
       <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
     
-      <category term="问题&amp;&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+      <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
     
   </entry>
   
@@ -260,11 +348,11 @@
       <category term="转载" scheme="https://liuyifei.club/categories/%E8%BD%AC%E8%BD%BD/"/>
     
     
-      <category term="教程" scheme="https://liuyifei.club/tags/%E6%95%99%E7%A8%8B/"/>
-    
       <category term="技巧" scheme="https://liuyifei.club/tags/%E6%8A%80%E5%B7%A7/"/>
     
       <category term="xp模块" scheme="https://liuyifei.club/tags/xp%E6%A8%A1%E5%9D%97/"/>
+    
+      <category term="教程" scheme="https://liuyifei.club/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -451,77 +539,6 @@
       <category term="道" scheme="https://liuyifei.club/tags/%E9%81%93/"/>
     
       <category term="友情" scheme="https://liuyifei.club/tags/%E5%8F%8B%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于小说</title>
-    <link href="https://liuyifei.club/posts/27487.html"/>
-    <id>https://liuyifei.club/posts/27487.html</id>
-    <published>2020-05-06T15:35:00.000Z</published>
-    <updated>2020-05-06T15:39:38.198Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>情节和最终结局向来贫瘠，无非能用几个字归纳出的起承转合，生老病死。还是人类在困难面前的意志，痛苦，挣扎，在命运未知的轨道上曲折前行的过程所展现的美丽和丑陋最多样，最能打动人心。</p><a id="more"></a><p><del>略有改动</del></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;情节和最终结局向来贫瘠，无非能用几个字归纳出的起承转合，生老病死。还是人类在困难面前的意志，痛苦，挣扎，在命运未知的轨道上曲折前行的过程所展现的美丽和丑陋最多样，最能打动人心。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="https://liuyifei.club/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-      <category term="拾人牙慧" scheme="https://liuyifei.club/tags/%E6%8B%BE%E4%BA%BA%E7%89%99%E6%85%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[梦]无人接听</title>
-    <link href="https://liuyifei.club/posts/48104.html"/>
-    <id>https://liuyifei.club/posts/48104.html</id>
-    <published>2020-05-06T15:23:50.000Z</published>
-    <updated>2020-05-18T20:54:19.699Z</updated>
-    
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="别瞎试密码了，没啥看的🙄" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">你瞅啥?</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="3d80e91e2d6b9ee4b585cd3bda430fbe997059d902508c43536f7af9322603d7">50d47c38a0f90608ef5c8c63da96d76d5fcffe42269b00c05ebc8e9ef1f2e99ffe0399fa817c3ae90d48ffb9f2877e6f34e56fe54ed71f0d55f58b5f0796062ced5df0c489bdfebc2c5f15d21ad9f13412b88c94dca206790ab55c16911a38ada25af941759e6359d3451676e51e11b4ca13464e2859757393a11ff2f6de6e98d4b535c949c80c15a36821d1036441b6d6f582daf27595abecfb1c5f677da997e12313c2097024b7e73d8d515735ebf327d4bf6a93ff95c31c33573a73a3a92d289c2484702affb769612a4f1cb967a26c1dc75b35bc9525403ffed2c17b77a9a3b1fe99001a6b7edb57b6848e2cac987e7dcc78c6255c683f2a50a895686fc657e9b9e3b441a135f85827b7ed060aad0b936a50ce24e397fb6ddf8abc3fee4c7ec34a39e91808a7226b4b2e2971074ebfedcec930e2b431dce1c6cdaf9ebc1ce154428fdf42a007c010da8dd460e7622e893dacccc9da8c5820ca69ca803915a8b7e51058340fdc13cdba70f466d4c3128935d5ad3cb4791bca040d8967ae37fee676dc2428915aa0813c32414dd9a33a942c43eb0efb4d35c3c939be38a77888b32d759608441e087648dc4cf02e9ccae8256d192ea50e7b4d43a47bfd019e40fdc93f25443adcf3439c7396be952147e7df8f50763f860ba11a65ecfc01997a8aba871dd1c94e554eb3f8da0fdeea1e63f6058e313af6163178b04f911607494052da3a1eb5970ffd321bf1b18653b36b3016e753f7250a8d3a9f670d8ea36cb31ba1119e2646c75f3cc9ce32acc24144be8cca77c7d497f30e8041dd734ac5225f7f9dda8ad4b42a9b707c3065d9868c24d0a580b848013fe4513cbf11ed1f0b9a0dc553e4eb54061391b11ebd8c346a06309354ddc39cbc2aa3cf5a597207a25627ddcf3044392f32bcec6eaea33789ee37178cb1002ada418677c0cc8fd7571ce8f321e1ae1992c2d9382dbcb0b8bd3f6d2eb171ef5cb79de44d65c60106f991820bc2c29566aeee39397181acbe93b75a8f0adf9c633604b63c34bcc82a894f7173256994121aa8f7f01bae2176288ec8a35f117b535f877d9f91624fa82babcda8597682ca336194b0306f8f898c3d087c6e55c077bd5720376270af8491b015ba0e8187bf3288571d72cfc3591380ac02727257317bf5f0ca084e02a3cc8230dfb71f07efe9a3da9acef9e6778e9a2d3438acd370dc9a4f055f0b58f669fc29e3ee3bc699587b99a8b4b68067f4204e14f2ec0598e9e30fd5f7cfc0d9bf75bd28254aa7a249a79dfac6907cb845911454c28480b857bc0e60264b2ba79771c6fe9675c598bc7c96480eff22ab764abf950ba287cb47f6e72c476168733440a0bffab7123a4598bd3b8af8959861aae20ec22f0eb15d1697ef2ee023050bab791a0a5f0de46aa0d84ac9055bb25d45373dc3a62be7fb5d3fce06c971953645aa32847c19d8ee7869e1d85fbc589515793271897059bc8d75835f457dd0139bcdad81f8e010baa984d295b40ddb9eeaa3f5291ee7059b58922c2785b908d4a236240aedb9f83c091a7b027474bdd481d7a9cb47b021a05902dad41ecd47de420253d23e704775ec30ec5e2c662791fee12d81720b78c8c7c9db26bb737ba48d4a99530317871de2156d8a0ca8e4341740e1f698b879b9d17c713e638e7dee91d922eb7bb506b20dd6964e8e192bcc1379c95e14005089d9451e1cf1c84fdded02fdf24425daf33fed3ffcf72add7557de9f4c87eed222c46453701d57fb240f5f30a13d362e516c1ecaa7e06358e2814c2f97ea853a479f126d7ec65276cbc84e5afde65f8ed918eb98e9659ab6222c1c17e7672a62d7c633ec7709bbdb6d974674c453c49d0475a951efd2f697a60586871d52851c35130523abc06b4d4e74cddc753006476f16f809d492e90e43bcbe85c63e12fd974ab4bbd3fef3cf498ba0b6e4d17b42af25d5142f90fc0de3e95f84ebacf7657eb1f241fdf3876e1793222542595571c7525a4405679dd7bc1aae48c32ff8a5aeca271c934efebc33cf07cdbf6e75bf4699cd10dd00ef789684ed7ff67f6f4cdd2e68c517dcd2c22c4a4a2faa6f7bbe6ef95958729f74640945d282625ecff7716417d46533d7e5405141b44f8f4a60610576d2344fdf7d655965d701c0f1cf02a08461c749f9</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    <summary type="html">
-    
-      Password required.
-    
-    </summary>
-    
-    
-    
-      <category term="梦" scheme="https://liuyifei.club/tags/%E6%A2%A6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>爱因斯坦的“2%徽章”🏅</title>
-    <link href="https://liuyifei.club/posts/12835.html"/>
-    <id>https://liuyifei.club/posts/12835.html</id>
-    <published>2020-05-06T15:12:00.000Z</published>
-    <updated>2020-05-19T07:41:03.658Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://m.weibo.cn/profile/1959830294" target="_blank" rel="noopener"><img src="https://tva3.sinaimg.cn/crop.0.0.180.180.180/74d0a316jw1e8qgp5bmzyj2050050aa8.jpg?KID=imgbed,tva&amp;Expires=1588788637&amp;ssig=Nx6ljTfpwJ" srcset="/img/loading.gif" alt="img" style="zoom:25%;"></a></p><p><a href="https://m.weibo.cn/profile/1959830294" target="_blank" rel="noopener">汪有 </a></p><h4 id="昨天-22-59-来自-啥都有的iPhone-XS-Max-已编辑"><a href="#昨天-22-59-来自-啥都有的iPhone-XS-Max-已编辑" class="headerlink" title="昨天 22:59 来自 啥都有的iPhone XS Max 已编辑"></a>昨天 22:59 来自 啥都有的iPhone XS Max 已编辑</h4><p>我又发现了一个巨大的商机。</p><p>我看过一些科学史上的复刻周边，1:1的牛顿反射式望远镜啊啥的，都是很小众的圈子，分享一点小爱好。<br>没啥影响力。<br>如果让我选一款更有意义的，我会选爱因斯坦的“2%徽章”。</p><p>1930年，欧洲刚刚从一战后的重建中复苏，又开始酝酿下一次大战。<br>爱因斯坦做了一次反战演讲，呼吁“不妥协地抵制战争，任何情况下都拒绝兵役”，他表示不要担心自己势孤力单——哪怕只有2%的人宣布拒绝打仗，那么政府就会无能为力，他们不敢把那么多人送进监狱。</p><p>2%这个数字，迅速成为反战领域最著名的一个数字。<br>和平主义者们和美国藤校的学生们纷纷制作了徽章别在胸前，上面只印着2%一个数字。<br>在欧洲大陆，立即有学生因为佩戴徽章被捕。你看，战争贩子真的会怕哪怕是数字上很渺小的2%。</p><p>虽然后来二战依然爆发，但在那个节点，和平主义也真的成为了一时之风潮。</p><p>我们今天不太会再面对战争威胁，但同样有许许多多来自周遭的不平等和恶意。<br>爱因斯坦告诉我们，不要担心势单力薄，只需要2%。</p><p>比如：<br>如果有2%的网络作者出来呼吁，抵制阅文的霸王合同；<br>2%的被性骚扰者站出来，勇敢指认侵犯一方；<br>2%被不公正裁员者申请劳动仲裁；<br>2%的关键岗位负责人站出来正面开杠996。<br>2%就可能变成4%，变成10%。</p><p>最开始的2%，当然要冒着莫大的恶意，要鼓起绝大的勇气。<br>但转发链上的每个人，也都在做出自己的有限推动。<br>十年来网络环境愈发收紧，但还是会有些观念上我们眼见的进步，都是从2%发展起来的。</p><p>爱因斯坦当然也属于2%。<br>以爱因斯坦的声望，也同样会因为敢于成为2%遭到打压。<br>二战胜利后，美国陷入一片反共产思潮中。<br>麦卡锡时代，公民们被随时要求“说出别人的名字”，在对自己及同事的忠诚调查中做证。<br>爱因斯坦又一次成为2%，呼吁：<br>“每一位受到委员会传讯的知识分子都应当拒绝作证。”</p><p>批评纷至沓来，社会群起攻之，各大媒体口诛笔伐，迅速将他批驳为“公知”。<br>评论包括：<br>“一个颇有成就获得无数荣誉的学者被为他提供避难所国家的敌人用做宣传工具，特别可悲。”<br>“你最应该知道，是这个国家，让你免遭希特勒的魔掌。”</p><p>他也开始影响其他人。<br>在一次麦卡锡在场的秘密听证会上，一位知识分子被问到“是否是共产者”。<br>他回答：“我拒绝回答，我采用的是爱因斯坦教授的建议。”<br>麦卡锡问他：你认识爱因斯坦？<br>他回答：其实不认识，但见过面。<br>这就是他的2%，最终带动了4%和10%，</p><p>我一直觉得，爱因斯坦当年的徽章，到现在也具有其现实意义。<br>以及，我第一次读到这个故事时，里面写的是“纽扣”。<br>应该是译者没加考证，直接把button这个词想当然翻译而成。</p><p>不过想想这种误会也还好，放在现在，我们确实没有别一个大徽章的习惯，可能确实做成精致一点的纽扣袖扣比较合适。<br>定制一枚，放在衬衫袖口、缝在衣服最上。<br>提醒自己，不要怯于做2%，不要吝于为2%发声。</p><p>说到这里气氛刚刚好，应该放一个设计概念图和众筹链接了。<br>但是你们知道，我对挣钱没兴趣。<br>这么好的商机免费送给你们了，交个朋友。<br>谁做出来了记得给我一个，我想要。<br>咱们下期再见👋</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      不要担心势单力薄，只需要2%。
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="https://liuyifei.club/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-      <category term="爱因斯坦" scheme="https://liuyifei.club/tags/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6/"/>
-    
-      <category term="勇气" scheme="https://liuyifei.club/tags/%E5%8B%87%E6%B0%94/"/>
-    
-      <category term="战争&amp;和平" scheme="https://liuyifei.club/tags/%E6%88%98%E4%BA%89-%E5%92%8C%E5%B9%B3/"/>
     
   </entry>
   

@@ -4,6 +4,91 @@
   
     
     <entry>
+      <title>超星云盘视频直链获取</title>
+      <link href="/posts/49990.html"/>
+      <url>/posts/49990.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>一图流<br><img src="https://i.loli.net/2020/05/21/acMmzOthdNGlFsU.png" srcset="/img/loading.gif" alt="image.png">  </p><h4 id="具体方法："><a href="#具体方法：" class="headerlink" title="具体方法："></a>具体方法：</h4><ul><li>登录网页版<a href="http://pan-yz.chaoxing.com/" target="_blank" rel="noopener">超星云盘</a>，点击所需视频文件的下载按钮。</li><li>进入浏览器的下载界面，右键正在下载的文件，复制其下载链接。</li><li>这个复制出来的链接，就是直链。可以直接发给别人，对方免登录也能下载。</li><li>至于直链的其它用途，你懂的🙊且用且珍惜，别把羊薅死了，大家都没得用。</li><li>手机用户可以考虑<a href="https://liuyifei.club/posts/40720.html#via">via浏览器</a>，不推荐使用它的资源探嗅功能获取超星云盘直链，403⚠</li><li>也有人拿超星云盘做图床，学生狗表示观望😶</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 原创 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 云盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo美化之APlayer自动靠边收拢</title>
+      <link href="/posts/48183.html"/>
+      <url>/posts/48183.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>aplayer自带的<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%90%B8%E5%BA%95%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener">fixed和mini模式</a>在本站的显示效果一直很糟糕，碍眼，减低观赏性，还影响正文阅读，平时只能关闭它。</p><p><img src="https://i.loli.net/2020/05/20/Bux5M68NUFXPIoS.jpg" srcset="/img/loading.gif" alt="手机截图"></p><p>直至遇到这篇教程：<br><a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener">hexo集成Aplayer实现全局播放器吸底模式</a>  </p><p>可恕吾愚钝，一直学不会引入自定义css😶<br><img src="https://i.loli.net/2020/05/20/FwPYLEfyiRpKoDs.png" srcset="/img/loading.gif" alt="image.png"></p><h5 id="来自群友的指导💡"><a href="#来自群友的指导💡" class="headerlink" title="来自群友的指导💡"></a>来自群友的指导💡</h5><p><img src="https://i.loli.net/2020/05/20/LHE4fgKIxSBciW2.png" srcset="/img/loading.gif" alt="image.png"></p><h4 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h4><ul><li><p>直接修改main.styl，填入以下代码</p><pre><code class="hljs plain">//aplayer自动收起.aplayer.aplayer-fixed.aplayer-narrow   .aplayer-body    left: -66px !important  .aplayer-body:hover    left: 0px !important</code></pre><p><img src="https://i.loli.net/2020/05/20/CTuMibmKPXwVGSs.png" srcset="/img/loading.gif" alt="image.png"></p></li><li><p>保存</p></li><li><p>刷新本地页面查看效果  </p></li></ul><p><a href="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" srcset="/img/loading.gif" alt=""></a></p><p><del>嗯又多了个不想更新主题的借口</del>🙊</p><hr><p>用到的工具：</p><ul><li><a href="https://www.upyun.com/webp?utm_source=zhihu&amp;utm_medium=referral&amp;utm_campaign=250760803&amp;utm_term=webp" target="_blank" rel="noopener">又拍云GIF转webp</a></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 原创 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 问题&amp;解决 </tag>
+            
+            <tag> 美化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo踩坑之添加站点描述&amp;关键词</title>
+      <link href="/posts/63794.html"/>
+      <url>/posts/63794.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天对博客做了些许改动，执行hexo clean后，竟然又报错：</p><blockquote><p>FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 9, column 9:  </p></blockquote><p><img src="https://i.loli.net/2020/05/20/QljK4VyBrMLctsJ.png" srcset="/img/loading.gif" alt="image.png"><br>好熟悉的错误🌚（之前也遇过，冒号非英文或少空格所致，但这次翻来覆去看也没发现哪里少空格）<br>网上一查错误代码，都说少空格，<del>可我明明没少空格</del>🤬<br>请教大佬帮忙看看<br><img src="https://i.loli.net/2020/05/20/PBm7tVlrSfhD4e9.png" srcset="/img/loading.gif" alt="image.png"><br><img src="https://i.loli.net/2020/05/20/vGWlOcRg2n1kz6t.png" srcset="/img/loading.gif" alt="image.png"><br>继续<del>嘴硬眼瞎</del><br><img src="https://i.loli.net/2020/05/20/14lfbMR59rDwtnd.png" srcset="/img/loading.gif" alt="image.png"><br>原来是<code>'</code>的问题😭可是改成中文单引号<code>’</code>好丑，人家就是要<code>'</code>咋办🙊  </p><h4 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h4><p>百度一下html转义：<br><code>'</code>对应<code>&amp;acute;</code><br>替换、保存<br><img src="https://i.loli.net/2020/05/20/Ofi63klUj47bmsW.png" srcset="/img/loading.gif" alt="image.png"></p><pre><code class="hljs plain">hexo g</code></pre><p>没报错，完结撒花。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> 原创 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 问题&amp;解决 </tag>
+            
+            <tag> 记录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>好消息🎉本站已启用Cloudflare CDN加速</title>
       <link href="/posts/1862.html"/>
       <url>/posts/1862.html</url>
@@ -95,7 +180,7 @@
             
             <tag> hexo </tag>
             
-            <tag> 问题&amp;&amp;解决 </tag>
+            <tag> 问题&amp;解决 </tag>
             
         </tags>
       
@@ -231,11 +316,11 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 技巧 </tag>
             
             <tag> xp模块 </tag>
+            
+            <tag> 教程 </tag>
             
         </tags>
       
@@ -665,9 +750,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 技巧 </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> chrome </tag>
             
@@ -682,7 +767,7 @@
       <link href="/posts/15656.html"/>
       <url>/posts/15656.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"><a href="#不会css的小白如何给hexo博客文章封面添加触摸过渡动画？" class="headerlink" title="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"></a>不会css的小白如何给hexo博客文章封面添加触摸过渡动画？</h2><p>几天前看到晴初大佬写的面向小白的用css美化网站的教程，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p><p>但我想要的只是给文章封面添加触摸变大过渡动画。</p><p>先用万能的右键检查定位到自己需要改动的地方：</p><p><img src="https://github.com/forliuyifei/img/blob/mater/img/Snipaste_2020-04-24_18-23-39.jpg?raw=true" srcset="/img/loading.gif" alt=""></p><p>大概就是这个 <strong>.index_img</strong> 了，具体如何实现呢？</p><p>百度一下找到这篇教程</p><blockquote><h4 id="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"><a href="#css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）" class="headerlink" title="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"></a><a href="https://www.cnblogs.com/yangslin/p/9347075.html" target="_blank" rel="noopener">css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）</a></h4><p>1）.CSS3的transform:scale()可以实现按比例放大或者缩小功能。</p><p>2）.CSS3的transition允许CSS的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。</p><p>3）.transition: all 0.6s;表示所有的属性变化在0.6s的时间段内完成。</p><p>4）transform: scale(1.4);表示在鼠标放到图片上的时候图片按比例放大1.4倍。</p><pre><code class="hljs plain">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset="UTF-8"&gt;&lt;title&gt;&lt;/title&gt;&lt;style type="text/css"&gt;div{　　width: 300px;　　height: 300px;　　border: #000 solid 1px;　　margin: 50px auto;　　overflow: hidden;}div img{　　cursor: pointer;　　transition: all 0.6s;}div img:hover{　　transform: scale(1.4);}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;　　&lt;div&gt;　　　　&lt;img src="img/focus.png" /&gt;　　&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</code></pre></blockquote><p>有些傻眼，方向大概对了但格式不是我想要的🤪</p><p>再查查现在用的Fluid主题配置说明</p><blockquote><h4 id="自定义-JS-CSS-HTML"><a href="#自定义-JS-CSS-HTML" class="headerlink" title="自定义 JS / CSS / HTML"></a><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener">自定义 JS / CSS / HTML</a></h4><p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p><pre><code class="hljs yaml"><span class="hljs-comment"># 指定自定义 js 文件路径，路径是相对 source 目录</span><span class="hljs-attr">custom_js:</span> <span class="hljs-string">/js/custom.js</span><span class="hljs-comment"># 指定自定义 css 文件路径，路径是相对 source 目录</span><span class="hljs-attr">custom_css:</span> <span class="hljs-string">/css/custom.css</span></code></pre></blockquote><p>似乎还是麻烦了点🤔</p><p>💡Fluid主题的css配置文件夹里肯定有相关内容，找出来直接往后补充就是了，不行就Crtl+Z撤回</p><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.gif" alt=""></p><p>对齐img的下一级内容</p><pre><code class="hljs plain">border-radius .25remcursor: pointertransition: all 0.6s&amp;:hover  transform: scale(1.1)</code></pre><p>保存刷新页面看看，成功了！<br>速度和大小都合适。</p><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-46-12.png" srcset="/img/loading.gif" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"><a href="#不会css的小白如何给hexo博客文章封面添加触摸过渡动画？" class="headerlink" title="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"></a>不会css的小白如何给hexo博客文章封面添加触摸过渡动画？</h2><p>几天前看到<a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener">Royce2003</a>的面向小白的用css美化网站教程，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p><p>但我想要的只是给文章封面添加触摸变大过渡动画。</p><p>先用万能的右键检查定位到自己需要改动的地方：</p><p><img src="https://github.com/forliuyifei/img/blob/mater/img/Snipaste_2020-04-24_18-23-39.jpg?raw=true" srcset="/img/loading.gif" alt=""></p><p>大概就是这个 <strong>.index_img</strong> 了，具体如何实现呢？</p><p>百度一下找到这篇教程</p><blockquote><h4 id="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"><a href="#css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）" class="headerlink" title="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"></a><a href="https://www.cnblogs.com/yangslin/p/9347075.html" target="_blank" rel="noopener">css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）</a></h4><p>1）.CSS3的transform:scale()可以实现按比例放大或者缩小功能。</p><p>2）.CSS3的transition允许CSS的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。</p><p>3）.transition: all 0.6s;表示所有的属性变化在0.6s的时间段内完成。</p><p>4）transform: scale(1.4);表示在鼠标放到图片上的时候图片按比例放大1.4倍。</p><pre><code class="hljs plain">&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;meta charset="UTF-8"&gt;&lt;title&gt;&lt;/title&gt;&lt;style type="text/css"&gt;div{　　width: 300px;　　height: 300px;　　border: #000 solid 1px;　　margin: 50px auto;　　overflow: hidden;}div img{　　cursor: pointer;　　transition: all 0.6s;}div img:hover{　　transform: scale(1.4);}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;　　&lt;div&gt;　　　　&lt;img src="img/focus.png" /&gt;　　&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</code></pre></blockquote><p>有些傻眼，方向大概对了但格式不是我想要的🤪</p><p>再查查现在用的Fluid主题配置说明</p><blockquote><h4 id="自定义-JS-CSS-HTML"><a href="#自定义-JS-CSS-HTML" class="headerlink" title="自定义 JS / CSS / HTML"></a><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener">自定义 JS / CSS / HTML</a></h4><p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p><pre><code class="hljs yaml"><span class="hljs-comment"># 指定自定义 js 文件路径，路径是相对 source 目录</span><span class="hljs-attr">custom_js:</span> <span class="hljs-string">/js/custom.js</span><span class="hljs-comment"># 指定自定义 css 文件路径，路径是相对 source 目录</span><span class="hljs-attr">custom_css:</span> <span class="hljs-string">/css/custom.css</span></code></pre></blockquote><p>似乎还是麻烦了点🤔</p><p>💡Fluid主题的css配置文件夹里肯定有相关内容，找出来直接往后补充就是了，不行就Crtl+Z撤回</p><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.gif" alt=""></p><p>对齐img的下一级内容</p><pre><code class="hljs plain">border-radius .25remcursor: pointertransition: all 0.6s&amp;:hover  transform: scale(1.1)</code></pre><p>保存刷新页面看看，成功了！<br>速度和大小都合适。</p><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-46-12.png" srcset="/img/loading.gif" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -694,9 +779,9 @@
       
         <tags>
             
-            <tag> 问题&amp;解决 </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> 问题&amp;解决 </tag>
             
             <tag> 美化 </tag>
             
@@ -888,7 +973,7 @@
       <link href="/posts/16408.html"/>
       <url>/posts/16408.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="自动播放背景音乐（直链）"><a href="#自动播放背景音乐（直链）" class="headerlink" title="自动播放背景音乐（直链）"></a>自动播放背景音乐（直链）</h3><pre><code class="hljs plain">&lt;iframe width="0" height="0" src="https://lyfclub.herokuapp.com/music/Isabella%20Celander-Stargazing.mp3" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre><p><code>2020.05.19 更正:</code><br><code>上面这条代码失效, 如果添加到网页, 可能导致打开网页自动下载歌曲文件, 而非自动播放音乐</code></p><h3 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h3><ul><li><p>固定大小   </p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe><p>auto=0不自动播放，1自动播放。  </p></li><li><p>自适应宽度</p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe></li></ul><h3 id="插入视频-尺寸可调"><a href="#插入视频-尺寸可调" class="headerlink" title="插入视频(尺寸可调)"></a>插入视频(尺寸可调)</h3><pre><code class="hljs plain">&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/rRVLaar8cE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</code></pre><iframe width="100%" height="315" src="https://www.youtube.com/embed/rRVLaar8cE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><pre><code class="hljs plain">&lt;video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="50%" controls="controls"&gt;&lt;/video&gt;</code></pre><p><video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="100%" controls="controls"></video></p><div class="note note-success">            <p><del>第一个链接是在天翼云盘PC网页端在线播放mp4时用鼠标右键获取的，建议选择h.264编码的MP4格式的视频，其它格式可用格式工厂转换。<br>但愿不会太快失效吧😑</del><br>行, 不折腾了, 想找个长期有效且国内访问正常的永久视频直链太难, 凑合用YouTube, 直接在其播放页面找到<strong>分享-嵌入</strong>复制进文章页就成</p>          </div><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><center><div class="note note-danger">            <p><strong>插入音乐</strong></p>          </div></center><h3 id="自动播放背景音乐"><a href="#自动播放背景音乐" class="headerlink" title="自动播放背景音乐"></a>自动播放背景音乐</h3><pre><code class="hljs plain">&lt;iframe width="0" height="0" src="https://lyfclub.herokuapp.com/music/Isabella%20Celander-Stargazing.mp3" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre><p><code>2020.05.19 更正:</code><br><code>上面这条代码失效, 如果添加到网页, 可能导致打开网页自动下载歌曲文件, 而非自动播放</code></p><hr><h3 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h3><ul><li><p>固定大小   </p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe><p>auto=0不自动播放，1自动播放。  </p></li><li><p>自适应宽度</p><pre><code class="hljs plain">&lt;iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre><iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe>  </li></ul><hr><center> <strong> <p class="note note-primary">插入视频</p> <strong> </strong></strong></center><strong><strong><h3 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h3><pre><code class="hljs plain">&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/rRVLaar8cE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</code></pre><p>网络原因，此处不再做展示。</p><hr><h3 id="哔哩哔哩"><a href="#哔哩哔哩" class="headerlink" title="哔哩哔哩"></a>哔哩哔哩</h3><p><img src="https://i.loli.net/2020/05/20/AjlSahnTsWrL96I.png" srcset="/img/loading.gif" alt="image.png"></p><pre><code class="hljs plain">&lt;iframe src="//player.bilibili.com/player.html?aid=86700769&amp;bvid=BV1X7411p7Cg&amp;cid=148167464&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"&gt; &lt;/iframe&gt;</code></pre><center><iframe src="//player.bilibili.com/player.html?aid=86700769&amp;bvid=BV1X7411p7Cg&amp;cid=148167464&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></center>  <center>太小了，不显示弹幕开关</center><p>改个尺寸：</p><iframe height="500" width="100%" src="//player.bilibili.com/player.html?aid=11571247&amp;bvid=BV15x41167kg&amp;cid=19123289&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>又太臃肿🙄<h3 id="其它视频直链"><a href="#其它视频直链" class="headerlink" title="其它视频直链"></a>其它视频直链</h3><h4 id="超星云盘"><a href="#超星云盘" class="headerlink" title="超星云盘"></a>超星云盘</h4><p><video src="http://d0.ananas.chaoxing.com/download/e84894d9b63e907e1fab6324f13c97de?fn=mmexport1589551761320" width="50%" height="50%" controls="controls"></video></p><h4 id="OneManager"><a href="#OneManager" class="headerlink" title="OneManager"></a>OneManager</h4><pre><code class="hljs plain">&lt;video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="50%" controls="controls"&gt;&lt;/video&gt;</code></pre><p><video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="100%" controls="controls"></video></p><div class="note note-success">            <p><del>第一个链接是在天翼云盘PC网页端在线播放mp4时用鼠标右键获取的，建议选择h.264编码的MP4格式的视频，其它格式可用格式工厂转换。<br>但愿不会太快失效吧😑</del><br><del>行, 不折腾了, 想找个长期有效且国内访问正常的永久视频直链太难, 凑合用YouTube, 直接在其播放页面找到<strong>分享-嵌入</strong>复制进文章页就成</del></p>          </div><a id="more"></a></strong></strong><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -1286,9 +1371,9 @@
       
         <tags>
             
-            <tag> 问题&amp;解决 </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> 问题&amp;解决 </tag>
             
         </tags>
       

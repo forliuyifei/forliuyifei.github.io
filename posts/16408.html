@@ -14,7 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#263238">
-  <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙的博客|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... 拒绝“自我审查、敏感词折叠、删帖、封号、误解、抬杠.” ">
+  <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... 拒绝“自我审查、敏感词折叠、删帖、封号、误解、抬杠.”">
   <meta name="author" content="冼仙">
   <meta name="keywords" content="Hexo-Fluid主题自定义美化,Hexo-RSS订阅源,亦家人的博客,软件|工具|教程|技巧|电影|壁纸|资源|记录分享,Havoc-红米note7">
   <title>给网页插入音视频的简单代码🎬 - 饿龙不是龙哩</title>
@@ -153,7 +153,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    409 字
+                    483 字
                   </span>
                 
 
@@ -199,12 +199,19 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-info">
-                本文最后更新于：星期二, 五月 19日 2020, 3:46 下午
+                本文最后更新于：星期四, 五月 21日 2020, 1:09 凌晨
               </p>
             
             <article class="markdown-body">
-              <h3 id="自动播放背景音乐（直链）"><a href="#自动播放背景音乐（直链）" class="headerlink" title="自动播放背景音乐（直链）"></a>自动播放背景音乐（直链）</h3><pre><code class="hljs plain">&lt;iframe width="0" height="0" src="https://lyfclub.herokuapp.com/music/Isabella%20Celander-Stargazing.mp3" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
-<p><code>2020.05.19 更正:</code><br><code>上面这条代码失效, 如果添加到网页, 可能导致打开网页自动下载歌曲文件, 而非自动播放音乐</code></p>
+              <center>
+<div class="note note-danger">
+            <p><strong>插入音乐</strong></p>
+          </div>
+</center>
+
+<h3 id="自动播放背景音乐"><a href="#自动播放背景音乐" class="headerlink" title="自动播放背景音乐"></a>自动播放背景音乐</h3><pre><code class="hljs plain">&lt;iframe width="0" height="0" src="https://lyfclub.herokuapp.com/music/Isabella%20Celander-Stargazing.mp3" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+<p><code>2020.05.19 更正:</code><br><code>上面这条代码失效, 如果添加到网页, 可能导致打开网页自动下载歌曲文件, 而非自动播放</code></p>
+<hr>
 <h3 id="网易云音乐插件"><a href="#网易云音乐插件" class="headerlink" title="网易云音乐插件"></a>网易云音乐插件</h3><ul>
 <li><p>固定大小   </p>
 <pre><code class="hljs plain">&lt;iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre>
@@ -214,21 +221,37 @@
 </li>
 <li><p>自适应宽度</p>
 <pre><code class="hljs plain">&lt;iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width=100% height=86 src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"&gt;&lt;/iframe&gt;</code></pre>
-<iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe>
-
+<iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe>  
 </li>
 </ul>
-<h3 id="插入视频-尺寸可调"><a href="#插入视频-尺寸可调" class="headerlink" title="插入视频(尺寸可调)"></a>插入视频(尺寸可调)</h3><pre><code class="hljs plain">&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/rRVLaar8cE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/rRVLaar8cE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<hr>
+<center> <strong> <p class="note note-primary">插入视频</p> <strong> </strong></strong></center><strong><strong>
 
 
-<pre><code class="hljs plain">&lt;video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="50%" controls="controls"&gt;&lt;/video&gt;</code></pre>
+<h3 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h3><pre><code class="hljs plain">&lt;iframe width="100%" height="315" src="https://www.youtube.com/embed/rRVLaar8cE4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+<p>网络原因，此处不再做展示。</p>
+<hr>
+<h3 id="哔哩哔哩"><a href="#哔哩哔哩" class="headerlink" title="哔哩哔哩"></a>哔哩哔哩</h3><p><img src="https://i.loli.net/2020/05/20/AjlSahnTsWrL96I.png" srcset="/img/loading.gif" alt="image.png"></p>
+<pre><code class="hljs plain">&lt;iframe src="//player.bilibili.com/player.html?aid=86700769&amp;bvid=BV1X7411p7Cg&amp;cid=148167464&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"&gt; &lt;/iframe&gt;</code></pre>
+<center><iframe src="//player.bilibili.com/player.html?aid=86700769&amp;bvid=BV1X7411p7Cg&amp;cid=148167464&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></center>  
+<center>太小了，不显示弹幕开关</center>
+
+<p>改个尺寸：</p>
+<iframe height="500" width="100%" src="//player.bilibili.com/player.html?aid=11571247&amp;bvid=BV15x41167kg&amp;cid=19123289&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+又太臃肿🙄
+
+
+
+
+
+<h3 id="其它视频直链"><a href="#其它视频直链" class="headerlink" title="其它视频直链"></a>其它视频直链</h3><h4 id="超星云盘"><a href="#超星云盘" class="headerlink" title="超星云盘"></a>超星云盘</h4><p><video src="http://d0.ananas.chaoxing.com/download/e84894d9b63e907e1fab6324f13c97de?fn=mmexport1589551761320" width="50%" height="50%" controls="controls"></video></p>
+<h4 id="OneManager"><a href="#OneManager" class="headerlink" title="OneManager"></a>OneManager</h4><pre><code class="hljs plain">&lt;video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="50%" controls="controls"&gt;&lt;/video&gt;</code></pre>
 <p><video src="https://lyfclub.herokuapp.com/videos/%E5%88%98%E4%BA%A6%E8%8F%B2.mp4" width="50%" height="100%" controls="controls"></video></p>
 <div class="note note-success">
-            <p><del>第一个链接是在天翼云盘PC网页端在线播放mp4时用鼠标右键获取的，建议选择h.264编码的MP4格式的视频，其它格式可用格式工厂转换。<br>但愿不会太快失效吧😑</del><br>行, 不折腾了, 想找个长期有效且国内访问正常的永久视频直链太难, 凑合用YouTube, 直接在其播放页面找到<strong>分享-嵌入</strong>复制进文章页就成</p>
+            <p><del>第一个链接是在天翼云盘PC网页端在线播放mp4时用鼠标右键获取的，建议选择h.264编码的MP4格式的视频，其它格式可用格式工厂转换。<br>但愿不会太快失效吧😑</del><br><del>行, 不折腾了, 想找个长期有效且国内访问正常的永久视频直链太难, 凑合用YouTube, 直接在其播放页面找到<strong>分享-嵌入</strong>复制进文章页就成</del></p>
           </div>
 
-<a id="more"></a><script>
+<a id="more"></a></strong></strong><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -392,6 +415,29 @@
   </div>
 </div>
   
+
+  
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'false' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'auto',
+      audio: [{"name":"Stargazing","artist":"Isabella Calander","url":"https://lyfclub.herokuapp.com/music/Isabella%20Celander-Stargazing.mp3","cover":"https://s1.ax1x.com/2020/04/20/J1XhR0.th.png"},{"name":"今晩はお月さん","artist":"ハンバート","url":"http://music.163.com/song/media/outer/url?id=740558.mp3","cover":"http://p2.music.126.net/udVa4wtLgMA_XWnWPq3jxg==/703687441788470.jpg?param=72y72"},{"name":"I Miss You","artist":"Czarina","url":"http://music.163.com/song/media/outer/url?id=28208212.mp3","cover":"http://p1.music.126.net/zEVf4jf2930F9u4aa97xrg==/5925268162137166.jpg?param=130y130"},{"name":"東京","artist":"柴田淳","url":"http://music.163.com/song/media/outer/url?id=28830804.mp3","cover":"http://p1.music.126.net/SDZjvSudpilQ3oKjM4F4aQ==/5992338371878331.jpg?param=130y130"},{"name":"一起老去","artist":"薛凯琪 / 陈意涵 / 杨子姗","url":"http://music.163.com/song/media/outer/url?id=28830585.mp3","cover":"http://p2.music.126.net/XbRMxQrFwDSlKpczqe6B_w==/5791127743731500.jpg?param=130y130"},{"name":"爱你","artist":"陈芳语","url":"http://music.163.com/song/media/outer/url?id=22852057.mp3","cover":"http://p1.music.126.net/0Xvz_4oS4YLCvWtQcXU05Q==/17867063951755098.jpg?param=130y130"},{"name":"遇见你的时候所有星星都落到我头上","artist":"高姗","url":"http://music.163.com/song/media/outer/url?id=30089063.mp3","cover":"http://p1.music.126.net/yb4HHSDFTOEhsd5KAqhNzQ==/3240260770208389.jpg?param=130y130"},{"name":"阴天","artist":"莫文蔚","url":"http://music.163.com/song/media/outer/url?id=276936.mp3","cover":"http://p1.music.126.net/ZssgfaO-g7uvnI-7EEal9A==/109951163447793114.jpg?param=130y130"},{"name":"撒野","artist":"凯瑟喵","url":"http://music.163.com/song/media/outer/url?id=483937795.mp3","cover":"http://p1.music.126.net/TKYYGZTSPhJ4STGX5mzahQ==/109951164854563088.jpg?param=130y130"},{"name":"白夜","artist":"凯瑟喵","url":"http://music.163.com/song/media/outer/url?id=512365425.mp3","cover":"http://p1.music.126.net/KFd0HzvhsMraliwfnRus6g==/109951163041466077.jpg?param=130y130"},{"name":"笑傲江湖","artist":"刘欢&王菲","url":"https://lyfclub.herokuapp.com/music/%E5%88%98%E6%AC%A2&%E7%8E%8B%E8%8F%B2%20-%20%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96.wav","cover":"http://p2.music.126.net/BC43LfAOdVQkM0r0wADRBA==/109951163020573636.jpg?param=177y177"},{"name":"白羊","artist":"徐秉龙 / 沈以诚","url":"http://music.163.com/song/media/outer/url?id=514761281.mp3","cover":"http://p1.music.126.net/tczb_7II9KzSuLQsVt89Gw==/109951163049336667.jpg?param=130y130"},{"name":"晚风","artist":"好妹妹 / 小娟&山谷里的居民","url":"http://music.163.com/song/media/outer/url?id=26427658.mp3","cover":"http://p1.music.126.net/DESI7B-JbCc5lc82W9OApw==/18618030394501261.jpg?param=130y130"},{"name":"明天我要嫁给你(Live)","artist":"王菲","url":"http://music.163.com/song/media/outer/url?id=300287.mp3","cover":"http://p2.music.126.net/6KUEbQKe294g7rtqhymgRg==/39582418601169.jpg?param=130y130"},{"name":"Beautiful In White (Demo)","artist":"Shane Filan","url":"http://music.163.com/song/media/outer/url?id=2080139.mp3","cover":"http://p1.music.126.net/1ZBkErdQ19r-KCPb8HnCKg==/922490255756795.jpg?param=130y130"},{"name":"ハレハレヤ","artist":"羽生まゐご / v flower","url":"http://music.163.com/song/media/outer/url?id=561307164.mp3","cover":"http://p2.music.126.net/OCYsyzUXBxjU9e8kFXng6A==/109951163298695275.jpg?param=130y130"},{"name":"胆小鬼","artist":"梁咏琪","url":"https://lyfclub.herokuapp.com/music/%E8%83%86%E5%B0%8F%E9%AC%BC.mp3","cover":"http://p1.music.126.net/OLroXJamq8uM44u1Jawpyw==/51677046522535.jpg?param=177y177"}]
+    });
+  }
+</script>
 
   
 
