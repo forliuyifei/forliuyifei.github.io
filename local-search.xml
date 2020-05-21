@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>时至今日，我们为什么还需要个人博客？</title>
+    <link href="/posts/60555.html"/>
+    <url>/posts/60555.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="Excerpts"><a href="#Excerpts" class="headerlink" title="Excerpts"></a>Excerpts</h3><div class="note note-warning">            <h4 id="少数派-pcrab"><a href="#少数派-pcrab" class="headerlink" title="少数派@pcrab"></a>少数派<a href="https://sspai.com/post/59337" target="_blank" rel="noopener">@pcrab</a></h4><ul><li>个人博客，一个曾经十分火热的名词，但是在如今似乎已经冷却了下来。究其原因，可能是因为读者越来越喜欢阅读由机器算法推荐的各种内容，因为更加符合他们的胃口，也永远不会有刷完的时候；而创作者则更倾向于使用类似知乎，简书，微信公众号这样的平台来分享，而不是通过自己搭建个人博客。</li><li>为什么要使用个人博客？在我看来，这一切并不代表着个人博客的终结。博客虽说是用来分享的平台，但我觉得更是对于生活的记录总结。博客不一定非要有人来看。没事写写文章，过一段时间后自己回顾自己所写的的博文，会心一笑，岂不美哉。 也因此，即使没有观众，我还是非常喜欢使用个人博客的。</li><li>不用注册众多平台的帐号，不用担心审核问题，不用担心文章毫无征兆地消失，能够展现自我，畅所欲言。不仅如此，由于博客完全是个人搭建的，因此所有的内容都可以自定义，把它变成我想要的样子。对于我这种喜欢折腾的人来说，还是非常有吸引力的。  </li></ul>          </div><div class="note note-primary">            <h4 id="少数派-甜食"><a href="#少数派-甜食" class="headerlink" title="少数派@甜食"></a>少数派<a href="https://sspai.com/post/59504" target="_blank" rel="noopener">@甜食</a></h4><ul><li>如今，个人网站或博客已经成了「小众」的代名词。但在许多年之前，它们曾经是人们在互联网上输出内容最主要的途径。尽管微博、Instagram 等轻量的、简短的、与移动设备密不可分的社交媒体已经成为今天我们网络生活很重要的一部分，但博客并没有就此消失：总有一些时候，比如你想寻找一块「互联网自留地」，或是想要进行一些完整的而非碎片化的记录，或者想要避免无穷无尽的内容审查，又或者你只是不喜欢社交平台那杂乱的界面和不必要的互动，个人网站或博客总是一个更好的选择。</li></ul>          </div><div class="note note-success">            <h4 id="峡州仙士-关于建站"><a href="#峡州仙士-关于建站" class="headerlink" title="峡州仙士-关于建站"></a><a href="https://cjh0613.github.io/blog/20200403site.html" target="_blank" rel="noopener">峡州仙士-关于建站</a></h4><ul><li>QQ空间按关键字搜索，以前的发文都搜不到<br>微博浏览者必须注册<br>twitter字数限制，大陆有墙<br>Google+ 删相册<br>广告铺天盖地<br>……无非是无数的bugs，广告，侵犯隐私，体制化……<br>根本上<br>你发布的内容，存储在垄断企业的物理服务器上<br>人为刀俎，我为鱼肉<br>他们根据自己的利益进行审查<br>并可以随时肆意停止服务，删除、修改文件<br>但，当我看不下去之时<br>不好意思，我选择：<br>自己动手，丰衣足食<br>点燃火炬，面向世界<br>于是，这世间便又多了一分光亮</li></ul>          </div><div class="note note-info">            <h4 id="存储过于繁杂、适合即取即忘的知识"><a href="#存储过于繁杂、适合即取即忘的知识" class="headerlink" title="存储过于繁杂、适合即取即忘的知识"></a>存储过于繁杂、适合即取即忘的知识</h4><ul><li><p>知识是人对客观规律的主观表征。举一些专业相关的例子，在一个新的 Linux 系统下，如何安装 MySQL？如何初始化一个 Spring Boot 工程并配置好相关依赖？这些知识使用频率不高，但往往最容易习得，遇到类似的问题翻翻官方文档，或者看看别人的 blog，很轻松就会解决。</p></li><li><p>而能力是以熟练不熟练为判断的，它没有知识那种知道或不知道，“原来是这么回事” 的瞬间快感。比如遇到 bug 如何快速定位？再比如面对具体问题如何快速建模转化为计算机可以处理的形式？它是许多个知识点、许多次实践积累出来的，是一种抽象高维的存在。</p></li><li><p>两个概念间的一个关键的区别就是，能力是不占用很大的记忆空间的，多数情况下，它已经被训练成为了人的一种肌肉记忆；而知识并不总是那么稳当，当你需要的时候它们经常消失在大脑里，因此你不得不做无用功，去搜索，再一次习得这部分知识。</p></li><li><p>所以，对于这类繁杂易忘的知识，最好的办法是招之即来挥之即去，用的时候习得，不用时就不要让它占据自己的大脑太久。这也是印象笔记这类软件的一个核心理念，像它声称的一样，要做你的「第二大脑」，意在让人把当下不重要的零散知识 dump 出来，保持大脑的干净整洁，同时也保证知识并没有丢失，它们一直在笔记库里静静等待你的调用。</p></li><li><p>为什么不直接去互联网搜索？原因其实挺显而易见。互联网是变化的，一个信息来源，下一次去访问就不一定还存在，而且从搜索结果中剔除出需要的内容耗费的精力也不低，而这种精力本没必要每次都付出。</p></li><li><p>因此，每个人都应该具有这样的一个系统：它能装下上文所述的那些零散知识，同时能够在你需要的时候方便地找到。我把这样的系统都叫做「个人 Wiki」，Wiki 这个词本来指的是多人维护的写作系统，但是我曲解它，把它解释成像维基百科那样由一个个词条组成的知识网络。</p></li><li><p>背后的实现方式重要性却没有那么高，你可以用印象笔记，可以用为知笔记，甚至纸笔、系统自带的备忘录也可以。</p></li></ul>          </div><h3 id="Myself"><a href="#Myself" class="headerlink" title="Myself"></a>Myself</h3><div class="note note-danger">            <center> 🐇</center><center><strong>Blog for what?</strong></center><center>世界太吵 寻一处僻静乐土</center><center>便于记录|分享|碎碎念|矫情|自娱自乐</center><center><s>自我审查、敏感词折叠、删帖、封号、误解、抬杠</s></center><center>知识性|自主性|共享性|开放性|灵活性</center><center>消遣|害怕遗忘、防止丢失|回顾</center><center>Summarize</center><center>🍻</center>          </div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>原创</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>问题</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>网站速度优化之script标签defer</title>
     <link href="/posts/41000.html"/>
     <url>/posts/41000.html</url>
@@ -214,7 +239,7 @@
   
   
   <entry>
-    <title>MBTI人格测试结果</title>
+    <title>MBTI测试</title>
     <link href="/posts/12720.html"/>
     <url>/posts/12720.html</url>
     
@@ -437,8 +462,6 @@
       
       <tag>教程</tag>
       
-      <tag>搜索</tag>
-      
     </tags>
     
   </entry>
@@ -486,8 +509,6 @@
     <tags>
       
       <tag>教程</tag>
-      
-      <tag>微信</tag>
       
     </tags>
     
@@ -834,7 +855,7 @@
   
   
   <entry>
-    <title>hexo博客文章封面添加触摸过渡动画</title>
+    <title>Hexo博客文章封面添加触摸过渡动画</title>
     <link href="/posts/15656.html"/>
     <url>/posts/15656.html</url>
     
@@ -1030,8 +1051,6 @@
     <tags>
       
       <tag>影视截图</tag>
-      
-      <tag>断发</tag>
       
     </tags>
     
@@ -1497,6 +1516,8 @@
       <tag>教程</tag>
       
       <tag>PS</tag>
+      
+      <tag>图片处理</tag>
       
     </tags>
     
