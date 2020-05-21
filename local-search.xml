@@ -4,6 +4,83 @@
   
   
   <entry>
+    <title>网站速度优化之script标签defer</title>
+    <link href="/posts/41000.html"/>
+    <url>/posts/41000.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>今天注意到有些js文件比如canvas-neat.min.js在手机上加载特别慢，严重拖慢网站速度</p><p><img src="https://i.loli.net/2020/05/21/PdjvlY2876GTHyN.png" srcset="/img/loading.gif" alt="image.png"></p><h4 id="尝试"><a href="#尝试" class="headerlink" title="尝试"></a>尝试</h4><ul><li><code>async</code> 替换为<code>defer</code>  </li></ul><p><img src="https://i.loli.net/2020/05/21/2qJpGjMCbHNF1K9.png" srcset="/img/loading.gif" alt="image.png">  </p><ul><li>顺便给一言的今日诗词也加个<code>defer</code>  </li></ul><p><img src="https://i.loli.net/2020/05/21/tXSGRVM4F1QTAJH.png" srcset="/img/loading.gif" alt="image.png"></p><ul><li>观察一段时间看看有没有效果<img src="https://cdn.jsdelivr.net/gh/abbw/CDN/newtieba/乖.png">  </li></ul><hr><ul><li>参考：<a href="https://www.cnblogs.com/qiujianmei/p/10901873.html" target="_blank" rel="noopener">script标签中的async、defer属性</a> | <a href="https://abbw.gitee.io/" target="_blank" rel="noopener">骑猪看月亮</a></li></ul><blockquote><p>有些第三方库，要求在header中引入（这就意味着第三方插件库会优先加载），但是我们并不需要在页面加载之初就用到这个插件。那么我们可以加上defer属性使之最后加载。同理，如果页面加载的同时需要用到第三方插件，那么我们引用的时候可以加async属性，这样网站内的资源就可以与插件资源异步加载。这中方法会给网站其他资源的加载节省出一些时间，不失为一种页面优化的方法。   </p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>原创</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>问题</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hexo-Fluid踩坑之局域网预览丢失样式</title>
+    <link href="/posts/52581.html"/>
+    <url>/posts/52581.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="https://i.loli.net/2020/05/21/23OhMPGv1zmV8R7.jpg" srcset="/img/loading.gif" style="zoom:20%;">  如图，样式丢失。  <p>二级页面也打不开。<br>这次直接猜出了原因🤪  </p><a id="more"></a><p><a href="https://fluid-dev.github.io/hexo-fluid-docs/guide/#%E5%BC%BA%E5%88%B6%E5%85%A8%E5%B1%80-https" target="_blank" rel="noopener">强制全局 HTTPS</a></p><ul><li><p>修改<code>force_https: false</code><br><img src="https://i.loli.net/2020/05/21/2ZxXrYbmeVlEtD9.png" srcset="/img/loading.gif" alt="image.png"></p></li><li><p>保存刷新预览，解决！ </p><center><img src="https://i.loli.net/2020/05/21/QNYZjikA5c7DLGM.jpg" srcset="/img/loading.gif" style="zoom:20%;"></center><p></p></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>原创</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>问题&amp;解决</tag>
+      
+      <tag>hexo</tag>
+      
+      <tag>记录</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hexo进阶之为单篇文章设置关键词及描述</title>
+    <link href="/posts/22389.html"/>
+    <url>/posts/22389.html</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>官方文档说明:<br><img src="https://i.loli.net/2020/05/21/eZRS4bVCnsxziIH.png" srcset="/img/loading.gif" alt="image.png"></p><h3 id="keywords"><a href="#keywords" class="headerlink" title="keywords"></a>keywords</h3><blockquote><p>默认情况下hexo博客及博客里的文章是没有keywords关键字的，需要我们手动添加<br>设置hexo博客的关键字:<br>在博客根目录下找到_config.yml文件，添加keywords: 关键字1,关键字2,关键字3…，采用英文逗号隔开，注意keywords与关键词之间的空格  </p></blockquote><h4 id="设置文章的关键字"><a href="#设置文章的关键字" class="headerlink" title="设置文章的关键字"></a>设置文章的关键字</h4><ol><li>打开<code>hexo\themes\fluid\layout\_partial\head.ejs</code><br>加入以下代码<pre><code class="hljs plain">&lt;!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词--&gt;&lt;% if (page.keywords){ %&gt;  &lt;meta name="keywords" content="&lt;%= page.keywords %&gt;,&lt;%= config.keywords %&gt;"&gt;  &lt;% } else if (config.keywords){ %&gt;  &lt;meta name="keywords" content="&lt;%= config.keywords %&gt;"&gt; &nbsp; &nbsp;&lt;%} %&gt;</code></pre>然后保存  </li></ol><p><img src="https://i.loli.net/2020/05/21/kARGcWi1ENV49r6.png" srcset="/img/loading.gif" alt="image.png">  </p><ol start="2"><li><p>随便找篇文章在头部内容加入<code>keywords: 特定关键词1,特定关键词2</code>  注意空格  </p></li><li><p>本地查看网页源码，成功！<br><img src="https://i.loli.net/2020/05/21/YwSosu4X6ia9cR3.png" srcset="/img/loading.gif" alt="image.png"></p></li></ol><h3 id="description"><a href="#description" class="headerlink" title="description"></a>description</h3><p>描述有空再写，应该和上面的方法差不多😶</p><hr><ul><li>参考<br><a href="https://segmentfault.com/a/1190000007477815" target="_blank" rel="noopener">hexo配置sitemap以及设置keywords</a></li></ul><center><a class="btn" href="/img/zsm.webp" title="🍻">赞赏</a></center><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>超星云盘视频直链获取</title>
     <link href="/posts/49990.html"/>
     <url>/posts/49990.html</url>
@@ -47,9 +124,9 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>问题&amp;解决</tag>
+      
+      <tag>hexo</tag>
       
       <tag>美化</tag>
       
@@ -76,9 +153,9 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>问题&amp;解决</tag>
+      
+      <tag>hexo</tag>
       
       <tag>记录</tag>
       
@@ -141,7 +218,7 @@
     <link href="/posts/12720.html"/>
     <url>/posts/12720.html</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>从2017年至今,本人在许多人格测试网站测出的结果都为INFP型。<br>但测试结果仅供参考,私以为任何试图揣摩透彻单独个体内心世界并臆测其行为的做法都是不谨慎、傲慢且危险的。<br><img src="https://i.loli.net/2020/05/17/DUmsXucyoiSYJfM.jpg" srcset="/img/loading.gif" alt="INFP-T：2020-05-17-23-31"></p><h1 id="“调停者”-人格"><a href="#“调停者”-人格" class="headerlink" title="“调停者” 人格"></a>“调停者” 人格</h1><p>调停者人格类型的人是真正的理想主义者，他们总是从最坏的人和事中寻找最好的一面，想方设法让情况变得更好。 虽然可能看起来冷静，内向甚至害羞，但他们内心的火焰和热情可以光芒四射。 他们仅占人口的 4%，常常被人误解，但当他们找到志同道合的人时，他们之间的和谐就像是快乐和灵感的源泉。</p><p><img src="https://static.neris-assets.com/images/personality-types/scenes/s1/diplomats_Mediator_INFP_introduction.svg?v=1" srcset="/img/loading.gif" alt="“调停者” 人格 (INFP-A / INFP-T)"></p><p>指引“调停者”的是他们的原则，而不是逻辑、头脑发热或是实用性。 当决定如何行动时，他们以荣誉、美好、道德和善良为准则，引导他们行动的是纯粹的意图，而非奖惩。 调停者人格类型的人以这样的品质为荣，他们也的确应该这样，但不是每个人都能理解这些感情背后的驱动力，这会让他们陷入孤独。</p><blockquote><p>凡是金子未必都发光， 流浪的人未必都迷茫， 老而弥坚者不会凋零， 深根不会被寒霜触及。</p><p>J. R. R. TOLKIEN</p></blockquote><h2 id="我们知道自己是谁，但不知道自己能成为谁"><a href="#我们知道自己是谁，但不知道自己能成为谁" class="headerlink" title="我们知道自己是谁，但不知道自己能成为谁"></a>我们知道自己是谁，但不知道自己能成为谁</h2><p>在好的情况下，这些品质使“调停者”能与他人开展深层次的交流，自如地使用明喻和暗喻，理解和创造象征符号来分享看法。 这种直截了当的交流方式很适合创造型工作，也难怪有很多著名的“调停者”都是诗人、作家和演员。 对“调停者”来说，理解自身和周边环境很有必要，他们把自己投射到作品中，以此表达出这些想法。</p><blockquote><p>“调停者”非常善于表达自己，擅长使用暗喻和虚构人物来表现自己的美丽和神秘。</p></blockquote><p>他们高超的语言能力不仅限于母语，他们有学习第二（甚至第三！）语言的天赋。 他们高超的交流能力也与爱好和谐的愿望完美结合，能够帮助他们在找到目标后顺利前行。</p><h2 id="听很多人说，对很少人讲"><a href="#听很多人说，对很少人讲" class="headerlink" title="听很多人说，对很少人讲"></a>听很多人说，对很少人讲</h2><p>与更擅长交际的人格类型不同的是，他们的注意力只集中在很少的人身上，原因只有一个：分散注意太耗费精力，甚至会因为世界上太多无能为力的坏事而感到沮丧。 对于“调停者”的朋友而言，这是一个令人伤感的情景，他们需要“调停者”展示乐观积极的一面。</p><p>如果不加注意，“调停者”们可能因为过于用力追求美好而忽视必要的日常琐事。 他们经常陷入沉思，比任何其他人格类型都更享受假设和哲学思考。 如果任其发展，“调停者”也许会减少与人接触，缩回壳中，这可能需要朋友和伴侣非常努力才能把他们拉回现实世界。</p><p>幸运的是，“调停者”们的情感，创造力，利他和理想主义仿佛春天的花朵，总会不时地报答他们自己和所爱的人，不是通过逻辑和实用性，而是一种时刻启发着同情，善良和美好的世界观。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="dbc65710c0a0a737474ac382b8fcbf550a740471608b78f273bf95bcd56d04e2">47f6d53a19c70e7e3afba7433d26936bd7ac926e5f9d8f10ab241191c12171008893c80222dd4e2d151e6e31959a8eb12423f50a94c9b4e64845ab8a4960f3d088138515cfa4785ea1a84ee3f2f00cfbdf50301373a281f8470e9538d8ffa7b96f147f1d14f6453b9d0eca7ef93b64ed8c9212a27c5ebb69980eb29337889dea48b1559d076263b8a43d02935d3c7c41deab0aafe8c485c1f7decc836d7ff26f23e2b917b4eba5fcd684574d3dca4df326cc51fd204fa727740c0cf1bfbeb85579569b38905119fc4f9956b073683f190baa0e40bc3b2740edc07dd7e59a7d973783226483f2df7990f0e0cdfe7822fa7cd1211c9cf26d91e80b04d3f33070c7610d2cb7ea831d238ad7bb449a23934476d0211479704f0cb07ce2144940bbdf56db10abaa0f829331f77987ed8c5df75ad56cc71e8c89cf198960fda411a081bc5465c54cf6e5d183051a65f3d3855cf8574f4de2fa34a5566d103714342fa2c5c55a9ffefc4d3339a9170acf559cd5e7c67a1cc0cdae0e4ee934a84ec40519979eb1b19dddb9f3fb54675524c304e17cd0167ee3826a57e61662cf36ac0d603b01d05b1314a44deaf478a8d7cd2d970ffeff06a134bd26c7df238c7c86351dfa6fff055d938548d161071a782f6468f84c4ad23aeecf3dfa88108258e8915898ef359c567af7dcc54a09850b7d6d120f3119c6bb8a48510780f7e76032f669f74a76c8946599bf0eb28bb97c8752b9786cf9edfe6e89126ad0c1afe1cd576ebc14550c0f29fed4ab26dcac43cec9fdf014d29686081ce813b66c1ad60c2a3c983bbfa4712829aec226f4a72077ea78c4dcf1b3d9b5c517ed0ef9cf571a71b9151f9d7d6eb56d6f724381bb395615350d0faf946f5b01bd77869ee7f4cf58f1398e155e7a10f38de61e7ac361cdb3aeabe6895285128ad0f50c7212eca5ca2bc1cc42753a7062f7d10d3544861f676c286f152baeeba5d9d809558d8683f66627117df18ea4d44e31f949f4ea59d091cbddb3456c5958ee6acf9fecc363c22c892012fc6305d3c34f29bd79b7a40b35481b2935a3c7574fabd55cafc362a28bd6fe1131689a02c9a0000dcd56ec17e2eca8404d1f2d72329ab8e7e22dee1b21e1f0dd770aa56260e754f8ad24e1ab09799f9e349d4652d79cd3ae93e6cdc00a5f7a2ffdcc78a57cb95836c4886d95c30da9ff9abe3f328a2536febcee4f2eae8ab86afb7fc7217247ed47e204f109892505af37e78136aeb80198a4590beb7c1d3d2465205186f9d651d7a77bfa636980bd5aee21c4303164ebd2052ecadd6673c6bb8a4bb7e4d78fa23d76491d5d580eb012b515a64264098d68bd7b3dc928f66f9c87cf6639e93e918861dff25172f2c2b96b87a85bcbb73a8a567a6ca3d791fe36b66658129387b1ba81e8297c44366223dcbe7a50b56d019cdc66bcc705526389004fc660e3f8453ce83ea10591a457b3592d23c041dfcede973a1579a760c6b3e2a2587cdc15e77081cd7a924dbff9cb4b376cdca7ff0ed55bd0630ae64889b9eb687aefa527420491731bb8ff5080dbe014b4abb1e153300c04dfbf3bba515183e7abecce2b8b852c12aab931d5f405bf6fcb8025714c6c0ce92c3e6f6bb4bb4c3a2cbf64ae52d2681f5e91fed8ba20565c3afc2d104763aa646401f06d8e54d6067dd886facc8847cb1beb63d8291a3ed461cb15a9dbb0b88af335967b15804b649434a15672284744ae4e05fd7ba5a781338366f6568d95487640f4f82e115e473c5db79f51a768ba2fd784162ed9c60617ea83c907974aeabd46e00db4bb180b842d59da4773e79be289f21daf5605242b41e16e14a0f9745e0e61724cd01d6d6762eb4984fd0c1a42574ec2c2d57e8d02c4d8c065140d0699983faf7056d13a2ba42b514785ef621e47cc443646d51e71a369dadc732b516ba466f6ab34f936de5ea9c90374a83157fd29f02e743fcb1aaa396a985f29c7872cd4665b01ef207ebda8087f9c349b5678ec66fc25b8528c28eb380c4ed13374e6d554687270a6ecc91050b8e17ab0baba07d876b8ae83d9809d9434de4c538a452c86064c4fe0074efba1ffc69c84f0b80f51841e71bc7eaa1dd77fed429cb2ab01281ea5c40a30157f4e90e316d451c089c47cffe53d84b95b48275266e28aa9d0eb2a6718295fd8719b558fba6843c815cfad1585808b14ce527bdf127b87300cd208e7ff8779b88efbc1ba123ed99f2f3127af396586e6ecd5ce553ee8e5212c2286401feabf12b9604efea54e07e1ceb212142f31649bdf1a26842f1ffc2d7281401ea58bf1011c5a6d9c488b6953f65b415696bb208c361bafb089d49ccd3715e68e050bbae1d46442cc64a292b5ddb65726a4d0d9655a5b3b328b90d53cbfd2ed8f5c4b20ab31650ff6478c77f685a8777da2b12d3436afb5a113d9e3c6cbd5c26c1fad1c0a438c78aac80fa44944a0293ab9b875180843f37ea9b8145c38285499ff4e73c775fbe34db853147992ce62bbba656c550a85e1158061d7e56c628ec07c82a6b30e69aa8fac1d950e37cf049b651a9cfa78b247e6e82716d415087ddd7740b3ad501694697c187c439b318fecd6d41fe6d9ffe50c0608dd17b556b0cec7824a97b83eef4a57c64198fcbdbf9343978ddc1867bccba77eb22939fc0f44f5974b6bce54f19e30166d05baf7f8d75e6c465b7d8e4de93a79cbe9c4ddc67896393bf3cedec1ab8db6e9e39a4da83aa8a9847759b363f60c2ed59136a737db394c1f547ca0821e451dff8f653f91de7254bd0df509e3fae3b604941ca379aaecda6f4bb6b09b4246e637c1c332eab609551add92fcfff310217e415127b79583f10ce671000971b5fe3aaafededa1dc9c40534431141a2c5a0aca331a45e535b400ce22f2b24de83b7a40a8e745297c4c5a5ee206f533883e90ff98893b0a24422987605755ae583730e855b34366df6935fd7ba46fbf2315143532347524c7a069edf6e8bf53579cbd561b8020a3ebfc05c02e021dd9930ef22cf1a22252759f079e87848777e31471cf6f01146cd2a4f96550f72282492ca707f794b9a113910329244a73e37c631ba4de6c708a25d3385175169683ef05f0fbc46e5efdef3e9b0f4dde5449d94a19fd7cb195ccd4153518f8b6ab745606c5c1de79fd4cddcce295670cb14731da49373d56bbd197fae0fce3f994c553a38d55cb95abb1a10bc55d28f0cc9d52be2c0497bd42f2da062fc69b3d1273e1149c20eade105071ef25054c8b477c8d6e54e7b2e1e672ea7e93c297eb9305161ebbe4e553959713b8f4bffbeabf9e6415e8d39a45b7185571ad540037c1e6f105b83d110737cb70805e71e2eae9a5d1abb8d1ab39dc06d5a5b891702ef731caa6fc4ed7a54b4ee064248c28d9ff5b3d24ceb58414e1a1ed00bdf3f1c77248caaef84089895206257955cbaa328b33c8cbaad1e1557a8b0b0d39972bee18f6fdd6b749c643c776d60a5faa8d3f27a3bcc7f633fce9bd72bfbc7b61b9a7c1515f2c8db22794467a2aa3c2cec0fb189385bb21f551a19672e3bd4f1d503df0b3568d49ad785cf78b39b86a292e8911fc1a2bb1aff5af3b52b77306c594ef5d45fe375c2ba7576810602a81981ab219e516c5e42af0455acf78f56fc8c33be951d95b1ee7c64c1758b0cb362164302db8137d9a2a8f3d839bc76a784415b10d1fb81c2599f25157c742129580284f853be044c2c6a30211824fe0a2311f498a8586aaa7784c3176db784f8e521588b1483dc58568204635e15516abd6c8523b83a40308902dc83704451bc5c3a032fa0922de33d54849bd565e77006dd8bec774ec44d928beaa593ff8314014cddff07723f40a198a12f2ff9e0531d253fa80e4621f72c13b45321a7d721a2b3468cfe812c017fca850fe45a7cfe5234ef2faa6126897758f0736d3d83b66b9371b7aa7bb23a7a920f1dc66774a9baecafdbf77d5dba45b5ed5c54137ef711b955c61f0692c72f07866fecd419a76b3b9083731cffecee445f1eec326f2442b3ea4efc18d7833fd2026c4cd2eed5351bba8a37b2961c6f367dac8c29baab452b59c00943581c5928608839ef5da325e998598e144738f8f4ca28a71a5ffa7d04679ecdc0fcc7e0eeee54f9fa93675bc8f760a0f10c9af95e5ad049acd8dea7edd14f1d0419a6c0d56de99504483ca7e91fe94345d08c3ad286866a4360897d74ec488055f4b979338c3b07b1ec9eed608bf81db85b0a475ccc7470290fcc7a289d5334fc3ff993bf15c9f429bd766cd5e41cdbabf3479e9876f500168ffb23f7ccad831e8294fb848ab803d098ee34f6eb7db317ff7c2aba65a2e821dde9872de213bda742e9d7e950614323af9828b9366341553f76e7f3e467017247cbf4be5b9b1b88ab3e81c5a9f75dff897d73c433a9f2dae46b3ef70fb42a94fda447d68e3f098fe5b7cd76c96027772d9eb8fd9bb1c9399919d37ec5b697a03bffb06c11e32d661b3c836eda63fe5f9c799081469c78ecf680f838bb97677f0988caac6849e902a4c7972c631b96193401d586605e00d6ddcb8fd876e2f5e4dcdc750c85bd5d886a884106aaaca23302ef4ad38c0915ea4c7b5cba61adf1f010eba164ba28729042e15cf516201ffe2e3d1ada5caa3476e166d1603c31c0b97831f5eab3c92db8d7f9dc0da7d6cd5f2354e67b861940ab2439a981128121215ed27597699aaa730aa47c2a7d212a2bd736d2186c294d4b4251c663169c091e3dce0e83fe06e86aa3b8927becab072e871878a6ebe6d0698e8ad30f328a147f8987a2076e37484fd8f1739cccba3b487222d32620981c3563109faf99848407fbb883e3b0ec10d76cf62a05efc49ff7504c59410d9c54943faf589f95dbadb563a38162207c9dc4afebbd76ec18b6238e1a0d04798a3b0240dbc3d6a46b6b7dfbf8037dab2c1d24da52c3db7b4ef7c2ef47165305060cf505183b8b337ae1d42a68242ec39ac76acbeaf096249098762c77e0593744793c0bcf3a6f69ad2daf321d1d9c46efea8506b1a748f09031c31432bc8c701e305a00e3fdc8591d23b46dab8d4ad8c38bd8b04f42cc1d41106f88179a2fc7558173708c6b3f57f640f9eaf6d849b82998306f5edf4a497f3f19b28a9dfde7eef9153f6093a8afdcc406d8753636b8c3cb6665834463896e361c535966bb1dcd9b92cf97a02d1e4ef5bdc2dbd171bcb491f72187786305028e92500867c2658a9dcf61c2667f5034f39641d8e763e3390f6148842685922f48f0096fa004fda39005eb4f45ea386710e268fa4da0d26f5e7893e0425729aac8ba33042b3d870ce40b320cdc6f0c647da7964d8ef6d2a6073c027d200fc26daf28a6e52a5c2dd5836b0d6e139e57b6c57c1bd6034fd013606e30d2f174defb95c127518bf8b21cc44f3514b698ff4b1dd7b4690ace4371ce2d790f3077354efb4320a8b1344fef1d5ef9f956c840cd6ec8076ca10923eba64cb64d0b0ae8593a67bdcb08b3be419124bed4c9cbb8070ac41af4a7d2a4fd90de9271456a9eb77cfb2f4899e1e4b5a57bbe029f9ed42da7348cb71be6e1f108ca3f2c68dae7dea9a984f50b79c7a6bef54ff3d7f9afabe4b295814b2b6a7a5b18b4ea94a483ebcc37ded165925ba7cc3a8ab5e34f832181bab593da83cba6e970d9d072f10f63273e3f1ac0b91881682d981b711971d560dc615d3b6b4f4f4a516fd2841bfefdc757901c1cde6bac5784b40e0ad73dfc95d3599acf37ee3beb6907cf11c7273384d9a6546d0f6ecbb79a2f829a82e7fbf1ed3e72fd8d0f6bd3b360eb81cbcc69091d02facc3f8424d26618a1430a36f2b03d919482ea16c268ddd0f18d6623a0d3455bbc6acf882673b792cca1fce2edd76f639d99073c019448f735ba44768a8931e19ab584647611a2833f4fd98a3eb6a11616071f1e3a660d2fda62dcf7eae1c93b6626287594d0d09ecb64fc3d6ebf878d61ef53dd1a507e54df53f734bd12e8bcfee2e639d528d1a3759479768bd7be0071ccbd0edc0e66b54fd99cd7d44d190e67d59fbc7ed7dc50041dc7f6b9387d25c82cf9eff663e51b786625846ad672a9d39fb3e253f8b87a5067d1871c7ca847715e7983e995795c5be913e9956002bcd70ccd77e712a8c9e1349335933c285d8b75afd5586333fcc0c46d2defb59fd972a81fa56e14016899e3e9b2bb89927ef042042515ce864214043e887ce6641105152eaaa433d5c43dcecc379d4fdcbbc80fa28f4254c7bea48aa059c509a5dc90b7159290ca1093fad6ee4163559d4bf5c619b02c8039a5a94995595a3e6f020b855d23878d5c961f86987943cc4ad5caf43dfc379f960ccc3894e94d89c244685a47b6d1e82904a9f2354a081c28c07472a23396710697f8c246938300456c0508518ccc410cfade0d320b4fcced7d4301bb244bf7076366f8a920d1a4ab7a4d541d92e84199dc9d0477a6605a2a44197c0a7b884147a65180ff960a70fed816717110d5d1daea4213a1f2ce4dcb314a7a80789013df7c40677251823536217b586455b7a8c81c843967e6501bee26e772ffbb9518b52a7fc6c310d50ffd43804e583b1156dff840c9df231a273e0f2414a191b4ce424b7395278f8b22d69011c2c43a8ef4a284d21fd879ac66346d626e9da15869de920bb6a4006ce4e39a851baa414b398c57897eb5524a43f3820a7570497b944badaaa23fc751478dc76fae9630a085772997b7c4d4b80110df24fd584aece482d786f28dfc6e5c735ce73597a87dc66e5867c57d18e7568242502d55e603973905576859a399aac266c53b13ba887fd864927b54a3090a7170e1b717afab3a86a4bad60e33f5474008980bb84c696d1ffe8dc79d68791944859cdd4483c33320ff2fb9643a0d112f3801292820c1d08e27a121f8c5</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     
     <categories>
@@ -150,12 +227,6 @@
       
     </categories>
     
-    
-    <tags>
-      
-      <tag>人格测试</tag>
-      
-    </tags>
     
   </entry>
   
@@ -178,9 +249,9 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>问题&amp;解决</tag>
+      
+      <tag>hexo</tag>
       
     </tags>
     
@@ -193,7 +264,7 @@
     <link href="/posts/19229.html"/>
     <url>/posts/19229.html</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><h5 id="GitHub仓库"><a href="#GitHub仓库" class="headerlink" title="GitHub仓库"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub仓库</a></h5><p>背靠微软，家大业大,不怕丢失文件</p><p><em>国内速度慢，上传图片会压缩，仓库必须公开</em></p><p>适合小图或者webp格式图片，没挂梯子加载大图容易使人心态爆炸</p></li></ol><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/20200424131925.png" srcset="/img/loading.gif" alt=""></p><ol start="2"><li><h5 id="sm-ms"><a href="#sm-ms" class="headerlink" title="sm.ms"></a><a href="[https://sm.ms](https://sm.ms/">sm.ms</a></h5><p>在业内也算有名，应该不容易挂</p><p>5G免费空间，单图最大5M</p><p>上传速度稳定</p><p>支持管理历史上传图片</p><p><em>图片加载速度似乎不是很快，也许是我的网络问题，而且自动压图成webp</em></p><p>适合放些<code>不重画质，只专注于传达内容</code>的教程图片</p></li></ol><p><img src="https://i.loli.net/2020/05/16/OSR1ZYqGrgUupnM.jpg" srcset="/img/loading.gif" alt="u=3394317671,3209380658&amp;fm=173&amp;app=49&amp;f=JPEG.jpeg"></p><ol start="3"><li><h5 id="聚合图床"><a href="#聚合图床" class="headerlink" title="聚合图床"></a><a href="https://www.superbed.cn" target="_blank" rel="noopener">聚合图床</a></h5><p>将图片分发到多处备份，借助其本身的CDN加速功能，节省服务器流量</p><p>并且不用担心图片被删除，即便其中某几个图床上的图片被删除了，还有其他备份，保证万无一失</p><p>支持匿名和注册管理</p><p>免费版图片限制5M</p><p>速度还行</p><p>上传了几十张图片,过去将近一个月,并未发现失效</p><p><em>似乎会压图</em></p><p><em>至少100一年的基础会员还是太贵了，继续白嫖吧</em><br><a href="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf" srcset="/img/loading.gif" alt=""></a></p></li><li><h5 id="牛图网"><a href="#牛图网" class="headerlink" title="牛图网"></a><a href="https://www.niupic.com/" target="_blank" rel="noopener">牛图网</a></h5><p>高速外链：上传的照片可以分享给任何国家的任何人,自动选择离访客最近的云存储节点</p><p>无流量限制</p><p>无水印</p><p><em>无注册上传，应该算个缺点，不能管理历史图片</em></p><p><em>经测试，5.18MB的图片上传后再下载变成5.51MB，不清楚加了啥料</em></p><p>也许能用来放壁纸画像<br><img src="https://i.niupic.com/images/2020/05/16/7SbO.png" srcset="/img/loading.gif" alt=""></p></li></ol><hr><p>暂时主要用上面这些,各种各样的图床弄得很头大,<del>你说有钱多好</del></p><p>其它图床有待测试</p><p>有任何推荐可在评论区随意留言👇</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li><h5 id="GitHub仓库"><a href="#GitHub仓库" class="headerlink" title="GitHub仓库"></a><a href="https://github.com/" target="_blank" rel="noopener">GitHub仓库</a></h5><p>背靠微软，家大业大,不怕丢失文件</p><p><em>国内速度慢，上传图片会压缩，仓库必须公开</em></p><p>适合小图或者webp格式图片，没挂梯子加载大图容易使人心态爆炸</p></li></ol><p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/20200424131925.png" srcset="/img/loading.gif" alt=""></p><ol start="2"><li><h5 id="sm-ms"><a href="#sm-ms" class="headerlink" title="sm.ms"></a><a href="[https://sm.ms](https://sm.ms/">sm.ms</a></h5><p>在业内也算有名，应该不容易挂</p><p>5G免费空间，单图最大5M</p><p>上传速度稳定</p><p>支持管理历史上传图片</p><p><em>图片加载速度似乎不是很快，也许是我的网络问题，而且自动压图成webp</em></p><p>适合放些<code>不重画质，只专注于传达内容</code>的教程图片</p></li></ol><p><img src="https://i.loli.net/2020/05/16/OSR1ZYqGrgUupnM.jpg" srcset="/img/loading.gif" alt="u=3394317671,3209380658&amp;fm=173&amp;app=49&amp;f=JPEG.jpeg"></p><ol start="3"><li><h5 id="聚合图床"><a href="#聚合图床" class="headerlink" title="聚合图床"></a><a href="https://www.superbed.cn" target="_blank" rel="noopener">聚合图床</a></h5><p>将图片分发到多处备份，借助其本身的CDN加速功能，节省服务器流量</p><p>并且不用担心图片被删除，即便其中某几个图床上的图片被删除了，还有其他备份，保证万无一失</p><p>支持匿名和注册管理</p><p>免费版图片限制5M</p><p>速度还行</p><p>上传了几十张图片,过去将近一个月,并未发现失效</p><p><em>似乎会压图</em></p><p><em>至少100一年的基础会员还是太贵了，继续白嫖吧</em></p><p><a href="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf" srcset="/img/loading.gif" alt=""></a></p></li><li><h5 id="牛图网"><a href="#牛图网" class="headerlink" title="牛图网"></a><a href="https://www.niupic.com/" target="_blank" rel="noopener">牛图网</a></h5><p>高速外链：上传的照片可以分享给任何国家的任何人,自动选择离访客最近的云存储节点</p><p>无流量限制</p><p>无水印</p><p><em>无注册上传，应该算个缺点，不能管理历史图片</em></p><p><em>经测试，5.18MB的图片上传后再下载变成5.51MB，不清楚加了啥料</em></p><p>也许能用来放壁纸画像<br><img src="https://i.niupic.com/images/2020/05/16/7SbO.png" srcset="/img/loading.gif" alt=""></p></li></ol><hr><p>暂时主要用上面这些,各种各样的图床弄得很头大,<del>你说有钱多好</del></p><p>其它图床有待测试</p><p>有任何推荐可在评论区随意留言👇</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     
     <categories>
@@ -316,11 +387,11 @@
     
     <tags>
       
+      <tag>教程</tag>
+      
       <tag>技巧</tag>
       
       <tag>xp模块</tag>
-      
-      <tag>教程</tag>
       
     </tags>
     
@@ -750,9 +821,9 @@
     
     <tags>
       
-      <tag>技巧</tag>
-      
       <tag>教程</tag>
+      
+      <tag>技巧</tag>
       
       <tag>chrome</tag>
       
@@ -779,9 +850,9 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>问题&amp;解决</tag>
+      
+      <tag>hexo</tag>
       
       <tag>美化</tag>
       
@@ -902,7 +973,7 @@
     <link href="/posts/29894.html"/>
     <url>/posts/29894.html</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="神雕侠侣"><a href="#神雕侠侣" class="headerlink" title="神雕侠侣"></a>神雕侠侣</h4><p><img src="https://pic.downk.cc/item/5ea0061ec2a9a83be570a1d0.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0063bc2a9a83be570b8d5.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00649c2a9a83be570c81a.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><iframe width="0" height="0" src="http://music.163.com/song/media/outer/url?id=25655029.mp3" frameborder="0" allowfullscreen=""></iframe><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="神雕侠侣"><a href="#神雕侠侣" class="headerlink" title="神雕侠侣"></a>神雕侠侣</h4><p><img src="https://pic.downk.cc/item/5ea0061ec2a9a83be570a1d0.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea0063bc2a9a83be570b8d5.jpg" srcset="/img/loading.gif" alt=""><br><img src="https://pic.downk.cc/item/5ea00649c2a9a83be570c81a.jpg" srcset="/img/loading.gif" alt=""></p><!--more--><iframe width="0" height="0" src="http://music.163.com/song/media/outer/url?id=25655029.mp3" frameborder="0" allowfullscreen=""></iframe><blockquote><p>杨过待她走远，笑问：“倘若你是她，便嫁哪一个？”</p><p>小龙女侧头想了一阵，道：“嫁你。”</p><p>杨过笑道：“我不算。郭姑娘半点也不欢喜抄我。我说倘若你是她，二武兄弟之中你嫁哪一个？”</p><p>小龙女“嗯”了一声，心中拿二武来相互比较，终于又道：“我还是嫁你。”</p><p>杨过又是好笑，又是感激，伸臂将她搂在怀里。</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     
     
@@ -925,7 +996,7 @@
     <link href="/posts/13755.html"/>
     <url>/posts/13755.html</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="大话西游"><a href="#大话西游" class="headerlink" title="大话西游"></a>大话西游</h4><p><img src="https://pic.downk.cc/item/5ea00130c2a9a83be56ca28b.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00144c2a9a83be56cb736.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00158c2a9a83be56ccc75.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00170c2a9a83be56ce94b.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00188c2a9a83be56d005f.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00197c2a9a83be56d0d7a.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="大话西游"><a href="#大话西游" class="headerlink" title="大话西游"></a>大话西游</h4><p><img src="https://pic.downk.cc/item/5ea00130c2a9a83be56ca28b.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00144c2a9a83be56cb736.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00158c2a9a83be56ccc75.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00170c2a9a83be56ce94b.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00188c2a9a83be56d005f.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5ea00197c2a9a83be56d0d7a.jpg" srcset="/img/loading.gif" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     
     
@@ -946,7 +1017,7 @@
     <link href="/posts/51590.html"/>
     <url>/posts/51590.html</url>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="哈尔的移动城堡"><a href="#哈尔的移动城堡" class="headerlink" title="哈尔的移动城堡"></a>哈尔的移动城堡</h4><p>2016-07-14</p><p><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffbd1c2a9a83be567fbef.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffbf0c2a9a83be5681057.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc14c2a9a83be568257a.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc29c2a9a83be5683669.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="天空之城"><a href="#天空之城" class="headerlink" title="天空之城"></a>天空之城</h4><p>2016-07-14</p><p><img src="https://pic.downk.cc/item/5e9ffc78c2a9a83be56862f5.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc9cc2a9a83be5687ec4.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffcb0c2a9a83be5688b45.jpg" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="哈尔的移动城堡"><a href="#哈尔的移动城堡" class="headerlink" title="哈尔的移动城堡"></a>哈尔的移动城堡</h4><p>2016-07-14</p><p><img src="https://pic.downk.cc/item/5e9ffb95c2a9a83be567c8bf.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffbd1c2a9a83be567fbef.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffbf0c2a9a83be5681057.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc14c2a9a83be568257a.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc29c2a9a83be5683669.jpg" srcset="/img/loading.gif" alt=""></p><h4 id="天空之城"><a href="#天空之城" class="headerlink" title="天空之城"></a>天空之城</h4><p>2016-07-14</p><p><img src="https://pic.downk.cc/item/5e9ffc78c2a9a83be56862f5.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffc9cc2a9a83be5687ec4.jpg" srcset="/img/loading.gif" alt=""></p><p><img src="https://pic.downk.cc/item/5e9ffcb0c2a9a83be5688b45.jpg" srcset="/img/loading.gif" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     
     <categories>
@@ -1371,9 +1442,9 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>问题&amp;解决</tag>
+      
+      <tag>hexo</tag>
       
     </tags>
     

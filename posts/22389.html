@@ -17,7 +17,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... 拒绝“自我审查、敏感词折叠、删帖、封号、误解、抬杠.”">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义美化,Hexo-RSS订阅源,亦家人的博客,软件|工具|教程|技巧|电影|壁纸|资源|记录分享,Havoc-红米note7"> -->
-  <title>标签 - 故事 - 饿龙不是龙哩</title>
+  <title>Hexo进阶之为单篇文章设置关键词及描述 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -55,7 +55,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 50vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -137,7 +137,7 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('/img/lyf2.webp') no-repeat center center;
+         style="background: url('/img/gy.webp') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -147,12 +147,47 @@
             </span>
 
             
+              
+                <div class="mt-3 post-meta">
+                  <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+                  <time datetime="2020-05-21 10:09">
+                    星期四, 五月 21日 2020, 10:09 上午
+                  </time>
+                </div>
+              
+
+              <div class="mt-1">
+                
+                  
+                  <span class="post-meta mr-2">
+                    <i class="iconfont icon-chart"></i>
+                    312 字
+                  </span>
+                
+
+                
+                  
+                  <span class="post-meta mr-2">
+                      <i class="iconfont icon-clock-fill"></i>
+                    
+                    
+                    1
+                     分钟
+                  </span>
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  <span id="busuanzi_container_page_pv" class="post-meta" style="display: none">
+                    <i class="iconfont icon-eye" aria-hidden="true"></i>
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>
+                
+              </div>
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
           
         </div>
       </div>
@@ -161,43 +196,172 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5" id="board"
-          style=margin-top:0>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-<!--  <p class="h4">共计 2 篇文章</p>-->
-  <hr>
-  
-    
       
-      <p class="h5">2020</p>
-    
-    <a href="/posts/24299.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">牧羊人和野山羊🐐</span>
-      <span style="float: right;">05-03</span>
-    </a>
-  
-    
-    <a href="/posts/39717.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">晋灵公不君</span>
-      <span style="float: right;">04-28</span>
-    </a>
-  
-</div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+              <p class="note note-info">
+                本文最后更新于：星期四, 五月 21日 2020, 11:40 中午
+              </p>
+            
+            <article class="markdown-body">
+              <p>官方文档说明:<br><img src="https://i.loli.net/2020/05/21/eZRS4bVCnsxziIH.png" srcset="/img/loading.gif" alt="image.png"></p>
+<h3 id="keywords"><a href="#keywords" class="headerlink" title="keywords"></a>keywords</h3><blockquote>
+<p>默认情况下hexo博客及博客里的文章是没有keywords关键字的，需要我们手动添加<br>设置hexo博客的关键字:<br>在博客根目录下找到_config.yml文件，添加keywords: 关键字1,关键字2,关键字3…，采用英文逗号隔开，注意keywords与关键词之间的空格  </p>
+</blockquote>
+<h4 id="设置文章的关键字"><a href="#设置文章的关键字" class="headerlink" title="设置文章的关键字"></a>设置文章的关键字</h4><ol>
+<li>打开<code>hexo\themes\fluid\layout\_partial\head.ejs</code><br>加入以下代码<pre><code class="hljs plain">&lt;!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词--&gt;
+&lt;% if (page.keywords){ %&gt;
+  &lt;meta name="keywords" content="&lt;%= page.keywords %&gt;,&lt;%= config.keywords %&gt;"&gt;
+  &lt;% } else if (config.keywords){ %&gt;
+  &lt;meta name="keywords" content="&lt;%= config.keywords %&gt;"&gt;
+ &nbsp; &nbsp;&lt;%} %&gt;</code></pre>
+然后保存  </li>
+</ol>
+<p><img src="https://i.loli.net/2020/05/21/kARGcWi1ENV49r6.png" srcset="/img/loading.gif" alt="image.png">  </p>
+<ol start="2">
+<li><p>随便找篇文章在头部内容加入<code>keywords: 特定关键词1,特定关键词2</code>  注意空格  </p>
+</li>
+<li><p>本地查看网页源码，成功！<br><img src="https://i.loli.net/2020/05/21/YwSosu4X6ia9cR3.png" srcset="/img/loading.gif" alt="image.png"></p>
+</li>
+</ol>
+<h3 id="description"><a href="#description" class="headerlink" title="description"></a>description</h3><p>描述有空再写，应该和上面的方法差不多😶</p>
+<hr>
+<ul>
+<li>参考<br><a href="https://segmentfault.com/a/1190000007477815" target="_blank" rel="noopener">hexo配置sitemap以及设置keywords</a></li>
+</ul>
+<center><a class="btn" href="/img/zsm.webp" title="🍻">赞赏</a></center>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/posts/52581.html">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Hexo-Fluid踩坑之局域网预览丢失样式</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/posts/49990.html">
+                        <span class="hidden-mobile">超星云盘视频直链获取</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script defer src="https://cdn.staticfile.org/valine/1.4.4/Valine.min.js" ></script>
+
+  <script type="text/javascript">
+    var oldLoadVa = window.onload;
+    window.onload = function () {
+      oldLoadVa && oldLoadVa();
+
+      new Valine({
+        el: "#vcomments",
+        app_id: "1J6Q1jxQoNCihhNQiLbkRIAm-gzGzoHsz",
+        app_key: "FTjP6PahKXj4GNmBOVj66FYW",
+        placeholder: "说点什么吧~",
+        path: window.location.pathname,
+        avatar: "",
+        meta: ["nick","mail","link"],
+        pageSize: "10",
+        lang: "zh-CN",
+        highlight: true,
+        recordIP: true,
+        serverURLs: "",
+        mathJax: true
+      });
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
 
 
               </div>
-            </div>
+            
           </div>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+  <div class="col-lg-7 mx-auto nopadding-md">
+    <div class="container custom post-content mx-auto">
+      <center><span id="jinrishici-sentence">正在加载今日诗词....</span> <script defer src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center>
+    </div>
+  </div>
+
+
     
   </main>
 
@@ -334,6 +498,34 @@
 
 
 
+  
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '.post-content',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
 
 
   <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
@@ -397,7 +589,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "标签 - 故事&nbsp;",
+        "Hexo进阶之为单篇文章设置关键词及描述&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -440,6 +632,20 @@
   </script>
 
 
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
 
 
 
