@@ -17,7 +17,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... 拒绝“自我审查、敏感词折叠、删帖、封号、误解、抬杠.”">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义美化,Hexo-RSS订阅源,亦家人的博客,软件|工具|教程|技巧|电影|壁纸|资源|记录分享,Havoc-红米note7"> -->
-  <title>标签 - 讽刺 - 饿龙不是龙哩</title>
+  <title>Windows 10的中文用户名怎么改成英文💻 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -55,7 +55,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 50vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -137,7 +137,7 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('/img/lyf2.webp') no-repeat center center;
+         style="background: url('/img/gy.webp') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -147,12 +147,47 @@
             </span>
 
             
+              
+                <div class="mt-3 post-meta">
+                  <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+                  <time datetime="2020-04-18 02:38">
+                    星期六, 四月 18日 2020, 2:38 凌晨
+                  </time>
+                </div>
+              
+
+              <div class="mt-1">
+                
+                  
+                  <span class="post-meta mr-2">
+                    <i class="iconfont icon-chart"></i>
+                    417 字
+                  </span>
+                
+
+                
+                  
+                  <span class="post-meta mr-2">
+                      <i class="iconfont icon-clock-fill"></i>
+                    
+                    
+                    1
+                     分钟
+                  </span>
+                
+
+                
+                  <!-- 不蒜子统计文章PV -->
+                  
+                  <span id="busuanzi_container_page_pv" class="post-meta" style="display: none">
+                    <i class="iconfont icon-eye" aria-hidden="true"></i>
+                    <span id="busuanzi_value_page_pv"></span> 次
+                  </span>
+                
+              </div>
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="iconfont icon-arrowdown"></i>
-            </div>
           
         </div>
       </div>
@@ -161,37 +196,189 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5" id="board"
-          style=margin-top:0>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
-
-<div class="list-group">
-<!--  <p class="h4">共计 1 篇文章</p>-->
-  <hr>
-  
-    
       
-      <p class="h5">2020</p>
-    
-    <a href="/posts/24299.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">牧羊人和野山羊🐐</span>
-      <span style="float: right;">05-03</span>
-    </a>
-  
-</div>
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+              <p class="note note-info">
+                本文最后更新于：星期五, 五月 22日 2020, 6:12 晚上
+              </p>
+            
+            <article class="markdown-body">
+              <p>Windows 10的中文用户名怎么改成英文？其实改名字很简单，难就难在后续把中文名称下的文件夹和用户数据也顺利统一到新名称下。</p>
+<h5>1.快速启用Administrator账户</h5>  
+
+<p>以管理员模式启动命令提示符（Win+X组合键后就能看到），输入<code>net user administrator /active:yes</code>启用Administrator账户</p>
+
+<p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/3ba11c07a4cab2dad69e562be05e83df.png" srcset="/img/loading.gif" alt=""></p>
+<h5>2.注销当前账户并且修改文件夹名称</h5>
+<p>启用Administrator账户完成后，注销当前账户，使用Administrator登录（更稳妥的方式是进入安全模式后用Administrator登录）</p>
+
+<p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/cc47ced7c3c9f1775d27f66e1be93de4.png" srcset="/img/loading.gif" alt=""></p>
+<p>进入C:Users文件夹下，在想要更名的中文文件夹（需要改名的文件夹）下点击鼠标右键，选择“重命名”，然后就随便改名字吧</p>
+
+<p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/bc850b80bfbab645a6f4b9d2211dc16f.png" srcset="/img/loading.gif" alt=""></p>
+<h5>3.修改注册表</h5>
+<p>别着急重启电脑或注销/切换账户，Win+R之后输入regedit进入注册表编辑器，定位到</p>
+<pre><code class="shell">--HKEY_LOCAL_MACHINE
+  --SOFTWARE
+    --Microsoft
+      --Windows NT
+         --CurrentVersion
+          --Profilelist
+</code></pre>
+<p>在它下面的几个子项中逐一查看名为“ProfileImagePath”的字符串值，直到找到数值数据为原中文名路径的项目；将其修改为更名后的路径就行了。</p>
+
+<p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/49becb9a82a62b1490565569b5954915.png" srcset="/img/loading.gif" alt=""><br><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/4ee04967d12998a58ede7a53a1312970.png" srcset="/img/loading.gif" alt=""></p>
+
+<h5>4.关闭Administrator账户</h5>
+<p>当我们不再需要Administrator账户时，就可以将其关闭。以管理员模式启动命令提示符（Win+X组合键后就能看到）</p>
+<pre><code class="shell">C:WINDOWSsystem32&gt;net user administrator /active:no
+命令成功完成。
+</code></pre>
+
+<hr>
+<ul>
+<li>参考: <a href="http://www.xitongtiandi.net/wenzhang/win10/15351.html" target="_blank" rel="noopener external nofollow noreferrer">http://www.xitongtiandi.net/wenzhang/win10/15351.html</a></li>
+</ul>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </article>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/%E6%94%B6%E8%97%8F/">收藏</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Windows/">Windows</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+              
+              
+                <div class="post-prevnext row">
+                  <div class="post-prev col-6">
+                    
+                    
+                      <a href="/posts/51966.html">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">一种懒惰</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </div>
+                  <div class="post-next col-6">
+                    
+                    
+                      <a href="/posts/1472.html">
+                        <span class="hidden-mobile">人为什么要阅读📚</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <div class="comments" id="comments">
+                
+                
+  <div id="vcomments"></div>
+  <script defer src="https://cdn.staticfile.org/valine/1.4.4/Valine.min.js" ></script>
+
+  <script type="text/javascript">
+    var oldLoadVa = window.onload;
+    window.onload = function () {
+      oldLoadVa && oldLoadVa();
+
+      new Valine({
+        el: "#vcomments",
+        app_id: "1J6Q1jxQoNCihhNQiLbkRIAm-gzGzoHsz",
+        app_key: "FTjP6PahKXj4GNmBOVj66FYW",
+        placeholder: "说点什么吧~",
+        path: window.location.pathname,
+        avatar: "",
+        meta: ["nick","mail","link"],
+        pageSize: "10",
+        lang: "zh-CN",
+        highlight: true,
+        recordIP: true,
+        serverURLs: "",
+        mathJax: true
+      });
+    };
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
 
 
               </div>
-            </div>
+            
           </div>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+  <div class="col-lg-7 mx-auto nopadding-md">
+    <div class="container custom post-content mx-auto">
+      <center><span id="jinrishici-sentence">正在加载今日诗词....</span> <script defer src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center>
+    </div>
+  </div>
+
+
     
   </main>
 
@@ -330,6 +517,34 @@
 
 
 
+  
+  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var boardCtn = $('#board-ctn');
+      var boardTop = boardCtn.offset().top;
+
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '.post-content',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        collapseDepth: 0,
+        scrollSmooth: true,
+        headingsOffset: -boardTop
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc').css('visibility', 'visible');
+      }
+    });
+  </script>
+
+
+
 
 
   <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
@@ -393,7 +608,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "标签 - 讽刺&nbsp;",
+        "Windows 10的中文用户名怎么改成英文💻&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -436,6 +651,20 @@
   </script>
 
 
+
+  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+  <script>
+    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
+      function () {
+        var element = document.createElement('a');
+        $(element).attr('data-fancybox', 'images');
+        $(element).attr('href', $(this).attr('src'));
+        $(this).wrap(element);
+      }
+    );
+  </script>
 
 
 

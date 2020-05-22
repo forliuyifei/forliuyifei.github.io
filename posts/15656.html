@@ -211,14 +211,14 @@
               </p>
             
             <article class="markdown-body">
-              <h2 id="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"><a href="#不会css的小白如何给hexo博客文章封面添加触摸过渡动画？" class="headerlink" title="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"></a>不会css的小白如何给hexo博客文章封面添加触摸过渡动画？</h2><p>几天前看到<a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener">Royce2003</a>的面向小白的用css美化网站教程，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p>
+              <h2 id="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"><a href="#不会css的小白如何给hexo博客文章封面添加触摸过渡动画？" class="headerlink" title="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"></a>不会css的小白如何给hexo博客文章封面添加触摸过渡动画？</h2><p>几天前看到<a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a>的面向小白的用css美化网站教程，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p>
 <p>但我想要的只是给文章封面添加触摸变大过渡动画。</p>
 <p>先用万能的右键检查定位到自己需要改动的地方：</p>
 <p><img src="https://github.com/forliuyifei/img/blob/mater/img/Snipaste_2020-04-24_18-23-39.jpg?raw=true" srcset="/img/loading.gif" alt=""></p>
 <p>大概就是这个 <strong>.index_img</strong> 了，具体如何实现呢？</p>
 <p>百度一下找到这篇教程</p>
 <blockquote>
-<h4 id="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"><a href="#css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）" class="headerlink" title="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"></a><a href="https://www.cnblogs.com/yangslin/p/9347075.html" target="_blank" rel="noopener">css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）</a></h4><p>1）.CSS3的transform:scale()可以实现按比例放大或者缩小功能。</p>
+<h4 id="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"><a href="#css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）" class="headerlink" title="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"></a><a href="https://www.cnblogs.com/yangslin/p/9347075.html" target="_blank" rel="noopener external nofollow noreferrer">css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）</a></h4><p>1）.CSS3的transform:scale()可以实现按比例放大或者缩小功能。</p>
 <p>2）.CSS3的transition允许CSS的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。</p>
 <p>3）.transition: all 0.6s;表示所有的属性变化在0.6s的时间段内完成。</p>
 <p>4）transform: scale(1.4);表示在鼠标放到图片上的时候图片按比例放大1.4倍。</p>
@@ -254,7 +254,7 @@ div img:hover{
 <p>有些傻眼，方向大概对了但格式不是我想要的🤪</p>
 <p>再查查现在用的Fluid主题配置说明</p>
 <blockquote>
-<h4 id="自定义-JS-CSS-HTML"><a href="#自定义-JS-CSS-HTML" class="headerlink" title="自定义 JS / CSS / HTML"></a><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener">自定义 JS / CSS / HTML</a></h4><p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p>
+<h4 id="自定义-JS-CSS-HTML"><a href="#自定义-JS-CSS-HTML" class="headerlink" title="自定义 JS / CSS / HTML"></a><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener external nofollow noreferrer">自定义 JS / CSS / HTML</a></h4><p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p>
 <pre><code class="hljs yaml"><span class="hljs-comment"># 指定自定义 js 文件路径，路径是相对 source 目录</span>
 <span class="hljs-attr">custom_js:</span> <span class="hljs-string">/js/custom.js</span>
 
@@ -308,9 +308,9 @@ transition: all 0.6s
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
-                    
                       <a class="hover-with-bg" href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
+                    
+                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
                     
                       <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
                     
@@ -779,7 +779,7 @@ transition: all 0.6s
   </script>
   -->
   <!--背景动态线条效果 -->
-  <script defer src="//liuyifei.club/js/canvas-nest.min.js" color="0,0,0" opacity='0.35' zIndex="-1" count="150"></script>
+  <script defer src="//abbw.gitee.io/asset/js/canvas-nest.min.js" color="0,0,0" opacity='0.35' zIndex="-1" count="150"></script>
   
 
 </body>
