@@ -13,6 +13,8 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  
   <meta name="theme-color" content="#263238">
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
@@ -262,9 +264,9 @@ css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放�
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
-            
               <a href="/tags/hexo/">hexo</a>
+            
+              <a href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
             
               <a href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
             
@@ -712,9 +714,9 @@ async 替换为defer
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
-            
               <a href="/tags/hexo/">hexo</a>
+            
+              <a href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
             
               <a href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
             
@@ -831,12 +833,20 @@ keywords
   <footer class="mt-5">
   <div class="text-center py-3">
     <div>
-      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+    <!--  <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>  -->
       <!--  <i class="iconfont icon-love"></i>  爱心图标❤-->
-      <a href="/img/zsm.webp" target="_blank" rel="nofollow noopener"><span style="font-size: x-large;">🍻</span></a>
+      <a href="mailto:forzqx@qq.com" rel="external nofollow noreferrer" class="">
+        <i class="iconfont iconemail-fill" aria-hidden="true"></i>
+      </a>
+      <a href="/img/donate.webp" target="_blank" rel="nofollow noopener"><span style="font-size: x-large;">🍻</span></a>
 
-      <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
-        <span>Fluid</span></a>
+    <!--  <a href="javascript:;" rel="external nofollow noreferrer" class="qr-trigger">
+        <i class="iconfont iconwechat-fill" aria-hidden="true"></i>
+          <img class="qr-img" src="/img/wechat.webp" srcset="/img/wechat.webp" alt="qrcode">
+      </a>   微信二维码-->
+      <a href='https://liuyifei.club/atom.xml'><i class="iconfont iconrss" aria-hidden="true"></i></a>
+    <!--  <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
+        <span>Fluid</span></a>  -->
     </div>
     
   <div>
@@ -844,7 +854,7 @@ keywords
       <!-- 不蒜子统计PV -->
       
       <span id="busuanzi_container_site_pv" style="display: none">
-      <a href='https://liuyifei.club/messageboard'>📪</a> 总访问量 <span id="busuanzi_value_site_pv"></span> 次 
+      <a href='https://liuyifei.club/messageboard'>📪</a> 总访问量 <span id="busuanzi_value_site_pv"></span> 次
     </span>
     
     
