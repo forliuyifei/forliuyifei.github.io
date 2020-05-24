@@ -57,6 +57,18 @@
 
 
 <body>
+  <!--夜间模式🌕🌚-->
+  <div id="dark" onclick="switchDarkMode()"></div>
+<script>
+  var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&&localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌚":"🌕";
+</script>
+
   <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
@@ -173,12 +185,18 @@
                 
 
 <div class="list-group">
-  <p class="h4">共计 74 篇文章</p>
+  <p class="h4">共计 75 篇文章</p>
   <hr>
   
     
       
       <p class="h5">2020</p>
+    
+    <a href="/posts/27341.html" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">好消息🎉本站已添加夜间模式🌗</span>
+      <span style="float: right;">05-25</span>
+    </a>
+  
     
     <a href="/posts/41357.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">水龙吟·燕云十八飞骑</span>
@@ -279,12 +297,6 @@
     <a href="/posts/30773.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">Google 「站点地图可读取，但存在错误」</span>
       <span style="float: right;">05-17</span>
-    </a>
-  
-    
-    <a href="/posts/19229.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">免费图床怎么选🧐</span>
-      <span style="float: right;">05-16</span>
     </a>
   
 </div>

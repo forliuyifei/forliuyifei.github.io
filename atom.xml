@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-05-24T03:59:30.042Z</updated>
+  <updated>2020-05-24T19:11:42.189Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>好消息🎉本站已添加夜间模式🌗</title>
+    <link href="https://liuyifei.club/posts/27341.html"/>
+    <id>https://liuyifei.club/posts/27341.html</id>
+    <published>2020-05-24T18:07:00.000Z</published>
+    <updated>2020-05-24T19:11:42.189Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>方案来自<a href="https://royce2003.top/posts/41212.html" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a><br>感谢大佬的代码及注释，对小白非常友好。</p><p>这里直接上具体操作</p><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote><p>在<code>\themes\fluid\layout\layout.ejs</code> 中找到 <code>&lt;body&gt;</code>，在其之后加入如下代码(注意！一定紧跟在 body 标签之后，否则会出现闪烁)</p></blockquote><pre><code class="hljs plain">&lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;&lt;script&gt;  var isNight = new Date().getHours() &gt;= 22 || new Date().getHours() &lt; 7;  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {    if(!(isNight&amp;&amp;localStorage.getItem('noDark') === '1')) {      document.body.classList.add('dark');    }  }  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌙":"🌞";&lt;/script&gt;</code></pre><p>可以改成自己喜欢的其它图标或者字符</p><h3 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h3><blockquote><p>随便找个 JS 把下面代码加进去，直接加到 <code>&lt;/body&gt;</code> 之前也行   </p></blockquote><pre><code class="hljs plain">//点击事件function switchDarkMode() {if ($('body').hasClass('dark')) {$("#dark").html("🌞");document.body.classList.remove('dark');localStorage.setItem('noDark', '1');localStorage.setItem('dark', '0');} else {$("#dark").html("🌙"); document.body.classList.add('dark');localStorage.setItem('dark', '1');localStorage.setItem('noDark', '0');}}</code></pre><p>（我直接加在main.js）</p><h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><blockquote><p>下面是Royce2003的样式代码，基本覆盖所有内容，根据自身情况修改  </p></blockquote><p>（继续加进main.styl）</p><pre><code class="hljs plain">/* 切换按钮 */#dark  cursor pointer  position fixed  right 40px  bottom 98px  width 16px  height 14px  z-index 100  font-size 20px/*暗黑模式*/.dark  /* 主体 */  #board     background-color #282c34    color #a09c9c    img      filter brightness(50%)  p  .index-info a      color #a09c9c !important  .markdown-body    h1,h2,h3,h4,h5,h6,s,li        color:#a09c9c !important      /* 顶栏 */  .navbar-col-show  .top-nav-collapse      background-color #282c34      .navbar a      color #a09c9c !important      .animated-icon span   /* 手机端 */    background-color #a09c9c  /* page-number */  .pagination a:hover  .pagination .current      background-color #6b6b6b73;  /* 打字机 */  #subtitle  .dark.typed-cursor--blink  .scroll-down-arrow    color #dfdfdf  /* back to top */  #scroll-top-button    background-color #282c34    i      color #a09c9c      /* Toc */  .tocbot-list a    color #a09c9c  .tocbot-active-link  footer a:hover    color #1abc9c !important  /* footer */  footer  footer a    color #a09c9c      /* 归档页 */  .list-group-item    color #a09c9c    background-color #282c34      .list-group-item:hover  .tagcloud a:hover    background-color #46484d  /* 友链页 */  .links    .card        background-color #282c34            .card-body:hover        background-color #46484d            .link-title    .link-intro        color #a09c9c      /* note标签 可能这配色有点丑 */  .note-info    background-color #3b5359    border-color #006d80  .note-danger    background-color #783f42    border-color #670009  .note-success    background-color #2a3e2e    border-color #005915  .note-warning    background-color #5b543e    border-color #846500  .note-primary    background-color #455a6f &nbsp; &nbsp;border-color #004188</code></pre><p>嗯这里的配色着实花了我一些时间，幸好有<strong>Snipaste</strong>截图工具，开一个<strong>Dark Reader</strong> chrome插件，取色很方便。</p><p>上面的文件直接保存然后刷新本地网页即可预览效果，<br>建议边修改边刷新预览。</p><hr><h3 id="暂时遇到的问题："><a href="#暂时遇到的问题：" class="headerlink" title="暂时遇到的问题："></a>暂时遇到的问题：</h3><ul><li><p>在手机上，右上角的菜单按钮颜色不知道怎么调整<br><code>.animated-icon span  /* 手机端 */</code><br><code>background-color #a09c9c</code><br>这里无论我怎么改（eee~fff），它都只有灰色或者全黑两种状态，我想改成白色来着，和左上角标题配色相符🙄</p></li><li><p>图标常驻右下角也不是个事儿，有碍观瞻   </p></li><li><p>文章页日/夜模式切换按钮位置不搭<br>有空再看看怎样添加按钮至底部<input type="checkbox"></p></li><li><p>代码块背景色还是白的</p></li><li><p>其它小问题</p></li></ul><hr><p>没啥技术含量，主要是做个记录水一篇文章🙊</p><h3 id="本站配色"><a href="#本站配色" class="headerlink" title="本站配色"></a>本站配色</h3><p>下面放一下自己修改后的配色</p><pre><code class="hljs plain">//夜间模式样式🌕🌚冼仙仅作部分配色修改。感谢Royce2003提供的代码/* 切换按钮 */#dark  cursor pointer  position fixed  right 40px  bottom 98px  width 16px  height 14px  z-index 100  font-size 20px/*暗黑模式*/.dark  background-color #181a1b  /* 主体 */  #board     background-color #181a1b    color #181a1b    img      filter brightness(90%)  p  .index-info a      color #cbc7bf !important  .markdown-body    h1,h2,h3,h4,h5,h6,s,li        color:#f3f4f4 !important      /* 顶栏 */  .navbar-col-show  .top-nav-collapse      background-color #181a1b      .navbar a      color #ffffff !important      .animated-icon span   /* 手机端 */    background-color #a09c9c  /* page-number */  .pagination a:hover  .pagination .current      background-color #1e2021;  /* 打字机 */  #subtitle  .dark.typed-cursor--blink  .scroll-down-arrow    color #ffffff  /* back to top */  #scroll-top-button    background-color #181a1b    i      color #b7b1a7      /* Toc */  .tocbot-list a    color #a09c9c  .tocbot-active-link  footer a:hover    color #1abc9c !important  /* footer */  footer  footer a    color #a09c9c      /* 归档页 */  .list-group-item    color #181a1b    background-color #181a1b  .list-group-item:hover  .tagcloud a:hover    background-color #46484d  /* 友链页 */  .links    .card        background-color #181a1b            .card-body:hover        background-color #1e2021            .link-title    .link-intro        color #a09c9c      /* note标签 由冼仙修改使用snipaste获取Dark Reader提供的配色 */  .note-info    background-color #122c31    border-color #238fa1  .note-danger    background-color #360b0e    border-color #9a1823  .note-success    background-color #172d1c    border-color #367a46  .note-warning    background-color #3c300a    border-color #87712b  .note-primary    background-color #212325    border-color #1561b3</code></pre><hr><p>用到的工具：</p><ul><li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener external nofollow noreferrer">Snipaste</a></li><li><a href="https://liuyifei.club/posts/40720.html#Dark-Reader">Dark Reader</a></li><li><a href="https://www.coolapk.com/apk/com.By_syk.Palette" target="_blank" rel="noopener external nofollow noreferrer">调色板</a></li><li>Vscode插件 color highlight</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="记录" scheme="https://liuyifei.club/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="美化" scheme="https://liuyifei.club/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+      <category term="教程" scheme="https://liuyifei.club/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Hexo" scheme="https://liuyifei.club/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>水龙吟·燕云十八飞骑</title>
@@ -241,9 +271,9 @@
       <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
     
     
-      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
-    
       <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
     
       <category term="记录" scheme="https://liuyifei.club/tags/%E8%AE%B0%E5%BD%95/"/>
     
@@ -325,9 +355,9 @@
       <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
     
     
-      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
-    
       <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
     
       <category term="美化" scheme="https://liuyifei.club/tags/%E7%BE%8E%E5%8C%96/"/>
     
@@ -355,9 +385,9 @@
       <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
     
     
-      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
-    
       <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
     
       <category term="记录" scheme="https://liuyifei.club/tags/%E8%AE%B0%E5%BD%95/"/>
     
@@ -456,9 +486,9 @@
       <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
     
     
-      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
-    
       <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
     
   </entry>
   
@@ -512,27 +542,6 @@
       <category term="美" scheme="https://liuyifei.club/tags/%E7%BE%8E/"/>
     
       <category term="好图" scheme="https://liuyifei.club/tags/%E5%A5%BD%E5%9B%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[梦]25栋</title>
-    <link href="https://liuyifei.club/posts/48703.html"/>
-    <id>https://liuyifei.club/posts/48703.html</id>
-    <published>2020-05-16T07:00:00.000Z</published>
-    <updated>2020-05-21T05:14:31.766Z</updated>
-    
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Maybe you are not her🙄" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">请输入密码</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="109079625548da6809b503f49cce03ca40a83f8602f7b8c5d7495bc0025dcdd7">50d47c38a0f90608ef5c8c63da96d76d5fcffe42269b00c05ebc8e9ef1f2e99ffe0399fa817c3ae90d48ffb9f2877e6f34e56fe54ed71f0d55f58b5f0796062ced5df0c489bdfebc2c5f15d21ad9f13412b88c94dca206790ab55c16911a38ada25af941759e6359d3451676e51e11b4ca13464e2859757393a11ff2f6de6e98d4b535c949c80c15a36821d1036441b6d6f582daf27595abecfb1c5f677da997e12313c2097024b7e73d8d515735ebf327d4bf6a93ff95c31c33573a73a3a92db4c0800351ea22f7772a72ea37f35e06528236ecdc1423adaa0d697ad290d7e6f5e31312f901d840819b26705bd15bfd4b4fb10a5e7e5a7b2c63c898efe7ede926a7e514b4139f186bc456800b4df40b74358e9f340a25a1bff646e781fccf343acb54ae46b076378af2efc779a00570575acc93c05abf9d64f8d4906b94673ed9634e6d83a05f9f2a2f432b981a40d4dacf22330da655ceb6ad3b2bf1e08e3935d850ad7b091601579493876183baf8303e804092d00e602814269e3978c83592c64149ee6635f5487c489837094cccc3a28f24ee6057acce4436711666d55723760c857cd7afb02d490c78a5339a492ad45dda61d7eeb8cc63ba050fc1de28889ecfb2d5f2027dc23a29002a537212ff2246dea261b4f6cb8ffa70a838800721b05f48697f534518cc444582e40a70c24dde93c4b6e97b68f5c5e936b6f27840fcd7f4e9d0ea8e623ee1c7c8d5bb1436fed5bc3e3ba5f3e0f5eb288c2c0659708fd5630df676522b3d54ce2b2a8afd8bf2bbc5f425da8e8e78205c478a4206f0267dd6e39f76640a30619214377d09c69e13def03d96c79939a2fe5968f98ad02d210f3cb8149713c8e079d2fd4e735acb504c5d06921bda5f5fdf82c9f42b10e8b4cb7f8979150986d604cb6169c20e219f46707261d7668c11977e7610c38f7bd6e6e75ed0de8dfaa9926f0e1cc8051ded35271533d524f73e801cd68f3d94505c6f63754c840d991aa762d3c8c99b70ca10584b7dfb8ea3df41aaceb8fba7b5d80a3bc1fe95a868aa33e0b4eeda91a8f0345841fe2248a576b679c8c55551b7ffdf75c69e84fd596277c7662e8e876245f698c8cde95e6d241f7cbfba587eaff0ae5a1702da06dd81834cdaf7915b261067e68328d2894dc7326282c948103cb5361a3b572f0075cf8898cf7de8e5358e51ab923de8f845b6aff5e42bbda063915b58a51740323206c377b13fba3ab3f3d51a18d0037471aac72dcfba3b9be623d53c6883b86caa37401c54511c7c181b3ff99eba3bef0d0d715419fbe11d6952220bc860ae0dfd2c6cafb3a56a35cdc29ccb9f1e276a41067e4cf4ab794a360f5c826b1e764d77354505c35f6312c3c5401a08060335290c722009bc6df89450ff2a4d3d87c348cffd666133d6835ff937cb8387fe1d2dd73b25f7ad9a67eeed9b743e4112a345c4eeaa388046505a7b03b6e519e31cffd610516e5418a14b8c5f89161c3bfdbe6e6d0d0c196160efb7c3ea3fa6698aa7eb06a27d2dd3b2aaed4e076d92c590580a1ce7086315168d6881c7ac15f11bec395ba81aff259e8a3a2cf0a4cdc5e0305b09529bfee0820ce1ef2f06db71035946ce70d00f57a54c4c60dce4ea2f302e1e7c955c1ff5f53bf8efcfce9c957632222a63995b72</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    <summary type="html">
-    
-      Password required.🙈
-    
-    </summary>
-    
-    
-    
-      <category term="梦" scheme="https://liuyifei.club/tags/%E6%A2%A6/"/>
     
   </entry>
   

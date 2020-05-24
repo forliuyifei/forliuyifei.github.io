@@ -19,7 +19,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,Hexo-RSS订阅源,亦家人的博客,软件|工具|教程|技巧|电影|壁纸|资源|记录分享,Havoc-红米note7"> -->
-  <title>一种懒惰 - 饿龙不是龙哩</title>
+  <title>好消息🎉本站已添加夜间模式🌗 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -164,8 +164,8 @@
               
                 <div class="mt-3 post-meta">
                   <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-                  <time datetime="2020-04-18 15:11">
-                    2020 四月 18日 , 星期六 , 15:11 下午
+                  <time datetime="2020-05-25 02:07">
+                    2020 五月 25日 , 星期一 , 02:07 凌晨
                   </time>
                 </div>
               
@@ -175,7 +175,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    76 字
+                    1.1k 字
                   </span>
                 
 
@@ -185,7 +185,7 @@
                       <i class="iconfont icon-clock-fill"></i>
                     
                     
-                    1
+                    5
                      分钟
                   </span>
                 
@@ -221,11 +221,324 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-info">
-                最后更新于：2020 四月 24日 , 星期五 , 00:28 凌晨
+                最后更新于：2020 五月 25日 , 星期一 , 03:11 凌晨
               </p>
             
             <article class="markdown-body">
-              <h2 id="概而括之、大而化之的方法论在本质上是一种懒惰和天真。"><a href="#概而括之、大而化之的方法论在本质上是一种懒惰和天真。" class="headerlink" title="概而括之、大而化之的方法论在本质上是一种懒惰和天真。"></a><code>概而括之、大而化之的方法论在本质上是一种懒惰和天真。</code></h2><a id="more"></a><script>
+              <p>方案来自<a href="https://royce2003.top/posts/41212.html" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a><br>感谢大佬的代码及注释，对小白非常友好。</p>
+<p>这里直接上具体操作</p>
+<h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote>
+<p>在<code>\themes\fluid\layout\layout.ejs</code> 中找到 <code>&lt;body&gt;</code>，在其之后加入如下代码(注意！一定紧跟在 body 标签之后，否则会出现闪烁)</p>
+</blockquote>
+<pre><code class="hljs plain">&lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;
+&lt;script&gt;
+  var isNight = new Date().getHours() &gt;= 22 || new Date().getHours() &lt; 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&amp;&amp;localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌙":"🌞";
+&lt;/script&gt;</code></pre>
+
+<p>可以改成自己喜欢的其它图标或者字符</p>
+<h3 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h3><blockquote>
+<p>随便找个 JS 把下面代码加进去，直接加到 <code>&lt;/body&gt;</code> 之前也行   </p>
+</blockquote>
+<pre><code class="hljs plain">//点击事件
+function switchDarkMode() {
+	if ($('body').hasClass('dark')) {
+		$("#dark").html("🌞");
+		document.body.classList.remove('dark');
+		localStorage.setItem('noDark', '1');
+		localStorage.setItem('dark', '0');
+	} else {
+		$("#dark").html("🌙"); 
+		document.body.classList.add('dark');
+		localStorage.setItem('dark', '1');
+		localStorage.setItem('noDark', '0');
+	}
+}</code></pre>
+
+<p>（我直接加在main.js）</p>
+<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><blockquote>
+<p>下面是Royce2003的样式代码，基本覆盖所有内容，根据自身情况修改  </p>
+</blockquote>
+<p>（继续加进main.styl）</p>
+<pre><code class="hljs plain">/* 切换按钮 */
+#dark
+  cursor pointer
+  position fixed
+  right 40px
+  bottom 98px
+  width 16px
+  height 14px
+  z-index 100
+  font-size 20px
+
+/*暗黑模式*/
+.dark
+
+  /* 主体 */
+  #board 
+    background-color #282c34
+    color #a09c9c
+  
+  img  
+    filter brightness(50%)
+
+  p
+  .index-info a  
+    color #a09c9c !important
+
+  .markdown-body
+    h1,h2,h3,h4,h5,h6,s,li  
+      color:#a09c9c !important
+    
+
+  /* 顶栏 */
+  .navbar-col-show
+  .top-nav-collapse  
+    background-color #282c34
+    
+  .navbar a  
+    color #a09c9c !important
+    
+  .animated-icon span   /* 手机端 */
+    background-color #a09c9c
+
+
+  /* page-number */
+  .pagination a:hover
+  .pagination .current  
+    background-color #6b6b6b73;
+
+
+  /* 打字机 */
+  #subtitle
+  .dark.typed-cursor--blink
+  .scroll-down-arrow
+    color #dfdfdf
+
+
+  /* back to top */
+  #scroll-top-button
+    background-color #282c34
+
+    i
+      color #a09c9c
+    
+
+  /* Toc */
+  .tocbot-list a
+    color #a09c9c
+
+  .tocbot-active-link
+  footer a:hover
+    color #1abc9c !important
+
+
+  /* footer */
+  footer
+  footer a
+    color #a09c9c
+    
+
+  /* 归档页 */
+  .list-group-item
+    color #a09c9c
+    background-color #282c34
+    
+  .list-group-item:hover
+  .tagcloud a:hover
+    background-color #46484d
+
+
+  /* 友链页 */
+  .links
+    .card  
+      background-color #282c34
+        
+    .card-body:hover  
+      background-color #46484d
+        
+    .link-title
+    .link-intro  
+      color #a09c9c
+    
+
+  /* note标签 可能这配色有点丑 */
+  .note-info
+    background-color #3b5359
+    border-color #006d80
+
+  .note-danger
+    background-color #783f42
+    border-color #670009
+
+  .note-success
+    background-color #2a3e2e
+    border-color #005915
+
+  .note-warning
+    background-color #5b543e
+    border-color #846500
+
+  .note-primary
+    background-color #455a6f
+ &nbsp; &nbsp;border-color #004188</code></pre>
+
+<p>嗯这里的配色着实花了我一些时间，幸好有<strong>Snipaste</strong>截图工具，开一个<strong>Dark Reader</strong> chrome插件，取色很方便。</p>
+<p>上面的文件直接保存然后刷新本地网页即可预览效果，<br>建议边修改边刷新预览。</p>
+<hr>
+<h3 id="暂时遇到的问题："><a href="#暂时遇到的问题：" class="headerlink" title="暂时遇到的问题："></a>暂时遇到的问题：</h3><ul>
+<li><p>在手机上，右上角的菜单按钮颜色不知道怎么调整<br><code>.animated-icon span  /* 手机端 */</code><br><code>background-color #a09c9c</code><br>这里无论我怎么改（eee~fff），它都只有灰色或者全黑两种状态，我想改成白色来着，和左上角标题配色相符🙄</p>
+</li>
+<li><p>图标常驻右下角也不是个事儿，有碍观瞻   </p>
+</li>
+<li><p>文章页日/夜模式切换按钮位置不搭<br>有空再看看怎样添加按钮至底部<input type="checkbox"></p>
+</li>
+<li><p>代码块背景色还是白的</p>
+</li>
+<li><p>其它小问题</p>
+</li>
+</ul>
+<hr>
+<p>没啥技术含量，主要是做个记录水一篇文章🙊</p>
+<h3 id="本站配色"><a href="#本站配色" class="headerlink" title="本站配色"></a>本站配色</h3><p>下面放一下自己修改后的配色</p>
+<pre><code class="hljs plain">//夜间模式样式🌕🌚冼仙仅作部分配色修改。感谢Royce2003提供的代码
+/* 切换按钮 */
+#dark
+  cursor pointer
+  position fixed
+  right 40px
+  bottom 98px
+  width 16px
+  height 14px
+  z-index 100
+  font-size 20px
+
+/*暗黑模式*/
+.dark
+  background-color #181a1b
+  /* 主体 */
+  #board 
+    background-color #181a1b
+    color #181a1b
+  
+  img  
+    filter brightness(90%)
+
+  p
+  .index-info a  
+    color #cbc7bf !important
+
+  .markdown-body
+    h1,h2,h3,h4,h5,h6,s,li  
+      color:#f3f4f4 !important
+    
+
+  /* 顶栏 */
+  .navbar-col-show
+  .top-nav-collapse  
+    background-color #181a1b
+    
+  .navbar a  
+    color #ffffff !important
+    
+  .animated-icon span   /* 手机端 */
+    background-color #a09c9c
+
+
+  /* page-number */
+  .pagination a:hover
+  .pagination .current  
+    background-color #1e2021;
+
+
+  /* 打字机 */
+  #subtitle
+  .dark.typed-cursor--blink
+  .scroll-down-arrow
+    color #ffffff
+
+
+  /* back to top */
+  #scroll-top-button
+    background-color #181a1b
+
+    i
+      color #b7b1a7
+    
+
+  /* Toc */
+  .tocbot-list a
+    color #a09c9c
+
+  .tocbot-active-link
+  footer a:hover
+    color #1abc9c !important
+
+
+  /* footer */
+  footer
+  footer a
+    color #a09c9c
+    
+
+  /* 归档页 */
+  .list-group-item
+    color #181a1b
+    background-color #181a1b
+
+  .list-group-item:hover
+  .tagcloud a:hover
+    background-color #46484d
+
+
+  /* 友链页 */
+  .links
+    .card  
+      background-color #181a1b
+        
+    .card-body:hover  
+      background-color #1e2021
+        
+    .link-title
+    .link-intro  
+      color #a09c9c
+    
+
+  /* note标签 由冼仙修改使用snipaste获取Dark Reader提供的配色 */
+  .note-info
+    background-color #122c31
+    border-color #238fa1
+
+  .note-danger
+    background-color #360b0e
+    border-color #9a1823
+
+  .note-success
+    background-color #172d1c
+    border-color #367a46
+
+  .note-warning
+    background-color #3c300a
+    border-color #87712b
+
+  .note-primary
+    background-color #212325
+    border-color #1561b3</code></pre>
+
+<hr>
+<p>用到的工具：</p>
+<ul>
+<li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener external nofollow noreferrer">Snipaste</a></li>
+<li><a href="https://liuyifei.club/posts/40720.html#Dark-Reader">Dark Reader</a></li>
+<li><a href="https://www.coolapk.com/apk/com.By_syk.Palette" target="_blank" rel="noopener external nofollow noreferrer">调色板</a></li>
+<li>Vscode插件 color highlight</li>
+</ul>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -249,18 +562,17 @@
             <div>
               <div class="post-metas mb-3">
                 
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
-                    
-                  </div>
-                
                 
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%8B%BE%E4%BA%BA%E7%89%99%E6%85%A7/">拾人牙慧</a>
+                      <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Hexo/">Hexo</a>
                     
                   </div>
                 
@@ -273,18 +585,12 @@
                   <div class="post-prev col-6">
                     
                     
-                      <a href="/posts/35864.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Typora卡死无法新建文件的解决办法</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </div>
                   <div class="post-next col-6">
                     
                     
-                      <a href="/posts/43961.html">
-                        <span class="hidden-mobile">Windows 10的中文用户名怎么改成英文💻</span>
+                      <a href="/posts/41357.html">
+                        <span class="hidden-mobile">水龙吟·燕云十八飞骑</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -569,7 +875,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "一种懒惰&nbsp;",
+        "好消息🎉本站已添加夜间模式🌗&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,

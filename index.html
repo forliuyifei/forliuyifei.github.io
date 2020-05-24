@@ -57,6 +57,18 @@
 
 
 <body>
+  <!--夜间模式🌕🌚-->
+  <div id="dark" onclick="switchDarkMode()"></div>
+<script>
+  var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&&localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌚":"🌕";
+</script>
+
   <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
@@ -264,11 +276,62 @@ css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放�
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/hexo/">hexo</a>
-            
               <a href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
             
+              <a href="/tags/hexo/">hexo</a>
+            
               <a href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/posts/27341.html" target="_self">
+          <img src="/img/lyf0.webp" alt="好消息🎉本站已添加夜间模式🌗">
+        </a>
+      </div>
+    
+    <div class="col-12 col-md-8 mx-auto index-info">
+      <a class="index-header" href="/posts/27341.html">好消息🎉本站已添加夜间模式🌗</a>
+
+      <a href="/posts/27341.html" class="index-excerpt">
+        
+        
+          
+        
+        <div>方案来自Royce2003感谢大佬的代码及注释，对小白非常友好。
+这里直接上具体操作
+HTML
+在\themes\fluid\layout\layout.ejs 中找到 &lt;body&gt;，在其之后加入如下代码(注意！一定紧跟在 body 标签之后，否则会出现闪烁)
+
+&lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;
+&</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-05-25
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
+            
+              <a href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
+            
+              <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+            
+              <a href="/tags/Hexo/">Hexo</a>
             
           </div>
         
@@ -714,57 +777,11 @@ async 替换为defer
           <div class="post-meta">
             <i class="iconfont icon-tags"></i>
             
-              <a href="/tags/hexo/">hexo</a>
-            
               <a href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
             
-              <a href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
-            
-          </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/posts/22389.html" target="_self">
-          <img src="https://wxt.sinaimg.cn/thumb300/c260f7abgy1fs797tperqj20px0yn4qp.jpg?tags=%5B%5D" alt="Hexo进阶之为单篇文章设置关键词及描述">
-        </a>
-      </div>
-    
-    <div class="col-12 col-md-8 mx-auto index-info">
-      <a class="index-header" href="/posts/22389.html">Hexo进阶之为单篇文章设置关键词及描述</a>
-
-      <a href="/posts/22389.html" class="index-excerpt">
-        
-        
-          
-        
-        <div>官方文档说明:
-keywords
-默认情况下hexo博客及博客里的文章是没有keywords关键字的，需要我们手动添加设置hexo博客的关键字:在博客根目录下找到_config.yml文件，添加keywords: 关键字1,关键字2,关键字3…，采用英文逗号隔开，注意keywords与关键词之间的空格  
-
-设置文章的关键字
-打开hexo\themes\fluid\layout\_partial\</div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>&nbsp;2020-05-21
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
               <a href="/tags/hexo/">hexo</a>
             
-              <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+              <a href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
             
           </div>
         

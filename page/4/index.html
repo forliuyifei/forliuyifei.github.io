@@ -57,6 +57,18 @@
 
 
 <body>
+  <!--夜间模式🌕🌚-->
+  <div id="dark" onclick="switchDarkMode()"></div>
+<script>
+  var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&&localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌚":"🌕";
+</script>
+
   <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
@@ -172,6 +184,45 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/posts/31289.html" target="_self">
+          <img src="https://wxt.sinaimg.cn/thumb300/c260f7ably1geis2o4gbzj21o0280npf.jpg?tags=%5B%5D" alt="Physical Record Form 📑">
+        </a>
+      </div>
+    
+    <div class="col-12 col-md-8 mx-auto index-info">
+      <a class="index-header" href="/posts/31289.html">Physical Record Form 📑</a>
+
+      <a href="/posts/31289.html" class="index-excerpt">
+        
+        
+          
+        
+        <div>Password required.🙈</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2020-05-05
+          </div>
+        
+        
+        
+          <div class="post-meta">
+            <i class="iconfont icon-tags"></i>
+            
+              <a href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
+            
+          </div>
+        
+      </div>
+    </div>
+  </div>
 
   <div class="row mx-auto index-card">
     
@@ -717,49 +768,6 @@
             <i class="iconfont icon-tags"></i>
             
               <a href="/tags/Typora/">Typora</a>
-            
-          </div>
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/posts/29894.html" target="_self">
-          <img src="http://d0.ananas.chaoxing.com/download/4f83194cd5a1a49c7d2d6d9762b06ddc" alt="[影视截图] 刘亦菲">
-        </a>
-      </div>
-    
-    <div class="col-12 col-md-8 mx-auto index-info">
-      <a class="index-header" href="/posts/29894.html">[影视截图] 刘亦菲</a>
-
-      <a href="/posts/29894.html" class="index-excerpt">
-        
-        
-          
-        
-        <div>“我还是嫁你。”</div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>&nbsp;2020-04-22
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/%E7%A5%9E%E9%9B%95%E4%BE%A0%E4%BE%A3/">神雕侠侣</a>
-            
-              <a href="/tags/%E5%8F%B0%E8%AF%8D/">台词</a>
-            
-              <a href="/tags/%E9%87%91%E5%BA%B8/">金庸</a>
             
           </div>
         
