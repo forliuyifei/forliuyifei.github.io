@@ -11,5 +11,7 @@ Allow: /posts/
 Disallow: /categories/
 Disallow: /contact/
 Disallow: /tags/梦/
+Disallow: /tags/*/
+Disallow: /messageboard/
 
 Sitemap: https://liuyifei.club/sitemap.xml

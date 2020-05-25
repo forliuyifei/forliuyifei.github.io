@@ -17,7 +17,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7"> -->
-  <title>Google 「站点地图可读取，但存在错误」 - 饿龙不是龙哩</title>
+  <title>标签 - 搜索 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -66,7 +66,7 @@
   }
 </script>
 
-  <header style="height: 50vh;">
+  <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -148,7 +148,7 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('/img/gy.webp') no-repeat center center;
+         style="background: url('/img/lyf2.webp') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -158,47 +158,12 @@
             </span>
 
             
-              
-                <div class="mt-3 post-meta">
-                  <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-                  <time datetime="2020-05-17 13:41">
-                    2020 五月 17日 , 星期日 , 13:41 下午
-                  </time>
-                </div>
-              
-
-              <div class="mt-1">
-                
-                  
-                  <span class="post-meta mr-2">
-                    <i class="iconfont icon-chart"></i>
-                    181 字
-                  </span>
-                
-
-                
-                  
-                  <span class="post-meta mr-2">
-                      <i class="iconfont icon-clock-fill"></i>
-                    
-                    
-                    1
-                     分钟
-                  </span>
-                
-
-                
-                  <!-- 不蒜子统计文章PV -->
-                  
-                  <span id="busuanzi_container_page_pv" class="post-meta" style="display: none">
-                    <i class="iconfont icon-eye" aria-hidden="true"></i>
-                    <span id="busuanzi_value_page_pv"></span> 次
-                  </span>
-                
-              </div>
-            
           </div>
 
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
           
         </div>
       </div>
@@ -207,179 +172,37 @@
 
   <main>
     
+      <div class="container nopadding-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<div class="list-group">
+<!--  <p class="h4">共计 1 篇文章</p>-->
+  <hr>
+  
+    
       
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="d-none d-lg-block col-lg-2"></div>
-    <div class="col-lg-8 nopadding-md">
-      <div class="container nopadding-md" id="board-ctn">
-        <div class="py-5" id="board">
-          <div class="post-content mx-auto" id="post">
-            
-              <p class="note note-info">
-                最后更新于：2020 五月 21日 , 星期四 , 01:36 凌晨
-              </p>
-            
-            <article class="markdown-body">
-              <h4 id="向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」"><a href="#向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」" class="headerlink" title="向Google提交hexo站点地图时出现 「站点地图可读取，但存在错误」"></a>向Google提交hexo站点地图时出现 <strong>「站点地图可读取，但存在错误」</strong></h4><img src="https://i.loli.net/2020/05/17/82ELiGAhJ3KQVj1.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 40%;">
-
-<p>打开sitemap页面，发现原因：博客网址不匹配  </p>
-<img src="https://i.loli.net/2020/05/17/jwJ7OY4B3vtZ5Gh.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 50%;">  
+      <p class="h5">2020</p>
+    
+    <a href="/posts/51493.html" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">使用robots.txt优化搜索结果</span>
+      <span style="float: right;">05-25</span>
+    </a>
+  
+</div>
 
 
 
-<h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><ol>
-<li>在hexo的_config.yml配置文件中正确填写博客网址（我之前填的是GitHub给的网址，因为当时还没配置好腾讯云的DNS解析）  </li>
-</ol>
-<img src="https://i.loli.net/2020/05/17/9jDFLf8ekrOI3ov.png" srcset="/img/loading.gif" alt="image.png" style="zoom:50%;">  
-
-
-
-<ol start="2">
-<li><p>保存_config.yml文件后，老规矩</p>
-<pre><code class="hljs plain">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</code></pre>
-
-
-
-</li>
-</ol>
-<ol start="3">
-<li>更新部署后，删除之前提交的站点地图，重新提交，成功√</li>
-</ol>
-<p><img src="https://i.loli.net/2020/05/17/FS7hIinPsAYRbdL.png" srcset="/img/loading.gif" alt="image.png"></p>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
-            </article>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/%E5%8E%9F%E5%88%9B/">原创</a>
-                    
-                  </div>
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
-                    
-                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
-                    
-                  </div>
-                
               </div>
-              
-                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明原作者及出处！</p>
-              
-              
-                <div class="post-prevnext row">
-                  <div class="post-prev col-6">
-                    
-                    
-                      <a href="/posts/12720.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">MBTI测试</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
-                  </div>
-                  <div class="post-next col-6">
-                    
-                    
-                      <a href="/posts/19229.html">
-                        <span class="hidden-mobile">免费图床怎么选🧐</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
-                    
-                  </div>
-                </div>
-              
             </div>
-
-            
-              <!-- Comments -->
-              <div class="comments" id="comments">
-                
-                
-  <div id="vcomments"></div>
-  <script defer src="https://cdn.staticfile.org/valine/1.4.14/Valine.min.js" ></script>
-
-  <script type="text/javascript">
-    var oldLoadVa = window.onload;
-    window.onload = function () {
-      oldLoadVa && oldLoadVa();
-
-      new Valine({
-        el: "#vcomments",
-        app_id: "1J6Q1jxQoNCihhNQiLbkRIAm-gzGzoHsz",
-        app_key: "FTjP6PahKXj4GNmBOVj66FYW",
-        placeholder: "说点什么吧~",
-        path: window.location.pathname,
-        avatar: "",
-        meta: ["nick","mail","link"],
-        pageSize: "10",
-        lang: "zh-CN",
-        highlight: true,
-        recordIP: true,
-        serverURLs: "",
-        mathJax: true
-      });
-    };
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
-      powered by Valine.</a></noscript>
-
-
-              </div>
-            
           </div>
         </div>
       </div>
-    </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div id="tocbot"></div>
-</div>
-
-      </div>
-    
-  </div>
-</div>
-
-<!-- Custom -->
-
-  <div class="col-lg-7 mx-auto nopadding-md">
-    <div class="container custom post-content mx-auto">
-      <center><span id="jinrishici-sentence">既见君子 云胡不喜</span> <script defer src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center>
-    </div>
-  </div>
-
-
     
   </main>
 
@@ -504,34 +327,6 @@
 
 
 
-  
-  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
-  <script>
-    $(document).ready(function () {
-      var boardCtn = $('#board-ctn');
-      var boardTop = boardCtn.offset().top;
-
-      tocbot.init({
-        tocSelector: '#tocbot',
-        contentSelector: '.post-content',
-        headingSelector: 'h1,h2,h3,h4,h5,h6',
-        linkClass: 'tocbot-link',
-        activeLinkClass: 'tocbot-active-link',
-        listClass: 'tocbot-list',
-        isCollapsedClass: 'tocbot-is-collapsed',
-        collapsibleClass: 'tocbot-is-collapsible',
-        collapseDepth: 0,
-        scrollSmooth: true,
-        headingsOffset: -boardTop
-      });
-      if ($('.toc-list-item').length > 0) {
-        $('#toc').css('visibility', 'visible');
-      }
-    });
-  </script>
-
-
-
 
 
   <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
@@ -595,7 +390,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Google 「站点地图可读取，但存在错误」&nbsp;",
+        "标签 - 搜索&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -638,20 +433,6 @@
   </script>
 
 
-
-  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
-
-  <script>
-    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
-      function () {
-        var element = document.createElement('a');
-        $(element).attr('data-fancybox', 'images');
-        $(element).attr('href', $(this).attr('src'));
-        $(this).wrap(element);
-      }
-    );
-  </script>
 
 
 

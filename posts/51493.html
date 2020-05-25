@@ -17,7 +17,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7"> -->
-  <title>Google 「站点地图可读取，但存在错误」 - 饿龙不是龙哩</title>
+  <title>使用robots.txt优化搜索结果 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -161,8 +161,8 @@
               
                 <div class="mt-3 post-meta">
                   <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-                  <time datetime="2020-05-17 13:41">
-                    2020 五月 17日 , 星期日 , 13:41 下午
+                  <time datetime="2020-05-25 13:05">
+                    2020 五月 25日 , 星期一 , 13:05 下午
                   </time>
                 </div>
               
@@ -172,7 +172,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    181 字
+                    208 字
                   </span>
                 
 
@@ -218,36 +218,22 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-info">
-                最后更新于：2020 五月 21日 , 星期四 , 01:36 凌晨
+                最后更新于：2020 五月 25日 , 星期一 , 13:57 下午
               </p>
             
             <article class="markdown-body">
-              <h4 id="向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」"><a href="#向Google提交hexo站点地图时出现-「站点地图可读取，但存在错误」" class="headerlink" title="向Google提交hexo站点地图时出现 「站点地图可读取，但存在错误」"></a>向Google提交hexo站点地图时出现 <strong>「站点地图可读取，但存在错误」</strong></h4><img src="https://i.loli.net/2020/05/17/82ELiGAhJ3KQVj1.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 40%;">
-
-<p>打开sitemap页面，发现原因：博客网址不匹配  </p>
-<img src="https://i.loli.net/2020/05/17/jwJ7OY4B3vtZ5Gh.png" srcset="/img/loading.gif" alt="image.png" style="zoom: 50%;">  
-
-
-
-<h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><ol>
-<li>在hexo的_config.yml配置文件中正确填写博客网址（我之前填的是GitHub给的网址，因为当时还没配置好腾讯云的DNS解析）  </li>
-</ol>
-<img src="https://i.loli.net/2020/05/17/9jDFLf8ekrOI3ov.png" srcset="/img/loading.gif" alt="image.png" style="zoom:50%;">  
-
-
-
-<ol start="2">
-<li><p>保存_config.yml文件后，老规矩</p>
-<pre><code class="hljs plain">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</code></pre>
-
-
-
-</li>
-</ol>
-<ol start="3">
-<li>更新部署后，删除之前提交的站点地图，重新提交，成功√</li>
-</ol>
-<p><img src="https://i.loli.net/2020/05/17/FS7hIinPsAYRbdL.png" srcset="/img/loading.gif" alt="image.png"></p>
+              <p>使用Google搜索本站标签，出来的结果：  </p>
+<p><img src="https://i.loli.net/2020/05/25/wQJKONlGmPqHga3.png" srcset="/img/loading.gif" alt="image.png"><br>过于杂乱，其实我想让搜索引擎只抓取<code>https://liuyifei.club/tags/</code>而不包含/tags下面的一大堆子文件夹网页</p>
+<h4 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h4><p>只需一个通配符<code>*</code><br>在<strong>robots.txt</strong>加入<br><code>Disallow: /tags/*/</code></p>
+<p>建议使用<a href="https://www.google.com/webmasters/tools/robots-testing-tool" target="_blank" rel="noopener external nofollow noreferrer">robots.txt 测试工具</a>实时检测是否达到需要的效果效果<br><img src="https://i.loli.net/2020/05/25/Kew82MClOGUk5PW.png" srcset="/img/loading.gif" alt="image.png"></p>
+<p><em>另外，如果想单独保留某个标签的搜索结果，可以添加 <code>Allow: /tags/某标签名/</code></em></p>
+<p>保存提交之后，再去Google Search Console的<strong>索引-覆盖率</strong>查看效果。</p>
+<hr>
+<p>参考资料:</p>
+<ul>
+<li><a href="https://support.google.com/webmasters/answer/6062596?hl=zh-Hans&amp;ref_topic=6061961" target="_blank" rel="noopener external nofollow noreferrer">robots.txt 文件使用入门</a></li>
+<li><a href="https://developers.google.com/search/reference/robots_txt" target="_blank" rel="noopener external nofollow noreferrer">Robots.txt 规范</a></li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -272,20 +258,17 @@
             <div>
               <div class="post-metas mb-3">
                 
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/%E5%8E%9F%E5%88%9B/">原创</a>
-                    
-                  </div>
-                
                 
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
+                      <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
                     
-                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
+                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%8A%80%E5%B7%A7/">技巧</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E6%90%9C%E7%B4%A2/">搜索</a>
                     
                   </div>
                 
@@ -298,18 +281,12 @@
                   <div class="post-prev col-6">
                     
                     
-                      <a href="/posts/12720.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">MBTI测试</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </div>
                   <div class="post-next col-6">
                     
                     
-                      <a href="/posts/19229.html">
-                        <span class="hidden-mobile">免费图床怎么选🧐</span>
+                      <a href="/posts/27341.html">
+                        <span class="hidden-mobile">🎉本站已添加夜间模式🌗</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -595,7 +572,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Google 「站点地图可读取，但存在错误」&nbsp;",
+        "使用robots.txt优化搜索结果&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
