@@ -7,12 +7,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="manifest" href="/manifest.json"> <!--PWA支持-->
   <link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" href="/img/favicon.png">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   
   <meta name="theme-color" content="#263238">
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
@@ -56,7 +57,6 @@
 
 
 <body>
-  <!--夜间模式🌕🌚-->
   <div id="dark" onclick="switchDarkMode()"></div>
 <script>
   var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
@@ -128,15 +128,6 @@
               友链</a>
           </li>
         
-          
-          
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/messageboard/">
-              <i class="iconfont iconmailbox1"></i>
-              留言</a>
-          </li>
-        
         
           <li class="nav-item" id="search-btn">
             <a class="nav-link" data-toggle="modal" data-target="#modalSearch">&nbsp;&nbsp;<i
@@ -183,7 +174,7 @@
                 
 
 <div class="list-group">
-<!--  <p class="h4">共计 4 篇文章</p>-->
+<!--  <p class="h4">共计 3 篇文章</p>-->
   <hr>
   
     
@@ -205,12 +196,6 @@
     <a href="/posts/38234.html" class="list-group-item list-group-item-action">
       <span class="archive-post-title">所言公，公言之;所言私，王者无私。</span>
       <span style="float: right;">04-21</span>
-    </a>
-  
-    
-    <a href="/posts/43961.html" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">Windows 10的中文用户名怎么改成英文💻</span>
-      <span style="float: right;">04-18</span>
     </a>
   
 </div>
@@ -277,15 +262,15 @@
     <!--  <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>  -->
       <!--  <i class="iconfont icon-love"></i>  爱心图标❤-->
       <button id="dark"  onclick="switchDarkMode()" style="border-radius: 6px;font-size: 100%;";;">🌗</button>  
-      <a href="/img/donate.webp" target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">🍻</span></a>
-      <a href="mailto:forzqx@qq.com" rel="external nofollow noreferrer" class="">
+      <a href="/img/donate.webp" title='请我喝🍺' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">🍻</span></a>
+      <a href="mailto:forzqx@qq.com" title='有要紧事请发邮件，非诚勿扰🙊' rel="external nofollow noreferrer" class="">
         <i class="iconfont iconemail-fill" aria-hidden="true"></i>
       </a>
     <!--  <a href="javascript:;" rel="external nofollow noreferrer" class="qr-trigger">
         <i class="iconfont iconwechat-fill" aria-hidden="true"></i>
           <img class="qr-img" src="/img/wechat.webp" srcset="/img/wechat.webp" alt="qrcode">
       </a>   微信二维码-->
-      <a href='https://liuyifei.club/atom.xml'><i class="iconfont iconrss" aria-hidden="true"></i></a>
+      <a href='https://liuyifei.club/atom.xml' title='欢迎使用RSS订阅本站📰'><i class="iconfont iconrss" aria-hidden="true"></i></a>
     <!--  <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
         <span>Fluid</span></a>  -->
     </div>
