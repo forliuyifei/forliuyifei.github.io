@@ -13,17 +13,15 @@
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  
   <meta name="theme-color" content="#263238">
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,Hexo-RSS订阅源,亦家人的博客,软件|工具|教程|技巧|电影|壁纸|资源|记录分享,Havoc-红米note7"> -->
-  <title>好消息🎉本站已添加夜间模式🌗 - 饿龙不是龙哩</title>
+  <title>🎉本站已添加夜间模式🌗 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
-    <meta name="keywords" content="Hexo-Fluid主题自定义,Hexo-RSS订阅源,亦家人的博客,软件|工具|教程|技巧|电影|壁纸|资源|记录分享,Havoc-红米note7">
+    <meta name="keywords" content="Hexo,夜间模式,Hexo-Fluid主题自定义,Hexo-RSS订阅源,亦家人的博客,软件|工具|教程|技巧|电影|壁纸|资源|记录分享,Havoc-红米note7">
     
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
@@ -66,7 +64,6 @@
       document.body.classList.add('dark');
     }
   }
-  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌚":"🌕";
 </script>
 
   <header style="height: 50vh;">
@@ -175,7 +172,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    1.1k 字
+                    1.2k 字
                   </span>
                 
 
@@ -185,7 +182,7 @@
                       <i class="iconfont icon-clock-fill"></i>
                     
                     
-                    5
+                    6
                      分钟
                   </span>
                 
@@ -221,7 +218,7 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-info">
-                最后更新于：2020 五月 25日 , 星期一 , 03:11 凌晨
+                最后更新于：2020 五月 25日 , 星期一 , 11:19 上午
               </p>
             
             <article class="markdown-body">
@@ -392,31 +389,50 @@ function switchDarkMode() {
 <p>上面的文件直接保存然后刷新本地网页即可预览效果，<br>建议边修改边刷新预览。</p>
 <hr>
 <h3 id="暂时遇到的问题："><a href="#暂时遇到的问题：" class="headerlink" title="暂时遇到的问题："></a>暂时遇到的问题：</h3><ul>
-<li><p>在手机上，右上角的菜单按钮颜色不知道怎么调整<br><code>.animated-icon span  /* 手机端 */</code><br><code>background-color #a09c9c</code><br>这里无论我怎么改（eee~fff），它都只有灰色或者全黑两种状态，我想改成白色来着，和左上角标题配色相符🙄</p>
+<li><p>在手机上，右上角的菜单按钮颜色不知道怎么调整<input type="checkbox" checked="checked">解决<br><code>.animated-icon span  /* 手机端 */</code><br><code>background-color #a09c9c</code><br>这里无论我怎么改（eee~fff），它都只有灰色或者全黑两种状态，我想改成白色来着，和左上角标题配色相符🙄</p>
 </li>
-<li><p>图标常驻右下角也不是个事儿，有碍观瞻   </p>
+<li><p>图标常驻右下角也不是个事儿，有碍观瞻<input type="checkbox" checked="checked">解决   </p>
 </li>
-<li><p>文章页日/夜模式切换按钮位置不搭<br>有空再看看怎样添加按钮至底部<input type="checkbox"></p>
+<li><p>文章页日/夜模式切换按钮位置不搭<input type="checkbox" checked="checked">解决<br>有空再看看怎样添加按钮至底部<input type="checkbox" checked="checked"></p>
 </li>
-<li><p>代码块背景色还是白的</p>
+<li><p>代码块背景色还是白的<input type="checkbox"></p>
 </li>
-<li><p>其它小问题</p>
+<li><p>部分文字鼠标悬浮时没有变色<input type="checkbox"></p>
+</li>
+<li><p>其它字体图标颜色的小问题（大概是指定了html样式的那些）<input type="checkbox"><br><img src="https://i.loli.net/2020/05/25/LToIip6eHQyR1Y3.png" srcset="/img/loading.gif" alt="image.png"><br><img src="https://i.loli.net/2020/05/25/Xwhd2Q6ckP5Tuzb.png" srcset="/img/loading.gif" alt="image.png"></p>
 </li>
 </ul>
 <hr>
 <p>没啥技术含量，主要是做个记录水一篇文章🙊</p>
-<h3 id="本站配色"><a href="#本站配色" class="headerlink" title="本站配色"></a>本站配色</h3><p>下面放一下自己修改后的配色</p>
-<pre><code class="hljs plain">//夜间模式样式🌕🌚冼仙仅作部分配色修改。感谢Royce2003提供的代码
-/* 切换按钮 */
-#dark
-  cursor pointer
-  position fixed
-  right 40px
-  bottom 98px
-  width 16px
-  height 14px
-  z-index 100
-  font-size 20px
+<h3 id="本站配色📌"><a href="#本站配色📌" class="headerlink" title="本站配色📌"></a>本站配色📌</h3><p>下面分享一下自己的修改情况（<strong>可能有些错误，毕竟我只会复制粘贴🤷‍♂️</strong>）<br><code>layout.ejs</code></p>
+<pre><code class="hljs plain">  &lt;!--夜间模式🌕🌚--&gt;
+  &lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;
+&lt;script&gt;
+  var isNight = new Date().getHours() &gt;= 22 || new Date().getHours() &lt; 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&amp;&amp;localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+&lt;/script&gt;</code></pre>
+<p><code>main.js</code></p>
+<pre><code class="hljs plain">//夜间模式🌗点击事件
+function switchDarkMode() {
+	if ($('body').hasClass('dark')) {
+		document.body.classList.remove('dark');
+		localStorage.setItem('noDark', '1');
+		localStorage.setItem('dark', '0');
+	} else {
+		document.body.classList.add('dark');
+		localStorage.setItem('dark', '1');
+		localStorage.setItem('noDark', '0');
+	}
+}</code></pre>
+
+<p><code>main.styl</code></p>
+<pre><code class="hljs plain">//夜间模式样式🌕🌚仅作部分配色修改。感谢Royce2003提供的代码
+/* 切换按钮 删掉*/
+
 
 /*暗黑模式*/
 .dark
@@ -424,7 +440,7 @@ function switchDarkMode() {
   /* 主体 */
   #board 
     background-color #181a1b
-    color #181a1b
+    color #cbc7bf
   
   img  
     filter brightness(90%)
@@ -432,6 +448,12 @@ function switchDarkMode() {
   p
   .index-info a  
     color #cbc7bf !important
+  .index-btm
+    color #cbc7bf
+  .post-prevnext
+    color #cbc7bf
+  .post-meta
+    color #cbc7bf
 
   .markdown-body
     h1,h2,h3,h4,h5,h6,s,li  
@@ -441,13 +463,14 @@ function switchDarkMode() {
   /* 顶栏 */
   .navbar-col-show
   .top-nav-collapse  
-    background-color #181a1b
+    background-color #273238
     
   .navbar a  
     color #ffffff !important
     
   .animated-icon span   /* 手机端 */
-    background-color #a09c9c
+    background-color #ffffff
+    color #ffffff
 
 
   /* page-number */
@@ -483,12 +506,12 @@ function switchDarkMode() {
   /* footer */
   footer
   footer a
-    color #a09c9c
+    color #c5c2ba
     
 
   /* 归档页 */
   .list-group-item
-    color #181a1b
+    color #cac6be
     background-color #181a1b
 
   .list-group-item:hover
@@ -534,7 +557,7 @@ function switchDarkMode() {
 <p>用到的工具：</p>
 <ul>
 <li><a href="https://zh.snipaste.com/" target="_blank" rel="noopener external nofollow noreferrer">Snipaste</a></li>
-<li><a href="https://liuyifei.club/posts/40720.html#Dark-Reader">Dark Reader</a></li>
+<li><a href="/posts/40720.html#Dark-Reader" title="其实PC端chrome装了这个就不用费那么多心思，但手机上的chrome还不太行，即使有深色模式，也得靠软件/网页单独适配">Dark Reader</a></li>
 <li><a href="https://www.coolapk.com/apk/com.By_syk.Palette" target="_blank" rel="noopener external nofollow noreferrer">调色板</a></li>
 <li>Vscode插件 color highlight</li>
 </ul>
@@ -566,9 +589,9 @@ function switchDarkMode() {
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
-                    
                       <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
+                    
+                      <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
                     
                       <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
                     
@@ -876,7 +899,7 @@ function switchDarkMode() {
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "好消息🎉本站已添加夜间模式🌗&nbsp;",
+        "🎉本站已添加夜间模式🌗&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,

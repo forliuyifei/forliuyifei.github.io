@@ -1410,15 +1410,6 @@ h6::before {
   left: 0px !important;
 }
 /* 切换按钮 */
-/*#dark
-  cursor pointer
-  position fixed
-  right 40px
-  bottom 98px
-  width 16px
-  height 14px
-  z-index 100
-  font-size 20px  */
 /*暗黑模式*/
 .dark {
   background-color: #181a1b;
