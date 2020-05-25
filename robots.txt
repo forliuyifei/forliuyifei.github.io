@@ -6,7 +6,7 @@ Allow: /tags/
 Allow: /about/
 Allow: /links/
 Allow: /posts/
-
+Allow: /tags/教程/
 
 Disallow: /categories/
 Disallow: /contact/
