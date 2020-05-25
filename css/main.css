@@ -1410,16 +1410,15 @@ h6::before {
   left: 0px !important;
 }
 /* 切换按钮 */
-#dark {
-  cursor: pointer;
-  position: fixed;
-  right: 40px;
-  bottom: 98px;
-  width: 16px;
-  height: 14px;
-  z-index: 100;
-  font-size: 20px;
-}
+/*#dark
+  cursor pointer
+  position fixed
+  right 40px
+  bottom 98px
+  width 16px
+  height 14px
+  z-index 100
+  font-size 20px  */
 /*暗黑模式*/
 .dark {
   background-color: #181a1b;
@@ -1436,7 +1435,7 @@ h6::before {
 }
 .dark #board {
   background-color: #181a1b;
-  color: #181a1b;
+  color: #cbc7bf;
 }
 .dark img {
   filter: brightness(90%);
@@ -1444,6 +1443,15 @@ h6::before {
 .dark p,
 .dark .index-info a {
   color: #cbc7bf !important;
+}
+.dark .index-btm {
+  color: #cbc7bf;
+}
+.dark .post-prevnext {
+  color: #cbc7bf;
+}
+.dark .post-meta {
+  color: #cbc7bf;
 }
 .dark .markdown-body h1,
 .dark .markdown-body h2,
@@ -1457,13 +1465,14 @@ h6::before {
 }
 .dark .navbar-col-show,
 .dark .top-nav-collapse {
-  background-color: #181a1b;
+  background-color: #273238;
 }
 .dark .navbar a {
   color: #fff !important;
 }
 .dark .animated-icon span {
-  background-color: #a09c9c;
+  background-color: #fff;
+  color: #fff;
 }
 .dark .pagination a:hover,
 .dark .pagination .current {
@@ -1489,10 +1498,10 @@ h6::before {
 }
 .dark footer,
 .dark footer a {
-  color: #a09c9c;
+  color: #c5c2ba;
 }
 .dark .list-group-item {
-  color: #181a1b;
+  color: #cac6be;
   background-color: #181a1b;
 }
 .dark .list-group-item:hover,
