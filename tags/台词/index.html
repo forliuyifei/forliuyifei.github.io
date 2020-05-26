@@ -57,7 +57,7 @@
 
 
 <body>
-  <div id="dark" onclick="switchDarkMode()"></div>
+<div id="dark" onclick="switchDarkMode()"></div>
 <script>
   var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
   if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {

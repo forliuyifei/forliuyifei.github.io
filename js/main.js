@@ -129,6 +129,7 @@ $(document).ready(function () {
 });
 
 //夜间模式🌗点击事件
+//点击事件
 function switchDarkMode() {
 	if ($('body').hasClass('dark')) {
 		document.body.classList.remove('dark');
