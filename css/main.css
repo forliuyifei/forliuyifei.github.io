@@ -1528,3 +1528,10 @@ h6::before {
   background-color: #212325;
   border-color: #1561b3;
 }
+/*无效
+  .aplayer
+    .aplayer-fixed
+      .aplayer-miniswitcher
+        background-color #181a1b
+        color #181a1b
+*/
