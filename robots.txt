@@ -2,16 +2,18 @@
 User-agent: *
 Allow: /
 Allow: /archives/
-Allow: /tags/
 Allow: /about/
-Allow: /links/
 Allow: /posts/
 Allow: /tags/教程/
+Allow: /cc/
 
+Disallow: /tags/
+Disallow: /links/
 Disallow: /categories/
 Disallow: /contact/
 Disallow: /tags/梦/
 Disallow: /tags/*/
 Disallow: /messageboard/
+
 
 Sitemap: https://liuyifei.club/sitemap.xml

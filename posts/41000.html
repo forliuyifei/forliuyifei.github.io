@@ -30,8 +30,6 @@
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
 
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/github-gist.min.css" />
-
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
@@ -164,7 +162,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    895 字
+                    896 字
                   </span>
                 
 
@@ -241,17 +239,16 @@
 <li>如图  <img src="https://i.loli.net/2020/05/22/e9vpaiIgYkdr28W.jpg" srcset="/img/loading.gif" style="zoom:20%;"></li>
 </ul>
 <h4 id="放入本地"><a href="#放入本地" class="headerlink" title="放入本地"></a>放入本地</h4><ul>
-<li>找到源码, 复制粘贴进自己新建的js文件<pre><code class="hljs plain">//canvas-nest背景动态线条效果
-!function(){function o(w,v,i){return w.getAttribute(v)||i}function j(i){return document.getElementsByTagName(i)}function l(){var i=j("script"),w=i.length,v=i[w-1];return{l:w,z:o(v,"zIndex",-1),o:o(v,"opacity",0.5),c:o(v,"color","0,0,0"),n:o(v,"count",99)}}function k(){r=u.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,n=u.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight}function b(){e.clearRect(0,0,r,n);var w=[f].concat(t);var x,v,A,B,z,y;t.forEach(function(i){i.x+=i.xa,i.y+=i.ya,i.xa*=i.x&gt;r||i.x&lt;0?-1:1,i.ya*=i.y&gt;n||i.y&lt;0?-1:1,e.fillRect(i.x-0.5,i.y-0.5,1,1);for(v=0;v&lt;w.length;v++){x=w[v];if(i!==x&amp;&amp;null!==x.x&amp;&amp;null!==x.y){B=i.x-x.x,z=i.y-x.y,y=B*B+z*z;y&lt;x.max&amp;&amp;(x===f&amp;&amp;y&gt;=x.max/2&amp;&amp;(i.x-=0.03*B,i.y-=0.03*z),A=(x.max-y)/x.max,e.beginPath(),e.lineWidth=A/2,e.strokeStyle="rgba("+s.c+","+(A+0.2)+")",e.moveTo(i.x,i.y),e.lineTo(x.x,x.y),e.stroke())}}w.splice(w.indexOf(i),1)}),m(b)}var u=document.createElement("canvas"),s=l(),c="c_n"+s.l,e=u.getContext("2d"),r,n,m=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(i){window.setTimeout(i,1000/45)},a=Math.random,f={x:null,y:null,max:20000};u.id=c;u.style.cssText="position:fixed;top:0;left:0;z-index:"+s.z+";opacity:"+s.o;j("body")[0].appendChild(u);k(),window.onresize=k;window.onmousemove=function(i){i=i||window.event,f.x=i.clientX,f.y=i.clientY},window.onmouseout=function(){f.x=null,f.y=null};for(var t=[],p=0;s.n&gt;p;p++){var h=a()*r,g=a()*n,q=2*a()-1,d=2*a()-1;t.push({x:h,y:g,xa:q,ya:d,max:6000})}setTimeout(function(){b()},100)}();</code></pre>
+<li>找到源码, 复制粘贴进自己新建的js文件<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//canvas-nest背景动态线条效果</span><br><span class="line">!function(){function o(w,v,i){return w.getAttribute(v)||i}function j(i){return document.getElementsByTagName(i)}function l(){var i=j("script"),w=i.length,v=i[w-1];return{l:w,z:o(v,"zIndex",-1),o:o(v,"opacity",0.5),c:o(v,"color","0,0,0"),n:o(v,"count",99)}}function k(){r=u.width=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,n=u.height=window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight}function b(){e.clearRect(0,0,r,n);var w=[f].concat(t);var x,v,A,B,z,y;t.forEach(function(i){i.x+=i.xa,i.y+=i.ya,i.xa*=i.x&gt;r||i.x&lt;0?-1:1,i.ya*=i.y&gt;n||i.y&lt;0?-1:1,e.fillRect(i.x-0.5,i.y-0.5,1,1);for(v=0;v&lt;w.length;v++){x=w[v];if(i!==x&amp;&amp;null!==x.x&amp;&amp;null!==x.y){B=i.x-x.x,z=i.y-x.y,y=B*B+z*z;y&lt;x.max&amp;&amp;(x===f&amp;&amp;y&gt;=x.max/2&amp;&amp;(i.x-=0.03*B,i.y-=0.03*z),A=(x.max-y)/x.max,e.beginPath(),e.lineWidth=A/2,e.strokeStyle="rgba("+s.c+","+(A+0.2)+")",e.moveTo(i.x,i.y),e.lineTo(x.x,x.y),e.stroke())}}w.splice(w.indexOf(i),1)}),m(b)}var u=document.createElement("canvas"),s=l(),c="c_n"+s.l,e=u.getContext("2d"),r,n,m=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRequestAnimationFrame||window.oRequestAnimationFrame||window.msRequestAnimationFrame||function(i){window.setTimeout(i,1000/45)},a=Math.random,f={x:null,y:null,max:20000};u.id=c;u.style.cssText="position:fixed;top:0;left:0;z-index:"+s.z+";opacity:"+s.o;j("body")[0].appendChild(u);k(),window.onresize=k;window.onmousemove=function(i){i=i||window.event,f.x=i.clientX,f.y=i.clientY},window.onmouseout=function(){f.x=null,f.y=null};for(var t=[],p=0;s.n&gt;p;p++){var h=a()*r,g=a()*n,q=2*a()-1,d=2*a()-1;t.push({x:h,y:g,xa:q,ya:d,max:6000})}setTimeout(function(){b()},100)}();</span><br></pre></td></tr></tbody></table></figure>
 <img src="https://i.loli.net/2020/05/22/kMqyUa1DOFrz6Ks.png" srcset="/img/loading.gif" alt="image.png"></li>
 </ul>
 <ul>
 <li>地址改为自己的仓库地址</li>
 </ul>
-<pre><code class="hljs plain">&lt;script defer src="https://liuyifei.club/js/canvas-nest.mini.js" color="0,0,0" opacity='0.35' zIndex="-1" count="150"&gt;&lt;/script&gt;</code></pre>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script defer src="https://liuyifei.club/js/canvas-nest.mini.js" color="0,0,0" opacity='0.35' zIndex="-1" count="150"&gt;&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
 <p><img src="https://i.loli.net/2020/05/22/NgBpv6A4fzs3Ibe.png" srcset="/img/loading.gif" alt="image.png"></p>
 <ul>
-<li>执行<pre><code class="hljs plain">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</code></pre></li>
+<li>执行<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean&amp;&amp;hexo g&amp;&amp;hexo d</span><br></pre></td></tr></tbody></table></figure></li>
 <li>刷新网页, 成功!</li>
 <li>2020.05.22 16:41 <del>自己仓库的这个js又加载不出, 不想时刻挂梯子, 继续改回去用别人的</del>🤷‍🤦‍♂️  </li>
 </ul>
@@ -440,29 +437,6 @@
   
 
   
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'auto',
-      audio: [{"name":"Stargazing","artist":"Isabella Calander","url":"https://d0.ananas.chaoxing.com/download/aaeb48bb66f9d11e606dd53e058fb891?fn=Isabella+Celander-Stargazing","cover":"https://s1.ax1x.com/2020/04/20/J1XhR0.th.png"},{"name":"笑傲江湖","artist":"刘欢&王菲","url":"https://d0.ananas.chaoxing.com/download/7b95cb680a635a1aacdf34e608e15d83?fn=%E5%88%98%E6%AC%A2%26%E7%8E%8B%E8%8F%B2+-+%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/笑傲江湖 电视原声带_109951163020573636~01.jpg"},{"name":"胆小鬼","artist":"梁咏琪","url":"https://d0.ananas.chaoxing.com/download/02a92bc208a8ba96330a7aafce3c06b9?fn=%E8%83%86%E5%B0%8F%E9%AC%BC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/梁咏琪 同名专辑_51677046522535~01.jpg"},{"name":"起风了（Cover 高橋優-《ヤキモチ》）","artist":"买辣椒也用券","url":"https://d0.ananas.chaoxing.com/download/fffc80a28f96b70482e0d89b03ff90fe?fn=%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8+-+%E8%B5%B7%E9%A3%8E%E4%BA%86%EF%BC%88Cover+%E9%AB%98%E6%A9%8B%E5%84%AA%EF%BC%89","cover":"https://p1.music.126.net/c0nzSObvxF_DftayAJjXsw==/109951162864860506.jpg?param=120y120"},{"name":"Because of You","artist":"Josh Vietti","url":"https://d0.ananas.chaoxing.com/download/1698acb4164aa7c193aee48e537ec883?fn=Josh+Vietti+-+Because+of+You","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/Best%20of%20Both%20Worlds_109951164849496349~01.jpg"},{"name":"東京","artist":"柴田淳","url":"https://d0.ananas.chaoxing.com/download/c540cb2b68e62e86a9c89f0aa96ea18c?fn=%E6%9F%B4%E7%94%B0%E6%B7%B3+-+%E6%9D%B1%E4%BA%AC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/東京.jpg"},{"name":"今晩はお月さん","artist":"ハンバート ハンバート","url":"https://d0.ananas.chaoxing.com/download/8391dffef2f1d4cac4d84c363592c99f?fn=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+-+%E4%BB%8A%E6%99%A9%E3%81%AF%E3%81%8A%E6%9C%88%E3%81%95%E3%82%93","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/今晩はお月さん_703687441788470~01.jpg"},{"name":"夏天的凤","artist":"火羊瞌睡了","url":"https://d0.ananas.chaoxing.com/download/7430e28c7ebd89d33d2b886301987edf?fn=%E7%81%AB%E7%BE%8A%E7%9E%8C%E7%9D%A1%E4%BA%86+-+%E5%A4%8F%E5%A4%A9%E7%9A%84%E9%A3%8E","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/夏天的风_109951164906689206~01.jpg"},{"name":"我也不想这样","artist":"徐佳莹","url":"https://d0.ananas.chaoxing.com/download/f10456404537ec8eba5926c8ba1c7cbb?fn=%E5%BE%90%E4%BD%B3%E8%8E%B9+-+%E6%88%91%E4%B9%9F%E4%B8%8D%E6%83%B3%E8%BF%99%E6%A0%B7","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/日全蚀演唱会现场实录_1384285147518190~01.jpg"},{"name":"ハレハレヤ","artist":"羽生まゐご / v flower","url":"https://d0.ananas.chaoxing.com/download/4d10a7cc05a80d0808037bc947a80c41?fn=%E7%BE%BD%E7%94%9F%E3%81%BE%E3%82%90%E3%81%94+v+flower+-+%E3%83%8F%E3%83%AC%E3%83%8F%E3%83%AC%E3%83%A4","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/MEiSTER_109951163298695275~01.jpg"}]
-    });
-  }
-</script>
-
-  
 
   
 
@@ -596,17 +570,6 @@
 <!-- Plugins -->
 
 
-  
-    <!-- Baidu Analytics -->
-    <script defer>
-      var _hmt = _hmt || [];
-      (function () {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?be06d71c7dc0d884263f057525831e11";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-    </script>
   
 
   

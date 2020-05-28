@@ -30,8 +30,6 @@
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
 
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/github-gist.min.css" />
-
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
@@ -225,54 +223,19 @@
 <p>2）.CSS3的transition允许CSS的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。</p>
 <p>3）.transition: all 0.6s;表示所有的属性变化在0.6s的时间段内完成。</p>
 <p>4）transform: scale(1.4);表示在鼠标放到图片上的时候图片按比例放大1.4倍。</p>
-<pre><code class="hljs plain">&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset="UTF-8"&gt;
-&lt;title&gt;&lt;/title&gt;
-&lt;style type="text/css"&gt;
-div{
-　　width: 300px;
-　　height: 300px;
-　　border: #000 solid 1px;
-　　margin: 50px auto;
-　　overflow: hidden;
-}
-div img{
-　　cursor: pointer;
-　　transition: all 0.6s;
-}
-div img:hover{
-　　transform: scale(1.4);
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-　　&lt;div&gt;
-　　　　&lt;img src="img/focus.png" /&gt;
-　　&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset="UTF-8"&gt;</span><br><span class="line">&lt;title&gt;&lt;/title&gt;</span><br><span class="line">&lt;style type="text/css"&gt;</span><br><span class="line">div{</span><br><span class="line">　　width: 300px;</span><br><span class="line">　　height: 300px;</span><br><span class="line">　　border: #000 solid 1px;</span><br><span class="line">　　margin: 50px auto;</span><br><span class="line">　　overflow: hidden;</span><br><span class="line">}</span><br><span class="line">div img{</span><br><span class="line">　　cursor: pointer;</span><br><span class="line">　　transition: all 0.6s;</span><br><span class="line">}</span><br><span class="line">div img:hover{</span><br><span class="line">　　transform: scale(1.4);</span><br><span class="line">}</span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">　　&lt;div&gt;</span><br><span class="line">　　　　&lt;img src="img/focus.png" /&gt;</span><br><span class="line">　　&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></tbody></table></figure>
 </blockquote>
 <p>有些傻眼，方向大概对了但格式不是我想要的🤪</p>
 <p>再查查现在用的Fluid主题配置说明</p>
 <blockquote>
 <h4 id="自定义-JS-CSS-HTML"><a href="#自定义-JS-CSS-HTML" class="headerlink" title="自定义 JS / CSS / HTML"></a><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener external nofollow noreferrer">自定义 JS / CSS / HTML</a></h4><p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p>
-<pre><code class="hljs yaml"><span class="hljs-comment"># 指定自定义 js 文件路径，路径是相对 source 目录</span>
-<span class="hljs-attr">custom_js:</span> <span class="hljs-string">/js/custom.js</span>
-
-<span class="hljs-comment"># 指定自定义 css 文件路径，路径是相对 source 目录</span>
-<span class="hljs-attr">custom_css:</span> <span class="hljs-string">/css/custom.css</span></code></pre>
+<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 指定自定义 js 文件路径，路径是相对 source 目录</span></span><br><span class="line"><span class="attr">custom_js:</span> <span class="string">/js/custom.js</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 指定自定义 css 文件路径，路径是相对 source 目录</span></span><br><span class="line"><span class="attr">custom_css:</span> <span class="string">/css/custom.css</span></span><br></pre></td></tr></tbody></table></figure>
 </blockquote>
 <p>似乎还是麻烦了点🤔</p>
 <p>💡Fluid主题的css配置文件夹里肯定有相关内容，找出来直接往后补充就是了，不行就Crtl+Z撤回</p>
 <p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.gif" alt=""></p>
 <p>对齐img的下一级内容</p>
-<pre><code class="hljs plain">border-radius .25rem
-cursor: pointer
-transition: all 0.6s
-&amp;:hover
-  transform: scale(1.1)</code></pre>
+<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">border-radius .25rem</span><br><span class="line">cursor: pointer</span><br><span class="line">transition: all 0.6s</span><br><span class="line">&amp;:hover</span><br><span class="line">  transform: scale(1.1)</span><br></pre></td></tr></tbody></table></figure>
 
 <p>保存刷新页面看看，成功了！<br>速度和大小都合适。</p>
 <p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-46-12.png" srcset="/img/loading.gif" alt=""></p>
@@ -444,29 +407,6 @@ transition: all 0.6s
   
 
   
-    <!-- APlayer 音乐播放器 -->
-    <div id="aplayer"></div>
-    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
-<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
-<script type="text/javascript">
-  var oldLoadAp = window.onload;
-  window.onload = function () {
-    oldLoadAp && oldLoadAp();
-
-    new APlayer({
-      container: document.getElementById('aplayer'),
-      fixed: true,
-      autoplay: 'false' === 'true',
-      loop: 'all',
-      order: 'random',
-      theme: '#b7daff',
-      preload: 'auto',
-      audio: [{"name":"Stargazing","artist":"Isabella Calander","url":"https://d0.ananas.chaoxing.com/download/aaeb48bb66f9d11e606dd53e058fb891?fn=Isabella+Celander-Stargazing","cover":"https://s1.ax1x.com/2020/04/20/J1XhR0.th.png"},{"name":"笑傲江湖","artist":"刘欢&王菲","url":"https://d0.ananas.chaoxing.com/download/7b95cb680a635a1aacdf34e608e15d83?fn=%E5%88%98%E6%AC%A2%26%E7%8E%8B%E8%8F%B2+-+%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/笑傲江湖 电视原声带_109951163020573636~01.jpg"},{"name":"胆小鬼","artist":"梁咏琪","url":"https://d0.ananas.chaoxing.com/download/02a92bc208a8ba96330a7aafce3c06b9?fn=%E8%83%86%E5%B0%8F%E9%AC%BC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/梁咏琪 同名专辑_51677046522535~01.jpg"},{"name":"起风了（Cover 高橋優-《ヤキモチ》）","artist":"买辣椒也用券","url":"https://d0.ananas.chaoxing.com/download/fffc80a28f96b70482e0d89b03ff90fe?fn=%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8+-+%E8%B5%B7%E9%A3%8E%E4%BA%86%EF%BC%88Cover+%E9%AB%98%E6%A9%8B%E5%84%AA%EF%BC%89","cover":"https://p1.music.126.net/c0nzSObvxF_DftayAJjXsw==/109951162864860506.jpg?param=120y120"},{"name":"Because of You","artist":"Josh Vietti","url":"https://d0.ananas.chaoxing.com/download/1698acb4164aa7c193aee48e537ec883?fn=Josh+Vietti+-+Because+of+You","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/Best%20of%20Both%20Worlds_109951164849496349~01.jpg"},{"name":"東京","artist":"柴田淳","url":"https://d0.ananas.chaoxing.com/download/c540cb2b68e62e86a9c89f0aa96ea18c?fn=%E6%9F%B4%E7%94%B0%E6%B7%B3+-+%E6%9D%B1%E4%BA%AC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/東京.jpg"},{"name":"今晩はお月さん","artist":"ハンバート ハンバート","url":"https://d0.ananas.chaoxing.com/download/8391dffef2f1d4cac4d84c363592c99f?fn=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+-+%E4%BB%8A%E6%99%A9%E3%81%AF%E3%81%8A%E6%9C%88%E3%81%95%E3%82%93","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/今晩はお月さん_703687441788470~01.jpg"},{"name":"夏天的凤","artist":"火羊瞌睡了","url":"https://d0.ananas.chaoxing.com/download/7430e28c7ebd89d33d2b886301987edf?fn=%E7%81%AB%E7%BE%8A%E7%9E%8C%E7%9D%A1%E4%BA%86+-+%E5%A4%8F%E5%A4%A9%E7%9A%84%E9%A3%8E","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/夏天的风_109951164906689206~01.jpg"},{"name":"我也不想这样","artist":"徐佳莹","url":"https://d0.ananas.chaoxing.com/download/f10456404537ec8eba5926c8ba1c7cbb?fn=%E5%BE%90%E4%BD%B3%E8%8E%B9+-+%E6%88%91%E4%B9%9F%E4%B8%8D%E6%83%B3%E8%BF%99%E6%A0%B7","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/日全蚀演唱会现场实录_1384285147518190~01.jpg"},{"name":"ハレハレヤ","artist":"羽生まゐご / v flower","url":"https://d0.ananas.chaoxing.com/download/4d10a7cc05a80d0808037bc947a80c41?fn=%E7%BE%BD%E7%94%9F%E3%81%BE%E3%82%90%E3%81%94+v+flower+-+%E3%83%8F%E3%83%AC%E3%83%8F%E3%83%AC%E3%83%A4","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/MEiSTER_109951163298695275~01.jpg"}]
-    });
-  }
-</script>
-
-  
 
   
 
@@ -600,17 +540,6 @@ transition: all 0.6s
 <!-- Plugins -->
 
 
-  
-    <!-- Baidu Analytics -->
-    <script defer>
-      var _hmt = _hmt || [];
-      (function () {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?be06d71c7dc0d884263f057525831e11";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-      })();
-    </script>
   
 
   
