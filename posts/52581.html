@@ -19,7 +19,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7"> -->
-  <title>Hexo-Fluid踩坑之局域网预览丢失样式 - 饿龙不是龙哩</title>
+  <title>Hexo-Fluid踩坑之局域网预览丢失样式、关闭代码块行号 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -29,6 +29,8 @@
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
+
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/solarized-light.min.css" />
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
@@ -162,7 +164,7 @@
                   
                   <span class="post-meta mr-2">
                     <i class="iconfont icon-chart"></i>
-                    92 字
+                    122 字
                   </span>
                 
 
@@ -208,11 +210,11 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-info">
-                最后更新于：2020 五月 21日 , 星期四 , 16:37 下午
+                最后更新于：2020 五月 29日 , 星期五 , 11:16 上午
               </p>
             
             <article class="markdown-body">
-              <img src="https://i.loli.net/2020/05/21/23OhMPGv1zmV8R7.jpg" srcset="/img/loading.gif" style="zoom:20%;">  
+              <h4 id="丢失样式"><a href="#丢失样式" class="headerlink" title="丢失样式"></a>丢失样式</h4><img src="https://i.loli.net/2020/05/21/23OhMPGv1zmV8R7.jpg" srcset="/img/loading.gif" style="zoom:20%;">  
 如图，样式丢失。  
 
 <p>二级页面也打不开。<br>这次直接猜出了原因🤪  </p>
@@ -224,6 +226,14 @@
 <li><p>保存刷新预览，解决！ </p><center><img src="https://i.loli.net/2020/05/21/QNYZjikA5c7DLGM.jpg" srcset="/img/loading.gif" style="zoom:20%;"></center><p></p>
 </li>
 </ul>
+<h4 id="代码块样式的问题"><a href="#代码块样式的问题" class="headerlink" title="代码块样式的问题"></a>代码块样式的问题</h4><ul>
+<li>行号无法关闭</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200529110841.png" srcset="/img/loading.gif" alt=""></p>
+<ul>
+<li>背景颜色生效但字体不变色</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200529111528.png" srcset="/img/loading.gif" alt=""></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -261,9 +271,9 @@
                     
                       <a class="hover-with-bg" href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&amp;解决</a>
                     
-                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
-                    
                       <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
+                    
+                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
                     
                   </div>
                 
@@ -414,23 +424,6 @@
         <span>Fluid</span></a>  -->
     </div>
     
-  <div>
-    
-      <!-- 不蒜子统计PV -->
-      
-      <span id="busuanzi_container_site_pv" style="display: none">
-      <a href='https://liuyifei.club/messageboard'>📪</a> 总访问量 <span id="busuanzi_value_site_pv"></span> 次
-    </span>
-    
-    
-      <!-- 不蒜子统计UV -->
-      
-      <span id="busuanzi_container_site_uv" style="display: none">
-      总访客数 <span id="busuanzi_value_site_uv"></span> 人
-    </span>
-    
-  </div>
-
 
     
 
@@ -562,7 +555,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Hexo-Fluid踩坑之局域网预览丢失样式&nbsp;",
+        "Hexo-Fluid踩坑之局域网预览丢失样式、关闭代码块行号&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,

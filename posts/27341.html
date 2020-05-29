@@ -30,6 +30,8 @@
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
 
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/solarized-light.min.css" />
+
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
@@ -208,7 +210,7 @@
           <div class="post-content mx-auto" id="post">
             
               <p class="note note-info">
-                最后更新于：2020 五月 28日 , 星期四 , 21:18 晚上
+                最后更新于：2020 五月 29日 , 星期五 , 11:20 上午
               </p>
             
             <article class="markdown-body">
@@ -220,20 +222,163 @@
 <h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote>
 <p>在<code>\themes\fluid\layout\layout.ejs</code> 中找到 <code>&lt;body&gt;</code>，在其之后加入如下代码(注意！一定紧跟在 body 标签之后，否则会出现闪烁)</p>
 </blockquote>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  var isNight = new Date().getHours() &gt;= 22 || new Date().getHours() &lt; 7;</span><br><span class="line">  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {</span><br><span class="line">    if(!(isNight&amp;&amp;localStorage.getItem('noDark') === '1')) {</span><br><span class="line">      document.body.classList.add('dark');</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line">  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌙":"🌞";</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs plain">&lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;
+&lt;script&gt;
+  var isNight = new Date().getHours() &gt;= 22 || new Date().getHours() &lt; 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&amp;&amp;localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+  document.getElementById('dark').innerHTML = document.querySelector("body").classList.contains("dark")?"🌙":"🌞";
+&lt;/script&gt;</code></pre></div>
 
 <p>可以改成自己喜欢的其它图标或者字符</p>
 <h3 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h3><blockquote>
 <p>随便找个 JS 把下面代码加进去，直接加到 <code>&lt;/body&gt;</code> 之前也行   </p>
 </blockquote>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//点击事件</span><br><span class="line">function switchDarkMode() {</span><br><span class="line">	if ($('body').hasClass('dark')) {</span><br><span class="line">		$("#dark").html("🌞");</span><br><span class="line">		document.body.classList.remove('dark');</span><br><span class="line">		localStorage.setItem('noDark', '1');</span><br><span class="line">		localStorage.setItem('dark', '0');</span><br><span class="line">	} else {</span><br><span class="line">		$("#dark").html("🌙"); </span><br><span class="line">		document.body.classList.add('dark');</span><br><span class="line">		localStorage.setItem('dark', '1');</span><br><span class="line">		localStorage.setItem('noDark', '0');</span><br><span class="line">	}</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs plain">//点击事件
+function switchDarkMode() {
+	if ($('body').hasClass('dark')) {
+		$("#dark").html("🌞");
+		document.body.classList.remove('dark');
+		localStorage.setItem('noDark', '1');
+		localStorage.setItem('dark', '0');
+	} else {
+		$("#dark").html("🌙"); 
+		document.body.classList.add('dark');
+		localStorage.setItem('dark', '1');
+		localStorage.setItem('noDark', '0');
+	}
+}</code></pre></div>
 
 <p>（我直接加在main.js）</p>
 <h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><blockquote>
 <p>下面是Royce2003的样式代码，基本覆盖所有内容，根据自身情况修改  </p>
 </blockquote>
 <p>（继续加进main.styl）</p>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br></pre></td><td class="code"><pre><span class="line">/* 切换按钮 */</span><br><span class="line">#dark</span><br><span class="line">  cursor pointer</span><br><span class="line">  position fixed</span><br><span class="line">  right 40px</span><br><span class="line">  bottom 98px</span><br><span class="line">  width 16px</span><br><span class="line">  height 14px</span><br><span class="line">  z-index 100</span><br><span class="line">  font-size 20px</span><br><span class="line"></span><br><span class="line">/*暗黑模式*/</span><br><span class="line">.dark</span><br><span class="line"></span><br><span class="line">  /* 主体 */</span><br><span class="line">  #board </span><br><span class="line">    background-color #282c34</span><br><span class="line">    color #a09c9c</span><br><span class="line">  </span><br><span class="line">  img  </span><br><span class="line">    filter brightness(50%)</span><br><span class="line"></span><br><span class="line">  p</span><br><span class="line">  .index-info a  </span><br><span class="line">    color #a09c9c !important</span><br><span class="line"></span><br><span class="line">  .markdown-body</span><br><span class="line">    h1,h2,h3,h4,h5,h6,s,li  </span><br><span class="line">      color:#a09c9c !important</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* 顶栏 */</span><br><span class="line">  .navbar-col-show</span><br><span class="line">  .top-nav-collapse  </span><br><span class="line">    background-color #282c34</span><br><span class="line">    </span><br><span class="line">  .navbar a  </span><br><span class="line">    color #a09c9c !important</span><br><span class="line">    </span><br><span class="line">  .animated-icon span   /* 手机端 */</span><br><span class="line">    background-color #a09c9c</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* page-number */</span><br><span class="line">  .pagination a:hover</span><br><span class="line">  .pagination .current  </span><br><span class="line">    background-color #6b6b6b73;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* 打字机 */</span><br><span class="line">  #subtitle</span><br><span class="line">  .dark.typed-cursor--blink</span><br><span class="line">  .scroll-down-arrow</span><br><span class="line">    color #dfdfdf</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* back to top */</span><br><span class="line">  #scroll-top-button</span><br><span class="line">    background-color #282c34</span><br><span class="line"></span><br><span class="line">    i</span><br><span class="line">      color #a09c9c</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* Toc */</span><br><span class="line">  .tocbot-list a</span><br><span class="line">    color #a09c9c</span><br><span class="line"></span><br><span class="line">  .tocbot-active-link</span><br><span class="line">  footer a:hover</span><br><span class="line">    color #1abc9c !important</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* footer */</span><br><span class="line">  footer</span><br><span class="line">  footer a</span><br><span class="line">    color #a09c9c</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* 归档页 */</span><br><span class="line">  .list-group-item</span><br><span class="line">    color #a09c9c</span><br><span class="line">    background-color #282c34</span><br><span class="line">    </span><br><span class="line">  .list-group-item:hover</span><br><span class="line">  .tagcloud a:hover</span><br><span class="line">    background-color #46484d</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* 友链页 */</span><br><span class="line">  .links</span><br><span class="line">    .card  </span><br><span class="line">      background-color #282c34</span><br><span class="line">        </span><br><span class="line">    .card-body:hover  </span><br><span class="line">      background-color #46484d</span><br><span class="line">        </span><br><span class="line">    .link-title</span><br><span class="line">    .link-intro  </span><br><span class="line">      color #a09c9c</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* note标签 可能这配色有点丑 */</span><br><span class="line">  .note-info</span><br><span class="line">    background-color #3b5359</span><br><span class="line">    border-color #006d80</span><br><span class="line"></span><br><span class="line">  .note-danger</span><br><span class="line">    background-color #783f42</span><br><span class="line">    border-color #670009</span><br><span class="line"></span><br><span class="line">  .note-success</span><br><span class="line">    background-color #2a3e2e</span><br><span class="line">    border-color #005915</span><br><span class="line"></span><br><span class="line">  .note-warning</span><br><span class="line">    background-color #5b543e</span><br><span class="line">    border-color #846500</span><br><span class="line"></span><br><span class="line">  .note-primary</span><br><span class="line">    background-color #455a6f</span><br><span class="line"> &nbsp; &nbsp;border-color #004188</span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs plain">/* 切换按钮 */
+#dark
+  cursor pointer
+  position fixed
+  right 40px
+  bottom 98px
+  width 16px
+  height 14px
+  z-index 100
+  font-size 20px
+
+/*暗黑模式*/
+.dark
+
+  /* 主体 */
+  #board 
+    background-color #282c34
+    color #a09c9c
+  
+  img  
+    filter brightness(50%)
+
+  p
+  .index-info a  
+    color #a09c9c !important
+
+  .markdown-body
+    h1,h2,h3,h4,h5,h6,s,li  
+      color:#a09c9c !important
+    
+
+  /* 顶栏 */
+  .navbar-col-show
+  .top-nav-collapse  
+    background-color #282c34
+    
+  .navbar a  
+    color #a09c9c !important
+    
+  .animated-icon span   /* 手机端 */
+    background-color #a09c9c
+
+
+  /* page-number */
+  .pagination a:hover
+  .pagination .current  
+    background-color #6b6b6b73;
+
+
+  /* 打字机 */
+  #subtitle
+  .dark.typed-cursor--blink
+  .scroll-down-arrow
+    color #dfdfdf
+
+
+  /* back to top */
+  #scroll-top-button
+    background-color #282c34
+
+    i
+      color #a09c9c
+    
+
+  /* Toc */
+  .tocbot-list a
+    color #a09c9c
+
+  .tocbot-active-link
+  footer a:hover
+    color #1abc9c !important
+
+
+  /* footer */
+  footer
+  footer a
+    color #a09c9c
+    
+
+  /* 归档页 */
+  .list-group-item
+    color #a09c9c
+    background-color #282c34
+    
+  .list-group-item:hover
+  .tagcloud a:hover
+    background-color #46484d
+
+
+  /* 友链页 */
+  .links
+    .card  
+      background-color #282c34
+        
+    .card-body:hover  
+      background-color #46484d
+        
+    .link-title
+    .link-intro  
+      color #a09c9c
+    
+
+  /* note标签 可能这配色有点丑 */
+  .note-info
+    background-color #3b5359
+    border-color #006d80
+
+  .note-danger
+    background-color #783f42
+    border-color #670009
+
+  .note-success
+    background-color #2a3e2e
+    border-color #005915
+
+  .note-warning
+    background-color #5b543e
+    border-color #846500
+
+  .note-primary
+    background-color #455a6f
+ &nbsp; &nbsp;border-color #004188</code></pre></div>
 
 <p>嗯这里的配色着实花了我一些时间，幸好有<strong>Snipaste</strong>截图工具，开一个<strong>Dark Reader</strong> chrome插件，取色很方便。</p>
 <p>上面的文件直接保存然后刷新本地网页即可预览效果，<br>建议边修改边刷新预览。</p>
@@ -255,14 +400,155 @@
 <hr>
 <p>没啥技术含量，主要是做个记录水一篇文章🙊</p>
 <h3 id="本站配色📌"><a href="#本站配色📌" class="headerlink" title="本站配色📌"></a>本站配色📌</h3><p>下面分享一下自己的修改情况（<strong>可能有些错误，毕竟我只会复制粘贴🤷‍♂️</strong>）<br><code>layout.ejs</code></p>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">  &lt;!--夜间模式🌕🌚--&gt;</span><br><span class="line">  &lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  var isNight = new Date().getHours() &gt;= 22 || new Date().getHours() &lt; 7;</span><br><span class="line">  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {</span><br><span class="line">    if(!(isNight&amp;&amp;localStorage.getItem('noDark') === '1')) {</span><br><span class="line">      document.body.classList.add('dark');</span><br><span class="line">    }</span><br><span class="line">  }</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs plain">  &lt;!--夜间模式🌕🌚--&gt;
+  &lt;div id="dark" onclick="switchDarkMode()"&gt;&lt;/div&gt;
+&lt;script&gt;
+  var isNight = new Date().getHours() &gt;= 22 || new Date().getHours() &lt; 7;
+  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+    if(!(isNight&amp;&amp;localStorage.getItem('noDark') === '1')) {
+      document.body.classList.add('dark');
+    }
+  }
+&lt;/script&gt;</code></pre></div>
 
 
 <p><code>main.js</code></p>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">//夜间模式🌗点击事件</span><br><span class="line">function switchDarkMode() {</span><br><span class="line">	if ($('body').hasClass('dark')) {</span><br><span class="line">		document.body.classList.remove('dark');</span><br><span class="line">		localStorage.setItem('noDark', '1');</span><br><span class="line">		localStorage.setItem('dark', '0');</span><br><span class="line">	} else {</span><br><span class="line">		document.body.classList.add('dark');</span><br><span class="line">		localStorage.setItem('dark', '1');</span><br><span class="line">		localStorage.setItem('noDark', '0');</span><br><span class="line">	}</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs plain">//夜间模式🌗点击事件
+function switchDarkMode() {
+	if ($('body').hasClass('dark')) {
+		document.body.classList.remove('dark');
+		localStorage.setItem('noDark', '1');
+		localStorage.setItem('dark', '0');
+	} else {
+		document.body.classList.add('dark');
+		localStorage.setItem('dark', '1');
+		localStorage.setItem('noDark', '0');
+	}
+}</code></pre></div>
 
 <p><code>main.styl</code></p>
-<figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br></pre></td><td class="code"><pre><span class="line">//夜间模式样式🌕🌚仅作部分配色修改。感谢Royce2003提供的代码</span><br><span class="line">/* 切换按钮 删掉*/</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*暗黑模式*/</span><br><span class="line">.dark</span><br><span class="line">  background-color #181a1b</span><br><span class="line">  /* 主体 */</span><br><span class="line">  #board </span><br><span class="line">    background-color #181a1b</span><br><span class="line">    color #cbc7bf</span><br><span class="line">  </span><br><span class="line">  img  </span><br><span class="line">    filter brightness(90%)</span><br><span class="line"></span><br><span class="line">  p</span><br><span class="line">  .index-info a  </span><br><span class="line">    color #cbc7bf !important</span><br><span class="line">  .index-btm</span><br><span class="line">    color #cbc7bf</span><br><span class="line">  .post-prevnext</span><br><span class="line">    color #cbc7bf</span><br><span class="line">  .post-meta</span><br><span class="line">    color #cbc7bf</span><br><span class="line"></span><br><span class="line">  .markdown-body</span><br><span class="line">    h1,h2,h3,h4,h5,h6,s,li  </span><br><span class="line">      color:#f3f4f4 !important</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* 顶栏 */</span><br><span class="line">  .navbar-col-show</span><br><span class="line">  .top-nav-collapse  </span><br><span class="line">    background-color #273238</span><br><span class="line">    </span><br><span class="line">  .navbar a  </span><br><span class="line">    color #ffffff !important</span><br><span class="line">    </span><br><span class="line">  .animated-icon span   /* 手机端 */</span><br><span class="line">    background-color #ffffff</span><br><span class="line">    color #ffffff</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* page-number */</span><br><span class="line">  .pagination a:hover</span><br><span class="line">  .pagination .current  </span><br><span class="line">    background-color #1e2021;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* 打字机 */</span><br><span class="line">  #subtitle</span><br><span class="line">  .dark.typed-cursor--blink</span><br><span class="line">  .scroll-down-arrow</span><br><span class="line">    color #ffffff</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* back to top */</span><br><span class="line">  #scroll-top-button</span><br><span class="line">    background-color #181a1b</span><br><span class="line"></span><br><span class="line">    i</span><br><span class="line">      color #b7b1a7</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* Toc */</span><br><span class="line">  .tocbot-list a</span><br><span class="line">    color #a09c9c</span><br><span class="line"></span><br><span class="line">  .tocbot-active-link</span><br><span class="line">  footer a:hover</span><br><span class="line">    color #1abc9c !important</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* footer */</span><br><span class="line">  footer</span><br><span class="line">  footer a</span><br><span class="line">    color #c5c2ba</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* 归档页 */</span><br><span class="line">  .list-group-item</span><br><span class="line">    color #cac6be</span><br><span class="line">    background-color #181a1b</span><br><span class="line"></span><br><span class="line">  .list-group-item:hover</span><br><span class="line">  .tagcloud a:hover</span><br><span class="line">    background-color #46484d</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  /* 友链页 */</span><br><span class="line">  .links</span><br><span class="line">    .card  </span><br><span class="line">      background-color #181a1b</span><br><span class="line">        </span><br><span class="line">    .card-body:hover  </span><br><span class="line">      background-color #1e2021</span><br><span class="line">        </span><br><span class="line">    .link-title</span><br><span class="line">    .link-intro  </span><br><span class="line">      color #a09c9c</span><br><span class="line">    </span><br><span class="line"></span><br><span class="line">  /* note标签 由冼仙修改使用snipaste获取Dark Reader提供的配色 */</span><br><span class="line">  .note-info</span><br><span class="line">    background-color #122c31</span><br><span class="line">    border-color #238fa1</span><br><span class="line"></span><br><span class="line">  .note-danger</span><br><span class="line">    background-color #360b0e</span><br><span class="line">    border-color #9a1823</span><br><span class="line"></span><br><span class="line">  .note-success</span><br><span class="line">    background-color #172d1c</span><br><span class="line">    border-color #367a46</span><br><span class="line"></span><br><span class="line">  .note-warning</span><br><span class="line">    background-color #3c300a</span><br><span class="line">    border-color #87712b</span><br><span class="line"></span><br><span class="line">  .note-primary</span><br><span class="line">    background-color #212325</span><br><span class="line">    border-color #1561b3</span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs plain">//夜间模式样式🌕🌚仅作部分配色修改。感谢Royce2003提供的代码
+/* 切换按钮 删掉*/
+
+
+/*暗黑模式*/
+.dark
+  background-color #181a1b
+  /* 主体 */
+  #board 
+    background-color #181a1b
+    color #cbc7bf
+  
+  img  
+    filter brightness(90%)
+
+  p
+  .index-info a  
+    color #cbc7bf !important
+  .index-btm
+    color #cbc7bf
+  .post-prevnext
+    color #cbc7bf
+  .post-meta
+    color #cbc7bf
+
+  .markdown-body
+    h1,h2,h3,h4,h5,h6,s,li  
+      color:#f3f4f4 !important
+    
+
+  /* 顶栏 */
+  .navbar-col-show
+  .top-nav-collapse  
+    background-color #273238
+    
+  .navbar a  
+    color #ffffff !important
+    
+  .animated-icon span   /* 手机端 */
+    background-color #ffffff
+    color #ffffff
+
+
+  /* page-number */
+  .pagination a:hover
+  .pagination .current  
+    background-color #1e2021;
+
+
+  /* 打字机 */
+  #subtitle
+  .dark.typed-cursor--blink
+  .scroll-down-arrow
+    color #ffffff
+
+
+  /* back to top */
+  #scroll-top-button
+    background-color #181a1b
+
+    i
+      color #b7b1a7
+    
+
+  /* Toc */
+  .tocbot-list a
+    color #a09c9c
+
+  .tocbot-active-link
+  footer a:hover
+    color #1abc9c !important
+
+
+  /* footer */
+  footer
+  footer a
+    color #c5c2ba
+    
+
+  /* 归档页 */
+  .list-group-item
+    color #cac6be
+    background-color #181a1b
+
+  .list-group-item:hover
+  .tagcloud a:hover
+    background-color #46484d
+
+
+  /* 友链页 */
+  .links
+    .card  
+      background-color #181a1b
+        
+    .card-body:hover  
+      background-color #1e2021
+        
+    .link-title
+    .link-intro  
+      color #a09c9c
+    
+
+  /* note标签 由冼仙修改使用snipaste获取Dark Reader提供的配色 */
+  .note-info
+    background-color #122c31
+    border-color #238fa1
+
+  .note-danger
+    background-color #360b0e
+    border-color #9a1823
+
+  .note-success
+    background-color #172d1c
+    border-color #367a46
+
+  .note-warning
+    background-color #3c300a
+    border-color #87712b
+
+  .note-primary
+    background-color #212325
+    border-color #1561b3</code></pre></div>
 
 <hr>
 <p>用到的工具：</p>
@@ -300,11 +586,11 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
-                    
                       <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
                     
                       <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
+                    
+                      <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
                     
                       <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
                     
@@ -457,23 +743,6 @@
         <span>Fluid</span></a>  -->
     </div>
     
-  <div>
-    
-      <!-- 不蒜子统计PV -->
-      
-      <span id="busuanzi_container_site_pv" style="display: none">
-      <a href='https://liuyifei.club/messageboard'>📪</a> 总访问量 <span id="busuanzi_value_site_pv"></span> 次
-    </span>
-    
-    
-      <!-- 不蒜子统计UV -->
-      
-      <span id="busuanzi_container_site_uv" style="display: none">
-      总访客数 <span id="busuanzi_value_site_uv"></span> 人
-    </span>
-    
-  </div>
-
 
     
 

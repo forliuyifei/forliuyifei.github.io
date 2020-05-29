@@ -30,6 +30,8 @@
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
 
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/solarized-light.min.css" />
+
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
@@ -214,14 +216,22 @@
             <article class="markdown-body">
               <p>使用 Hexo 并不需要掌握过多的 YAML 语法知识，只需要简单的了解一下就可以。</p>
 <h2 id="Markdown-文件内使用-YAML"><a href="#Markdown-文件内使用-YAML" class="headerlink" title="#Markdown 文件内使用 YAML"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#markdown-文件内使用-yaml" target="_blank" rel="noopener external nofollow noreferrer">#</a>Markdown 文件内使用 YAML</h2><p>在 Hexo 中写文档，通常需要在头部写一些关于文章的信息，这些都是需要使用 YAML 语言来写的，例如</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">录制视频时显示按键</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2018</span><span class="number">-10</span><span class="number">-28</span> <span class="number">22</span><span class="string">:54:43</span></span><br><span class="line"><span class="attr">tags:</span> <span class="string">[软件,</span> <span class="string">随便水水]</span></span><br><span class="line"></span><br><span class="line"><span class="attr">keywords:</span> <span class="string">KeyCastOW</span> <span class="string">录屏技巧</span> <span class="string">按键显示</span></span><br><span class="line"><span class="attr">comments:</span> <span class="literal">true</span></span><br><span class="line"><span class="meta">---</span></span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs yaml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">录制视频时显示按键</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2018</span><span class="hljs-number">-10</span><span class="hljs-number">-28</span> <span class="hljs-number">22</span><span class="hljs-string">:54:43</span>
+<span class="hljs-attr">tags:</span> <span class="hljs-string">[软件,</span> <span class="hljs-string">随便水水]</span>
+
+<span class="hljs-attr">keywords:</span> <span class="hljs-string">KeyCastOW</span> <span class="hljs-string">录屏技巧</span> <span class="hljs-string">按键显示</span>
+<span class="hljs-attr">comments:</span> <span class="hljs-literal">true</span>
+<span class="hljs-meta">---</span></code></pre></div>
 
 <p>提醒</p>
 <p>此部分一般叫做 <code>Front-matter</code> 。</p>
 <p>文章内部的 YAML 配置都是以 <code>---</code> 开始和结束的，而且，结束之后通常还要再有一行的空行，用以区分 Markdown 语法。</p>
 <h2 id="config-yml-中使用-YAML"><a href="#config-yml-中使用-YAML" class="headerlink" title="#_config.yml 中使用 YAML"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#config-yml-中使用-yaml" target="_blank" rel="noopener external nofollow noreferrer">#</a>_config.yml 中使用 YAML</h2><p>这个就太常见了，Hexo 的配置文件和主题的配置文件都需要使用 YAML 语言来写。</p>
 <h2 id="基本语法"><a href="#基本语法" class="headerlink" title="#基本语法"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#基本语法" target="_blank" rel="noopener external nofollow noreferrer">#</a>基本语法</h2><p>YAML 使用键值对的形式记录信息，标准格式是</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">key:</span> <span class="string">value</span></span><br><span class="line"><span class="string">键:</span> <span class="string">值</span></span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs yaml"><span class="hljs-attr">key:</span> <span class="hljs-string">value</span>
+<span class="hljs-string">键:</span> <span class="hljs-string">值</span></code></pre></div>
 
 <h3 id="基本规则"><a href="#基本规则" class="headerlink" title="#基本规则"></a><a href="https://easyhexo.com/5-Add/5-2-yaml.html#基本规则" target="_blank" rel="noopener external nofollow noreferrer">#</a>基本规则</h3><ol>
 <li>大小写敏感</li>
@@ -232,7 +242,14 @@
 <li>字符串可以不用引号标注（但是建议你最好还是加上引号）</li>
 </ol>
 <p>例如：</p>
-<figure class="highlight yaml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">hexo-tag-dplayer:</span></span><br><span class="line">  <span class="attr">cdn:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css</span></span><br><span class="line">  <span class="attr">default:</span> </span><br><span class="line">    <span class="attr">api:</span> <span class="string">https://api.prprpr.me/dplayer3/</span></span><br><span class="line">    <span class="attr">loop:</span> <span class="literal">yes</span></span><br><span class="line">    <span class="attr">screenshot:</span> <span class="literal">yes</span></span><br></pre></td></tr></tbody></table></figure>
+<div class="hljs"><pre><code class="hljs yaml"><span class="hljs-attr">hexo-tag-dplayer:</span>
+  <span class="hljs-attr">cdn:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.js</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css</span>
+  <span class="hljs-attr">default:</span> 
+    <span class="hljs-attr">api:</span> <span class="hljs-string">https://api.prprpr.me/dplayer3/</span>
+    <span class="hljs-attr">loop:</span> <span class="hljs-literal">yes</span>
+    <span class="hljs-attr">screenshot:</span> <span class="hljs-literal">yes</span></code></pre></div>
 
 <p>其中 <code>hexo-tag-dplayer</code> 是最高一级的，在模板里一般表示为 <code>config.hexo-tag-dplayer</code> ;<br>观察缩进情况，可以发现 <code>cdn</code> 和 <code>default</code> 是同一级的，模板里一般表示为 <code>config.hexo-tag-dplayer.cdn</code> 和 <code>config.hexo-tag-dplayer.default</code> ；<br>同理， <code>default</code> 下的三个选项又是一级，以此类推，只要记住缩进表示层级关系就可以了。</p>
 <p><a href="https://easyhexo.com/5-Add/5-2-yaml.html#markdown-%E6%96%87%E4%BB%B6%E5%86%85%E4%BD%BF%E7%94%A8-yaml" target="_blank" rel="noopener external nofollow noreferrer">原文来自easyhexo.com</a></p>
@@ -422,23 +439,6 @@
         <span>Fluid</span></a>  -->
     </div>
     
-  <div>
-    
-      <!-- 不蒜子统计PV -->
-      
-      <span id="busuanzi_container_site_pv" style="display: none">
-      <a href='https://liuyifei.club/messageboard'>📪</a> 总访问量 <span id="busuanzi_value_site_pv"></span> 次
-    </span>
-    
-    
-      <!-- 不蒜子统计UV -->
-      
-      <span id="busuanzi_container_site_uv" style="display: none">
-      总访客数 <span id="busuanzi_value_site_uv"></span> 人
-    </span>
-    
-  </div>
-
 
     
 

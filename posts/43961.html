@@ -30,6 +30,8 @@
 <link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
 
+  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/solarized-light.min.css" />
+
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
@@ -227,22 +229,22 @@
 <p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/bc850b80bfbab645a6f4b9d2211dc16f.png" srcset="/img/loading.gif" alt=""></p>
 <h5>3.修改注册表</h5>
 <p>别着急重启电脑或注销/切换账户，Win+R之后输入regedit进入注册表编辑器，定位到</p>
-<pre><code class="shell">--HKEY_LOCAL_MACHINE
+<div class="hljs"><pre><code class="shell">--HKEY_LOCAL_MACHINE
   --SOFTWARE
     --Microsoft
       --Windows NT
          --CurrentVersion
           --Profilelist
-</code></pre>
+</code></pre></div>
 <p>在它下面的几个子项中逐一查看名为“ProfileImagePath”的字符串值，直到找到数值数据为原中文名路径的项目；将其修改为更名后的路径就行了。</p>
 
 <p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/49becb9a82a62b1490565569b5954915.png" srcset="/img/loading.gif" alt=""><br><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/4ee04967d12998a58ede7a53a1312970.png" srcset="/img/loading.gif" alt=""></p>
 
 <h5>4.关闭Administrator账户</h5>
 <p>当我们不再需要Administrator账户时，就可以将其关闭。以管理员模式启动命令提示符（Win+X组合键后就能看到）</p>
-<pre><code class="shell">C:WINDOWSsystem32&gt;net user administrator /active:no
+<div class="hljs"><pre><code class="shell">C:WINDOWSsystem32&gt;net user administrator /active:no
 命令成功完成。
-</code></pre>
+</code></pre></div>
 
 <hr>
 <ul>
@@ -413,23 +415,6 @@
         <span>Fluid</span></a>  -->
     </div>
     
-  <div>
-    
-      <!-- 不蒜子统计PV -->
-      
-      <span id="busuanzi_container_site_pv" style="display: none">
-      <a href='https://liuyifei.club/messageboard'>📪</a> 总访问量 <span id="busuanzi_value_site_pv"></span> 次
-    </span>
-    
-    
-      <!-- 不蒜子统计UV -->
-      
-      <span id="busuanzi_container_site_uv" style="display: none">
-      总访客数 <span id="busuanzi_value_site_uv"></span> 人
-    </span>
-    
-  </div>
-
 
     
 
