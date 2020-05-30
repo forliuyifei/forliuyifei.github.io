@@ -4,6 +4,67 @@
   
     
     <entry>
+      <title>超星学习通移开鼠标自动暂停视频的问题</title>
+      <link href="/posts/34679.html"/>
+      <url>/posts/34679.html</url>
+      
+        <content type="html"><![CDATA[<p>一图流<br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200530222322.png" srcset="/img/loading.gif" alt=""></p><p>不用任何脚本，应该比较安全。</p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 问题&amp;解决 </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>平生不会相思，才会相思，便害相思。</title>
+      <link href="/posts/25465.html"/>
+      <url>/posts/25465.html</url>
+      
+        <content type="html"><![CDATA[<p>平生不会相思，才会相思，便害相思。<br>身似浮云，心如飞絮，气若游丝。<br>空一缕余香在此，盼千金游子何之。<br>证候来时，正是何时？灯半昏时，月半明时。  </p><a id="more"></a><p>元•徐再思 《折桂令·春情》</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 诗 </tag>
+            
+            <tag> 相思 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[矫情]05.30</title>
+      <link href="/posts/11871.html"/>
+      <url>/posts/11871.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://wxt.sinaimg.cn/thumb300/006UN1LVgy1gfabe9x5gcj30c80augm5.jpg?tags=%5B%5D" srcset="/img/loading.gif" alt=""></p><ul><li><p>他教我收余恨、免娇嗔、且自新、改性情、休恋逝水、苦海回身、早悟兰因。――《锁麟囊》</p></li><li><p>平生不会相思，才会相思，便害相思。</p></li><li><p>读书到某个相似段落的恍神，在外喝冷饮唤起味觉的苏醒，抑或是整理旧衣物时不落痕迹的叹息。<br>这些由你衍生出来的琐碎，在数年如一日的白夜里，融汇成轻柔而遥远的光河。<br>不再触及我。<br>却依然照耀我。</p></li><li><p>“温柔”一词被使用过度就显得乏味，正如“我爱你”听多了就越发难以察觉到动人。而好的情书哪怕没有一个爱字，读在心里却处处是爱；温柔的人哪怕不用温柔形容，举手投足、字里行间，也处处都是温柔。</p></li></ul><ul><li><p>“错有持花梦，不是持花人”</p></li><li><p>只希望你和我好，互不猜忌，也互不称誉，安如平日，你和我说话像对自己说话一样，我和你说话也像对自己说话一样。</p></li></ul><ul><li>一个人的出现，<br>一个人的离开。<br>不期而遇的惊喜，<br>突如其来的离别。  </li></ul><ul><li>以前，我平淡且平等地对待每一个遇见的人，尽管会分别也不感到可惜。<br>后来，我遇见她，把所有的温柔都给了她，就再也接受不了分别。<br>也许错就错在，我把她揉进了身体里，长在了灵魂中。<br>所以，她离开的时候。被撕裂，是我唯一的下场。</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 矫情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>[梦]视若无睹</title>
       <link href="/posts/30720.html"/>
       <url>/posts/30720.html</url>
@@ -771,7 +832,7 @@
       <link href="/posts/30685.html"/>
       <url>/posts/30685.html</url>
       
-        <content type="html"><![CDATA[<p>如何自行设置微信的主题而不是只能跟随系统：<br>需要Root且仅适用于当前微信可以跟随Android系统深色模式的情况，太旧的版本就算了。<br>新版微信使用</p><div class="hljs"><pre><code class="hljs plain">am start -n com.tencent.mm/.plugin.setting.ui.setting.SettingDarkMode</code></pre></div><p>旧版微信使用</p><div class="hljs"><pre><code class="hljs plain">am start -n com.tencent.mm/.plugin.setting.ui.setting.SettingRedesign</code></pre></div><p>有Xposed的也可以通过 <a href="https://www.coolapk.com/apk/com.mihotel.startanyactivitypermission" target="_blank" rel="noopener external nofollow noreferrer">解除打开活动限制</a> 来免Root打开类似未导出的活动  </p><p><img src="https://pic.downk.cc/item/5ebf584dc2a9a83be5904dce.jpg" srcset="/img/loading.gif" alt=""></p><hr><p>原文来自<a href="http://www.coolapk.com/u/460110" target="_blank" rel="noopener external nofollow noreferrer">dadaeqw</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<p>如何自行设置微信的主题而不是只能跟随系统：<br>需要Root且仅适用于当前微信可以跟随Android系统深色模式的情况，太旧的版本就算了。<br>新版微信使用</p><div class="hljs"><pre><code class="hljs plain">am start -n com.tencent.mm/.plugin.setting.ui.setting.SettingDarkMode</code></pre></div><p>旧版微信使用</p><div class="hljs"><pre><code class="hljs plain">am start -n com.tencent.mm/.plugin.setting.ui.setting.SettingRedesign</code></pre></div><p>有Xposed的也可以通过 <a href="https://www.coolapk.com/apk/com.mihotel.startanyactivitypermission" target="_blank" rel="noopener external nofollow noreferrer">解除打开活动限制</a> 来免Root打开类似未导出的活动  </p><p><img src="https://pic.downk.cc/item/5ebf584dc2a9a83be5904dce.jpg" srcset="/img/loading.gif" alt=""></p><hr><p>原文来自<a href="http://www.coolapk.com/u/460110" target="_blank" rel="noopener external nofollow noreferrer">dadaeqw</a></p><p>2020.05 微信好像正在内测单独深色模式…</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
