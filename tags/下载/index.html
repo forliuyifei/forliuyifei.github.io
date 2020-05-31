@@ -26,22 +26,18 @@
     <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7">
     
 
+    
   <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
-<link  rel="stylesheet" href="https://cdn.staticfile.org/github-markdown-css/4.0.0/github-markdown.min.css" />
 
-
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.18.1/styles/solarized-light.min.css" />
 
 
 <!-- 主题依赖的图标库，不要自行修改 -->
 
-<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_fmb4a04yx8h.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_yg9cfy8wd6.css">
 
 
 
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1782752_y1x3yvtbpge.css">
-
-
 
 
 <link  rel="stylesheet" href="/css/main.css" />
@@ -49,24 +45,22 @@
 <!-- 自定义样式保持在最底部 -->
 
 
-
-
-
+  <script  src="/js/utils.js" ></script>
 <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="饿龙不是龙哩" type="application/atom+xml">
 </head>
 
 
 <body>
-<div id="dark" onclick="switchDarkMode()"></div>
-<script>
-  var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
-  if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
-    if(!(isNight&&localStorage.getItem('noDark') === '1')) {
-      document.body.classList.add('dark');
-    }
-  }
-</script>
-
+    <!--夜间模式🌕🌚-->
+    <div id="dark" onclick="switchDarkMode()"></div>
+    <script>
+      var isNight = new Date().getHours() >= 22 || new Date().getHours() < 7;
+      if( matchMedia('(prefers-color-scheme: dark)').matches || isNight || localStorage.getItem('dark') === '1') {
+        if(!(isNight&&localStorage.getItem('noDark') === '1')) {
+          document.body.classList.add('dark');
+        }
+      }
+    </script>
   <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
@@ -86,47 +80,89 @@
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/">
-              <i class="iconfont icon-home-fill"></i>
-              首页</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/archives/">
-              <i class="iconfont icon-archive-fill"></i>
-              归档</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/tags/">
-              <i class="iconfont icon-tags-fill"></i>
-              标签</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/about/">
-              <i class="iconfont icon-user-fill"></i>
-              关于</a>
-          </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
         
           
           
           
-          <li class="nav-item">
-            <a class="nav-link" href="/links/">
-              <i class="iconfont icon-link-fill"></i>
-              友链</a>
-          </li>
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-user-fill"></i>
+                ...
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/about/">
+                    <i class="iconfont icon-user-fill"></i>
+                    关于
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/links/">
+                    <i class="iconfont icon-link-fill"></i>
+                    友链
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="/messageboard/">
+                    <i class="iconfont iconmailbox1"></i>
+                    留言
+                  </a>
+                
+              </div>
+            </li>
+          
         
         
           <li class="nav-item" id="search-btn">
@@ -229,6 +265,29 @@
   
 
   
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'false' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"Stargazing","artist":"Isabella Calander","url":"https://d0.ananas.chaoxing.com/download/aaeb48bb66f9d11e606dd53e058fb891?fn=Isabella+Celander-Stargazing","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200531183038.png"},{"name":"笑傲江湖","artist":"刘欢&王菲","url":"https://d0.ananas.chaoxing.com/download/7b95cb680a635a1aacdf34e608e15d83?fn=%E5%88%98%E6%AC%A2%26%E7%8E%8B%E8%8F%B2+-+%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/笑傲江湖 电视原声带_109951163020573636~01.jpg"},{"name":"胆小鬼","artist":"梁咏琪","url":"https://d0.ananas.chaoxing.com/download/02a92bc208a8ba96330a7aafce3c06b9?fn=%E8%83%86%E5%B0%8F%E9%AC%BC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/梁咏琪 同名专辑_51677046522535~01.jpg"},{"name":"起风了（Cover 高橋優-《ヤキモチ》）","artist":"买辣椒也用券","url":"https://d0.ananas.chaoxing.com/download/fffc80a28f96b70482e0d89b03ff90fe?fn=%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8+-+%E8%B5%B7%E9%A3%8E%E4%BA%86%EF%BC%88Cover+%E9%AB%98%E6%A9%8B%E5%84%AA%EF%BC%89","cover":"https://p1.music.126.net/c0nzSObvxF_DftayAJjXsw==/109951162864860506.jpg?param=120y120"},{"name":"Because of You","artist":"Josh Vietti","url":"https://d0.ananas.chaoxing.com/download/1698acb4164aa7c193aee48e537ec883?fn=Josh+Vietti+-+Because+of+You","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/Best%20of%20Both%20Worlds_109951164849496349~01.jpg"},{"name":"東京","artist":"柴田淳","url":"https://d0.ananas.chaoxing.com/download/c540cb2b68e62e86a9c89f0aa96ea18c?fn=%E6%9F%B4%E7%94%B0%E6%B7%B3+-+%E6%9D%B1%E4%BA%AC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/東京.jpg"},{"name":"今晩はお月さん","artist":"ハンバート ハンバート","url":"https://d0.ananas.chaoxing.com/download/8391dffef2f1d4cac4d84c363592c99f?fn=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+-+%E4%BB%8A%E6%99%A9%E3%81%AF%E3%81%8A%E6%9C%88%E3%81%95%E3%82%93","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/今晩はお月さん_703687441788470~01.jpg"},{"name":"夏天的凤","artist":"火羊瞌睡了","url":"https://d0.ananas.chaoxing.com/download/7430e28c7ebd89d33d2b886301987edf?fn=%E7%81%AB%E7%BE%8A%E7%9E%8C%E7%9D%A1%E4%BA%86+-+%E5%A4%8F%E5%A4%A9%E7%9A%84%E9%A3%8E","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/夏天的风_109951164906689206~01.jpg"},{"name":"我也不想这样","artist":"徐佳莹","url":"https://d0.ananas.chaoxing.com/download/f10456404537ec8eba5926c8ba1c7cbb?fn=%E5%BE%90%E4%BD%B3%E8%8E%B9+-+%E6%88%91%E4%B9%9F%E4%B8%8D%E6%83%B3%E8%BF%99%E6%A0%B7","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/日全蚀演唱会现场实录_1384285147518190~01.jpg"},{"name":"ハレハレヤ","artist":"羽生まゐご / v flower","url":"https://d0.ananas.chaoxing.com/download/4d10a7cc05a80d0808037bc947a80c41?fn=%E7%BE%BD%E7%94%9F%E3%81%BE%E3%82%90%E3%81%94+v+flower+-+%E3%83%8F%E3%83%AC%E3%83%8F%E3%83%AC%E3%83%A4","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/MEiSTER_109951163298695275~01.jpg"}]
+    });
+  }
+</script>
+
+  
 
   
 
@@ -237,9 +296,9 @@
     <div>
     <!--  <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>  -->
       <!--  <i class="iconfont icon-love"></i>  爱心图标❤-->
-     <!-- <a href="/img/donate.webp" title='请我喝🍺' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">🍻</span></a> -->
      <a href="/messageboard" title='留言板' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">📬</span></a>
-     <a href="mailto:forzqx@qq.com" title='邮件 非诚勿扰🙊' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">📧</span></a>
+     <a href="mailto:forzqx@qq.com" title='邮件 非诚勿扰🙊' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">📩</span></a>
+     <a href="/img/donate.webp" title='请我喝🍺' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">🍻</span></a> 
      <button id="dark"  onclick="switchDarkMode()" style="border-radius: 6px;font-size: 100%;";;">🌗</button>  
      <!-- <a href="mailto:forzqx@qq.com" title='有要紧事请发邮件，非诚勿扰🙊' rel="external nofollow noreferrer" class="">
         <i class="iconfont iconemail-fill" aria-hidden="true"></i>
@@ -251,75 +310,22 @@
     <!--  <a href='https://liuyifei.club/atom.xml' title='欢迎使用RSS订阅本站📰'><i class="iconfont iconrss" aria-hidden="true"></i></a> -->
     <!--  <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
         <span>Fluid</span></a>  -->
-    </div>
-    
-  <div>
-    
-      <!-- 不蒜子统计PV -->
-      
-      <span id="busuanzi_container_site_pv" style="display: none">
-      <a href='https://liuyifei.club/messageboard'>📪</a> 总访问量 <span id="busuanzi_value_site_pv"></span> 次
-    </span>
-    
-    
-      <!-- 不蒜子统计UV -->
-      
-      <span id="busuanzi_container_site_uv" style="display: none">
-      总访客数 <span id="busuanzi_value_site_uv"></span> 人
-    </span>
-    
   </div>
-
-
-    
-
-    
-  </div>
-
-  <div> <center>
-    <span id="timeDate">世间安得双全法</span>
-    <span id="times">不负如来不负卿</span>
-    <script>
-    var now = new Date();
-    function createtime(){
-        var grt= new Date("04/18/2020 02:10:00");//此处修改你的建站时间或者网站上线时间
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24;
-        dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
-        hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){
-            hnum = "0" + hnum;
-        }
-        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes);
-        if(String(mnum).length ==1 ){
-                  mnum = "0" + mnum;
-        }
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds);
-        if(String(snum).length ==1 ){
-                  snum = "0" + snum;
-        }
-        document.getElementById("timeDate").innerHTML = "⌛ 本站已安全运行&nbsp"+dnum+"&nbsp天";
-        document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
-    }
-    setInterval("createtime()",250);
-    </script> </center>
-  </div>
-  
 
 </footer>
 
 <!-- SCRIPTS -->
 <script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
 <script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+<script  src="/js/debouncer.js" ></script>
 <script  src="/js/main.js" ></script>
 
+<!-- Plugins -->
 
-  <script  src="/js/lazyload.js" ></script>
 
-
+  
+    <script  src="/js/lazyload.js" ></script>
+  
 
 
 
@@ -328,43 +334,189 @@
 
 
 
-  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+  <script defer>
+  (function () {
+    // 查询存储的记录
+    function getRecord(Counter, target) {
+      return new Promise(function (resolve, reject) {
+        Counter('get', '/classes/Counter?where=' + encodeURIComponent(JSON.stringify({target})))
+          .then(resp => resp.json())
+          .then(({results, code, error}) => {
+            if (code === 401) {
+              throw error;
+            }
+            if (results && results.length > 0) {
+              var record = results[0];
+              resolve(record);
+            } else {
+              Counter('post', '/classes/Counter', {target, time: 0})
+                .then(resp => resp.json())
+                .then((record, error) => {
+                  if (error) {
+                    throw error;
+                  }
+                  resolve(record);
+                }).catch(error => {
+                console.error('Failed to create', error);
+                reject(error);
+              });
+            }
+          }).catch((error) => {
+          console.error('LeanCloud Counter Error:', error);
+          reject(error);
+        });
+      })
+    }
+
+    // 发起自增请求
+    function increment(Counter, incrArr) {
+      return new Promise(function (resolve, reject) {
+        Counter('post', '/batch', {
+          "requests": incrArr
+        }).then((res) => {
+          res = res.json();
+          if (res.error) {
+            throw res.error;
+          }
+          resolve(res);
+        }).catch((error) => {
+          console.error('Failed to save visitor count', error);
+          reject(error);
+        });
+      });
+    }
+
+    // 构建自增请求体
+    function buildIncrement(objectId) {
+      return {
+        "method": "PUT",
+        "path": `/1.1/classes/Counter/${ objectId }`,
+        "body": {
+          "time": {
+            '__op': 'Increment',
+            'amount': 1
+          }
+        }
+      }
+    }
+
+    // 校验是否为有效的 UV
+    function validUV() {
+      var key = 'LeanCloud_UV_Flag';
+      var flag = localStorage.getItem(key);
+      if (flag) {
+        // 距离标记小于 24 小时则不计为 UV
+        if (new Date().getTime() - parseInt(flag) <= 86400000) {
+          return false;
+        }
+      }
+      localStorage.setItem(key, new Date().getTime().toString());
+      return true;
+    }
+
+    function addCount(Counter) {
+      var enableIncr = 'true' === 'true' && window.location.hostname !== 'localhost';
+      var getterArr = [];
+      var incrArr = [];
+
+      // 请求 PV 并自增
+      var pvCtn = document.querySelector('#leancloud-site-pv-container');
+      if (pvCtn || enableIncr) {
+        var pvGetter = getRecord(Counter, 'site-pv').then((record) => {
+          incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-pv');
+          if (ele) {
+            ele.innerText = record.time + 1;
+            if (pvCtn) {
+              pvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(pvGetter);
+      }
+
+      // 请求 UV 并自增
+      var uvCtn = document.querySelector('#leancloud-site-uv-container');
+      if (uvCtn || enableIncr) {
+        var uvGetter = getRecord(Counter, 'site-uv').then((record) => {
+          var vuv = validUV();
+          vuv && incrArr.push(buildIncrement(record.objectId))
+          var ele = document.querySelector('#leancloud-site-uv');
+          if (ele) {
+            ele.innerText = record.time + (vuv ? 1 : 0);
+            if (uvCtn) {
+              uvCtn.style.display = 'inline';
+            }
+          }
+        });
+        getterArr.push(uvGetter);
+      }
+
+      // 如果是文章，请求文章的浏览数，并自增
+      if ('false' === 'true') {
+        var viewCtn = document.querySelector('#leancloud-post-views-container');
+        if (viewCtn || enableIncr) {
+          var target = decodeURI('/tags/%E4%B8%8B%E8%BD%BD/index.html');
+          var viewGetter = getRecord(Counter, target).then((record) => {
+            incrArr.push(buildIncrement(record.objectId))
+            if (viewCtn) {
+              var ele = document.querySelector('#leancloud-post-views');
+              if (ele) {
+                ele.innerText = (record.time || 0) + 1;
+                viewCtn.style.display = 'inline';
+              }
+            }
+          });
+          getterArr.push(viewGetter);
+        }
+      }
+
+      // 如果启动计数自增，批量发起自增请求
+      if (enableIncr) {
+        Promise.all(getterArr).then(() => {
+          incrArr.length > 0 && increment(Counter, incrArr);
+        })
+      }
+    }
+
+    var app_id = '1J6Q1jxQoNCihhNQiLbkRIAm-gzGzoHsz'
+    var app_key = 'FTjP6PahKXj4GNmBOVj66FYW'
+    var server_url = ''
+
+    function fetchData(api_server) {
+      var Counter = (method, url, data) => {
+        return fetch(`${ api_server }/1.1${ url }`, {
+          method,
+          headers: {
+            'X-LC-Id': app_id,
+            'X-LC-Key': app_key,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(data)
+        });
+      };
+
+      addCount(Counter);
+    }
+
+    var api_server = app_id.slice(-9) !== '-MdYXbMMI' ? server_url : `https://${ app_id.slice(0, 8).toLowerCase() }.api.lncldglobal.com`;
+
+    if (api_server) {
+      fetchData(api_server);
+    } else {
+      fetch('https://app-router.leancloud.cn/2/route?appId=' + app_id)
+        .then(resp => resp.json())
+        .then(({api_server}) => {
+          fetchData('https://' + api_server);
+        });
+    }
+  })();
+</script>
 
 
 
 
-<!-- Plugins -->
 
-
-  
-
-  
-    <!-- Google Analytics -->
-    <script defer>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-          (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-      ga('create', 'UA-166911229-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  
-
-  
-
-  
-
-  
-
-  
 
 
 
@@ -388,21 +540,6 @@
 
 
 
-  <script  src="https://cdn.staticfile.org/anchor-js/4.2.2/anchor.min.js" ></script>
-  <script>
-    anchors.options = {
-      placement: "right",
-      visible: "hover",
-      
-    };
-    var el = "h1,h2,h3,h4,h5,h6".split(",");
-    var res = [];
-    for (item of el) {
-      res.push(".markdown-body > " + item)
-    }
-    anchors.add(res.join(", "))
-  </script>
-
 
 
   <script  src="/js/local-search.js" ></script>
@@ -410,7 +547,7 @@
     var path = "/local-search.xml";
     var inputArea = document.querySelector("#local-search-input");
     inputArea.onclick = function () {
-      getSearchFile(path);
+      searchFunc(path, 'local-search-input', 'local-search-result');
       this.onclick = null
     }
   </script>
@@ -432,7 +569,7 @@
         //点击body时触发事件
         $("body").click(function (e) {
           //需要显示的词语
-          var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善","奶子","奶子");
+          var a = new Array("富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善");
           //设置词语给span标签
           var $i = $("<span/>").text(a[a_idx]);
           //下标等于原来下标+1  余 词语总数
@@ -483,27 +620,39 @@
 
 
 
+  
+
+  
+    <!-- Google Analytics -->
+    <script defer>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-166911229-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  
+
+  
+
+  
+
+  
+
+  
 
 
-<!-- 百度自动推送工具近期维护升级中 
-<script defer>
-  (function(){
-      var bp = document.createElement('script');
-      var curProtocol = window.location.protocol.split(':')[0];
-      if (curProtocol === 'https') {
-          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-      }
-      else {
-          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-      }
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(bp, s);
-  })();
-  </script>
-  -->
-  <!--背景动态线条效果 
-  <script defer src="//abbw.gitee.io/asset/js/canvas-nest.min.js" color="0,0,0" opacity='0.35' zIndex="-1" count="150"></script>
-  -->
+
+
 
 </body>
 </html>
