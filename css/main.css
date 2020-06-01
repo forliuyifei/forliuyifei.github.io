@@ -1377,7 +1377,7 @@ h6::before {
   margin-bottom: 1rem;
 }
 .category-item {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -1448,7 +1448,7 @@ h6::before {
   height: 100%;
 }
 .links .card-body:hover .link-avatar {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(10deg);
 }
 .links .card-content {
   display: flex;
