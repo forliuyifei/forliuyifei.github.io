@@ -373,7 +373,7 @@
                       <a href="/posts/51590.html">
                         <i class="iconfont icon-arrowleft"></i>
                         <span class="hidden-mobile">[影视截图] 断发</span>
-                        <span class="visible-mobile">post.pre</span>
+                        <span class="visible-mobile">上一篇</span>
                       </a>
                     
                   </div>
@@ -382,7 +382,7 @@
                     
                       <a href="/posts/25351.html">
                         <span class="hidden-mobile">波心荡,冷月无声</span>
-                        <span class="visible-mobile">post.next</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -495,17 +495,60 @@
      <a href="mailto:forzqx@qq.com" title='邮件 非诚勿扰🙊' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">📩</span></a>
      <a href="/img/donate.webp" title='请我喝🍺' target="_blank" rel="nofollow noopener"><span style="font-size: 130%;">🍻</span></a> 
      <button id="dark"  onclick="switchDarkMode()" style="border-radius: 6px;font-size: 100%;";;">🌗</button>  
-     <!-- <a href="mailto:forzqx@qq.com" title='有要紧事请发邮件，非诚勿扰🙊' rel="external nofollow noreferrer" class="">
-        <i class="iconfont iconemail-fill" aria-hidden="true"></i>
-      </a> -->
-    <!--  <a href="javascript:;" rel="external nofollow noreferrer" class="qr-trigger">
-        <i class="iconfont iconwechat-fill" aria-hidden="true"></i>
-          <img class="qr-img" src="/img/wechat.webp" srcset="/img/wechat.webp" alt="qrcode">
-      </a>   微信二维码-->
-    <!--  <a href='https://liuyifei.club/atom.xml' title='欢迎使用RSS订阅本站📰'><i class="iconfont iconrss" aria-hidden="true"></i></a> -->
-    <!--  <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">
-        <span>Fluid</span></a>  -->
   </div>
+
+  <div class="statistics">
+    
+    
+
+    
+      
+    <!-- LeanCloud 统计PV -->
+    <span id="leancloud-site-pv-container" style="display: none">
+        🎲总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+  
+  
+    <!-- LeanCloud 统计UV -->
+    <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+  
+      <div> <center>
+        <span id="timeDate">世间安得双全法</span>
+        <span id="times">不负如来不负卿</span>
+        <script>
+        var now = new Date();
+        function createtime(){
+            var grt= new Date("04/18/2020 02:10:00");//此处修改你的建站时间或者网站上线时间
+            now.setTime(now.getTime()+250);
+            days = (now - grt ) / 1000 / 60 / 60 / 24;
+            dnum = Math.floor(days);
+            hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+            hnum = Math.floor(hours);
+            if(String(hnum).length ==1 ){
+                hnum = "0" + hnum;
+            }
+            minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+            mnum = Math.floor(minutes);
+            if(String(mnum).length ==1 ){
+                      mnum = "0" + mnum;
+            }
+            seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+            snum = Math.round(seconds);
+            if(String(snum).length ==1 ){
+                      snum = "0" + snum;
+            }
+            document.getElementById("timeDate").innerHTML = "⌛ 本站已安全运行&nbsp"+dnum+"&nbsp天";
+            document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";
+        }
+        setInterval("createtime()",250);
+        </script> </center>
+      </div>
 
 </footer>
 
