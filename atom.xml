@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-06-02T11:35:17.260Z</updated>
+  <updated>2020-06-03T10:11:45.327Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PicGo间歇性抽风 上传失败 服务端出错</title>
+    <link href="https://liuyifei.club/posts/739.html"/>
+    <id>https://liuyifei.club/posts/739.html</id>
+    <published>2020-06-03T10:04:02.000Z</published>
+    <updated>2020-06-03T10:11:45.327Z</updated>
+    
+    <content type="html"><![CDATA[<p>明明设置没问题，大多数时候正常使用，偶尔显示“服务端出错”</p><h4 id="玄学解决方法"><a href="#玄学解决方法" class="headerlink" title="玄学解决方法"></a>玄学解决方法</h4><ul><li>设置Server开关随便动它一下，再上传图片就没问题了。</li></ul><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200603180157.png" srcset="/img/loading.gif" alt=""></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;明明设置没问题，大多数时候正常使用，偶尔显示“服务端出错”&lt;/p&gt;
+&lt;h4 id=&quot;玄学解决方法&quot;&gt;&lt;a href=&quot;#玄学解决方法&quot; class=&quot;headerlink&quot; title=&quot;玄学解决方法&quot;&gt;&lt;/a&gt;玄学解决方法&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;设置Server开关随便动它一下，再上传图片就没问题了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200603180157.png&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>两部门印发通知部署2020年大学生征兵工作（转载）</title>
+    <link href="https://liuyifei.club/posts/55268.html"/>
+    <id>https://liuyifei.club/posts/55268.html</id>
+    <published>2020-06-03T09:52:04.000Z</published>
+    <updated>2020-06-03T10:12:47.236Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作"><a href="#教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作" class="headerlink" title="教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作"></a>教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作</h4><p>发稿时间：2020-06-03 06:18:00 来源： <a href="http://news.youth.cn/gn/202006/t20200603_12353506.htm" target="_blank" rel="noopener external nofollow noreferrer">中国青年报</a></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/1screencapture-news-youth-cn-gn-202006-t20200603-12353506-htm-2020-06-03-17_52_48.webp" srcset="/img/loading.gif" alt=""></p><hr><p><strong>仅作转载</strong></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作&quot;&gt;&lt;a href=&quot;#教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作&quot; class=&quot;headerlink&quot; title=&quot;教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作&quot;&gt;&lt;/a&gt;教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作&lt;/h4&gt;&lt;p&gt;发稿时间：2020-06-03 06:18:00 来源： &lt;a href=&quot;http://news.youth.cn/gn/202006/t20200603_12353506.htm&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;中国青年报&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/1screencapture-news-youth-cn-gn-202006-t20200603-12353506-htm-2020-06-03-17_52_48.webp&quot; srcset=&quot;/img/loading.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;仅作转载&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="https://liuyifei.club/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>酷刑</title>
+    <link href="https://liuyifei.club/posts/51274.html"/>
+    <id>https://liuyifei.club/posts/51274.html</id>
+    <published>2020-06-03T08:28:00.000Z</published>
+    <updated>2020-06-03T09:15:35.080Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="偶成-南腔北调集-鲁迅"><a href="#偶成-南腔北调集-鲁迅" class="headerlink" title="偶成 / 南腔北调集 / 鲁迅"></a><center>偶成 / 南腔北调集 / 鲁迅</center></h3><p>九月二十日的《申报》上，有一则嘉善地方的新闻，摘录起来，就是──</p><p>“本县大窑乡沈和声与子林生，被著匪石塘小弟绑架而去，勒索三万元。沈姓家以中人之产，迁延未决。讵料该帮股匪乃将沈和声父子及苏境方面绑来肉票，在丁棚北，北荡滩地方，大施酷刑。法以布条遍贴背上，另用生漆涂敷，俟其稍干，将布之一端，连皮揭起，则痛彻心肺，哀号呼救，惨不忍闻。时为该处居民目睹，恻然心伤，尽将惨状报告沈姓，速即往赎，否则恐无生还。帮匪手段之酷，洵属骇闻。”</p><p>“酷刑”的记载，在各地方的报纸上是时时可以看到的，但我们只在看见时觉得“酷”，不久就忘记了，而实在也真是记不胜记。然而酷刑的方法，却决不是突然就会发明，一定都有它的师承或祖传，例如这石塘小弟所采用的，便是一个古法，见于士大夫未必肯看，而下等人却大抵知道的《说岳全传》一名《精忠传》上，是秦桧要岳飞自认“汉奸”，逼供之际所用的方法，但使用的材料，却是麻条和鱼鳔②。我以为生漆之说，是未必的确的，因为这东西很不容易干燥。</p><p>“酷刑”的发明和改良者，倒是虎吏和暴君，这是他们唯一的事业，而且也有工夫来考究。这是所以威民，也所以除奸的，然而《老子》说得好，“为之斗斛以量之，则并与斗斛而窃之，……③”有被刑的资格的也就来玩一个“剪窃”。张献忠的剥人皮④，不是一种骇闻么？但他之前已有一位剥了“逆臣”景清的皮的永乐皇帝⑤在。</p><p>奴隶们受惯了“酷刑”的教育，他只知道对人应该用酷刑。</p><p>但是，对于酷刑的效果的意见，主人和奴隶们是不一样的。主人及其帮闲们，多是智识者，他能推测，知道酷刑施之于敌对，能够给与怎样的痛苦，所以他会精心结撰，进步起来。奴才们却一定是愚人，他不能“推己及人”，更不能推想一下，就“感同身受”。只要他有权，会采用成法自然也难说，然而他的主意，是没有智识者所测度的那么惨厉的。绥拉菲摩维支在《铁流》里，写农民杀掉了一个贵人的小女儿，那母亲哭得很凄惨，他却诧异道，哭什么呢，我们死掉多少小孩子，一点也没哭过⑥。他不是残酷，他一向不知道人命会这么宝贵，他觉得奇怪了。</p><p>奴隶们受惯了猪狗的待遇，他只知道人们无异于猪狗。</p><p>用奴隶或半奴隶的幸福者，向来只怕“奴隶造反”，真是无怪的。</p><p>要防“奴隶造反”，就更加用“酷刑”，而“酷刑”却因此更到了末路。在现代，枪毙是早已不足为奇了，枭首陈尸，也只能博得民众暂时的鉴赏，而抢劫，绑架，作乱的还是不减少，并且连绑匪也对于别人用起酷刑来了。酷的教育，使人们见酷而不再觉其酷，例如无端杀死几个民众，先前是大家就会嚷起来的，现在却只如见了日常茶饭事。人民真被治得好像厚皮的，没有感觉的癞象一样了，但正因为成了癞皮，所以又会踏着残酷前进，这也是虎吏和暴君所不及料，而即使料及，也还是毫无办法的。</p><p>九月二十日</p><p>=====【注释】=====</p><p>① 本篇最初发表于一九三三年十月十五日《申报月刊》第二卷第十号，署名洛文。</p><p>② 秦桧（1090─1155）：江宁（今南京）人，宋高宗（赵构）</p><p>时任宰相，是主张降金的内奸，诬杀抗金名将岳飞的主谋。这里说他用麻条、鱼鳔逼供的事，见《说岳全传》第六十回。</p><p>③ “为之斗斛以量之，则并与斗斛而窃之”语见《庄子·胠箧》。文中的《老子》应作《庄子》。</p><p>④ 张献忠（1606─1646）：延安柳树涧（今陕西定边东）人，明末农民起义领袖之一。旧史书常有关于他杀人的夸大记载。剥人皮的事，见清代彭遵泗著的《蜀碧》一书。</p><p>⑤ 永乐皇帝：即明成祖朱棣。他原封燕王，起兵推翻建文帝朱允炆后称帝，建文帝的旧臣景清不肯顺从，朱棣“剥其皮，草椟之，械系长安门，磔其骨肉。”（见《明史记事本末》）</p><p>⑥ 《铁流》：长篇小说，苏联作家绥拉菲摩维支著，描写苏联国内战争时期一支游击队在布尔什维克领导下斗争成长的故事。这里所引的情节，见该书第三十三章。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      奴隶们受惯了“酷刑”的教育，他只知道对人应该用酷刑。
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="https://liuyifei.club/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
+      <category term="鲁迅" scheme="https://liuyifei.club/tags/%E9%B2%81%E8%BF%85/"/>
+    
+  </entry>
   
   <entry>
     <title>「一个决定」</title>
@@ -52,9 +124,9 @@
     
     
     
-      <category term="音乐" scheme="https://liuyifei.club/tags/%E9%9F%B3%E4%B9%90/"/>
-    
       <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
+    
+      <category term="音乐" scheme="https://liuyifei.club/tags/%E9%9F%B3%E4%B9%90/"/>
     
       <category term="美" scheme="https://liuyifei.club/tags/%E7%BE%8E/"/>
     
@@ -312,9 +384,9 @@
     <link href="https://liuyifei.club/posts/41357.html"/>
     <id>https://liuyifei.club/posts/41357.html</id>
     <published>2020-05-23T11:18:00.000Z</published>
-    <updated>2020-06-01T12:41:02.588Z</updated>
+    <updated>2020-06-03T08:06:40.942Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://shop.io.mi-img.com/app/shop/img?id=shop_d68e4f9cfa23fe2603acdb19edc0fee0.png" srcset="/img/loading.gif" alt="image.png"><br>燕云十八飞骑，奔腾如虎风烟举。 </p><p>老魔小丑，岂堪一击，胜之不武。  </p><p>王霸雄图，血海深恨，尽归尘土。  </p><p>念枉求美眷，良缘安在。枯井底，污泥处。  </p><p>酒罢问君三语。为谁开，茶花满路。  </p><p>王孙落魄，怎生消得，杨枝玉露。  </p><p>敝履荣华，浮云生死，此身何惧。  </p><p>教单于折箭，六军辟易，奋英雄怒。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200603160625.png" srcset="/img/loading.gif" alt=""><br>燕云十八飞骑，奔腾如虎风烟举。 </p><p>老魔小丑，岂堪一击，胜之不武。  </p><p>王霸雄图，血海深恨，尽归尘土。  </p><p>念枉求美眷，良缘安在。枯井底，污泥处。  </p><p>酒罢问君三语。为谁开，茶花满路。  </p><p>王孙落魄，怎生消得，杨枝玉露。  </p><p>敝履荣华，浮云生死，此身何惧。  </p><p>教单于折箭，六军辟易，奋英雄怒。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
@@ -429,82 +501,6 @@
       <category term="刷机" scheme="https://liuyifei.club/tags/%E5%88%B7%E6%9C%BA/"/>
     
       <category term="资源" scheme="https://liuyifei.club/tags/%E8%B5%84%E6%BA%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用Nova+Edge pro实现快速新建便签、打开应用扫码、听歌识曲等功能</title>
-    <link href="https://liuyifei.club/posts/48120.html"/>
-    <id>https://liuyifei.club/posts/48120.html</id>
-    <published>2020-05-22T09:08:15.000Z</published>
-    <updated>2020-05-22T20:03:31.209Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="展示"><a href="#展示" class="headerlink" title="展示"></a>展示</h3><iframe weight="960" height="540" src="https://player.bilibili.com/player.html?aid=73370673&amp;bvid=BV18E41117Ar&amp;cid=125509631&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>   <hr><div>            <input type="checkbox" disabled="">有空再写          </div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      Xposed edge pro的玩法还有很多，这里只是举个栗子🌰
-    
-    </summary>
-    
-    
-      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
-    
-    
-      <category term="技巧" scheme="https://liuyifei.club/tags/%E6%8A%80%E5%B7%A7/"/>
-    
-      <category term="xp模块" scheme="https://liuyifei.club/tags/xp%E6%A8%A1%E5%9D%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>时至今日，我们为什么还需要个人博客？</title>
-    <link href="https://liuyifei.club/posts/60555.html"/>
-    <id>https://liuyifei.club/posts/60555.html</id>
-    <published>2020-05-21T14:41:32.000Z</published>
-    <updated>2020-05-22T20:12:48.882Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Excerpts"><a href="#Excerpts" class="headerlink" title="Excerpts"></a>Excerpts</h3><div class="note note-warning">            <h4 id="少数派-pcrab"><a href="#少数派-pcrab" class="headerlink" title="少数派@pcrab"></a>少数派<a href="https://sspai.com/post/59337" target="_blank" rel="noopener external nofollow noreferrer">@pcrab</a></h4><ul><li>个人博客，一个曾经十分火热的名词，但是在如今似乎已经冷却了下来。究其原因，可能是因为读者越来越喜欢阅读由机器算法推荐的各种内容，因为更加符合他们的胃口，也永远不会有刷完的时候；而创作者则更倾向于使用类似知乎，简书，微信公众号这样的平台来分享，而不是通过自己搭建个人博客。</li><li>为什么要使用个人博客？在我看来，这一切并不代表着个人博客的终结。博客虽说是用来分享的平台，但我觉得更是对于生活的记录总结。博客不一定非要有人来看。没事写写文章，过一段时间后自己回顾自己所写的的博文，会心一笑，岂不美哉。 也因此，即使没有观众，我还是非常喜欢使用个人博客的。</li><li>不用注册众多平台的帐号，不用担心审核问题，不用担心文章毫无征兆地消失，能够展现自我，畅所欲言。不仅如此，由于博客完全是个人搭建的，因此所有的内容都可以自定义，把它变成我想要的样子。对于我这种喜欢折腾的人来说，还是非常有吸引力的。  </li></ul>          </div><div class="note note-primary">            <h4 id="少数派-甜食"><a href="#少数派-甜食" class="headerlink" title="少数派@甜食"></a>少数派<a href="https://sspai.com/post/59504" target="_blank" rel="noopener external nofollow noreferrer">@甜食</a></h4><ul><li>如今，个人网站或博客已经成了「小众」的代名词。但在许多年之前，它们曾经是人们在互联网上输出内容最主要的途径。尽管微博、Instagram 等轻量的、简短的、与移动设备密不可分的社交媒体已经成为今天我们网络生活很重要的一部分，但博客并没有就此消失：总有一些时候，比如你想寻找一块「互联网自留地」，或是想要进行一些完整的而非碎片化的记录，或者想要避免无穷无尽的内容审查，又或者你只是不喜欢社交平台那杂乱的界面和不必要的互动，个人网站或博客总是一个更好的选择。</li></ul>          </div><div class="note note-success">            <h4 id="峡州仙士-关于建站"><a href="#峡州仙士-关于建站" class="headerlink" title="峡州仙士-关于建站"></a><a href="https://cjh0613.github.io/blog/20200403site.html" target="_blank" rel="noopener external nofollow noreferrer">峡州仙士-关于建站</a></h4><ul><li>QQ空间按关键字搜索，以前的发文都搜不到<br>微博浏览者必须注册<br>twitter字数限制，大陆有墙<br>Google+ 删相册<br>广告铺天盖地<br>……无非是无数的bugs，广告，侵犯隐私，体制化……<br>根本上<br>你发布的内容，存储在垄断企业的物理服务器上<br>人为刀俎，我为鱼肉<br>他们根据自己的利益进行审查<br>并可以随时肆意停止服务，删除、修改文件<br>但，当我看不下去之时<br>不好意思，我选择：<br>自己动手，丰衣足食<br>点燃火炬，面向世界<br>于是，这世间便又多了一分光亮</li></ul>          </div><div class="note note-info">            <h4 id="存储过于繁杂、适合即取即忘的知识"><a href="#存储过于繁杂、适合即取即忘的知识" class="headerlink" title="存储过于繁杂、适合即取即忘的知识"></a>存储过于繁杂、适合即取即忘的知识</h4><ul><li><p>知识是人对客观规律的主观表征。举一些专业相关的例子，在一个新的 Linux 系统下，如何安装 MySQL？如何初始化一个 Spring Boot 工程并配置好相关依赖？这些知识使用频率不高，但往往最容易习得，遇到类似的问题翻翻官方文档，或者看看别人的 blog，很轻松就会解决。</p></li><li><p>而能力是以熟练不熟练为判断的，它没有知识那种知道或不知道，“原来是这么回事” 的瞬间快感。比如遇到 bug 如何快速定位？再比如面对具体问题如何快速建模转化为计算机可以处理的形式？它是许多个知识点、许多次实践积累出来的，是一种抽象高维的存在。</p></li><li><p>两个概念间的一个关键的区别就是，能力是不占用很大的记忆空间的，多数情况下，它已经被训练成为了人的一种肌肉记忆；而知识并不总是那么稳当，当你需要的时候它们经常消失在大脑里，因此你不得不做无用功，去搜索，再一次习得这部分知识。</p></li><li><p>所以，对于这类繁杂易忘的知识，最好的办法是招之即来挥之即去，用的时候习得，不用时就不要让它占据自己的大脑太久。这也是印象笔记这类软件的一个核心理念，像它声称的一样，要做你的「第二大脑」，意在让人把当下不重要的零散知识 dump 出来，保持大脑的干净整洁，同时也保证知识并没有丢失，它们一直在笔记库里静静等待你的调用。</p></li><li><p>为什么不直接去互联网搜索？原因其实挺显而易见。互联网是变化的，一个信息来源，下一次去访问就不一定还存在，而且从搜索结果中剔除出需要的内容耗费的精力也不低，而这种精力本没必要每次都付出。</p></li><li><p>因此，每个人都应该具有这样的一个系统：它能装下上文所述的那些零散知识，同时能够在你需要的时候方便地找到。我把这样的系统都叫做「个人 Wiki」，Wiki 这个词本来指的是多人维护的写作系统，但是我曲解它，把它解释成像维基百科那样由一个个词条组成的知识网络。</p></li><li><p>背后的实现方式重要性却没有那么高，你可以用印象笔记，可以用为知笔记，甚至纸笔、系统自带的备忘录也可以。</p></li></ul>          </div><h3 id="Myself"><a href="#Myself" class="headerlink" title="Myself"></a>Myself</h3><div class="note note-danger">            <center> 🐇</center><center><strong>Blog for what?</strong></center><center>世界太吵 寻一处僻静乐土</center><center>便于记录|分享|碎碎念|矫情|自娱自乐</center><center><s>自我审查、敏感词折叠、删帖、封号、误解、抬杠</s></center><center>知识性|自主性|共享性|开放性|灵活性</center><center>消遣|害怕遗忘、防止丢失|回顾</center><center>Summarize</center><center>🍻</center>          </div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      QQ空间搜索功能残废，熟人太多；微博风气极差，流量为王、无脑营销，粉蛆女拳、夹去之间、浪国法律、撕逼站队…；Twitter对健康不利，反华分子过于降智；Google+业务关闭；酷安疯狂折叠动态发布……无数的bugs，广告，侵犯隐私，体制化……人为刀俎，我为鱼肉
-    
-    </summary>
-    
-    
-    
-      <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>网站速度优化记录</title>
-    <link href="https://liuyifei.club/posts/41000.html"/>
-    <id>https://liuyifei.club/posts/41000.html</id>
-    <published>2020-05-21T07:37:48.000Z</published>
-    <updated>2020-05-27T03:56:59.300Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Jsdelivr-CDN"><a href="#Jsdelivr-CDN" class="headerlink" title="Jsdelivr CDN"></a>Jsdelivr CDN</h3><p>把头图都换成jsd加速<br>例如<a href="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/img/gy.webp" target="_blank" rel="noopener external nofollow noreferrer">https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/img/gy.webp</a></p><hr><h3 id="lt-script-gt-标签的defer属性"><a href="#lt-script-gt-标签的defer属性" class="headerlink" title="<script>标签的defer属性"></a>&lt;script&gt;标签的defer属性</h3><p>今天注意到有些js文件比如canvas-neat.min.js在手机上加载特别慢，严重拖慢网站速度</p><p><img src="https://i.loli.net/2020/05/21/PdjvlY2876GTHyN.png" srcset="/img/loading.gif" alt="image.png"></p><h4 id="尝试"><a href="#尝试" class="headerlink" title="尝试"></a>尝试</h4><ul><li><code>async</code> 替换为<code>defer</code>  </li></ul><p><img src="https://i.loli.net/2020/05/21/2qJpGjMCbHNF1K9.png" srcset="/img/loading.gif" alt="image.png">  </p><ul><li>顺便给一言的今日诗词也加个<code>defer</code>  </li></ul><p><img src="https://i.loli.net/2020/05/21/tXSGRVM4F1QTAJH.png" srcset="/img/loading.gif" alt="image.png"></p><ul><li>观察一段时间看看有没有效果<img src="https://cdn.jsdelivr.net/gh/abbw/CDN/newtieba/乖.png">  </li></ul><hr><ul><li>参考：<a href="https://www.cnblogs.com/qiujianmei/p/10901873.html" target="_blank" rel="noopener external nofollow noreferrer">script标签中的async、defer属性</a> | <a href="https://abbw.gitee.io/" target="_blank" rel="noopener external nofollow noreferrer">骑猪看月亮</a></li></ul><blockquote><p><em>有些第三方库，要求在header中引入（这就意味着第三方插件库会优先加载），但是我们并不需要在页面加载之初就用到这个插件。那么我们可以加上defer属性使之最后加载。同理，如果页面加载的同时需要用到第三方插件，那么我们引用的时候可以加async属性，这样网站内的资源就可以与插件资源异步加载。这中方法会给网站其他资源的加载节省出一些时间，不失为一种页面优化的方法。</em>   </p></blockquote><hr><h3 id="外部js文件加载太慢"><a href="#外部js文件加载太慢" class="headerlink" title="外部js文件加载太慢"></a>外部js文件加载太慢</h3><ul><li>如图  <img src="https://i.loli.net/2020/05/22/e9vpaiIgYkdr28W.jpg" srcset="/img/loading.gif" style="zoom:20%;"></li></ul><h4 id="放入本地"><a href="#放入本地" class="headerlink" title="放入本地"></a>放入本地</h4><ul><li>找到源码, 复制粘贴进自己新建的js文件<div class="hljs"><pre><code class="hljs javascript"><span class="hljs-comment">//canvas-nest背景动态线条效果</span>!<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">o</span>(<span class="hljs-params">w,v,i</span>)</span>{<span class="hljs-keyword">return</span> w.getAttribute(v)||i}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">j</span>(<span class="hljs-params">i</span>)</span>{<span class="hljs-keyword">return</span> <span class="hljs-built_in">document</span>.getElementsByTagName(i)}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">l</span>(<span class="hljs-params"></span>)</span>{<span class="hljs-keyword">var</span> i=j(<span class="hljs-string">"script"</span>),w=i.length,v=i[w<span class="hljs-number">-1</span>];<span class="hljs-keyword">return</span>{<span class="hljs-attr">l</span>:w,<span class="hljs-attr">z</span>:o(v,<span class="hljs-string">"zIndex"</span>,<span class="hljs-number">-1</span>),<span class="hljs-attr">o</span>:o(v,<span class="hljs-string">"opacity"</span>,<span class="hljs-number">0.5</span>),<span class="hljs-attr">c</span>:o(v,<span class="hljs-string">"color"</span>,<span class="hljs-string">"0,0,0"</span>),<span class="hljs-attr">n</span>:o(v,<span class="hljs-string">"count"</span>,<span class="hljs-number">99</span>)}}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">k</span>(<span class="hljs-params"></span>)</span>{r=u.width=<span class="hljs-built_in">window</span>.innerWidth||<span class="hljs-built_in">document</span>.documentElement.clientWidth||<span class="hljs-built_in">document</span>.body.clientWidth,n=u.height=<span class="hljs-built_in">window</span>.innerHeight||<span class="hljs-built_in">document</span>.documentElement.clientHeight||<span class="hljs-built_in">document</span>.body.clientHeight}<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">b</span>(<span class="hljs-params"></span>)</span>{e.clearRect(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,r,n);<span class="hljs-keyword">var</span> w=[f].concat(t);<span class="hljs-keyword">var</span> x,v,A,B,z,y;t.forEach(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">i</span>)</span>{i.x+=i.xa,i.y+=i.ya,i.xa*=i.x&gt;r||i.x&lt;<span class="hljs-number">0</span>?<span class="hljs-number">-1</span>:<span class="hljs-number">1</span>,i.ya*=i.y&gt;n||i.y&lt;<span class="hljs-number">0</span>?<span class="hljs-number">-1</span>:<span class="hljs-number">1</span>,e.fillRect(i.x<span class="hljs-number">-0.5</span>,i.y<span class="hljs-number">-0.5</span>,<span class="hljs-number">1</span>,<span class="hljs-number">1</span>);<span class="hljs-keyword">for</span>(v=<span class="hljs-number">0</span>;v&lt;w.length;v++){x=w[v];<span class="hljs-keyword">if</span>(i!==x&amp;&amp;<span class="hljs-literal">null</span>!==x.x&amp;&amp;<span class="hljs-literal">null</span>!==x.y){B=i.x-x.x,z=i.y-x.y,y=B*B+z*z;y&lt;x.max&amp;&amp;(x===f&amp;&amp;y&gt;=x.max/<span class="hljs-number">2</span>&amp;&amp;(i.x-=<span class="hljs-number">0.03</span>*B,i.y-=<span class="hljs-number">0.03</span>*z),A=(x.max-y)/x.max,e.beginPath(),e.lineWidth=A/<span class="hljs-number">2</span>,e.strokeStyle=<span class="hljs-string">"rgba("</span>+s.c+<span class="hljs-string">","</span>+(A+<span class="hljs-number">0.2</span>)+<span class="hljs-string">")"</span>,e.moveTo(i.x,i.y),e.lineTo(x.x,x.y),e.stroke())}}w.splice(w.indexOf(i),<span class="hljs-number">1</span>)}),m(b)}<span class="hljs-keyword">var</span> u=<span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">"canvas"</span>),s=l(),c=<span class="hljs-string">"c_n"</span>+s.l,e=u.getContext(<span class="hljs-string">"2d"</span>),r,n,m=<span class="hljs-built_in">window</span>.requestAnimationFrame||<span class="hljs-built_in">window</span>.webkitRequestAnimationFrame||<span class="hljs-built_in">window</span>.mozRequestAnimationFrame||<span class="hljs-built_in">window</span>.oRequestAnimationFrame||<span class="hljs-built_in">window</span>.msRequestAnimationFrame||<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">i</span>)</span>{<span class="hljs-built_in">window</span>.setTimeout(i,<span class="hljs-number">1000</span>/<span class="hljs-number">45</span>)},a=<span class="hljs-built_in">Math</span>.random,f={<span class="hljs-attr">x</span>:<span class="hljs-literal">null</span>,<span class="hljs-attr">y</span>:<span class="hljs-literal">null</span>,<span class="hljs-attr">max</span>:<span class="hljs-number">20000</span>};u.id=c;u.style.cssText=<span class="hljs-string">"position:fixed;top:0;left:0;z-index:"</span>+s.z+<span class="hljs-string">";opacity:"</span>+s.o;j(<span class="hljs-string">"body"</span>)[<span class="hljs-number">0</span>].appendChild(u);k(),<span class="hljs-built_in">window</span>.onresize=k;<span class="hljs-built_in">window</span>.onmousemove=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">i</span>)</span>{i=i||<span class="hljs-built_in">window</span>.event,f.x=i.clientX,f.y=i.clientY},<span class="hljs-built_in">window</span>.onmouseout=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{f.x=<span class="hljs-literal">null</span>,f.y=<span class="hljs-literal">null</span>};<span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> t=[],p=<span class="hljs-number">0</span>;s.n&gt;p;p++){<span class="hljs-keyword">var</span> h=a()*r,g=a()*n,q=<span class="hljs-number">2</span>*a()<span class="hljs-number">-1</span>,d=<span class="hljs-number">2</span>*a()<span class="hljs-number">-1</span>;t.push({<span class="hljs-attr">x</span>:h,<span class="hljs-attr">y</span>:g,<span class="hljs-attr">xa</span>:q,<span class="hljs-attr">ya</span>:d,<span class="hljs-attr">max</span>:<span class="hljs-number">6000</span>})}setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{b()},<span class="hljs-number">100</span>)}();</code></pre></div><img src="https://i.loli.net/2020/05/22/kMqyUa1DOFrz6Ks.png" srcset="/img/loading.gif" alt="image.png"></li></ul><ul><li>地址改为自己的仓库地址</li></ul><div class="hljs"><pre><code class="hljs routeros">&lt;script defer <span class="hljs-attribute">src</span>=<span class="hljs-string">"https://liuyifei.club/js/canvas-nest.mini.js"</span> <span class="hljs-attribute">color</span>=<span class="hljs-string">"0,0,0"</span> <span class="hljs-attribute">opacity</span>=<span class="hljs-string">'0.35'</span> <span class="hljs-attribute">zIndex</span>=<span class="hljs-string">"-1"</span> <span class="hljs-attribute">count</span>=<span class="hljs-string">"150"</span>&gt;&lt;/script&gt;</code></pre></div><p><img src="https://i.loli.net/2020/05/22/NgBpv6A4fzs3Ibe.png" srcset="/img/loading.gif" alt="image.png"></p><ul><li>执行<div class="hljs"><pre><code class="hljs dts">hexo clean&amp;<span class="hljs-variable">&amp;hexo</span> g&amp;<span class="hljs-variable">&amp;hexo</span> d</code></pre></div></li><li>刷新网页, 成功!</li><li>2020.05.22 16:41 <del>自己仓库的这个js又加载不出, 不想时刻挂梯子, 继续改回去用别人的</del>🤷‍🤦‍♂️  </li></ul><p><img src="https://i.loli.net/2020/05/22/dNWoSUec2KPQXva.png" srcset="/img/loading.gif" alt="image.png"></p><p><em>参考: <a href="https://abbw.gitee.io/post/hexo-bo-ke-you-hua-zhi-bo-ke-mei-hua-xi-lie.html#%E8%83%8C%E6%99%AF%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E7%BA%BF%E6%9D%A1%E6%95%88%E6%9E%9C" target="_blank" rel="noopener external nofollow noreferrer">Hexo博客优化之博客美化系列</a></em></p><hr><h3 id="测速工具"><a href="#测速工具" class="headerlink" title="测速工具"></a>测速工具</h3><center><a class="btn" href="http://tool.chinaz.com/speedtest/https://liuyifei.club/" rel="external nofollow noreferrer" title="站长之家" target="_blank">国内省份测速🐌</a><a class="btn" href="https://www.googlespeed.cn/?url=https%3A%2F%2Fliuyifei.club%2F&amp;tab=desktop" rel="external nofollow noreferrer" title="GooglePageSpeed国内镜像" target="_blank">谷歌速度分析</a><a class="btn" href="https://developers.google.cn/speed/pagespeed/insights/?url=https%3A%2F%2Fliuyifei.club" rel="external nofollow noreferrer" title="Google自家的 可能不稳定" target="_blank">备用</a><a class="btn" href="https://www.17ce.com/" rel="external nofollow noreferrer" title="国内" target="_blank">17ce.com</a><a class="btn" href="http://www.ce8.com/http/https://liuyifei.club/" rel="external nofollow noreferrer" title="国内" target="_blank">测吧</a><a class="btn" href="https://tools.pingdom.com/" rel="external nofollow noreferrer" title="国外" target="_blank">Pingdom</a><a class="btn" href="https://www.host-tracker.com/v3/check/1/bc0c1ea9-dd72-4bbf-8fa8-d8f45619938e" rel="external nofollow noreferrer" title="国外" target="_blank">Host-Tracker</a></center>   <hr><p><strong>顺便关心疫情🙏</strong></p><iframe src="https://www.worldometers.info/coronavirus/" style="width: 100%;height:100%;"></iframe><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;Jsdelivr-CDN&quot;&gt;&lt;a href=&quot;#Jsdelivr-CDN&quot; class=&quot;headerlink&quot; title=&quot;Jsdelivr CDN&quot;&gt;&lt;/a&gt;Jsdelivr CDN&lt;/h3&gt;&lt;p&gt;把头图都换成jsd加速&lt;br&gt;例如&lt;a href=&quot;http
-      
-    
-    </summary>
-    
-    
-      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
-    
-    
-      <category term="记录" scheme="https://liuyifei.club/tags/%E8%AE%B0%E5%BD%95/"/>
-    
-      <category term="hexo" scheme="https://liuyifei.club/tags/hexo/"/>
-    
-      <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   
