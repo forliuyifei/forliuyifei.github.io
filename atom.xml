@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-06-03T10:11:45.327Z</updated>
+  <updated>2020-06-06T23:13:39.604Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>几个不一定注意到的英文标点符号格式</title>
+    <link href="https://liuyifei.club/posts/45782.html"/>
+    <id>https://liuyifei.club/posts/45782.html</id>
+    <published>2020-06-06T14:14:51.000Z</published>
+    <updated>2020-06-06T23:13:39.604Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><p>标点符号和前边的单词之间不要加空格。空格是分隔单词用的，标点要紧跟在最后一个单词后边。比如「I’m fine.」而不是「I’m fine_.」。</p></li><li><p><strong>每句话与上一句的标点之间一定要有空格。</strong>空格是分隔单词用的，如果前后两句话之间没有空格，那么上一句的最后一个词，和下一句的第一个词，就连在一起了。比如「I_am_here._It_is_8:00_now.」 如果写成「I am here.It is 8:00 now.」，那么「here.it」这样是不规范的，只有同一个词中才会出现这样的写法，比如「a.m.」、「U.S.A.」，中间没有空格，看做是一个词。上边的「here.it」甚至可能被一些网站当成是链接网址，因为「.it」是一个域名，网址中间是不加空格的。</p></li><li><p>如果英文与中文同时存在，英文单词和中文之间应该加一个半角空格。比如「今天 CNN 的报道我看了。」「There_is_a_木_in_the_Chinese_character_树.」等等。</p></li><li><p>用双引号”引述讲话时，第一个双引号前需要空格，后面不空格。例如：<br>For tolerance , is of very recent origin and even the people of our own so-called_”modern.”</p></li></ul><hr><p>“开头的应该不用前添空格吧</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;标点符号和前边的单词之间不要加空格。空格是分隔单词用的，标点要紧跟在最后一个单词后边。比如「I’m fine.」而不是「I’m fine_.」。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;每句话与上一句的标点之间一定要有空格。&lt;/strong&gt;空格
+      
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="https://liuyifei.club/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[影视截图] 白日梦想家、心灵捕手</title>
+    <link href="https://liuyifei.club/posts/9756.html"/>
+    <id>https://liuyifei.club/posts/9756.html</id>
+    <published>2020-06-06T13:11:00.000Z</published>
+    <updated>2020-06-06T23:13:14.177Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/%E7%99%BD%E6%97%A5%E6%A2%A6%E6%83%B3%E5%AE%B6.jpg" srcset="/img/loading.gif" alt="20200606 result-2020-06-05-00-33-15"></p><hr><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/37c0a42f08932053.webp" srcset="/img/loading.gif" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs2.webp" srcset="/img/loading.gif" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs3.webp" srcset="/img/loading.gif" alt="20200606 xlbs3"></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs4.webp" srcset="/img/loading.gif" alt="20200606 xlbs4"></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs5.webp" srcset="/img/loading.gif" alt="20200606 xlbs5"></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs6.webp" srcset="/img/loading.gif" alt="20200606 xlbs6"></p><blockquote><p>I ask you about love, you’ll probably quote me s sonnet. But you’ve never looked at a woman and been totally vulnerable, known someone that could level you with her eyes, feelin’ like God put and angel on earth just for you,who could rescue you from the depths of hell, and you wouldn’t know what it’s like to be her angel, to have that love for her, be there forever, through anyghin, through cancer. And you wouldn’t know about sleeping sittin’ up in a hospital room for two months, holding her hand, because the doctors could see in your eyes that the terms “visiting hours” don’t apply to you. You don’t know about real loss, ‘cause that only occurs when you love something more than you love yourself.</p></blockquote><blockquote><p>如果我问你爱情，你会引述十四行诗，但你从没有因为看见一个女人而变得脆弱，知道有一个人能以双眼击倒你，她是上帝为你安排的天使，她能从地狱救出你，你不理解当她的天使的滋味，拥有对她的爱，直到永远。经历这一切，经历癌症。你无法体会在医院睡两个月，因为医生一看到你就知道，会客时间的规定对你无效。你不了解真正的失去，因为那只有当你有爱别人胜于自己才能体会。</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      December 24, 2016
+    
+    </summary>
+    
+    
+    
+      <category term="爱" scheme="https://liuyifei.club/tags/%E7%88%B1/"/>
+    
+      <category term="哲学" scheme="https://liuyifei.club/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>PicGo间歇性抽风 上传失败 服务端出错</title>
@@ -451,56 +501,6 @@
       <category term="工具" scheme="https://liuyifei.club/tags/%E5%B7%A5%E5%85%B7/"/>
     
       <category term="图片处理" scheme="https://liuyifei.club/tags/%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>何为美？</title>
-    <link href="https://liuyifei.club/posts/62503.html"/>
-    <id>https://liuyifei.club/posts/62503.html</id>
-    <published>2020-05-23T06:43:00.000Z</published>
-    <updated>2020-05-23T07:11:12.834Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p><a href="https://weibo.com/u/2610429597?refer_flag=0000015010_&amp;from=feed&amp;loc=nickname" target="_blank" rel="noopener external nofollow noreferrer">罗翔</a></p><p>如果你要问我美的概念，我说不清道不明，但我可以分辨出美与不美。所以苏格拉底说我们一切的学习都只是回忆，美的概念已经蕴含在我们记忆的深处，一如出厂设置。</p><p><strong>当具体的事物触发我们的回忆，我们本能便觉得它是如此美丽。</strong></p></blockquote><hr><blockquote><p>看到即心情愉悦的，便是美。</p></blockquote><hr><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      当具体的事物触发我们的回忆，我们本能便觉得它是如此美丽。
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="https://liuyifei.club/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
-    
-      <category term="美" scheme="https://liuyifei.club/tags/%E7%BE%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>刷机时可能需要的各类资源获取及介绍</title>
-    <link href="https://liuyifei.club/posts/64918.html"/>
-    <id>https://liuyifei.club/posts/64918.html</id>
-    <published>2020-05-22T14:35:00.000Z</published>
-    <updated>2020-05-28T13:25:37.451Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="共勉🧱"><a href="#共勉🧱" class="headerlink" title="共勉🧱"></a>共勉🧱</h1><div class="note note-danger">            <center><strong>刷机不备份 救砖两行泪</strong></center><center><strong>折腾有风险 动手需谨慎</strong></center>          </div><h2 id="Rec💿"><a href="#Rec💿" class="headerlink" title="Rec💿"></a>Rec💿</h2><h3 id="橙狐OrangeFox"><a href="#橙狐OrangeFox" class="headerlink" title="橙狐OrangeFox"></a>橙狐OrangeFox</h3><ul><li><a href="https://files.orangefox.download/" target="_blank" rel="noopener external nofollow noreferrer">仓库盘</a>  </li></ul><h3 id="TWRP"><a href="#TWRP" class="headerlink" title="TWRP"></a>TWRP</h3><ul><li><a href="https://twrp.me/Devices/" target="_blank" rel="noopener external nofollow noreferrer">设备适配列表</a></li></ul><h3 id="LR-Team定制TWRP"><a href="#LR-Team定制TWRP" class="headerlink" title="LR.Team定制TWRP"></a>LR.Team定制TWRP</h3><ul><li><a href="https://weibo.com/u/6033736159" target="_blank" rel="noopener external nofollow noreferrer">wzsx150的微博</a></li></ul><h2 id="ROM📦"><a href="#ROM📦" class="headerlink" title="ROM📦"></a>ROM📦</h2><h3 id="AEX"><a href="#AEX" class="headerlink" title="AEX"></a>AEX</h3><p>AOSP Extended</p><ul><li><a href="https://downloads.aospextended.com/" target="_blank" rel="noopener external nofollow noreferrer">仓库下载</a></li><li>介绍:  </li></ul><blockquote><p>AOSP Extended is an AOSP based rom which provides stock UI/UX with various customisations features along with the Substratum theme engine. The project has been made by cherry-picking various commits from various other projects. Being based on AOSP it provides a smooth and lag-free experience out of the box. We will constantly try to add more features and make it even better in future updates. A ROM by a user, for a user.</p></blockquote><h3 id="crDroid"><a href="#crDroid" class="headerlink" title="crDroid"></a>crDroid</h3><ul><li><a href="https://stats.crdroid.net/" target="_blank" rel="noopener external nofollow noreferrer">下载</a></li></ul><blockquote><p>crDroid is designed to improve the performance, reliability and customizability of stock Android</p></blockquote><h3 id="Havoc📌"><a href="#Havoc📌" class="headerlink" title="Havoc📌"></a>Havoc📌</h3><p>浩劫<br><strong>正在使用，强推</strong></p><p>可以看看我的<a href="/posts/28684.html#%E9%A2%84%E8%A7%88%E8%A7%86%E9%A2%91">视频演示</a>🎬</p><ul><li><a href="https://sourceforge.net/projects/havoc-os/files/" target="_blank" rel="noopener external nofollow noreferrer">下载仓库</a></li><li><a href="https://t.me/Havoc_OS" target="_blank" rel="noopener external nofollow noreferrer">telegram频道</a>  </li><li><a href="https://github.com/Havoc-OS" target="_blank" rel="noopener external nofollow noreferrer">GitHub</a></li><li><a href="http://bit.ly/Havoc_Changelog" target="_blank" rel="noopener external nofollow noreferrer">更新日志</a></li></ul><h3 id="LOS"><a href="#LOS" class="headerlink" title="LOS"></a>LOS</h3><p>LineageOS</p><ul><li><a href="https://download.lineageos.org/" target="_blank" rel="noopener external nofollow noreferrer">仓库下载</a></li><li>介绍</li></ul><blockquote><p>LineageOS, an open-source Android distribution, is available for several devices,with more being continuously added thanks to the biggest, yet ever growing, Android open-source community.Join us and breathe new life in your device, be it old or new.</p></blockquote><h3 id="MIUI-EU版"><a href="#MIUI-EU版" class="headerlink" title="MIUI EU版"></a>MIUI EU版</h3><ul><li><a href="https://xiaomi.eu/community/" target="_blank" rel="noopener external nofollow noreferrer">官方论坛</a>  </li><li>介绍:  </li></ul><blockquote><p>Xiaomi Europe was founded over 8 years ago to provide International users an exlcusive community for English MIUI Android and Xiaomi products. Since 2010 our web site has officially worked with Xiaomi on a variety of projects for APP translations and bug fixing and is a major part of today’s Xiaomi Global ROM experience thanks to the great team at xiaomi.eu and its community.</p></blockquote><h3 id="MSM-XTENDED"><a href="#MSM-XTENDED" class="headerlink" title="MSM-XTENDED"></a>MSM-XTENDED</h3><ul><li><a href="https://msmxtended.me/#download" target="_blank" rel="noopener external nofollow noreferrer">下载</a></li><li><a href="https://blog.msmxtended.me/features/" target="_blank" rel="noopener external nofollow noreferrer">特性列表</a></li></ul><h3 id="Nitrogen"><a href="#Nitrogen" class="headerlink" title="Nitrogen"></a>Nitrogen</h3><p>氮气</p><ul><li><a href="https://nitrogen-project.sourceforge.io/" target="_blank" rel="noopener external nofollow noreferrer">官网</a>  </li></ul><blockquote><p>AOSP-based custom ROM from Russia</p></blockquote><h3 id="Omni"><a href="#Omni" class="headerlink" title="Omni"></a>Omni</h3><ul><li><a href="https://dl.omnirom.org/" target="_blank" rel="noopener external nofollow noreferrer">下载</a></li></ul><h3 id="PE"><a href="#PE" class="headerlink" title="PE"></a>PE</h3><p>Pixelexperience</p><ul><li><a href="https://download.pixelexperience.org/devices" target="_blank" rel="noopener external nofollow noreferrer">设备列表</a></li><li>介绍</li></ul><blockquote><p>PixelExperience is an AOSP based ROM, with Google apps included and all Pixel goodies (launcher, wallpapers, icons, fonts, bootanimation).</p><p>Our mission is to offer the maximum possible stability and security, along with essential and useful features for the proper functioning of the device.</p></blockquote><h3 id="RR"><a href="#RR" class="headerlink" title="RR"></a>RR</h3><p><em>即ResurrectionRemix</em> </p><p>本人用过很长时间, 自定义极其丰富, 推荐使用.</p><ul><li><a href="https://get.resurrectionremix.com/" target="_blank" rel="noopener external nofollow noreferrer">仓库</a>  </li><li><a href="https://www.resurrectionremix.com/" target="_blank" rel="noopener external nofollow noreferrer">官网介绍</a></li></ul><h3 id="Syberia-OS"><a href="#Syberia-OS" class="headerlink" title="Syberia OS"></a>Syberia OS</h3><ul><li><a href="https://syberiaos.com/downloads" target="_blank" rel="noopener external nofollow noreferrer">下载</a></li></ul><blockquote><p>an Android Pie based operating system with some optimization and customization improvements</p></blockquote><h3 id="魔趣"><a href="#魔趣" class="headerlink" title="魔趣"></a>魔趣</h3><ul><li><a href="https://download.mokeedev.com/" target="_blank" rel="noopener external nofollow noreferrer">仓库下载</a></li><li>ROM介绍:  </li></ul><blockquote><p><em>可能是中国最好的安卓开源系统</em></p><p>魔趣基于 Android 开源项目二次开发，在遵循 Material Design 设计语言，保持 Android 原生风格的前提下增加了许多本地化、个性化的功能。</p><p>相比设备制造商迟缓、不积极的更新态度，我们紧随 Google，致力于第一时间为用户带来最新的 Android 系统，为那些厂商已经停止维护的设备提供更长久的技术支持！</p><p>ROM 开放源代码、安全稳定且性能出众，将带给您极致流畅便捷的使用体验。快来加入我们，作为用户享受原生 Android 之美或是成为开发者，一起完善这个伟大的开源项目吧！</p></blockquote><h2 id="Magisk👹"><a href="#Magisk👹" class="headerlink" title="Magisk👹"></a>Magisk👹</h2><p>面具</p><ul><li><a href="https://github.com/topjohnwu/Magisk/releases" target="_blank" rel="noopener external nofollow noreferrer">GitHub仓库</a></li><li><a href="https://github.com/Magisk-Modules-Repo" target="_blank" rel="noopener external nofollow noreferrer">面具模块</a></li></ul><h2 id="太极-Taichi"><a href="#太极-Taichi" class="headerlink" title="太极/Taichi"></a>太极/Taichi</h2><ul><li><a href="https://www.taichi-app.com/index.html#/about" target="_blank" rel="noopener external nofollow noreferrer">介绍</a></li></ul><blockquote><p>太极是一个类Xposed框架，它能够加载Xposed模块、模块能通过它改变系统和应用的行为。 如：修改系统和APP、拦截方法，执行hook逻辑等。 太极既能以传统的Root/刷机方式运作，也能免Root/免刷机运行，目前已稳定支持 Android 5.0 ~ 10。</p></blockquote><ul><li><a href="https://www.taichi-app.com/index.html#/download/wechat" target="_blank" rel="noopener external nofollow noreferrer" title="理论上原版Xposed和Exposed也能使用所有太极模块">太极模块下载</a></li></ul><h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><hr><p>有空再更..</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      Rec、ROM、Magisk、模块……持续更新
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="https://liuyifei.club/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="刷机" scheme="https://liuyifei.club/tags/%E5%88%B7%E6%9C%BA/"/>
-    
-      <category term="资源" scheme="https://liuyifei.club/tags/%E8%B5%84%E6%BA%90/"/>
     
   </entry>
   
