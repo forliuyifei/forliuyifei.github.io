@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-06-16T05:58:29.885Z</updated>
+  <updated>2020-06-20T07:44:38.459Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Jade6导入PDF卡片库遇到的问题</title>
+    <link href="https://liuyifei.club/posts/62049.html"/>
+    <id>https://liuyifei.club/posts/62049.html</id>
+    <published>2020-06-20T07:12:00.000Z</published>
+    <updated>2020-06-20T07:44:38.459Z</updated>
+    
+    <content type="html"><![CDATA[<p>jade6已经安装好，运行库也没缺失，可是导入PDF卡片库这块儿卡步骤了。</p><p>按照教程修改注册表</p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200620151242.png" srcset="/img/loading.gif" alt=""><br>……<br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200620151622.png" srcset="/img/loading.gif" alt=""></p><p>第5步行不通，明明改完注册表，按钮还是灰的。</p><p>猜想应该是用户名不对。</p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200620151844.png" srcset="/img/loading.gif" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200620152358.png" srcset="/img/loading.gif" alt=""></p><p>挨个尝试，依旧不行。</p><p>看来我对Windows的多用户和账号机制有误解。</p><h4 id="最后解决"><a href="#最后解决" class="headerlink" title="最后解决"></a>最后解决</h4><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Snipaste_2020-06-20_10-46-09.png" srcset="/img/loading.gif" alt=""></p><p>不记得这个xx是我什么时候加的用户名🤦‍♂️</p><p>jade怎么就偏偏认它呢？</p><p>Anyway，改对了匹配的用户名，按钮终于能点击了。</p><p>退出重启软件，按照原先的步骤 <strong>选择全部-创建-等待十分钟左右</strong>，PDF卡片库建立成功🙏</p><p>开始弄报告。。。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;jade6已经安装好，运行库也没缺失，可是导入PDF卡片库这块儿卡步骤了。&lt;/p&gt;
+&lt;p&gt;按照教程修改注册表&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200620151
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
   
   <entry>
     <title>徐皓峰拍的，是你我当下的窘境</title>
@@ -98,29 +126,6 @@
   </entry>
   
   <entry>
-    <title>[矫情] 影子</title>
-    <link href="https://liuyifei.club/posts/56442.html"/>
-    <id>https://liuyifei.club/posts/56442.html</id>
-    <published>2020-06-08T13:50:06.000Z</published>
-    <updated>2020-06-08T13:52:30.430Z</updated>
-    
-    <content type="html"><![CDATA[<p>为什么越来越容易在别人身上看见你的影子？</p><p>因为我在逃避回忆，害怕想起真实的你……</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      为什么越来越容易在别人身上看见你的影子？
-    
-    </summary>
-    
-    
-    
-      <category term="矫情" scheme="https://liuyifei.club/tags/%E7%9F%AB%E6%83%85/"/>
-    
-      <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
     <title>旧机器的「齿轮」</title>
     <link href="https://liuyifei.club/posts/13330.html"/>
     <id>https://liuyifei.club/posts/13330.html</id>
@@ -150,11 +155,11 @@
     <published>2020-06-06T23:20:48.000Z</published>
     <updated>2020-06-08T13:39:06.892Z</updated>
     
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Maybe you are not her🙄" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">请输入密码</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="91bd21a81d381fbdd0a1bf6f7ea95bb61cf1d52e522d78db35e56584eff66f0c">a4b8f0fb9ea74b454d2b1a256674812cea3a1edcfd8628433e0dff3651c18ad22aa0c0ac2ac37ac5e055ba1e3bed9e4b5dec06dad35728a48f8bbd53613e3b64ced1a2a48d9a6d9ac1d45f41d56eaa72bfdf92b29aa6a26625315c531f8525564b30536f315999fea025436791d35b31cb728e7ee0f169354c7151c0fc36556b24602cd1497a3e178df8b9cd0be2d5e2009ad6021a91e8e61486c8c4cc3e6bf154f45a42f8175d23755d5e24d74a49f2d142bb516853b664e976e0484fa1a49dfc987b36d5593206b7597b453a5016981f2ddf4eb287ed7828d45810fa3402b44ce0ad6ac32aa00b401fc7c6d96522b6024113765c509726afa05fd3c6b3811e6faec16d25f869579b39f625085c46d64ef0c2a1e3f234ae736e1d60e8fc94f86c76eec75111a6042b07189f6021f5c49bf751097664d95952b7a003e607ff3c119cda1f92dba7ab1ceef852acc6629dacd25d57d037836febaf92ade4c0293f9bf4a7bf87d83e2073804f5455860946794a1d1902cc53495cf0e51ce0e69df72a1760c301a5bd4a3b5f0060b9e3c74ae8fc05df934ed92923939d8a5766f9b88cf53f0e9412733e0f12dc32220c122599ce87d0d2d71256c286d389102926538b3ac9cedea3dd82fc9948d7c7ef3ac69c085268a7be6095af1aa4cff0828469cab5aa5060ffb4ab20f3811adebb33b3b80df7a80d3177532444581ea9da71b2dc8aadcfb821a3522316b3a93c03d0c750e22b2e8ceaadb9cf9c8bcfa97cf90d3e5c877b6c0387fb5df76805999d1edcb1fe83454db10dde567f84e16fdb30d9c97cbf02f11d7ef51823d9f3cd6a4fa63ba0edb4e84d20890356253cf71d48b6d90a19ff80cfddea6ad35df40b9d71f11212084bbcd9fa5526d9fe36f92c6583373110ea6f714762284edc88fd7285b29b272560f2a286c2d879a462a75108b5671e2a1463e4bb908dd12898aec401593454306e0a1a5a7dd0786a82d7d684fc34b37652956c95eed032a8ad58f0b1a7d6464c96c5a2031316bceb6a99e3d594abf5eb060f67577952e4a7f29b08a3aef31c6032ffc662c8410506b2f88fcb4c9c335eeceaf19e6df591bec780d083b774ad8c28976b1ddc2a8956ad43993b57d5fd810998812c56a30802a03bfc43e2ca0b008cd2b239d38f9f318b471ae3f6698b5f071dade8faea9426298ef565287470956f739068f56b3ffd45e583d120f781042a3b607df1016ed2a2489aa736e60a0a5f8dd5082ace2fc4419151c53ff9051aad234b9e9808dce7d04572657483cca3c2a14437993cd8fedb68dd808fbcff1f647b83288b1ae0f0cbaa80a1a20ac20eda2cd6c0d630b4b6a0fe7b5bd1f5c456de553e31197e5a7a608bdf3fc4c893c59927df6eb95937830053ab159f084c4d6adbc8a3e0e72525ca1de945b2792f37dd62e873f6cf4cce9ca23cf789553d737ecc107baaf21ffa51a7fa747ef0632d6ab3c8d55968a15869e4bdfb3b04b860e55388703992297ebbb454c364f442b900e6cb5da42b3a4ec8d7c41c283721dbc0167f9617d0757f46ec235fb9e9149967c3e562ada9d172e631e572bedd2375ce1fafc72a0568a8703f67c8bff64d9fba56d8a89d702dc21114e8c695</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Maybe you are not...☹" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">是幻觉 『2020-05-18 13:19 第二道安检 K572』</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="91bd21a81d381fbdd0a1bf6f7ea95bb61cf1d52e522d78db35e56584eff66f0c">a4b8f0fb9ea74b454d2b1a256674812cea3a1edcfd8628433e0dff3651c18ad22aa0c0ac2ac37ac5e055ba1e3bed9e4b5dec06dad35728a48f8bbd53613e3b64ced1a2a48d9a6d9ac1d45f41d56eaa72bfdf92b29aa6a26625315c531f8525564b30536f315999fea025436791d35b31cb728e7ee0f169354c7151c0fc36556b24602cd1497a3e178df8b9cd0be2d5e2009ad6021a91e8e61486c8c4cc3e6bf154f45a42f8175d23755d5e24d74a49f2d142bb516853b664e976e0484fa1a49dfc987b36d5593206b7597b453a5016981f2ddf4eb287ed7828d45810fa3402b44ce0ad6ac32aa00b401fc7c6d96522b6024113765c509726afa05fd3c6b3811e6faec16d25f869579b39f625085c46d64ef0c2a1e3f234ae736e1d60e8fc94f86c76eec75111a6042b07189f6021f5c49bf751097664d95952b7a003e607ff3c119cda1f92dba7ab1ceef852acc6629dacd25d57d037836febaf92ade4c0293f9bf4a7bf87d83e2073804f5455860946794a1d1902cc53495cf0e51ce0e69df72a1760c301a5bd4a3b5f0060b9e3c74ae8fc05df934ed92923939d8a5766f9b88cf53f0e9412733e0f12dc32220c122599ce87d0d2d71256c286d389102926538b3ac9cedea3dd82fc9948d7c7ef3ac69c085268a7be6095af1aa4cff0828469cab5aa5060ffb4ab20f3811adebb33b3b80df7a80d3177532444581ea9da71b2dc8aadcfb821a3522316b3a93c03d0c750e22b2e8ceaadb9cf9c8bcfa97cf90d3e5c877b6c0387fb5df76805999d1edcb1fe83454db10dde567f84e16fdb30d9c97cbf02f11d7ef51823d9f3cd6a4fa63ba0edb4e84d20890356253cf71d48b6d90a19ff80cfddea6ad35df40b9d71f11212084bbcd9fa5526d9fe36f92c6583373110ea6f714762284edc88fd7285b29b272560f2a286c2d879a462a75108b5671e2a1463e4bb908dd12898aec401593454306e0a1a5a7dd0786a82d7d684fc34b37652956c95eed032a8ad58f0b1a7d6464c96c5a2031316bceb6a99e3d594abf5eb060f67577952e4a7f29b08a3aef31c6032ffc662c8410506b2f88fcb4c9c335eeceaf19e6df591bec780d083b774ad8c28976b1ddc2a8956ad43993b57d5fd810998812c56a30802a03bfc43e2ca0b008cd2b239d38f9f318b471ae3f6698b5f071dade8faea9426298ef565287470956f739068f56b3ffd45e583d120f781042a3b607df1016ed2a2489aa736e60a0a5f8dd5082ace2fc4419151c53ff9051aad234b9e9808dce7d04572657483cca3c2a14437993cd8fedb68dd808fbcff1f647b83288b1ae0f0cbaa80a1a20ac20eda2cd6c0d630b4b6a0fe7b5bd1f5c456de553e31197e5a7a608bdf3fc4c893c59927df6eb95937830053ab159f084c4d6adbc8a3e0e72525ca1de945b2792f37dd62e873f6cf4cce9ca23cf789553d737ecc107baaf21ffa51a7fa747ef0632d6ab3c8d55968a15869e4bdfb3b04b860e55388703992297ebbb454c364f442b900e6cb5da42b3a4ec8d7c41c283721dbc0167f9617d0757f46ec235fb9e9149967c3e562ada9d172e631e572bedd2375ce1fafc72a0568a8703f67c8bff64d9fba56d8a89d702dc21114e8c695</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
-      Password required.🙈
+      Well,it&#39;s a miss, not Miss.
     
     </summary>
     
@@ -242,7 +247,7 @@
     <link href="https://liuyifei.club/posts/55268.html"/>
     <id>https://liuyifei.club/posts/55268.html</id>
     <published>2020-06-03T09:52:04.000Z</published>
-    <updated>2020-06-03T10:12:47.236Z</updated>
+    <updated>2020-06-20T07:53:00.256Z</updated>
     
     <content type="html"><![CDATA[<h4 id="教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作"><a href="#教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作" class="headerlink" title="教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作"></a>教育部、中央军委国防动员部印发通知部署2020年大学生征兵工作</h4><p>发稿时间：2020-06-03 06:18:00 来源： <a href="http://news.youth.cn/gn/202006/t20200603_12353506.htm" target="_blank" rel="noopener external nofollow noreferrer">中国青年报</a></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/1screencapture-news-youth-cn-gn-202006-t20200603-12353506-htm-2020-06-03-17_52_48.webp" srcset="/img/loading.gif" alt=""></p><hr><p><strong>仅作转载</strong></p><a id="more"></a><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     

@@ -600,6 +600,17 @@ sup > a::before,
 .navbar .dropdown-collapse {
   background-color: #263238;
 }
+@media (min-width: 992px) {
+  .navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  .navbar .dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+  }
+  .navbar .dropdown-menu {
+    top: 95%;
+  }
+}
 .navbar-custom {
   color: white;
 }
