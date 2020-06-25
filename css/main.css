@@ -1649,3 +1649,74 @@ h6::before {
   background-color: #212325;
   border-color: #1561b3;
 }
+.dark .note-secondary {
+  background-color: #212325;
+  border-color: #545455;
+}
+.dark .note-light {
+  background-color: #191a1b;
+  border-color: #636363;
+}
+.note-primary {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.note-primary:hover {
+  transform: scale(1) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(23,106,196,0.4);
+  border-radius: 0.25rem;
+}
+.note-secondary {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.note-secondary:hover {
+  transform: scale(1) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(88,89,90,0.4);
+  border-radius: 0.25rem;
+}
+.note-success {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.note-success:hover {
+  transform: scale(1) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(73,167,95,0.4);
+  border-radius: 0.25rem;
+}
+.note-danger {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.note-danger:hover {
+  transform: scale(1) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(228,84,96,0.4);
+  border-radius: 0.25rem;
+}
+.note-warning {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.note-warning:hover {
+  transform: scale(1) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(194,164,66,0.4);
+  border-radius: 0.25rem;
+}
+.note-info {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.note-info:hover {
+  transform: scale(1) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(36,146,165,0.4);
+  border-radius: 0.25rem;
+}
+.note-light {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.note-light:hover {
+  transform: scale(1) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(15,15,15,0.4);
+  border-radius: 0.25rem;
+}

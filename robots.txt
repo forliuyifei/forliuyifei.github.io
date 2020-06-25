@@ -14,6 +14,8 @@ Disallow: /contact/
 Disallow: /tags/梦/
 Disallow: /tags/*/
 Disallow: /messageboard/
+Disallow: /home/
+Disallow: /weibo/
 
 
 Sitemap: https://liuyifei.club/sitemap.xml

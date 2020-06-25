@@ -19,7 +19,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7"> -->
-  <title>Hexo博客文章封面添加触摸过渡动画 - 饿龙不是龙哩</title>
+  <title>Fluid主题自定义美化记录🌈 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -156,6 +156,14 @@
                   
                   
                   
+                  <a class="dropdown-item" href="/weibo/">
+                    <i class="iconfont icon-clock-fill"></i>
+                    微博
+                  </a>
+                
+                  
+                  
+                  
                   <a class="dropdown-item" href="/links/">
                     <i class="iconfont icon-link-fill"></i>
                     友链
@@ -217,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      648 字
+      1.1k 字
     </span>
   
 
@@ -227,7 +235,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      2
+      5
        分钟
     </span>
   
@@ -267,19 +275,20 @@
             
               <p class="note note-info">
                 
-                  最后更新于：2020 六月 3日 , 星期三 , 15:49 下午
+                  最后更新于：2020 六月 25日 , 星期四 , 10:03 上午
                 
               </p>
             
             <article class="markdown-body">
-              <h2 id="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"><a href="#不会css的小白如何给hexo博客文章封面添加触摸过渡动画？" class="headerlink" title="不会css的小白如何给hexo博客文章封面添加触摸过渡动画？"></a>不会css的小白如何给hexo博客文章封面添加触摸过渡动画？</h2><p>几天前看到<a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a>的面向小白的用css美化网站教程，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p>
+              <h2 id="文章封面触摸过渡动画"><a href="#文章封面触摸过渡动画" class="headerlink" title="文章封面触摸过渡动画"></a>文章封面触摸过渡动画</h2><p>几天前看到<a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a>的面向小白的用css美化网站教程，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p>
 <p>但我想要的只是给文章封面添加触摸变大过渡动画。</p>
 <p>先用万能的右键检查定位到自己需要改动的地方：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200603154836.png" srcset="/img/loading.gif" alt=""></p>
 <p>大概就是这个 <strong>.index_img</strong> 了，具体如何实现呢？</p>
 <p>百度一下找到这篇教程</p>
 <blockquote>
-<h4 id="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"><a href="#css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）" class="headerlink" title="css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）"></a><a href="https://www.cnblogs.com/yangslin/p/9347075.html" target="_blank" rel="noopener external nofollow noreferrer">css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）</a></h4><p>1）.CSS3的transform:scale()可以实现按比例放大或者缩小功能。</p>
+<p><a href="https://www.cnblogs.com/yangslin/p/9347075.html" target="_blank" rel="noopener external nofollow noreferrer">css过渡动画，鼠标移上去就变大（缓慢变大、过渡效果、放大的过程是过渡动画的，这个过渡动画是有时间控制的）</a></p>
+<p>1）.CSS3的transform:scale()可以实现按比例放大或者缩小功能。</p>
 <p>2）.CSS3的transition允许CSS的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。</p>
 <p>3）.transition: all 0.6s;表示所有的属性变化在0.6s的时间段内完成。</p>
 <p>4）transform: scale(1.4);表示在鼠标放到图片上的时候图片按比例放大1.4倍。</p>
@@ -315,7 +324,8 @@ div img{
 <p>有些傻眼，方向大概对了但格式不是我想要的🤪</p>
 <p>再查查现在用的Fluid主题配置说明</p>
 <blockquote>
-<h4 id="自定义-JS-CSS-HTML"><a href="#自定义-JS-CSS-HTML" class="headerlink" title="自定义 JS / CSS / HTML"></a><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener external nofollow noreferrer">自定义 JS / CSS / HTML</a></h4><p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p>
+<p><a href="https://hexo.fluid-dev.com/docs/guide/#%E8%87%AA%E5%AE%9A%E4%B9%89-js-css-html" target="_blank" rel="noopener external nofollow noreferrer">自定义 JS / CSS / HTML</a></p>
+<p>如果你想引入外部的 JS、CSS（比如 IconFont）或 HTML，可以通过以下<strong>主题配置</strong>，具体见注释：</p>
 <div class="hljs"><pre><code class="hljs yaml"><span class="hljs-comment"># 指定自定义 js 文件路径，路径是相对 source 目录</span>
 <span class="hljs-attr">custom_js:</span> <span class="hljs-string">/js/custom.js</span>
 
@@ -334,6 +344,107 @@ transition: all <span class="hljs-number">0.</span>6s
 
 <p>保存刷新页面看看，成功了！<br>速度和大小都合适。</p>
 <p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-46-12.png" srcset="/img/loading.gif" alt=""></p>
+<hr>
+<h2 id="APlayer自动靠边收拢"><a href="#APlayer自动靠边收拢" class="headerlink" title="APlayer自动靠边收拢"></a>APlayer自动靠边收拢</h2><p>aplayer自带的<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%90%B8%E5%BA%95%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener external nofollow noreferrer">fixed和mini模式</a>在本站的显示效果一直很糟糕，碍眼，减低观赏性，还影响正文阅读，平时只能关闭它。</p>
+<p><img src="https://i.loli.net/2020/05/20/Bux5M68NUFXPIoS.jpg" srcset="/img/loading.gif" alt="手机截图"></p>
+<p>直至遇到这篇教程：<br><a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener external nofollow noreferrer">hexo集成Aplayer实现全局播放器吸底模式</a>  </p>
+<p>可恕吾愚钝，一直学不会引入自定义css😶<br><img src="https://i.loli.net/2020/05/20/FwPYLEfyiRpKoDs.png" srcset="/img/loading.gif" alt="image.png"></p>
+<p><strong>来自群友的指导💡</strong><br><img src="https://i.loli.net/2020/05/20/LHE4fgKIxSBciW2.png" srcset="/img/loading.gif" alt="image.png"><br><strong>操作</strong></p>
+<ul>
+<li><p>直接修改main.styl，填入以下代码</p>
+<div class="hljs"><pre><code class="hljs stylus"><span class="hljs-comment">//aplayer自动收起</span>
+<span class="hljs-selector-class">.aplayer</span><span class="hljs-selector-class">.aplayer-fixed</span><span class="hljs-selector-class">.aplayer-narrow</span> 
+  .aplayer-body
+    <span class="hljs-attribute">left</span>: -<span class="hljs-number">66px</span> !important
+  <span class="hljs-selector-class">.aplayer-body</span>:hover
+    <span class="hljs-attribute">left</span>: <span class="hljs-number">0px</span> !important</code></pre></div>
+<p><img src="https://i.loli.net/2020/05/20/CTuMibmKPXwVGSs.png" srcset="/img/loading.gif" alt="image.png"></p>
+</li>
+<li><p>保存</p>
+</li>
+<li><p>刷新本地页面查看效果  </p>
+</li>
+</ul>
+<p><a href="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" target="_blank" rel="noopener external nofollow noreferrer"><img src="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" srcset="/img/loading.gif" alt=""></a></p>
+<p><del>嗯又多了个不想更新主题的借口</del>🙊</p>
+<hr>
+<p>用到的工具：</p>
+<ul>
+<li><a href="https://www.upyun.com/webp?utm_source=zhihu&amp;utm_medium=referral&amp;utm_campaign=250760803&amp;utm_term=webp" target="_blank" rel="noopener external nofollow noreferrer">又拍云GIF转webp</a></li>
+</ul>
+<hr>
+<h2 id="便签note边缘发光"><a href="#便签note边缘发光" class="headerlink" title="便签note边缘发光"></a>便签note边缘发光</h2><div class="note note-success">
+            <p>示例1</p>
+          </div>
+<div class="note note-info">
+            <p>示例2</p>
+          </div>
+<div class="note note-danger">
+            <p>示例3</p>
+          </div>
+<p>方法：老规矩直接加进<code>main.styl</code></p>
+<div class="hljs"><pre><code class="hljs angelscript"><span class="hljs-comment">//便签边缘发光</span>
+.note-primary
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">23</span>,<span class="hljs-number">106</span>,<span class="hljs-number">196</span>,<span class="hljs-number">0.4</span>)
+     border-radius: <span class="hljs-number">0.25</span>rem
+
+.note-secondary
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">88</span>,<span class="hljs-number">89</span>,<span class="hljs-number">90</span>,<span class="hljs-number">0.4</span>)
+     border-radius: <span class="hljs-number">0.25</span>rem
+
+.note-success
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">73</span>,<span class="hljs-number">167</span>,<span class="hljs-number">95</span>,<span class="hljs-number">0.4</span>)
+     border-radius: <span class="hljs-number">0.25</span>rem
+
+.note-danger
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>,<span class="hljs-number">0.4</span>)
+     border-radius: <span class="hljs-number">0.25</span>rem
+
+.note-warning
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">194</span>,<span class="hljs-number">164</span>,<span class="hljs-number">66</span>,<span class="hljs-number">0.4</span>)
+     border-radius: <span class="hljs-number">0.25</span>rem
+
+.note-info
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">36</span>,<span class="hljs-number">146</span>,<span class="hljs-number">165</span>,<span class="hljs-number">0.4</span>)
+     border-radius: <span class="hljs-number">0.25</span>rem
+
+.note-light
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">0.4</span>)
+     border-radius: <span class="hljs-number">0.25</span>rem</code></pre></div>
+
+<p>有个点击抖动的小bug，不管它，凑合用吧。</p>
+<hr>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><ul>
+<li><a href="/posts/27341.html">夜间模式🌗</a></li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -371,7 +482,7 @@ transition: all <span class="hljs-number">0.</span>6s
                     
                       <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&解决</a>
+                      <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
                     
                       <a class="hover-with-bg" href="/tags/hexo/">hexo</a>
                     
@@ -804,7 +915,7 @@ transition: all <span class="hljs-number">0.</span>6s
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Hexo博客文章封面添加触摸过渡动画&nbsp;",
+        "Fluid主题自定义美化记录🌈&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
