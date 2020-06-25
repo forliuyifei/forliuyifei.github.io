@@ -16,6 +16,7 @@ Disallow: /tags/*/
 Disallow: /messageboard/
 Disallow: /home/
 Disallow: /weibo/
+Disallow: /miss/
 
 
 Sitemap: https://liuyifei.club/sitemap.xml

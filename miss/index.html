@@ -19,7 +19,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7"> -->
-  <title>CDN加速踩坑之Rocket Loader™ - 饿龙不是龙哩</title>
+  <title>miss - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -70,7 +70,7 @@
         }
       }
     </script>
-  <header style="height: 50vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -201,56 +201,14 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/img/gy.webp') no-repeat center center;
+         style="background: url('/img/gy.webp') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
-        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.15)">
           <div class="container text-center white-text fadeInUp">
             <span class="h2" id="subtitle">
               
             </span>
-
-            
-              
-  <div class="mt-3 post-meta">
-    <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-    <time datetime="2020-05-26 22:29">
-      2020 五月 26日 , 星期二 , 22:29 晚上
-    </time>
-  </div>
-
-
-<div class="mt-1">
-  
-    
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-chart"></i>
-      448 字
-    </span>
-  
-
-  
-    
-    <span class="post-meta mr-2">
-      <i class="iconfont icon-clock-fill"></i>
-      
-      
-      1
-       分钟
-    </span>
-  
-
-  
-  
-    
-      <!-- LeanCloud 统计文章PV -->
-      <span id="leancloud-post-views-container" class="post-meta" style="display: none">
-        <i class="iconfont icon-eye" aria-hidden="true"></i>
-        <span id="leancloud-post-views"></span> 次
-      </span>
-    
-  
-</div>
 
             
           </div>
@@ -263,144 +221,38 @@
 
   <main>
     
-      
+      <div class="container nopadding-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="d-none d-lg-block col-lg-2"></div>
-    <div class="col-lg-8 nopadding-md">
-      <div class="container nopadding-md" id="board-ctn">
-        <div class="py-5" id="board">
-          <div class="post-content mx-auto" id="post">
-            
-              <p class="note note-info">
-                
-                  最后更新于：2020 五月 27日 , 星期三 , 17:54 下午
-                
-              </p>
-            
-            <article class="markdown-body">
-              <p>前两天费老大劲才给本站配置好<a href="https://liuyifei.club/posts/27341.html">夜间模式</a>（<del>心满意足</del>）</p>
-<p>但今天又发现一个问题–闪屏</p>
-<ul>
-<li><p>再三确定自己没把夜间模式的代码加错位置（紧跟body标签）</p>
-</li>
-<li><p>自己检查网页源码配合询问大佬获取帮助</p>
-</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200526225841.png" srcset="/img/loading.gif" alt=""></p>
-<ul>
-<li>终于发现问题所在<br>就是这个<code>/cloudflare-static/rocket-loader.min.js</code>，使得我的夜间模式代码所在文件<code>main.js</code>没有被优先载入。<br>当打开一个新页面时，先渲染了别的内容才加载它。所以会先闪一下默认的白色页面背景，再变黑，影响正常观阅。</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200526222936.png" srcset="/img/loading.gif" alt=""></p>
-<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200526230950.png" srcset="/img/loading.gif" alt=""></p>
-<h4 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h4><p>去Cloudflare关闭Rocket Loader，清除CDN缓存和本地浏览器缓存，刷新网页，夜间模式完美🧨</p>
-<p>又发现可以忽略特定的js脚本（会英文还是有点用），不至于因噎废食，有空再折腾试试</p>
-<ul>
-<li>怎么让Rocket Loader 忽略main.js<input type="checkbox" disabled=""><br><del>少做少错</del>🙄</li>
-</ul>
-<hr>
-<p>参考资料：</p>
-<ul>
-<li><a href="https://support.cloudflare.com/hc/zh-cn/articles/200169436-%E5%A6%82%E4%BD%95%E8%83%BD%E5%A4%9F%E8%AE%A9-Rocket-Loader-%E5%BF%BD%E7%95%A5%E7%89%B9%E5%AE%9A%E7%9A%84-JavaScripts-" target="_blank" rel="noopener external nofollow noreferrer">如何能够让 Rocket Loader 忽略特定的 JavaScripts？</a></li>
-</ul>
-<blockquote>
-<p>Rocket Loader 有什么作用？</p>
-<blockquote>
-<p>Rocket Loader 会将您所有 JavaScript 的加载一直推迟到渲染之后再进行，从而优先处理您网站的内容（文本、图像、字体等）。在使用 JavaScript 的页面上，这可使您的用户获得更快加载的体验，并且可改善以下性能指标：</p>
-<ul>
-<li>首次渲染时间 (TTFP)</li>
-<li>首次内容渲染时间 (TTFCP)</li>
-<li>首次有效渲染时间 (TTFMP)</li>
-<li>文件加载</li>
-</ul>
-</blockquote>
-</blockquote>
-<hr>
-<p>TIL：</p>
-<ul>
-<li>f12网页调试的Network项还能查看网页各个元素的具体加载情况</li>
-</ul>
-<script>
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src) { return; }
-            const img = document.createElement('img');
-            img.style = 'display:none !important;';
-            img.src = el.dataset.src;
-            img.addEventListener('error', () => {
-              img.remove();
-              el.style.color = 'inherit';
-              el.style.backgroundImage = 'none';
-              el.style.background = 'none';
-            });
-            img.addEventListener('load', () => {
-              img.remove();
-            });
-            document.body.appendChild(img);
-          });
-      </script>
-            </article>
-            <hr>
-            <div>
-              <div class="post-metas mb-3">
-                
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/%E5%8E%9F%E5%88%9B/">原创</a>
-                    
-                  </div>
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/%E7%BE%8E%E5%8C%96/">美化</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
-                    
-                      <a class="hover-with-bg" href="/tags/CDN/">CDN</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/">问题&解决</a>
-                    
-                  </div>
-                
-              </div>
-              
-                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明原作者及出处！</p>
-              
-              
-                <div class="post-prevnext row">
-                  <div class="post-prev col-6">
-                    
-                    
-                      <a href="/posts/16832.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">[诗]行行重行行</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
-                  </div>
-                  <div class="post-next col-6">
-                    
-                    
-                      <a href="/posts/51493.html">
-                        <span class="hidden-mobile">使用robots.txt优化搜索结果</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
-                    
-                  </div>
-                </div>
-              
-            </div>
+<div class="page-content">
+  <div class="markdown-body">
 
-            
-              <!-- Comments -->
-              <div class="comments" id="comments">
-                
-                
+
+<div class="note note-danger">
+            <center><b>那些……的时候</b></center>
+          </div>
+
+
+
+
+<div class="note note-warning">
+            <ul><li>下小雨的时候…</li><li>烫伤嘴</li><li>吃粉</li><li>色差筷子</li><li>围巾</li><li>腰带</li><li>半入耳/平头/蓝牙耳机</li><li>Oppo A53</li><li>小米手环/小米运动</li><li>写自己的名字</li><li>电影、书籍、歌曲</li><li>手冷</li><li>夜间模式</li><li>坐火车</li><li>手机没电</li><li>做梦</li><li>柔软</li><li></li></ul>
+          </div>
+
+<!--
+<div class="note note-info">
+            <ul><li>明眸皓齿</li><li>巧笑倩兮/美目盼兮/素以为绚兮</li><li>手指修长</li><li>锁骨乳突肌</li><li>软玉温香</li><li>白色鸭舌帽</li><li>竖条纹蓝色衬衫</li><li>短发</li><li>马尾</li><li>身型高挑</li><li>大步如飞</li><li>肤如凝脂</li><li>眉锁腰直</li><li>肩细背挺</li><li>顾盼神飞</li><li>专注</li><li>34C (90.0-76.25=14.65=75C)</li><li>39码?</li><li>柔软</li><li></li></ul>
+          </div>  -->
+
+</div>
+
+
   <div id="vcomments"></div>
   <script type="text/javascript">
     function loadValine() {
@@ -422,38 +274,32 @@
       });
     }
     createObserver(loadValine, 'vcomments');
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
-      powered by Valine.</a></noscript>
-
+  </script><script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+</div>
 
               </div>
-            
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
-        <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div id="tocbot"></div>
-</div>
-
-      </div>
-    
-  </div>
-</div>
-
-<!-- Custom -->
-
-  <div class="col-lg-7 mx-auto nopadding-md">
-    <div class="container custom post-content mx-auto">
-      <center><span id="jinrishici-sentence">既见君子 云胡不喜</span> <script defer src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center>
-    </div>
-  </div>
-
-
     
   </main>
 
@@ -696,10 +542,10 @@
       }
 
       // 如果是文章，请求文章的浏览数，并自增
-      if ('true' === 'true') {
+      if ('false' === 'true') {
         var viewCtn = document.querySelector('#leancloud-post-views-container');
         if (viewCtn || enableIncr) {
-          var target = decodeURI('/posts/32981.html');
+          var target = decodeURI('/miss/index.html');
           var viewGetter = getRecord(Counter, target).then((record) => {
             incrArr.push(buildIncrement(record.objectId))
             if (viewCtn) {
@@ -761,31 +607,6 @@
 
 
 
-  <script  src="https://cdn.staticfile.org/tocbot/4.11.1/tocbot.min.js" ></script>
-  <script>
-    $(document).ready(function () {
-      var boardCtn = $('#board-ctn');
-      var boardTop = boardCtn.offset().top;
-
-      tocbot.init({
-        tocSelector: '#tocbot',
-        contentSelector: 'article.markdown-body',
-        headingSelector: 'h1,h2,h3,h4,h5,h6',
-        linkClass: 'tocbot-link',
-        activeLinkClass: 'tocbot-active-link',
-        listClass: 'tocbot-list',
-        isCollapsedClass: 'tocbot-is-collapsed',
-        collapsibleClass: 'tocbot-is-collapsible',
-        collapseDepth: 0,
-        scrollSmooth: true,
-        headingsOffset: -boardTop
-      });
-      if ($('.toc-list-item').length > 0) {
-        $('#toc').css('visibility', 'visible');
-      }
-    });
-  </script>
-
 
 
   <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
@@ -793,7 +614,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "CDN加速踩坑之Rocket Loader™&nbsp;",
+        "miss&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -836,20 +657,6 @@
   </script>
 
 
-
-  <script  src="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.js" ></script>
-  <link  rel="stylesheet" href="https://cdn.staticfile.org/fancybox/3.5.7/jquery.fancybox.min.css" />
-
-  <script>
-    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
-      function () {
-        var element = document.createElement('a');
-        $(element).attr('data-fancybox', 'images');
-        $(element).attr('href', $(this).attr('src'));
-        $(this).wrap(element);
-      }
-    );
-  </script>
 
 
 
