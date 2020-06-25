@@ -225,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      6 字
+      15 字
     </span>
   
 
@@ -280,10 +280,10 @@
               </p>
             
             <article class="markdown-body">
-              <div id="hexo-blog-encrypt" data-wpm="Maybe you are not her🙄" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+              <div id="hexo-blog-encrypt" data-wpm="Maybe you are not...☹" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <div class="hbe-input-container">
   <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">请输入密码</label>
+    <label for="hbePass">是幻觉 『2020-05-18 13:19 第二道安检 K572』</label>
     <div class="bottom-line"></div>
   </div>
   <script id="hbeData" type="hbeData" data-hmacdigest="91bd21a81d381fbdd0a1bf6f7ea95bb61cf1d52e522d78db35e56584eff66f0c">a4b8f0fb9ea74b454d2b1a256674812cea3a1edcfd8628433e0dff3651c18ad22aa0c0ac2ac37ac5e055ba1e3bed9e4b5dec06dad35728a48f8bbd53613e3b64ced1a2a48d9a6d9ac1d45f41d56eaa72bfdf92b29aa6a26625315c531f8525564b30536f315999fea025436791d35b31cb728e7ee0f169354c7151c0fc36556b24602cd1497a3e178df8b9cd0be2d5e2009ad6021a91e8e61486c8c4cc3e6bf154f45a42f8175d23755d5e24d74a49f2d142bb516853b664e976e0484fa1a49dfc987b36d5593206b7597b453a5016981f2ddf4eb287ed7828d45810fa3402b44ce0ad6ac32aa00b401fc7c6d96522b6024113765c509726afa05fd3c6b3811e6faec16d25f869579b39f625085c46d64ef0c2a1e3f234ae736e1d60e8fc94f86c76eec75111a6042b07189f6021f5c49bf751097664d95952b7a003e607ff3c119cda1f92dba7ab1ceef852acc6629dacd25d57d037836febaf92ade4c0293f9bf4a7bf87d83e2073804f5455860946794a1d1902cc53495cf0e51ce0e69df72a1760c301a5bd4a3b5f0060b9e3c74ae8fc05df934ed92923939d8a5766f9b88cf53f0e9412733e0f12dc32220c122599ce87d0d2d71256c286d389102926538b3ac9cedea3dd82fc9948d7c7ef3ac69c085268a7be6095af1aa4cff0828469cab5aa5060ffb4ab20f3811adebb33b3b80df7a80d3177532444581ea9da71b2dc8aadcfb821a3522316b3a93c03d0c750e22b2e8ceaadb9cf9c8bcfa97cf90d3e5c877b6c0387fb5df76805999d1edcb1fe83454db10dde567f84e16fdb30d9c97cbf02f11d7ef51823d9f3cd6a4fa63ba0edb4e84d20890356253cf71d48b6d90a19ff80cfddea6ad35df40b9d71f11212084bbcd9fa5526d9fe36f92c6583373110ea6f714762284edc88fd7285b29b272560f2a286c2d879a462a75108b5671e2a1463e4bb908dd12898aec401593454306e0a1a5a7dd0786a82d7d684fc34b37652956c95eed032a8ad58f0b1a7d6464c96c5a2031316bceb6a99e3d594abf5eb060f67577952e4a7f29b08a3aef31c6032ffc662c8410506b2f88fcb4c9c335eeceaf19e6df591bec780d083b774ad8c28976b1ddc2a8956ad43993b57d5fd810998812c56a30802a03bfc43e2ca0b008cd2b239d38f9f318b471ae3f6698b5f071dade8faea9426298ef565287470956f739068f56b3ffd45e583d120f781042a3b607df1016ed2a2489aa736e60a0a5f8dd5082ace2fc4419151c53ff9051aad234b9e9808dce7d04572657483cca3c2a14437993cd8fedb68dd808fbcff1f647b83288b1ae0f0cbaa80a1a20ac20eda2cd6c0d630b4b6a0fe7b5bd1f5c456de553e31197e5a7a608bdf3fc4c893c59927df6eb95937830053ab159f084c4d6adbc8a3e0e72525ca1de945b2792f37dd62e873f6cf4cce9ca23cf789553d737ecc107baaf21ffa51a7fa747ef0632d6ab3c8d55968a15869e4bdfb3b04b860e55388703992297ebbb454c364f442b900e6cb5da42b3a4ec8d7c41c283721dbc0167f9617d0757f46ec235fb9e9149967c3e562ada9d172e631e572bedd2375ce1fafc72a0568a8703f67c8bff64d9fba56d8a89d702dc21114e8c695</script>
@@ -415,6 +415,29 @@
   </div>
 </div>
   
+
+  
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'false' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"Stargazing","artist":"Isabella Calander","url":"https://d0.ananas.chaoxing.com/download/aaeb48bb66f9d11e606dd53e058fb891?fn=Isabella+Celander-Stargazing","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200531183038.png"},{"name":"笑傲江湖","artist":"刘欢&王菲","url":"https://d0.ananas.chaoxing.com/download/7b95cb680a635a1aacdf34e608e15d83?fn=%E5%88%98%E6%AC%A2%26%E7%8E%8B%E8%8F%B2+-+%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/笑傲江湖 电视原声带_109951163020573636~01.jpg"},{"name":"胆小鬼","artist":"梁咏琪","url":"https://d0.ananas.chaoxing.com/download/02a92bc208a8ba96330a7aafce3c06b9?fn=%E8%83%86%E5%B0%8F%E9%AC%BC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/梁咏琪 同名专辑_51677046522535~01.jpg"},{"name":"起风了（Cover 高橋優-《ヤキモチ》）","artist":"买辣椒也用券","url":"https://d0.ananas.chaoxing.com/download/fffc80a28f96b70482e0d89b03ff90fe?fn=%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8+-+%E8%B5%B7%E9%A3%8E%E4%BA%86%EF%BC%88Cover+%E9%AB%98%E6%A9%8B%E5%84%AA%EF%BC%89","cover":"https://p1.music.126.net/c0nzSObvxF_DftayAJjXsw==/109951162864860506.jpg?param=120y120"},{"name":"Because of You","artist":"Josh Vietti","url":"https://d0.ananas.chaoxing.com/download/1698acb4164aa7c193aee48e537ec883?fn=Josh+Vietti+-+Because+of+You","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/Best%20of%20Both%20Worlds_109951164849496349~01.jpg"},{"name":"東京","artist":"柴田淳","url":"https://d0.ananas.chaoxing.com/download/c540cb2b68e62e86a9c89f0aa96ea18c?fn=%E6%9F%B4%E7%94%B0%E6%B7%B3+-+%E6%9D%B1%E4%BA%AC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/東京.jpg"},{"name":"今晩はお月さん","artist":"ハンバート ハンバート","url":"https://d0.ananas.chaoxing.com/download/8391dffef2f1d4cac4d84c363592c99f?fn=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+-+%E4%BB%8A%E6%99%A9%E3%81%AF%E3%81%8A%E6%9C%88%E3%81%95%E3%82%93","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/今晩はお月さん_703687441788470~01.jpg"},{"name":"夏天的凤","artist":"火羊瞌睡了","url":"https://d0.ananas.chaoxing.com/download/7430e28c7ebd89d33d2b886301987edf?fn=%E7%81%AB%E7%BE%8A%E7%9E%8C%E7%9D%A1%E4%BA%86+-+%E5%A4%8F%E5%A4%A9%E7%9A%84%E9%A3%8E","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/夏天的风_109951164906689206~01.jpg"},{"name":"我也不想这样","artist":"徐佳莹","url":"https://d0.ananas.chaoxing.com/download/f10456404537ec8eba5926c8ba1c7cbb?fn=%E5%BE%90%E4%BD%B3%E8%8E%B9+-+%E6%88%91%E4%B9%9F%E4%B8%8D%E6%83%B3%E8%BF%99%E6%A0%B7","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/日全蚀演唱会现场实录_1384285147518190~01.jpg"},{"name":"ハレハレヤ","artist":"羽生まゐご / v flower","url":"https://d0.ananas.chaoxing.com/download/4d10a7cc05a80d0808037bc947a80c41?fn=%E7%BE%BD%E7%94%9F%E3%81%BE%E3%82%90%E3%81%94+v+flower+-+%E3%83%8F%E3%83%AC%E3%83%8F%E3%83%AC%E3%83%A4","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/MEiSTER_109951163298695275~01.jpg"}]
+    });
+  }
+</script>
 
   
 

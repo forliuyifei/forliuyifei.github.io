@@ -323,6 +323,29 @@
   
 
   
+    <!-- APlayer 音乐播放器 -->
+    <div id="aplayer"></div>
+    <script defer src="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js" ></script>
+<link  rel="stylesheet" href="https://cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css" />
+<script type="text/javascript">
+  var oldLoadAp = window.onload;
+  window.onload = function () {
+    oldLoadAp && oldLoadAp();
+
+    new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      autoplay: 'false' === 'true',
+      loop: 'all',
+      order: 'random',
+      theme: '#b7daff',
+      preload: 'none',
+      audio: [{"name":"Stargazing","artist":"Isabella Calander","url":"https://d0.ananas.chaoxing.com/download/aaeb48bb66f9d11e606dd53e058fb891?fn=Isabella+Celander-Stargazing","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200531183038.png"},{"name":"笑傲江湖","artist":"刘欢&王菲","url":"https://d0.ananas.chaoxing.com/download/7b95cb680a635a1aacdf34e608e15d83?fn=%E5%88%98%E6%AC%A2%26%E7%8E%8B%E8%8F%B2+-+%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/笑傲江湖 电视原声带_109951163020573636~01.jpg"},{"name":"胆小鬼","artist":"梁咏琪","url":"https://d0.ananas.chaoxing.com/download/02a92bc208a8ba96330a7aafce3c06b9?fn=%E8%83%86%E5%B0%8F%E9%AC%BC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/梁咏琪 同名专辑_51677046522535~01.jpg"},{"name":"起风了（Cover 高橋優-《ヤキモチ》）","artist":"买辣椒也用券","url":"https://d0.ananas.chaoxing.com/download/fffc80a28f96b70482e0d89b03ff90fe?fn=%E4%B9%B0%E8%BE%A3%E6%A4%92%E4%B9%9F%E7%94%A8%E5%88%B8+-+%E8%B5%B7%E9%A3%8E%E4%BA%86%EF%BC%88Cover+%E9%AB%98%E6%A9%8B%E5%84%AA%EF%BC%89","cover":"https://p1.music.126.net/c0nzSObvxF_DftayAJjXsw==/109951162864860506.jpg?param=120y120"},{"name":"Because of You","artist":"Josh Vietti","url":"https://d0.ananas.chaoxing.com/download/1698acb4164aa7c193aee48e537ec883?fn=Josh+Vietti+-+Because+of+You","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/Best%20of%20Both%20Worlds_109951164849496349~01.jpg"},{"name":"東京","artist":"柴田淳","url":"https://d0.ananas.chaoxing.com/download/c540cb2b68e62e86a9c89f0aa96ea18c?fn=%E6%9F%B4%E7%94%B0%E6%B7%B3+-+%E6%9D%B1%E4%BA%AC","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/東京.jpg"},{"name":"今晩はお月さん","artist":"ハンバート ハンバート","url":"https://d0.ananas.chaoxing.com/download/8391dffef2f1d4cac4d84c363592c99f?fn=%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%83%88+-+%E4%BB%8A%E6%99%A9%E3%81%AF%E3%81%8A%E6%9C%88%E3%81%95%E3%82%93","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/今晩はお月さん_703687441788470~01.jpg"},{"name":"夏天的凤","artist":"火羊瞌睡了","url":"https://d0.ananas.chaoxing.com/download/7430e28c7ebd89d33d2b886301987edf?fn=%E7%81%AB%E7%BE%8A%E7%9E%8C%E7%9D%A1%E4%BA%86+-+%E5%A4%8F%E5%A4%A9%E7%9A%84%E9%A3%8E","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/夏天的风_109951164906689206~01.jpg"},{"name":"我也不想这样","artist":"徐佳莹","url":"https://d0.ananas.chaoxing.com/download/f10456404537ec8eba5926c8ba1c7cbb?fn=%E5%BE%90%E4%BD%B3%E8%8E%B9+-+%E6%88%91%E4%B9%9F%E4%B8%8D%E6%83%B3%E8%BF%99%E6%A0%B7","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/日全蚀演唱会现场实录_1384285147518190~01.jpg"},{"name":"ハレハレヤ","artist":"羽生まゐご / v flower","url":"https://d0.ananas.chaoxing.com/download/4d10a7cc05a80d0808037bc947a80c41?fn=%E7%BE%BD%E7%94%9F%E3%81%BE%E3%82%90%E3%81%94+v+flower+-+%E3%83%8F%E3%83%AC%E3%83%8F%E3%83%AC%E3%83%A4","cover":"https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/MEiSTER_109951163298695275~01.jpg"}]
+    });
+  }
+</script>
+
+  
 
   
 
