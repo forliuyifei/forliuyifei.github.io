@@ -1720,3 +1720,44 @@ h6::before {
   box-shadow: 0 0 16px rgba(15,15,15,0.4);
   border-radius: 0.25rem;
 }
+.markdown-body p > img,
+.markdown-body p > a > img {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.markdown-body p > img:hover,
+.markdown-body p > a > img:hover {
+  transform: scale(1) translate(0px, 0px);
+  box-shadow: 0 0 18px rgba(228,84,96,0.4) !important;
+  border-radius: 0.25rem;
+}
+.tocbot-link {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.tocbot-link:hover {
+  color: #e45460;
+}
+.card-body {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.card-body:hover {
+  transform: scale(1.05) translate(0px, -5px);
+  box-shadow: 0 0 16px rgba(228,84,96,0.4) !important;
+  background-color: #fff;
+}
+.list-group-item {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.list-group-item:hover {
+  transform: scale(1) translate(0px, -2px);
+}
+.tagcloud a {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.tagcloud a:hover {
+  transform: scale(1) translate(0px, -2px);
+}
