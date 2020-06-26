@@ -140,6 +140,93 @@
           
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-chart"></i>
+                工具
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://fluid-dev.github.io/hexo-fluid-docs/guide/" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    Fluid手册
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://marked.cc/" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    marked.cc
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://chp.shadiao.app/" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    彩虹屁生成器
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="http://www.nows.fun/" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    毒鸡汤生成器
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://suulnnka.github.io/BullshitGenerator/index.html" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    狗屁不通生成器
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://lovebazaar.info/" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    恋爱广场
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://topbook.cc/" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    高效生活视频书
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://gate.ofo.moe/" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    网站任意门
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://www.toolnb.com/tools/epidemic.html" target="_blank" rel="noopener external nofollow noreferrer">
+                    
+                    新型肺炎疫情查询工具
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="iconfont icon-user-fill"></i>
                 ...
               </a>
@@ -275,7 +362,7 @@
             
               <p class="note note-info">
                 
-                  最后更新于：2020 六月 26日 , 星期五 , 13:09 下午
+                  最后更新于：2020 六月 26日 , 星期五 , 22:33 晚上
                 
               </p>
             
@@ -335,16 +422,25 @@ div img{
 </blockquote>
 <p>似乎还是麻烦了点🤔</p>
 <p>💡Fluid主题的css配置文件夹里肯定有相关内容，找出来直接往后补充就是了，不行就Crtl+Z撤回</p>
-<p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.gif" alt=""></p>
-<p>对齐img的下一级内容</p>
-<div class="hljs"><pre><code class="hljs maxima"><span class="hljs-built_in">border</span>-<span class="hljs-built_in">radius</span> .25<span class="hljs-built_in">rem</span>
-cursor: pointer
-transition: all <span class="hljs-number">0.</span>6s
-&amp;:hover
-  <span class="hljs-built_in">transform</span>: <span class="hljs-built_in">scale</span>(<span class="hljs-number">1.1</span>)</code></pre></div>
+<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.gif" alt=""></p>
+<p>对齐img的下一级内容修改后</p>
+<div class="hljs"><pre><code class="hljs angelscript">.index-img
+  img
+    display block
+    width <span class="hljs-number">100</span>%
+    height <span class="hljs-number">10</span>rem
+    object-fit cover
+    box-shadow <span class="hljs-number">0</span> <span class="hljs-number">5</span>px <span class="hljs-number">11</span>px <span class="hljs-number">0</span> rgba(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.18</span>), <span class="hljs-number">0</span> <span class="hljs-number">4</span>px <span class="hljs-number">15</span>px <span class="hljs-number">0</span> rgba(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0.15</span>)
+    border-radius <span class="hljs-number">.25</span>rem
+    cursor: pointer
+    transition: all <span class="hljs-number">0.6</span>s
+    &amp;:hover
+      transform: scale(<span class="hljs-number">1.1</span>)
+      box-shadow:<span class="hljs-number">0</span>px <span class="hljs-number">0</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">23</span>,<span class="hljs-number">106</span>,<span class="hljs-number">196</span>,<span class="hljs-number">0.6</span>)</code></pre></div>
 
 <p>保存刷新页面看看，成功了！<br>速度和大小都合适。</p>
-<p><img src="https://raw.githubusercontent.com/forliuyifei/img/mater/img/Snipaste_2020-04-24_19-46-12.png" srcset="/img/loading.gif" alt=""></p>
+<!-- ![](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Snipaste_2020-04-24_19-46-12.png)  -->
+
 <hr>
 <h2 id="APlayer自动靠边收拢"><a href="#APlayer自动靠边收拢" class="headerlink" title="APlayer自动靠边收拢"></a>APlayer自动靠边收拢</h2><p>aplayer自带的<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%90%B8%E5%BA%95%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener external nofollow noreferrer">fixed和mini模式</a>在本站的显示效果一直很糟糕，碍眼，减低观赏性，还影响正文阅读，平时只能关闭它。</p>
 <p><img src="https://i.loli.net/2020/05/20/Bux5M68NUFXPIoS.jpg" srcset="/img/loading.gif" alt="手机截图"></p>
@@ -390,56 +486,56 @@ transition: all <span class="hljs-number">0.</span>6s
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
-     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">23</span>,<span class="hljs-number">106</span>,<span class="hljs-number">196</span>,<span class="hljs-number">0.4</span>)
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">23</span>,<span class="hljs-number">106</span>,<span class="hljs-number">196</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem
 
 .note-secondary
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
-     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">88</span>,<span class="hljs-number">89</span>,<span class="hljs-number">90</span>,<span class="hljs-number">0.4</span>)
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">88</span>,<span class="hljs-number">89</span>,<span class="hljs-number">90</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem
 
 .note-success
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
-     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">73</span>,<span class="hljs-number">167</span>,<span class="hljs-number">95</span>,<span class="hljs-number">0.4</span>)
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">73</span>,<span class="hljs-number">167</span>,<span class="hljs-number">95</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem
 
 .note-danger
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
-     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>,<span class="hljs-number">0.4</span>)
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem
 
 .note-warning
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
-     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">194</span>,<span class="hljs-number">164</span>,<span class="hljs-number">66</span>,<span class="hljs-number">0.4</span>)
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">194</span>,<span class="hljs-number">164</span>,<span class="hljs-number">66</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem
 
 .note-info
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
-     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">36</span>,<span class="hljs-number">146</span>,<span class="hljs-number">165</span>,<span class="hljs-number">0.4</span>)
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">36</span>,<span class="hljs-number">146</span>,<span class="hljs-number">165</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem
 
 .note-light
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
-     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">0.4</span>)
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem</code></pre></div>
 
 <p>有个点击抖动的小bug，不管它，凑合用吧。</p>

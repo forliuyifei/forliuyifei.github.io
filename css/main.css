@@ -878,12 +878,12 @@ input[type=checkbox]:checked:after {
   object-fit: cover;
   box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
   border-radius: 0.25rem;
-  border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.6s;
 }
 .index-img img:hover {
   transform: scale(1.1);
+  box-shadow: 0px 0px 16px rgba(23,106,196,0.6);
 }
 .index-info {
   display: flex;
@@ -1662,8 +1662,8 @@ h6::before {
   transition: all 0.5s;
 }
 .note-primary:hover {
-  transform: scale(1) translate(0px, -5px);
-  box-shadow: 0 0 16px rgba(23,106,196,0.4);
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 6px 16px rgba(23,106,196,0.4);
   border-radius: 0.25rem;
 }
 .note-secondary {
@@ -1671,8 +1671,8 @@ h6::before {
   transition: all 0.5s;
 }
 .note-secondary:hover {
-  transform: scale(1) translate(0px, -5px);
-  box-shadow: 0 0 16px rgba(88,89,90,0.4);
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 6px 16px rgba(88,89,90,0.4);
   border-radius: 0.25rem;
 }
 .note-success {
@@ -1680,8 +1680,8 @@ h6::before {
   transition: all 0.5s;
 }
 .note-success:hover {
-  transform: scale(1) translate(0px, -5px);
-  box-shadow: 0 0 16px rgba(73,167,95,0.4);
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 6px 16px rgba(73,167,95,0.4);
   border-radius: 0.25rem;
 }
 .note-danger {
@@ -1689,8 +1689,8 @@ h6::before {
   transition: all 0.5s;
 }
 .note-danger:hover {
-  transform: scale(1) translate(0px, -5px);
-  box-shadow: 0 0 16px rgba(228,84,96,0.4);
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 6px 16px rgba(228,84,96,0.4);
   border-radius: 0.25rem;
 }
 .note-warning {
@@ -1698,8 +1698,8 @@ h6::before {
   transition: all 0.5s;
 }
 .note-warning:hover {
-  transform: scale(1) translate(0px, -5px);
-  box-shadow: 0 0 16px rgba(194,164,66,0.4);
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 6px 16px rgba(194,164,66,0.4);
   border-radius: 0.25rem;
 }
 .note-info {
@@ -1707,8 +1707,8 @@ h6::before {
   transition: all 0.5s;
 }
 .note-info:hover {
-  transform: scale(1) translate(0px, -5px);
-  box-shadow: 0 0 16px rgba(36,146,165,0.4);
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 6px 16px rgba(36,146,165,0.4);
   border-radius: 0.25rem;
 }
 .note-light {
@@ -1716,8 +1716,8 @@ h6::before {
   transition: all 0.5s;
 }
 .note-light:hover {
-  transform: scale(1) translate(0px, -5px);
-  box-shadow: 0 0 16px rgba(15,15,15,0.4);
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 6px 16px rgba(15,15,15,0.4);
   border-radius: 0.25rem;
 }
 .markdown-body p > img,
@@ -1743,7 +1743,7 @@ h6::before {
   transition: all 0.5s;
 }
 .card-body:hover {
-  transform: scale(1.05) translate(0px, -5px);
+  transform: scale(1) translate(0px, -5px);
   box-shadow: 0 0 16px rgba(228,84,96,0.4) !important;
   background-color: #fff;
 }
