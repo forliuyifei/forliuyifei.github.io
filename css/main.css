@@ -1564,6 +1564,9 @@ h6::before {
 .dark .post-meta {
   color: #cbc7bf;
 }
+.dark .markdown-body {
+  color: #f3f4f4;
+}
 .dark .markdown-body h1,
 .dark .markdown-body h2,
 .dark .markdown-body h3,
@@ -1573,6 +1576,9 @@ h6::before {
 .dark .markdown-body s,
 .dark .markdown-body li {
   color: #f3f4f4 !important;
+}
+.dark .markdown-body hr {
+  background-color: #212324;
 }
 .dark .navbar-col-show,
 .dark .top-nav-collapse {
@@ -1656,6 +1662,15 @@ h6::before {
 .dark .note-light {
   background-color: #191a1b;
   border-color: #636363;
+}
+.dark .markdown-body div.hljs {
+  filter: brightness(90%);
+}
+.dark .cbp_tmtimeline>li .cbp_tmlabel {
+  background: #254a25;
+}
+.dark .cbp_tmtimeline > li:nth-child(2n+1) .cbp_tmlabel {
+  background: #7e2907;
 }
 .note-primary {
   cursor: pointer;

@@ -70,7 +70,7 @@
         }
       }
     </script>
-  <header style="height: 70vh;">
+  <header style="height: 100vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -156,7 +156,7 @@
                   
                   
                   
-                  <a class="dropdown-item" href="/home/">
+                  <a class="dropdown-item" href="/weibo/">
                     <i class="iconfont icon-clock-fill"></i>
                     说说
                   </a>
@@ -201,7 +201,7 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('/img/gy.webp') no-repeat center center;
+         style="background: url('/img/lyf5.webp') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.15)">
@@ -214,6 +214,10 @@
           </div>
 
           
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
         </div>
       </div>
     </div>
@@ -223,18 +227,22 @@
     
       <div class="container nopadding-md">
         <div class="py-5" id="board"
-          >
+          style=margin-top:0>
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-<div class="page-content">
-  
+<div class="markdown-body">
+    <h2 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h2>
+</div>
+<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+<body>
     <script>
     var appID="6zMBu0eTpU4cctLpbCMwJN88-MdYXbMMI";
     var appKEY="9ky5bLwQquoNzTjSn5YEgcos";
+    var per=5;
     var bgimg="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/img/loading.gif";
     var atemoji_array={
             jump: "https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-6/jump.gif",
@@ -247,11 +255,15 @@
       }
     </script>
     <div id="artitalk_main"></div>
-    <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-
-
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/artitalk"></script>
+</body>
 <div class="markdown-body">
+    <h2 id="微博"><a href="#微博" class="headerlink" title="微博"></a>微博</h2>
+  </div>
+
+<!--以下是weibo.md内部的内容
+<div class="mt-5 markdown-body">
+    <div class="markdown-body">
 
 <h2 id="瞎记录"><a href="#瞎记录" class="headerlink" title="瞎记录"></a>瞎记录</h2><!--  
 <b>分类示例</b>
@@ -313,12 +325,13 @@
           </div>
 
 <div class="note note-danger">
-            <p>💗 2020.06.03</p><ul><li>抑制不住！发信…回信！似乎好受一些了🙏</li></ul><p>💔 2020.05.14</p><ul><li>一周年</li></ul>
+            <p>💗 2020.06.03</p><ul><li>抑制不住！发信…回信！似乎好受一些🙏</li></ul><p>💔 2020.05.14</p><ul><li>一周年</li></ul>
           </div>
 
+<!--
 
-<hr>
-<center><b><span id="jinrishici-sentence">既见君子 云胡不喜</span> <script defer="" src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></b></center>
+---
+<center><b><span id="jinrishici-sentence">既见君子 云胡不喜</span> <script defer src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></b></center>
 <hr>
 </div>  
 
@@ -347,7 +360,8 @@
     }
     createObserver(loadValine, 'vcomments');
   </script>
-<script>
+
+--></div><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -366,7 +380,7 @@
             document.body.appendChild(img);
           });
       </script>
-</div>
+  </div>
 
               </div>
             </div>
@@ -710,7 +724,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "微博&nbsp;",
+        "无二三&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -853,6 +867,11 @@
 
 
 
-
+ <!--背景线条 <script defer src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/canvas-nest.mini.js" color="0,0,250" opacity='0.5' zIndex="-2" count="250"></script>
+ 标题搞怪 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/FunnyTitle.js"></script>
+ 炸 <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 3; pointer-events: none;" ></canvas> 
+ 烟  <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+ 花 <script type="text/javascript" src="//abbw.gitee.io/asset/js/fireworks.js"></script>
+ -->
 </body>
 </html>

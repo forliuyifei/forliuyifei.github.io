@@ -156,7 +156,7 @@
                   
                   
                   
-                  <a class="dropdown-item" href="/home/">
+                  <a class="dropdown-item" href="/weibo/">
                     <i class="iconfont icon-clock-fill"></i>
                     说说
                   </a>
@@ -225,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      1.3k 字
+      1.5k 字
     </span>
   
 
@@ -235,7 +235,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      6
+      7
        分钟
     </span>
   
@@ -275,7 +275,7 @@
             
               <p class="note note-info">
                 
-                  最后更新于：2020 六月 26日 , 星期五 , 22:33 晚上
+                  最后更新于：2020 六月 27日 , 星期六 , 19:53 晚上
                 
               </p>
             
@@ -455,44 +455,72 @@ div img{
 <hr>
 <h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><ul>
 <li><a href="/posts/27341.html">夜间模式🌗</a></li>
-<li>杂七杂八的小动画<div class="hljs"><pre><code class="hljs stylus"><span class="hljs-comment">//插入图片鼠标悬浮粉色光晕</span>
-<span class="hljs-selector-class">.markdown-body</span> <span class="hljs-selector-tag">p</span> &gt; <span class="hljs-selector-tag">img</span>, <span class="hljs-selector-class">.markdown-body</span> <span class="hljs-selector-tag">p</span> &gt; <span class="hljs-selector-tag">a</span> &gt; img
-   <span class="hljs-attribute">cursor</span>: pointer
-   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.5s</span>
+<li>杂七杂八的小动画<div class="hljs"><pre><code class="hljs angelscript"><span class="hljs-comment">//插入图片鼠标悬浮发光</span>
+.markdown-body p &gt; img, .markdown-body p &gt; a &gt; img
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     <span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1.01</span>) translate(<span class="hljs-number">0px</span>,-<span class="hljs-number">5px</span>) 
-     <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16px</span> rgba(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>,<span class="hljs-number">0.4</span>) !important
-     <span class="hljs-attribute">border-radius</span>: <span class="hljs-number">0.25rem</span>
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">0</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">18</span>px rgba(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>,<span class="hljs-number">0.4</span>) !important
+     border-radius: <span class="hljs-number">0.25</span>rem
 
 <span class="hljs-comment">//侧栏目录悬浮变色</span>
 .tocbot-link
-   <span class="hljs-attribute">cursor</span>: pointer
-   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.5s</span>
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     <span class="hljs-attribute">color</span>: rgb(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>)
+     color: rgb(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>)
 
 <span class="hljs-comment">//友链页卡片动画</span>
 .card-body
-   <span class="hljs-attribute">cursor</span>: pointer
-   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.5s</span>
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     <span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1.05</span>) translate(<span class="hljs-number">0px</span>,-<span class="hljs-number">5px</span>) 
-     <span class="hljs-attribute">box-shadow</span>:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16px</span> rgba(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>,<span class="hljs-number">0.4</span>) !important
-     <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#ffffff</span> 
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-5</span>px) 
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16</span>px rgba(<span class="hljs-number">228</span>,<span class="hljs-number">84</span>,<span class="hljs-number">96</span>,<span class="hljs-number">0.4</span>) !important
+     background-color: #ffffff 
+<span class="hljs-comment">//头像发光</span>
+.link-avatar img
+   cursor: pointer
+   transition: all <span class="hljs-number">0.4</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.02</span>) rotate(<span class="hljs-number">-10</span>deg) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-0</span>px)  
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">2</span>px <span class="hljs-number">6</span>px <span class="hljs-number">1</span>px rgba(<span class="hljs-number">36</span>,<span class="hljs-number">146</span>,<span class="hljs-number">165</span>,<span class="hljs-number">0.4</span>) !important
+
 
 <span class="hljs-comment">//归档列表动画</span>
 .list-group-item
-   <span class="hljs-attribute">cursor</span>: pointer
-   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.5s</span>
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     <span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0px</span>,-<span class="hljs-number">2px</span>) 
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
 
 <span class="hljs-comment">//标签云文字动画</span>
-<span class="hljs-selector-class">.tagcloud</span> a
-   <span class="hljs-attribute">cursor</span>: pointer
-   <span class="hljs-attribute">transition</span>: all <span class="hljs-number">0.5s</span>
+.tagcloud a
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
    &amp;:hover
-     <span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0px</span>,-<span class="hljs-number">2px</span>)</code></pre></div>
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+
+<span class="hljs-comment">//右上角三线菜单图标缩小</span>
+.animated-icon
+   transform: scale(<span class="hljs-number">0.85</span>)
+
+<span class="hljs-comment">//Artitalk对话框光晕</span>
+.cbp_tmtimeline&gt;li .cbp_tmlabel
+   cursor: pointer
+   transition: all <span class="hljs-number">0.5</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
+     box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">8</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">194</span>,<span class="hljs-number">164</span>,<span class="hljs-number">66</span>,<span class="hljs-number">0.4</span>) !important
+     border-radius: <span class="hljs-number">0.25</span>rem
+<span class="hljs-comment">//Artitalk头像光晕</span>
+.shuoshuo_author_img img
+   cursor: pointer
+   transition: all <span class="hljs-number">0.1</span>s
+   &amp;:hover
+     transform: scale(<span class="hljs-number">1.0</span>) rotate(<span class="hljs-number">0</span>deg) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) !important
+     box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">2</span>px <span class="hljs-number">6</span>px <span class="hljs-number">1</span>px rgba(<span class="hljs-number">36</span>,<span class="hljs-number">146</span>,<span class="hljs-number">165</span>,<span class="hljs-number">0.4</span>) !important</code></pre></div>
 
 </li>
 </ul>
@@ -1148,6 +1176,11 @@ div img{
 
 
 
-
+ <!--背景线条 <script defer src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/canvas-nest.mini.js" color="0,0,250" opacity='0.5' zIndex="-2" count="250"></script>
+ 标题搞怪 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/FunnyTitle.js"></script>
+ 炸 <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 3; pointer-events: none;" ></canvas> 
+ 烟  <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+ 花 <script type="text/javascript" src="//abbw.gitee.io/asset/js/fireworks.js"></script>
+ -->
 </body>
 </html>
