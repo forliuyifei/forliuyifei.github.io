@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-06-26T07:57:41.420Z</updated>
+  <updated>2020-06-27T02:57:16.133Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「备忘」英文日期写法</title>
+    <link href="https://liuyifei.club/posts/62540.html"/>
+    <id>https://liuyifei.club/posts/62540.html</id>
+    <published>2020-06-27T01:52:54.000Z</published>
+    <updated>2020-06-27T02:57:16.133Z</updated>
+    
+    <content type="html"><![CDATA[<p>英文日期分英式和美式，如下：   </p><ol><li>8th March,2004 或8 March,2004（英式）  </li><li>March 8th,2004 或March 8,2004（美式）  </li></ol><p>日期写法宜遵从下列规则：  </p><ol><li>年份必须完全写明，不可用”04代替2004;  </li><li>月份必须用英文拼出或采用公认的简写，即 January (Jan.),February (Feb.),March(Mar.),April(Apr.),May,June,July,August (Aug.),September<br>(Sept.),October(Oct.),November(Nov.),December(Dec.);  </li><li>日期可用序数词，如：1st,2nd,3rd,4th,…；也可用基数词，如：1，2，3，4，…。但美式大多采用后者；  </li><li>在年份和月日之间必须用逗号隔开；  </li><li>日期不可全部采用如7.12.2003或7/12/2003的阿拉伯数字书写，否则会引起误解。因为英美在这方面的习惯用法不同。按美国人习惯，上述日期为2003年7月12日，而按英国习惯则是2003年12月7日。  </li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;英文日期分英式和美式，如下：   &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;8th March,2004 或8 March,2004（英式）  &lt;/li&gt;
+&lt;li&gt;March 8th,2004 或March 8,2004（美式）  &lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;日期写法宜遵从下列规则： 
+      
+    
+    </summary>
+    
+    
+      <category term="收藏" scheme="https://liuyifei.club/categories/%E6%94%B6%E8%97%8F/"/>
+    
+    
+      <category term="English" scheme="https://liuyifei.club/tags/English/"/>
+    
+  </entry>
   
   <entry>
     <title>民国刺客柳白猿</title>
@@ -476,27 +507,6 @@
     
     
       <category term="矫情" scheme="https://liuyifei.club/tags/%E7%9F%AB%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[梦]视若无睹</title>
-    <link href="https://liuyifei.club/posts/30720.html"/>
-    <id>https://liuyifei.club/posts/30720.html</id>
-    <published>2020-05-28T12:18:00.000Z</published>
-    <updated>2020-05-30T13:44:40.982Z</updated>
-    
-    <content type="html"><![CDATA[<p>2020.05.28</p><a id="more"></a><p>起床太急，又把梦忘了😥</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2020.05.28&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="梦" scheme="https://liuyifei.club/tags/%E6%A2%A6/"/>
     
   </entry>
   

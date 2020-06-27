@@ -1747,6 +1747,14 @@ h6::before {
   box-shadow: 0 0 16px rgba(228,84,96,0.4) !important;
   background-color: #fff;
 }
+.link-avatar img {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.link-avatar img:hover {
+  transform: scale(1.02) rotate(-10deg) translate(0px, 0px);
+  box-shadow: 0 2px 6px 1px rgba(36,146,165,0.4) !important;
+}
 .list-group-item {
   cursor: pointer;
   transition: all 0.5s;
@@ -1760,4 +1768,24 @@ h6::before {
 }
 .tagcloud a:hover {
   transform: scale(1) translate(0px, -2px);
+}
+.animated-icon {
+  transform: scale(0.85);
+}
+.cbp_tmtimeline>li .cbp_tmlabel {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.cbp_tmtimeline>li .cbp_tmlabel:hover {
+  transform: scale(1) translate(0px, -2px);
+  box-shadow: 6px 8px 16px rgba(194,164,66,0.4) !important;
+  border-radius: 0.25rem;
+}
+.shuoshuo_author_img img {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.shuoshuo_author_img img:hover {
+  transform: scale(1) rotate(0deg) translate(0px, -2px) !important;
+  box-shadow: 0 2px 6px 1px rgba(36,146,165,0.4) !important;
 }

@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>「备忘」英文日期写法</title>
+    <link href="/posts/62540.html"/>
+    <url>/posts/62540.html</url>
+    
+    <content type="html"><![CDATA[<p>英文日期分英式和美式，如下：   </p><ol><li>8th March,2004 或8 March,2004（英式）  </li><li>March 8th,2004 或March 8,2004（美式）  </li></ol><p>日期写法宜遵从下列规则：  </p><ol><li>年份必须完全写明，不可用”04代替2004;  </li><li>月份必须用英文拼出或采用公认的简写，即 January (Jan.),February (Feb.),March(Mar.),April(Apr.),May,June,July,August (Aug.),September<br>(Sept.),October(Oct.),November(Nov.),December(Dec.);  </li><li>日期可用序数词，如：1st,2nd,3rd,4th,…；也可用基数词，如：1，2，3，4，…。但美式大多采用后者；  </li><li>在年份和月日之间必须用逗号隔开；  </li><li>日期不可全部采用如7.12.2003或7/12/2003的阿拉伯数字书写，否则会引起误解。因为英美在这方面的习惯用法不同。按美国人习惯，上述日期为2003年7月12日，而按英国习惯则是2003年12月7日。  </li></ol><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>收藏</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>English</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>民国刺客柳白猿</title>
     <link href="/posts/3344.html"/>
     <url>/posts/3344.html</url>
@@ -489,11 +514,11 @@
     
     <tags>
       
+      <tag>问题&amp;解决</tag>
+      
       <tag>CDN</tag>
       
       <tag>美化</tag>
-      
-      <tag>问题&amp;解决</tag>
       
       <tag>记录</tag>
       
@@ -1700,10 +1725,6 @@
       
       <tag>影视截图</tag>
       
-      <tag>神雕侠侣</tag>
-      
-      <tag>台词</tag>
-      
       <tag>金庸</tag>
       
     </tags>
@@ -1749,10 +1770,6 @@
     <tags>
       
       <tag>影视截图</tag>
-      
-      <tag>王祖贤</tag>
-      
-      <tag>梁朝伟</tag>
       
     </tags>
     
@@ -1961,7 +1978,7 @@
     <link href="/posts/35226.html"/>
     <url>/posts/35226.html</url>
     
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Maybe you are not her🙄" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">怪梦</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="ff3bc5df7e5b20110d6c3ff1bf10e76d60d7f2613de21146995b6108ecb61f82">266a7a99ec59b1ae5fcf712e6a48526ba7ee1fee183802784be507f9debe16f985703780508c46afb2afbb3da5a071205ebcc36e4086f0c5eea6ed1151fbea311c61c84d7db53a042dbc77317fee9ac8210df8666e75f7f5a16e5e6ad044a7b8ea56e37b6c81590c9a2f0a0ea62e963b7cbd1c5cd2ce2c27e43e2db91a09354e1a84fc874d3448008a80faf49f0c0a68707d34cf81b294091111f53c16a0634efae186a16304a6f5096292ca5a257ecfe2449c21101fd9575230d2c2b031cd20ec78f0823dd5b541ad483376d596e073a1e7c18086edfe01373caf8d1ec8122c3909c8e4d7bf20a83301796deefc580e1011f62bc3300ab208ee796df86cc552431d0c1441fc339fe9bdfa0814b44667ecc211edef41cc7ccb8fa1551056ce821c2a8ac42438f001fabb9d45d4fea09bc89c35525d8185926fda9b385f0f0a5f7a8d85388a6ee3b4b3cc58657b56c745a03baa3e897a6f6ddbb3d1e16e7c565b4edb230ca4f01c3a514f853ab3157ce62430fa43986609f29de4ea15d2ddb30c5d3041dc524dec2ee99eccc95801c2567fdf0168d8024a3943d0f5557d3ff30029f32ffb06bfd8c05a5eb6974307e547329039eecf80286676b43e081929753d5d7f02e2effee251279ccfe4d8e1d6b29e1963268dd91ecf215f85ce45c282df786d7d26d7631b74450e3099431c147691ec03d0443c5337b14f2cbdca180d719867182412189fcfb81b1085fdf9afe27bfc132f37005ba7d333385302f2ada6fcb694528545c13f644f75441672da0f5ab15889e9a309391baf6ea3bca35428d130c76f290e48b1eace2ef56870420b0b448f9c9805cf613575aa48cd66accf0dcc6ba3e03f7b238ce7b8b06a5e0a0c8caab55ae0c219d28ca4addae1d47c69761dd0ad9d7cfbda623786dad20154d05d7fdd4521692f6876c38c534f2a2cb3affcc62e983c13006c9470bac32c144f3c8d9bf5eed3f85be22e84856cfd1e18ed4c314d4284560ce710373caf029ca53b79a44da756e7f6c2609d51d0a442a8b26450bb5fc525e74158913671f9e840fd47c091a5df979e6aedd46e2405b17ac14213c147a2510417978c67eff29b09e808cd3891a9316d449449fd142e3a795b676608c17e5631da839b8e9c95743eedb4cef05513b2be4b95ea03e96c7c456088aa88e9726ea5243809e8d00b4960979228f3734111626aeb4a4ad1630a9eca28824193a74ac6b0252a6a95c490067d2114f18420abff29ea5590acb08f9c928fe40155c4db1eea1ce572f5b74ba6ee4e48e72821cce2924807f0c12417eb9c40e48693606265016ea2dae9461acfad9d484b9c7f8eba5a57af065e8f3a3bc66cdf768e34026a2b827cc5ab2b04c93570c7c39872f4456e2c82b931fc8e2e2e20555021ae0acd2ad60682cb38a1ccf4e8071f8a8beca1be23413209842b51b94953bcdad95d25c64fb6d564d383535ff9d6873df6dcd94c33dc89fd0556928364be45aaf83f6d0268db2184249693caea9916dc47b17e91ff4bf127f597a083d2bdd2b1f8a58dc6609d3439f4264a8b69faf6e414c3614888b1c296716574637e79543b50a0951cf44a708d1c080dc7de8a8a74b816df4169d72ca6b2eab0d47e9812c3b0f0b65ed71273ba2d4e83bb8c554c0f96b36f47b87362dcb9f204086284e7cc8723cd5c9cf548da714cb6018c1ab897a4301c0cbec553aabe20b07587e4e5af50cfdb1b51a2da0032f24edfe91a10d08ab7aad3979ad8b7259c3161be181d4cee0d1c6109fde59687f5d7e90c2f1f5731cfb7a39681578598575aad1b398f5bb25dede898c9e7ef4c44e7c8c04d2095ede318eb5eda6ee6bab8989f4493885edc4241ce1fcb45fcbc32befca2a459bb883b9ceb0f95df9c3fc7cfb2b2d463237d57ecefb7e8f48bdb33deb8129034295826816d6919b14220da81980f1f1db8ed87aaa3133b2b9fbad93b38fa5e8ec0fce222f8ae4f9b0957ba725f5f73ddef78b447ebcec083ed3b46a5a82253b1c284742b58207d41163fc994122cfcf48729fc2d3a9b777db85e86135e30b6e6d9e1b8325afad4c2e2b5f53b141e57710ebeaac95598aa09a2a1ff24af434d3dfcf7233ed828b5a204243443d87c5d44a09c36ca54731cbc3a1d5b80c9988d71b06d87be558c1620376cc024570b2f58252ebf9f2688f53533f0c0884efdb1dbbca2ca37ce3d124b86bad299d9836bc73a0b2ab700fd8842d9792620f410cb53b2bba8a72d1b23d1e4ad352c767de99b0a48dbd6cdb3d677b31a41c71104ee058cc95c59ea5206821e9d1011db37c6f15265cbc93275b56d57f238f6e46b0f4fcd8b73050e937473066a4aec9570977fa5f608b2b45aac393c9f985f33633d079c097ceb1384547af6a6c8f28017d67a7a919b9d018b1739803acdcdedc4d42c37bd377aae08fb205ddb739a0b7f32d6d798bfd26031a8a17fb847b1fd57702700cd3ebe93d117328c456c02</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Maybe you are not...☹" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">怪梦</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="ff3bc5df7e5b20110d6c3ff1bf10e76d60d7f2613de21146995b6108ecb61f82">266a7a99ec59b1ae5fcf712e6a48526ba7ee1fee183802784be507f9debe16f985703780508c46afb2afbb3da5a071205ebcc36e4086f0c5eea6ed1151fbea311c61c84d7db53a042dbc77317fee9ac8210df8666e75f7f5a16e5e6ad044a7b8ea56e37b6c81590c9a2f0a0ea62e963b7cbd1c5cd2ce2c27e43e2db91a09354e1a84fc874d3448008a80faf49f0c0a68707d34cf81b294091111f53c16a0634efae186a16304a6f5096292ca5a257ecfe2449c21101fd9575230d2c2b031cd20ec78f0823dd5b541ad483376d596e073a1e7c18086edfe01373caf8d1ec8122c3909c8e4d7bf20a83301796deefc580e1011f62bc3300ab208ee796df86cc552431d0c1441fc339fe9bdfa0814b44667ecc211edef41cc7ccb8fa1551056ce821c2a8ac42438f001fabb9d45d4fea09bc89c35525d8185926fda9b385f0f0a5f7a8d85388a6ee3b4b3cc58657b56c745a03baa3e897a6f6ddbb3d1e16e7c565b4edb230ca4f01c3a514f853ab3157ce62430fa43986609f29de4ea15d2ddb30c5d3041dc524dec2ee99eccc95801c2567fdf0168d8024a3943d0f5557d3ff30029f32ffb06bfd8c05a5eb6974307e547329039eecf80286676b43e081929753d5d7f02e2effee251279ccfe4d8e1d6b29e1963268dd91ecf215f85ce45c282df786d7d26d7631b74450e3099431c147691ec03d0443c5337b14f2cbdca180d719867182412189fcfb81b1085fdf9afe27bfc132f37005ba7d333385302f2ada6fcb694528545c13f644f75441672da0f5ab15889e9a309391baf6ea3bca35428d130c76f290e48b1eace2ef56870420b0b448f9c9805cf613575aa48cd66accf0dcc6ba3e03f7b238ce7b8b06a5e0a0c8caab55ae0c219d28ca4addae1d47c69761dd0ad9d7cfbda623786dad20154d05d7fdd4521692f6876c38c534f2a2cb3affcc62e983c13006c9470bac32c144f3c8d9bf5eed3f85be22e84856cfd1e18ed4c314d4284560ce710373caf029ca53b79a44da756e7f6c2609d51d0a442a8b26450bb5fc525e74158913671f9e840fd47c091a5df979e6aedd46e2405b17ac14213c147a2510417978c67eff29b09e808cd3891a9316d449449fd142e3a795b676608c17e5631da839b8e9c95743eedb4cef05513b2be4b95ea03e96c7c456088aa88e9726ea5243809e8d00b4960979228f3734111626aeb4a4ad1630a9eca28824193a74ac6b0252a6a95c490067d2114f18420abff29ea5590acb08f9c928fe40155c4db1eea1ce572f5b74ba6ee4e48e72821cce2924807f0c12417eb9c40e48693606265016ea2dae9461acfad9d484b9c7f8eba5a57af065e8f3a3bc66cdf768e34026a2b827cc5ab2b04c93570c7c39872f4456e2c82b931fc8e2e2e20555021ae0acd2ad60682cb38a1ccf4e8071f8a8beca1be23413209842b51b94953bcdad95d25c64fb6d564d383535ff9d6873df6dcd94c33dc89fd0556928364be45aaf83f6d0268db2184249693caea9916dc47b17e91ff4bf127f597a083d2bdd2b1f8a58dc6609d3439f4264a8b69faf6e414c3614888b1c296716574637e79543b50a0951cf44a708d1c080dc7de8a8a74b816df4169d72ca6b2eab0d47e9812c3b0f0b65ed71273ba2d4e83bb8c554c0f96b36f47b87362dcb9f204086284e7cc8723cd5c9cf548da714cb6018c1ab897a4301c0cbec553aabe20b07587e4e5af50cfdb1b51a2da0032f24edfe91a10d08ab7aad3979ad8b7259c3161be181d4cee0d1c6109fde59687f5d7e90c2f1f5731cfb7a39681578598575aad1b398f5bb25dede898c9e7ef4c44e7c8c04d2095ede318eb5eda6ee6bab8989f4493885edc4241ce1fcb45fcbc32befca2a459bb883b9ceb0f95df9c3fc7cfb2b2d463237d57ecefb7e8f48bdb33deb8129034295826816d6919b14220da81980f1f1db8ed87aaa3133b2b9fbad93b38fa5e8ec0fce222f8ae4f9b0957ba725f5f73ddef78b447ebcec083ed3b46a5a82253b1c284742b58207d41163fc994122cfcf48729fc2d3a9b777db85e86135e30b6e6d9e1b8325afad4c2e2b5f53b141e57710ebeaac95598aa09a2a1ff24af434d3dfcf7233ed828b5a204243443d87c5d44a09c36ca54731cbc3a1d5b80c9988d71b06d87be558c1620376cc024570b2f58252ebf9f2688f53533f0c0884efdb1dbbca2ca37ce3d124b86bad299d9836bc73a0b2ab700fd8842d9792620f410cb53b2bba8a72d1b23d1e4ad352c767de99b0a48dbd6cdb3d677b31a41c71104ee058cc95c59ea5206821e9d1011db37c6f15265cbc93275b56d57f238f6e46b0f4fcd8b73050e937473066a4aec9570977fa5f608b2b45aac393c9f985f33633d079c097ceb1384547af6a6c8f28017d67a7a919b9d018b1739803acdcdedc4d42c37bd377aae08fb205ddb739a0b7f32d6d798bfd26031a8a17fb847b1fd57702700cd3ebe93d117328c456c02</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     
     <categories>
