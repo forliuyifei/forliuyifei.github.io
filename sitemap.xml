@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liuyifei.club/about/index.html</loc>
+    
+    <lastmod>2020-06-28T10:32:39.038Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liuyifei.club/posts/41000.html</loc>
     
     <lastmod>2020-06-28T00:25:38.307Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://liuyifei.club/weibo/index.html</loc>
     
     <lastmod>2020-06-27T10:00:31.692Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liuyifei.club/about/index.html</loc>
-    
-    <lastmod>2020-06-27T09:50:39.356Z</lastmod>
     
   </url>
   
