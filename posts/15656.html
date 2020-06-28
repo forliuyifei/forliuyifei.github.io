@@ -281,10 +281,10 @@
             
             <article class="markdown-body">
               <h2 id="文章封面触摸过渡动画"><a href="#文章封面触摸过渡动画" class="headerlink" title="文章封面触摸过渡动画"></a>文章封面触摸过渡动画</h2><p>几天前看到<a href="https://royce2003.top/" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a>的面向小白的用css美化网站教程<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="CSS美化博客 第二期
-">[1]</span></a></sup>，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.webp" alt=""></p>
+">[1]</span></a></sup>，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p>
 <p>但我想要的只是给文章封面添加触摸变大过渡动画。</p>
 <p>先用万能的右键检查定位到自己需要改动的地方：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200603154836.png" srcset="/img/loading.webp" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200603154836.png" srcset="/img/loading.gif" alt=""></p>
 <p>大概就是这个 <strong>.index_img</strong> 了，具体如何实现呢？</p>
 <p>百度一下找到这篇教程</p>
 <blockquote>
@@ -335,7 +335,7 @@ div img{
 </blockquote>
 <p>似乎还是麻烦了点🤔</p>
 <p>💡Fluid主题的css配置文件夹里肯定有相关内容，找出来直接往后补充就是了，不行就Crtl+Z撤回</p>
-<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.webp" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Snipaste_2020-04-24_19-10-28.jpg" srcset="/img/loading.gif" alt=""></p>
 <p>对齐img的下一级内容修改后</p>
 <div class="hljs"><pre><code class="hljs angelscript">.index-img
   img
@@ -356,11 +356,11 @@ div img{
 
 <hr>
 <h2 id="APlayer自动靠边收拢"><a href="#APlayer自动靠边收拢" class="headerlink" title="APlayer自动靠边收拢"></a>APlayer自动靠边收拢</h2><p>aplayer自带的<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%90%B8%E5%BA%95%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener external nofollow noreferrer">fixed和mini模式</a>在本站的显示效果一直很糟糕，碍眼，减低观赏性，还影响正文阅读，平时只能关闭它。</p>
-<p><img src="https://i.loli.net/2020/05/20/Bux5M68NUFXPIoS.jpg" srcset="/img/loading.webp" alt="手机截图"></p>
+<p><img src="https://i.loli.net/2020/05/20/Bux5M68NUFXPIoS.jpg" srcset="/img/loading.gif" alt="手机截图"></p>
 <p>直至遇到这篇教程：<br><a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener external nofollow noreferrer">hexo集成Aplayer实现全局播放器吸底模式</a>  <sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="hexo集成Aplayer实现全局播放器吸底模式
 ">[2]</span></a></sup></p>
-<p>可恕吾愚钝，一直学不会引入自定义css😶<br><img src="https://i.loli.net/2020/05/20/FwPYLEfyiRpKoDs.png" srcset="/img/loading.webp" alt="image.png"></p>
-<p><strong>来自群友的指导💡</strong><br><img src="https://i.loli.net/2020/05/20/LHE4fgKIxSBciW2.png" srcset="/img/loading.webp" alt="image.png"><br><strong>操作</strong></p>
+<p>可恕吾愚钝，一直学不会引入自定义css😶<br><img src="https://i.loli.net/2020/05/20/FwPYLEfyiRpKoDs.png" srcset="/img/loading.gif" alt="image.png"></p>
+<p><strong>来自群友的指导💡</strong><br><img src="https://i.loli.net/2020/05/20/LHE4fgKIxSBciW2.png" srcset="/img/loading.gif" alt="image.png"><br><strong>操作</strong></p>
 <ul>
 <li><p>直接修改main.styl，填入以下代码</p>
 <div class="hljs"><pre><code class="hljs stylus"><span class="hljs-comment">//aplayer自动收起</span>
@@ -369,14 +369,14 @@ div img{
     <span class="hljs-attribute">left</span>: -<span class="hljs-number">66px</span> !important
   <span class="hljs-selector-class">.aplayer-body</span>:hover
     <span class="hljs-attribute">left</span>: <span class="hljs-number">0px</span> !important</code></pre></div>
-<p><img src="https://i.loli.net/2020/05/20/CTuMibmKPXwVGSs.png" srcset="/img/loading.webp" alt="image.png"></p>
+<p><img src="https://i.loli.net/2020/05/20/CTuMibmKPXwVGSs.png" srcset="/img/loading.gif" alt="image.png"></p>
 </li>
 <li><p>保存</p>
 </li>
 <li><p>刷新本地页面查看效果  </p>
 </li>
 </ul>
-<p><img src="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" srcset="/img/loading.webp" alt=""></p>
+<p><img src="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" srcset="/img/loading.gif" alt=""></p>
 <p><del>嗯又多了个不想更新主题的借口</del>🙊</p>
 <hr>
 <p>用到的工具：</p>
