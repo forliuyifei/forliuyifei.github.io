@@ -18,12 +18,12 @@
   <meta name="theme-color" content="#263238">
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
-  <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7"> -->
+  <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-Fluid主题自定义,刘亦菲,句子迷,刷机|软件|工具|教程|技巧|电影|壁纸|资源"> -->
   <title>Fluid主题自定义美化记录🌈 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
-    <meta name="keywords" content="Hexo-Fluid主题自定义,菲迷,句子迷,亦家人的博客,刷机|软件|工具|教程|技巧|电影|壁纸|资源,Havoc-红米note7">
+    <meta name="keywords" content="Hexo-Fluid主题自定义,刘亦菲,句子迷,刷机|软件|工具|教程|技巧|电影|壁纸|资源">
     
 
     
@@ -49,12 +49,12 @@
 <link rel="stylesheet" href="//at.alicdn.com/t/font_1782752_mwwl0jzai9s.css">
 
 
-<link  rel="stylesheet" href="/css/main.css" />
+<link  rel="stylesheet" href="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/css/main.css" />
 
 <!-- 自定义样式保持在最底部 -->
 
 
-  <script  src="/js/utils.js" ></script>
+  <script  src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/utils.js" ></script>
 <meta name="generator" content="Hexo 4.2.0"><link rel="alternate" href="/atom.xml" title="饿龙不是龙哩" type="application/atom+xml">
 </head>
 
@@ -225,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      1.5k 字
+      3.1k 字
     </span>
   
 
@@ -235,7 +235,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      7
+      17
        分钟
     </span>
   
@@ -275,7 +275,7 @@
             
               <p class="note note-info">
                 
-                  最后更新于：2020 六月 27日 , 星期六 , 19:53 晚上
+                  最后更新于：2020 六月 29日 , 星期一 , 14:05 下午
                 
               </p>
             
@@ -524,9 +524,424 @@ div img{
 
 </li>
 </ul>
+<h4 id="一个小火箭🚀动画"><a href="#一个小火箭🚀动画" class="headerlink" title="一个小火箭🚀动画"></a>一个小火箭🚀动画</h4><p>可用于点击跳转链接或者页面回顶  </p>
+<p><strong>css部分</strong><sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="27个精致的CSS3动画效果源代码下载
+">[3]</span></a></sup></p>
+<div class="hljs"><pre><code class="hljs scss"><span class="hljs-comment">//火箭🚀动画</span>
+*{<span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">list-style</span>: none;}
+<span class="hljs-selector-id">#animation</span> {
+	<span class="hljs-attribute">animation</span>: flight <span class="hljs-number">9s</span> ease-in-out <span class="hljs-number">0s</span> infinite alternate none;
+	-webkit-<span class="hljs-attribute">animation</span>: flight <span class="hljs-number">9s</span> ease-in-out <span class="hljs-number">0s</span> infinite alternate none;
+	<span class="hljs-attribute">width</span>: <span class="hljs-number">50%</span>
+}
+.spaceship {
+	position: fixed;
+	-webkit-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.76</span>) rotate(<span class="hljs-number">45deg</span>);
+	-moz-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.76</span>) rotate(<span class="hljs-number">45deg</span>);
+	-ms-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.76</span>) rotate(<span class="hljs-number">45deg</span>);
+	-o-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.76</span>) rotate(<span class="hljs-number">45deg</span>);
+	<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.2</span>) rotate(<span class="hljs-number">45deg</span>);
+	<span class="hljs-attribute">top</span>: <span class="hljs-number">0%</span>;
+	<span class="hljs-attribute">left</span>: <span class="hljs-number">20%</span>
+}
+.spaceship .body {
+	width: <span class="hljs-number">300px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">300px</span>;
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">150px</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">150px</span>;
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">300px</span>;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">box-shadow</span>: -<span class="hljs-number">33px</span> -<span class="hljs-number">33px</span> <span class="hljs-number">0</span> rgba(<span class="hljs-number">228</span>, <span class="hljs-number">230</span>, <span class="hljs-number">234</span>, .<span class="hljs-number">6</span>) inset;
+	<span class="hljs-attribute">background-color</span>: rgba(<span class="hljs-number">235</span>, <span class="hljs-number">236</span>, <span class="hljs-number">240</span>, <span class="hljs-number">1</span>);
+	-webkit-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.46</span>, <span class="hljs-number">1</span>);
+	-moz-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.46</span>, <span class="hljs-number">1</span>);
+	-ms-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.46</span>, <span class="hljs-number">1</span>);
+	-o-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.46</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.46</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">overflow</span>: hidden
+}
+.spaceship .body:before {
+	content: <span class="hljs-string">""</span>;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">285px</span>;
+	<span class="hljs-attribute">background-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">153</span>, <span class="hljs-number">145</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">300px</span>;
+	-webkit-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.9</span>, .<span class="hljs-number">46</span>);
+	-moz-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.9</span>, .<span class="hljs-number">46</span>);
+	-ms-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.9</span>, .<span class="hljs-number">46</span>);
+	-o-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.9</span>, .<span class="hljs-number">46</span>);
+	<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">0.9</span>, .<span class="hljs-number">46</span>);
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">180px</span>
+}
+.spaceship .window {
+	width: <span class="hljs-number">40px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">40px</span>;
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">40px</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">26px</span>;
+	<span class="hljs-attribute">border</span>: <span class="hljs-number">6px</span> solid rgba(<span class="hljs-number">215</span>, <span class="hljs-number">216</span>, <span class="hljs-number">220</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">background-color</span>: rgba(<span class="hljs-number">245</span>, <span class="hljs-number">246</span>, <span class="hljs-number">255</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">overflow</span>: hidden;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">40px</span>
+}
+.spaceship .window:before, .spaceship .window:after {
+	width: <span class="hljs-number">5px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+	<span class="hljs-attribute">margin-left</span>: <span class="hljs-number">16px</span>;
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">5px</span>;
+	-webkit-<span class="hljs-attribute">transform</span>: rotate(<span class="hljs-number">45deg</span>);
+	-moz-<span class="hljs-attribute">transform</span>: rotate(<span class="hljs-number">45deg</span>);
+	-ms-<span class="hljs-attribute">transform</span>: rotate(<span class="hljs-number">45deg</span>);
+	-o-<span class="hljs-attribute">transform</span>: rotate(<span class="hljs-number">45deg</span>);
+	<span class="hljs-attribute">transform</span>: rotate(<span class="hljs-number">45deg</span>);
+	<span class="hljs-attribute">background-color</span>: <span class="hljs-number">#fff</span>;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">5</span>
+}
+.spaceship .window:before {
+	margin-top: <span class="hljs-number">10px</span>
+}
+.spaceship .fins {
+	position: absolute;
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>
+}
+.spaceship .fins:before, .spaceship .fins:after {
+	content: <span class="hljs-string">""</span>;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">border-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">153</span>, <span class="hljs-number">145</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">30px</span>;
+	<span class="hljs-attribute">border-top</span>: <span class="hljs-number">140px</span> solid transparent;
+	<span class="hljs-attribute">border-bottom</span>: <span class="hljs-number">20px</span> solid transparent
+}
+.spaceship .fins:before {
+	border-right: <span class="hljs-number">100px</span> solid rgba(<span class="hljs-number">255</span>, <span class="hljs-number">153</span>, <span class="hljs-number">145</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">100px</span>
+}
+.spaceship .fins:after {
+	border-left: <span class="hljs-number">100px</span> solid rgba(<span class="hljs-number">255</span>, <span class="hljs-number">153</span>, <span class="hljs-number">145</span>, <span class="hljs-number">1</span>)
+}
+.spaceship .antenna {
+	position: absolute;
+	<span class="hljs-attribute">background-color</span>: rgba(<span class="hljs-number">235</span>, <span class="hljs-number">236</span>, <span class="hljs-number">240</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">200px</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">2px</span>;
+	<span class="hljs-attribute">top</span>: <span class="hljs-number">50%</span>;
+	<span class="hljs-attribute">left</span>: <span class="hljs-number">50%</span>;
+	<span class="hljs-attribute">width</span>: <span class="hljs-number">4px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">60px</span>
+}
+.spaceship .antenna:before {
+	width: <span class="hljs-number">16px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">16px</span>;
+	<span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+	<span class="hljs-attribute">background-color</span>: rgba(<span class="hljs-number">235</span>, <span class="hljs-number">236</span>, <span class="hljs-number">240</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">box-shadow</span>: -<span class="hljs-number">3px</span> -<span class="hljs-number">3px</span> <span class="hljs-number">0</span> rgba(<span class="hljs-number">225</span>, <span class="hljs-number">226</span>, <span class="hljs-number">230</span>, <span class="hljs-number">1</span>) inset;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">16px</span>;
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">8px</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">6px</span>
+}
+.spaceship .rocket {
+	width: <span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">10px</span>;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">border-top</span>: <span class="hljs-number">30px</span> solid rgba(<span class="hljs-number">130</span>, <span class="hljs-number">134</span>, <span class="hljs-number">138</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-right</span>: <span class="hljs-number">10px</span> solid transparent;
+	<span class="hljs-attribute">border-left</span>: <span class="hljs-number">10px</span> solid transparent;
+	<span class="hljs-attribute">margin-top</span>: <span class="hljs-number">120px</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">40px</span>
+}
+.spaceship .rocket:before {
+	background-color: rgba(<span class="hljs-number">130</span>, <span class="hljs-number">134</span>, <span class="hljs-number">138</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">70px</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">10px</span>;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">80px</span>;
+	-webkit-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">25</span>);
+	-moz-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">25</span>);
+	-ms-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">25</span>);
+	-o-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">25</span>);
+	<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">25</span>);
+	<span class="hljs-attribute">width</span>: <span class="hljs-number">80px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">80px</span>
+}
+.spaceship .rocket:after {
+	background-color: rgba(<span class="hljs-number">120</span>, <span class="hljs-number">124</span>, <span class="hljs-number">128</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">30px</span>;
+	<span class="hljs-attribute">position</span>: absolute;
+	<span class="hljs-attribute">content</span>: <span class="hljs-string">""</span>;
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">80px</span>;
+	-webkit-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	-moz-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	-ms-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	-o-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	<span class="hljs-attribute">width</span>: <span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">60px</span>
+}
+.spaceship .fireWrapper {
+	position: absolute;
+	<span class="hljs-attribute">overflow</span>: hidden;
+	<span class="hljs-attribute">border-radius</span>: <span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">width</span>: <span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">500px</span>;
+	<span class="hljs-attribute">margin-top</span>: -<span class="hljs-number">66px</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">30px</span>;
+	<span class="hljs-attribute">z-index</span>: <span class="hljs-number">100</span>;
+	-webkit-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	-moz-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	-ms-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	-o-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>);
+	<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, .<span class="hljs-number">15</span>)
+}
+.fire {
+	position: absolute;
+	<span class="hljs-attribute">margin-top</span>: <span class="hljs-number">140px</span>;
+	<span class="hljs-attribute">width</span>: <span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">height</span>: <span class="hljs-number">60px</span>;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">9</span>;
+	-webkit-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, <span class="hljs-number">6.67</span>);
+	-moz-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, <span class="hljs-number">6.67</span>);
+	-ms-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, <span class="hljs-number">6.67</span>);
+	-o-<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, <span class="hljs-number">6.67</span>);
+	<span class="hljs-attribute">transform</span>: scale(<span class="hljs-number">1</span>, <span class="hljs-number">6.67</span>)
+}
+.fire div {
+	position: absolute;
+	-webkit-<span class="hljs-attribute">transform-origin</span>: top center;
+	<span class="hljs-attribute">transform-origin</span>: top center;
+	<span class="hljs-attribute">border-top</span>: <span class="hljs-number">30px</span> solid rgba(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-left</span>: <span class="hljs-number">25px</span> solid transparent;
+	<span class="hljs-attribute">border-right</span>: <span class="hljs-number">25px</span> solid transparent;
+	<span class="hljs-attribute">opacity</span>: <span class="hljs-number">0</span>
+}
+.fire div:nth-of-type(<span class="hljs-number">1</span>) {
+	animation: fire .<span class="hljs-number">35s</span> linear <span class="hljs-number">0s</span> infinite alternate none;
+	-webkit-<span class="hljs-attribute">animation</span>: fire .<span class="hljs-number">35s</span> linear <span class="hljs-number">0s</span> infinite alternate none;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">8</span>;
+	<span class="hljs-attribute">margin-left</span>: <span class="hljs-number">5px</span>;
+	<span class="hljs-attribute">border-top-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">190</span>, <span class="hljs-number">100</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-top-width</span>: <span class="hljs-number">50px</span>;
+	<span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>
+}
+.fire div:nth-of-type(<span class="hljs-number">2</span>) {
+	animation: fire .<span class="hljs-number">38s</span> linear -.<span class="hljs-number">5s</span> infinite alternate none;
+	-webkit-<span class="hljs-attribute">animation</span>: fire .<span class="hljs-number">38s</span> linear -.<span class="hljs-number">5s</span> infinite alternate none;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">8</span>;
+	<span class="hljs-attribute">margin-left</span>: <span class="hljs-number">16px</span>;
+	<span class="hljs-attribute">border-top-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">140</span>, <span class="hljs-number">100</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-top-width</span>: <span class="hljs-number">40px</span>;
+	<span class="hljs-attribute">z-index</span>: <span class="hljs-number">0</span>
+}
+.fire div:nth-of-type(<span class="hljs-number">3</span>) {
+	animation: fire .<span class="hljs-number">4s</span> linear -<span class="hljs-number">1s</span> infinite alternate none;
+	-webkit-<span class="hljs-attribute">animation</span>: fire .<span class="hljs-number">4s</span> linear -<span class="hljs-number">1s</span> infinite alternate none;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">8</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">6px</span>;
+	<span class="hljs-attribute">border-top-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">160</span>, <span class="hljs-number">100</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-top-width</span>: <span class="hljs-number">30px</span>;
+	<span class="hljs-attribute">z-index</span>: <span class="hljs-number">1</span>
+}
+.fire div:nth-of-type(<span class="hljs-number">4</span>) {
+	animation: fire .<span class="hljs-number">55s</span> linear -<span class="hljs-number">1.2s</span> infinite alternate none;
+	-webkit-<span class="hljs-attribute">animation</span>: fire .<span class="hljs-number">55s</span> linear -<span class="hljs-number">1.2s</span> infinite alternate none;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">8</span>;
+	<span class="hljs-attribute">margin-left</span>: <span class="hljs-number">9px</span>;
+	<span class="hljs-attribute">border-left-width</span>: <span class="hljs-number">20px</span>;
+	<span class="hljs-attribute">border-right-width</span>: <span class="hljs-number">20px</span>;
+	<span class="hljs-attribute">border-top-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">200</span>, <span class="hljs-number">100</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-top-width</span>: <span class="hljs-number">50px</span>;
+	<span class="hljs-attribute">z-index</span>: -<span class="hljs-number">1</span>
+}
+.fire div:nth-of-type(<span class="hljs-number">5</span>) {
+	animation: fire .<span class="hljs-number">25s</span> linear -<span class="hljs-number">1.2s</span> infinite alternate none;
+	-webkit-<span class="hljs-attribute">animation</span>: fire .<span class="hljs-number">25s</span> linear -<span class="hljs-number">1.2s</span> infinite alternate none;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">8</span>;
+	<span class="hljs-attribute">margin-left</span>: <span class="hljs-number">14px</span>;
+	<span class="hljs-attribute">border-left-width</span>: <span class="hljs-number">25px</span>;
+	<span class="hljs-attribute">border-right-width</span>: <span class="hljs-number">25px</span>;
+	<span class="hljs-attribute">border-top-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">220</span>, <span class="hljs-number">100</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-top-width</span>: <span class="hljs-number">35px</span>;
+	<span class="hljs-attribute">z-index</span>: <span class="hljs-number">2</span>
+}
+.fire div:nth-of-type(<span class="hljs-number">6</span>) {
+	animation: fire .<span class="hljs-number">25s</span> linear -<span class="hljs-number">1.2s</span> infinite alternate none;
+	-webkit-<span class="hljs-attribute">animation</span>: fire .<span class="hljs-number">25s</span> linear -<span class="hljs-number">1.2s</span> infinite alternate none;
+	<span class="hljs-attribute">opacity</span>: .<span class="hljs-number">8</span>;
+	<span class="hljs-attribute">margin-left</span>: -<span class="hljs-number">6px</span>;
+	<span class="hljs-attribute">border-left-width</span>: <span class="hljs-number">25px</span>;
+	<span class="hljs-attribute">border-right-width</span>: <span class="hljs-number">25px</span>;
+	<span class="hljs-attribute">border-top-color</span>: rgba(<span class="hljs-number">255</span>, <span class="hljs-number">230</span>, <span class="hljs-number">110</span>, <span class="hljs-number">1</span>);
+	<span class="hljs-attribute">border-top-width</span>: <span class="hljs-number">35px</span>;
+	<span class="hljs-attribute">z-index</span>: <span class="hljs-number">2</span>
+}
+@keyframes fire {
+	<span class="hljs-number">100%</span> {
+		-webkit-transform: skew(<span class="hljs-number">30deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">30deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">30deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">30deg</span>)
+	}
+	<span class="hljs-number">74%</span> {
+		-webkit-transform: skew(-<span class="hljs-number">15deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>)
+	}
+	<span class="hljs-number">58%</span> {
+		-webkit-transform: skew(<span class="hljs-number">10deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>)
+	}
+	<span class="hljs-number">30%</span> {
+		-webkit-transform: skew(-<span class="hljs-number">35deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>)
+	}
+	<span class="hljs-number">0%</span> {
+		-webkit-transform: skew(<span class="hljs-number">25deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>)
+	}
+}
+@-webkit-keyframes fire {
+	<span class="hljs-number">100%</span> {
+		-webkit-transform: skew(<span class="hljs-number">30deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">30deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">30deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">30deg</span>)
+	}
+	<span class="hljs-number">74%</span> {
+		-webkit-transform: skew(-<span class="hljs-number">15deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">15deg</span>)
+	}
+	<span class="hljs-number">58%</span> {
+		-webkit-transform: skew(<span class="hljs-number">10deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">10deg</span>)
+	}
+	<span class="hljs-number">30%</span> {
+		-webkit-transform: skew(-<span class="hljs-number">35deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(-<span class="hljs-number">35deg</span>)
+	}
+	<span class="hljs-number">0%</span> {
+		-webkit-transform: skew(<span class="hljs-number">25deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>);
+		<span class="hljs-attribute">transform</span>: skew(<span class="hljs-number">25deg</span>)
+	}
+}
+@keyframes flight {
+	<span class="hljs-number">100%</span> {
+		-webkit-transform: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>) rotate(-<span class="hljs-number">4deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>);
+		<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>)
+	}
+	<span class="hljs-number">66%</span> {
+		-webkit-transform: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>)
+	}
+	<span class="hljs-number">36%</span> {
+		-webkit-transform: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>)
+	}
+	<span class="hljs-number">0%</span> {
+		-webkit-transform: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>)
+	}
+}
+@-webkit-keyframes flight {
+	<span class="hljs-number">100%</span> {
+		-webkit-transform: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>) rotate(-<span class="hljs-number">4deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>);
+		<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">40px</span>, <span class="hljs-number">60px</span>)
+	}
+	<span class="hljs-number">66%</span> {
+		-webkit-transform: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>);
+		<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">30px</span>, -<span class="hljs-number">50px</span>) rotate(<span class="hljs-number">5deg</span>)
+	}
+	<span class="hljs-number">36%</span> {
+		-webkit-transform: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>);
+		<span class="hljs-attribute">transform</span>: translate(<span class="hljs-number">50px</span>, <span class="hljs-number">40px</span>) rotate(-<span class="hljs-number">6deg</span>)
+	}
+	<span class="hljs-number">0%</span> {
+		-webkit-transform: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-moz-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-ms-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		-o-<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>);
+		<span class="hljs-attribute">transform</span>: translate(-<span class="hljs-number">40px</span>, -<span class="hljs-number">30px</span>) rotate(<span class="hljs-number">5deg</span>)
+	}
+}
+//火箭🚀动画结束</code></pre></div>
+
+<p>找个合适的<code>.ejs</code>文件加入以下代码</p>
+<div class="hljs"><pre><code class="hljs xml">   <span class="hljs-comment">&lt;!-- 火箭🚀动画代码部分begin --&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"animation"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://travellings.now.sh/"</span> <span class="hljs-attr">title</span>=<span class="hljs-string">"开往下一站~"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"spaceship"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"antenna"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"body"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"window"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fins"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"rocket"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fireWrapper"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fire"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre></div>
+
+
 <h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><section class="footnotes"><hr><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener external nofollow noreferrer">CSS美化博客 第二期</a>
 <a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener external nofollow noreferrer">hexo集成Aplayer实现全局播放器吸底模式</a>
-<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section><script>
+<a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://www.w3cschool.cn/css3/css3-animation.html" target="_blank" rel="noopener external nofollow noreferrer">27个精致的CSS3动画效果源代码下载</a>
+<a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -786,20 +1201,20 @@ div img{
 <!-- SCRIPTS -->
 <script  src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js" ></script>
 <script  src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js" ></script>
-<script  src="/js/debouncer.js" ></script>
-<script  src="/js/main.js" ></script>
+<script  src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/debouncer.js" ></script>
+<script  src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/main.js" ></script>
 
 <!-- Plugins -->
 
 
   
-    <script  src="/js/lazyload.js" ></script>
+    <script  src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/lazyload.js" ></script>
   
 
 
 
   <script defer src="https://cdn.staticfile.org/clipboard.js/2.0.6/clipboard.min.js" ></script>
-  <script  src="/js/clipboard-use.js" ></script>
+  <script  src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/clipboard-use.js" ></script>
 
 
 
@@ -1051,9 +1466,9 @@ div img{
 
 
 
-  <script  src="/js/local-search.js" ></script>
+  <script  src="https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/js/local-search.js" ></script>
   <script>
-    var path = "/local-search.xml";
+    var path = "https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/local-search.xml";
     var inputArea = document.querySelector("#local-search-input");
     inputArea.onclick = function () {
       searchFunc(path, 'local-search-input', 'local-search-result');
