@@ -225,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      270 字
+      271 字
     </span>
   
 
@@ -282,17 +282,21 @@
             <article class="markdown-body">
               <p>获取“网易云音乐”中音乐的直链</p>
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="530" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe>
-
 <ol>
 <li>首先打开网易云音乐</li>
-<li>随便找一首歌曲播放，将浏览器上方的地址栏中的地址复制下来，像这样：<br><a href="https://music.163.com/#/song?id=740558" target="_blank" rel="noopener external nofollow noreferrer">https://music.163.com/#/song?id=740558</a><br>手机获取的可能是<br><a href="http://music.163.com/song/740558/?userid=xxxxx（你的用户ID）" target="_blank" rel="noopener external nofollow noreferrer">http://music.163.com/song/740558/?userid=xxxxx（你的用户ID）</a></li>
+<li>随便找一首歌曲播放，将浏览器上方的地址栏中的地址复制下来，像这样：<br>
+<a href="https://music.163.com/#/song?id=740558" target="_blank" rel="noopener external nofollow noreferrer">https://music.163.com/#/song?id=740558</a><br>
+手机获取的可能是<br>
+<a href="http://music.163.com/song/740558/?userid=xxxxx%EF%BC%88%E4%BD%A0%E7%9A%84%E7%94%A8%E6%88%B7ID%EF%BC%89" target="_blank" rel="noopener external nofollow noreferrer">http://music.163.com/song/740558/?userid=xxxxx（你的用户ID）</a></li>
 <li>重点是获取紧跟song的歌曲id如 740558</li>
-<li>在这个数字前面加上：<br><a href="http://music.163.com/song/media/outer/url?id=" target="_blank" rel="noopener external nofollow noreferrer">http://music.163.com/song/media/outer/url?id=</a><br>后面加上“.mp3”，就形成了这段音乐的真实地址如下：<br><a href="http://music.163.com/song/media/outer/url?id=740558.mp3" target="_blank" rel="noopener external nofollow noreferrer">http://music.163.com/song/media/outer/url?id=740558.mp3</a></li>
+<li>在这个数字前面加上：<br>
+<a href="http://music.163.com/song/media/outer/url?id=" target="_blank" rel="noopener external nofollow noreferrer">http://music.163.com/song/media/outer/url?id=</a><br>
+后面加上“.mp3”，就形成了这段音乐的真实地址如下：<br>
+<a href="http://music.163.com/song/media/outer/url?id=740558.mp3" target="_blank" rel="noopener external nofollow noreferrer">http://music.163.com/song/media/outer/url?id=740558.mp3</a></li>
 </ol>
-<p>自己试试能不能直接打开播放<br>http和https可按需互换</p>
+<p>自己试试能不能直接打开播放<br>
+http和https可按需互换</p>
 <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&amp;id=740558&amp;auto=0&amp;height=66"></iframe>
-
-
 <hr>
 <p>奇怪</p>
 <div class="hljs"><pre><code class="hljs arduino">&lt;iframe <span class="hljs-built_in">width</span>=<span class="hljs-string">"0"</span> <span class="hljs-built_in">height</span>=<span class="hljs-string">"0"</span> src=<span class="hljs-string">"http://music.163.com/song/media/outer/url?id=31517260.mp3"</span> frameborder=<span class="hljs-string">"0"</span> allowfullscreen&gt;&lt;/iframe&gt;</code></pre></div>

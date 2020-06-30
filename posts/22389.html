@@ -225,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      312 字
+      313 字
     </span>
   
 
@@ -280,30 +280,42 @@
               </p>
             
             <article class="markdown-body">
-              <p>官方文档说明:<br><img src="https://i.loli.net/2020/05/21/eZRS4bVCnsxziIH.png" srcset="/img/loading.gif" alt="image.png"></p>
-<h3 id="keywords"><a href="#keywords" class="headerlink" title="keywords"></a>keywords</h3><blockquote>
-<p>默认情况下hexo博客及博客里的文章是没有keywords关键字的，需要我们手动添加<br>设置hexo博客的关键字:<br>在博客根目录下找到_config.yml文件，添加keywords: 关键字1,关键字2,关键字3…，采用英文逗号隔开，注意keywords与关键词之间的空格  </p>
+              <p>官方文档说明:<br>
+<img src="https://i.loli.net/2020/05/21/eZRS4bVCnsxziIH.png" srcset="/img/loading.gif" alt="image.png"></p>
+<h3 id="keywords"><a class="markdownIt-Anchor" href="#keywords"></a> keywords</h3>
+<blockquote>
+<p>默认情况下hexo博客及博客里的文章是没有keywords关键字的，需要我们手动添加<br>
+设置hexo博客的关键字:<br>
+在博客根目录下找到_config.yml文件，添加keywords: 关键字1,关键字2,关键字3…，采用英文逗号隔开，注意keywords与关键词之间的空格</p>
 </blockquote>
-<h4 id="设置文章的关键字"><a href="#设置文章的关键字" class="headerlink" title="设置文章的关键字"></a>设置文章的关键字</h4><ol>
-<li>打开<code>hexo\themes\fluid\layout\_partial\head.ejs</code><br>加入以下代码<div class="hljs"><pre><code class="hljs erb"><span class="xml"><span class="hljs-comment">&lt;!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词--&gt;</span></span>
+<h4 id="设置文章的关键字"><a class="markdownIt-Anchor" href="#设置文章的关键字"></a> 设置文章的关键字</h4>
+<ol>
+<li>打开<code>hexo\themes\fluid\layout\_partial\head.ejs</code><br>
+加入以下代码</li>
+</ol>
+<div class="hljs"><pre><code class="hljs erb"><span class="xml"><span class="hljs-comment">&lt;!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词--&gt;</span></span>
 <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">%</span></span></span><span class="ruby"> <span class="hljs-keyword">if</span> (page.keywords){ </span><span class="xml"><span class="hljs-tag">%&gt;</span></span>
 <span class="xml">  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"keywords"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"&lt;%=</span></span></span><span class="ruby"> page.keywords </span><span class="xml"><span class="hljs-tag"><span class="hljs-string">%&gt;,&lt;%=</span></span></span><span class="ruby"> config.keywords </span><span class="xml"><span class="hljs-tag"><span class="hljs-string">%&gt;"</span>&gt;</span></span>
 <span class="xml">  <span class="hljs-tag">&lt;<span class="hljs-name">%</span></span></span><span class="ruby"> } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (config.keywords){ </span><span class="xml"><span class="hljs-tag">%&gt;</span></span>
 <span class="xml">  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"keywords"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"&lt;%=</span></span></span><span class="ruby"> config.keywords </span><span class="xml"><span class="hljs-tag"><span class="hljs-string">%&gt;"</span>&gt;</span></span>
 <span class="xml"> &nbsp; &nbsp;<span class="hljs-tag">&lt;<span class="hljs-name">%</span></span></span><span class="ruby">} </span><span class="xml"><span class="hljs-tag">%&gt;</span></span></code></pre></div>
-然后保存  </li>
-</ol>
-<p><img src="https://i.loli.net/2020/05/21/kARGcWi1ENV49r6.png" srcset="/img/loading.gif" alt="image.png">  </p>
+<p>然后保存</p>
+<p><img src="https://i.loli.net/2020/05/21/kARGcWi1ENV49r6.png" srcset="/img/loading.gif" alt="image.png"></p>
 <ol start="2">
-<li><p>随便找篇文章在头部内容加入<code>keywords: 特定关键词1,特定关键词2</code>  注意空格  </p>
+<li>
+<p>随便找篇文章在头部内容加入<code>keywords: 特定关键词1,特定关键词2</code> &nbsp;注意空格</p>
 </li>
-<li><p>本地查看网页源码，成功！<br><img src="https://i.loli.net/2020/05/21/YwSosu4X6ia9cR3.png" srcset="/img/loading.gif" alt="image.png"></p>
+<li>
+<p>本地查看网页源码，成功！<br>
+<img src="https://i.loli.net/2020/05/21/YwSosu4X6ia9cR3.png" srcset="/img/loading.gif" alt="image.png"></p>
 </li>
 </ol>
-<h3 id="description"><a href="#description" class="headerlink" title="description"></a>description</h3><p>描述有空再写，应该和上面的方法差不多😶</p>
+<h3 id="description"><a class="markdownIt-Anchor" href="#description"></a> description</h3>
+<p>描述有空再写，应该和上面的方法差不多😶</p>
 <hr>
 <ul>
-<li>参考<br><a href="https://segmentfault.com/a/1190000007477815" target="_blank" rel="noopener external nofollow noreferrer">hexo配置sitemap以及设置keywords</a></li>
+<li>参考<br>
+<a href="https://segmentfault.com/a/1190000007477815" target="_blank" rel="noopener external nofollow noreferrer">hexo配置sitemap以及设置keywords</a></li>
 </ul>
 <center><a class="btn" href="/img/zsm.webp" title="🍻" target="_blank">赞赏</a></center>
 <script>

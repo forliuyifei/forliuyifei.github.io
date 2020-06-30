@@ -225,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      219 字
+      221 字
     </span>
   
 
@@ -282,10 +282,22 @@
             <article class="markdown-body">
               <p>今天对博客做了些许改动，执行hexo clean后，竟然又报错：</p>
 <blockquote>
-<p>FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 9, column 9:  </p>
+<p>FATAL can not read a block mapping entry; a multiline key may not be an implicit key at line 9, column 9:</p>
 </blockquote>
-<p><img src="https://i.loli.net/2020/05/20/QljK4VyBrMLctsJ.png" srcset="/img/loading.gif" alt="image.png"><br>好熟悉的错误🌚（之前也遇过，冒号非英文或少空格所致，但这次翻来覆去看也没发现哪里少空格）<br>网上一查错误代码，都说少空格，<del>可我明明没少空格</del>🤬<br>请教大佬帮忙看看<br><img src="https://i.loli.net/2020/05/20/PBm7tVlrSfhD4e9.png" srcset="/img/loading.gif" alt="image.png"><br><img src="https://i.loli.net/2020/05/20/vGWlOcRg2n1kz6t.png" srcset="/img/loading.gif" alt="image.png"><br>继续<del>嘴硬眼瞎</del><br><img src="https://i.loli.net/2020/05/20/14lfbMR59rDwtnd.png" srcset="/img/loading.gif" alt="image.png"><br>原来是<code>'</code>的问题😭可是改成中文单引号<code>’</code>好丑，人家就是要<code>'</code>咋办🙊  </p>
-<h4 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h4><p>百度一下html转义：<br><code>'</code>对应<code>&amp;acute;</code><br>替换、保存<br><img src="https://i.loli.net/2020/05/20/Ofi63klUj47bmsW.png" srcset="/img/loading.gif" alt="image.png"></p>
+<p><img src="https://i.loli.net/2020/05/20/QljK4VyBrMLctsJ.png" srcset="/img/loading.gif" alt="image.png"><br>
+好熟悉的错误🌚（之前也遇过，冒号非英文或少空格所致，但这次翻来覆去看也没发现哪里少空格） &nbsp;<br>
+网上一查错误代码，都说少空格，<s>可我明明没少空格</s>🤬<br>
+请教大佬帮忙看看<br>
+<img src="https://i.loli.net/2020/05/20/PBm7tVlrSfhD4e9.png" srcset="/img/loading.gif" alt="image.png"><br>
+<img src="https://i.loli.net/2020/05/20/vGWlOcRg2n1kz6t.png" srcset="/img/loading.gif" alt="image.png"><br>
+继续<s>嘴硬眼瞎</s><br>
+<img src="https://i.loli.net/2020/05/20/14lfbMR59rDwtnd.png" srcset="/img/loading.gif" alt="image.png"><br>
+原来是<code>'</code>的问题😭可是改成中文单引号<code>’</code>好丑，人家就是要<code>'</code>咋办🙊</p>
+<h4 id="解决"><a class="markdownIt-Anchor" href="#解决"></a> 解决</h4>
+<p>百度一下html转义： &nbsp;<br>
+<code>'</code>对应<code>&amp;acute;</code><br>
+替换、保存<br>
+<img src="https://i.loli.net/2020/05/20/Ofi63klUj47bmsW.png" srcset="/img/loading.gif" alt="image.png"></p>
 <div class="hljs"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo g</span></code></pre></div>
 <p>没报错，完结撒花。</p>
 <script>

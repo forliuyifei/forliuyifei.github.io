@@ -283,9 +283,9 @@
               <div class="note note-danger">
             <p>方案来自<a href="https://royce2003.top/posts/41212.html" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a><br>感谢大佬的代码及注释，对小白非常友好。</p>
           </div>
-
 <p>这里直接上具体操作</p>
-<h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><blockquote>
+<h3 id="html"><a class="markdownIt-Anchor" href="#html"></a> HTML</h3>
+<blockquote>
 <p>在<code>\themes\fluid\layout\layout.ejs</code> 中找到 <code>&lt;body&gt;</code>，在其之后加入如下代码(注意！一定紧跟在 body 标签之后，否则会出现闪烁)</p>
 </blockquote>
 <div class="hljs"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"dark"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"switchDarkMode()"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -298,10 +298,10 @@
   }
 <span class="javascript">  <span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">'dark'</span>).innerHTML = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">"body"</span>).classList.contains(<span class="hljs-string">"dark"</span>)?<span class="hljs-string">"🌙"</span>:<span class="hljs-string">"🌞"</span>;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre></div>
-
 <p>可以改成自己喜欢的其它图标或者字符</p>
-<h3 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h3><blockquote>
-<p>随便找个 JS 把下面代码加进去，直接加到 <code>&lt;/body&gt;</code> 之前也行   </p>
+<h3 id="js"><a class="markdownIt-Anchor" href="#js"></a> JS</h3>
+<blockquote>
+<p>随便找个 JS 把下面代码加进去，直接加到 <code>&lt;/body&gt;</code> 之前也行</p>
 </blockquote>
 <div class="hljs"><pre><code class="hljs javascript"><span class="hljs-comment">//点击事件</span>
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">switchDarkMode</span>(<span class="hljs-params"></span>) </span>{
@@ -317,10 +317,10 @@
 		localStorage.setItem(<span class="hljs-string">'noDark'</span>, <span class="hljs-string">'0'</span>);
 	}
 }</code></pre></div>
-
 <p>（我直接加在main.js）</p>
-<h3 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h3><blockquote>
-<p>下面是Royce2003的样式代码，基本覆盖所有内容，根据自身情况修改  </p>
+<h3 id="css"><a class="markdownIt-Anchor" href="#css"></a> CSS</h3>
+<blockquote>
+<p>下面是Royce2003的样式代码，基本覆盖所有内容，根据自身情况修改</p>
 </blockquote>
 <p>（继续加进main.styl）</p>
 <div class="hljs"><pre><code class="hljs stylus"><span class="hljs-comment">/* 切换按钮 */</span>
@@ -445,27 +445,42 @@
   .note-primary
     <span class="hljs-attribute">background-color</span> <span class="hljs-number">#455a6f</span>
  &nbsp; &nbsp;<span class="hljs-attribute">border-color</span> <span class="hljs-number">#004188</span></code></pre></div>
-
 <p>嗯这里的配色着实花了我一些时间，幸好有<strong>Snipaste</strong>截图工具，开一个<strong>Dark Reader</strong> chrome插件，取色很方便。</p>
-<p>上面的文件直接保存然后刷新本地网页即可预览效果，<br>建议边修改边刷新预览。</p>
+<p>上面的文件直接保存然后刷新本地网页即可预览效果，<br>
+建议边修改边刷新预览。</p>
 <hr>
-<h3 id="暂时遇到的问题："><a href="#暂时遇到的问题：" class="headerlink" title="暂时遇到的问题："></a>暂时遇到的问题：</h3><ul>
-<li><p>在手机上，右上角的菜单按钮颜色不知道怎么调整<input type="checkbox" disabled="" checked="checked">解决<br><code>.animated-icon span  /* 手机端 */</code><br><code>background-color #a09c9c</code><br>这里无论我怎么改（eee~fff），它都只有灰色或者全黑两种状态，我想改成白色来着，和左上角标题配色相符🙄</p>
+<h3 id="暂时遇到的问题"><a class="markdownIt-Anchor" href="#暂时遇到的问题"></a> 暂时遇到的问题：</h3>
+<ul>
+<li>
+<p>在手机上，右上角的菜单按钮颜色不知道怎么调整<input type="checkbox" disabled="" checked="checked">解决<br>
+<code>.animated-icon span /* 手机端 */</code><br>
+<code>background-color #a09c9c</code><br>
+这里无论我怎么改（eee~fff），它都只有灰色或者全黑两种状态，我想改成白色来着，和左上角标题配色相符🙄</p>
 </li>
-<li><p>图标常驻右下角也不是个事儿，有碍观瞻<input type="checkbox" disabled="" checked="checked">解决   </p>
+<li>
+<p>图标常驻右下角也不是个事儿，有碍观瞻<input type="checkbox" disabled="" checked="checked">解决</p>
 </li>
-<li><p>文章页日/夜模式切换按钮位置不搭<input type="checkbox" disabled="" checked="checked">解决<br>有空再看看怎样添加按钮至底部<input type="checkbox" disabled="" checked="checked"></p>
+<li>
+<p>文章页日/夜模式切换按钮位置不搭<input type="checkbox" disabled="" checked="checked">解决<br>
+有空再看看怎样添加按钮至底部<input type="checkbox" disabled="" checked="checked"></p>
 </li>
-<li><p>代码块背景色还是白的<input type="checkbox" disabled=""></p>
+<li>
+<p>代码块背景色还是白的<input type="checkbox" disabled=""></p>
 </li>
-<li><p>部分文字鼠标悬浮时没有变色<input type="checkbox" disabled=""></p>
+<li>
+<p>部分文字鼠标悬浮时没有变色<input type="checkbox" disabled=""></p>
 </li>
-<li><p>其它字体图标颜色的小问题（大概是指定了html样式的那些）<input type="checkbox" disabled=""><br><img src="https://i.loli.net/2020/05/25/LToIip6eHQyR1Y3.png" srcset="/img/loading.gif" alt="image.png"><br><img src="https://i.loli.net/2020/05/25/Xwhd2Q6ckP5Tuzb.png" srcset="/img/loading.gif" alt="image.png"></p>
+<li>
+<p>其它字体图标颜色的小问题（大概是指定了html样式的那些）<input type="checkbox" disabled=""><br>
+<img src="https://i.loli.net/2020/05/25/LToIip6eHQyR1Y3.png" srcset="/img/loading.gif" alt="image.png"><br>
+<img src="https://i.loli.net/2020/05/25/Xwhd2Q6ckP5Tuzb.png" srcset="/img/loading.gif" alt="image.png"></p>
 </li>
 </ul>
 <hr>
 <p>没啥技术含量，主要是做个记录水一篇文章🙊</p>
-<h3 id="本站配色📌"><a href="#本站配色📌" class="headerlink" title="本站配色📌"></a>本站配色📌</h3><p>下面分享一下自己的修改情况（<strong>可能有些错误，毕竟我只会复制粘贴🤷‍♂️</strong>）<br><code>layout.ejs</code></p>
+<h3 id="本站配色"><a class="markdownIt-Anchor" href="#本站配色"></a> 本站配色📌</h3>
+<p>下面分享一下自己的修改情况（<strong>可能有些错误，毕竟我只会复制粘贴🤷‍♂️</strong>）<br>
+<code>layout.ejs</code></p>
 <div class="hljs"><pre><code class="hljs xml">  <span class="hljs-comment">&lt;!--夜间模式🌕🌚--&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"dark"</span> <span class="hljs-attr">onclick</span>=<span class="hljs-string">"switchDarkMode()"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span>
@@ -476,8 +491,6 @@
     }
   }
 <span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre></div>
-
-
 <p><code>main.js</code></p>
 <div class="hljs"><pre><code class="hljs less"><span class="hljs-comment">//夜间模式🌗点击事件</span>
 <span class="hljs-selector-tag">function</span> <span class="hljs-selector-tag">switchDarkMode</span>() {
@@ -491,7 +504,6 @@
 		<span class="hljs-selector-tag">localStorage</span><span class="hljs-selector-class">.setItem</span>(<span class="hljs-string">'noDark'</span>, <span class="hljs-string">'0'</span>);
 	}
 }</code></pre></div>
-
 <p><code>main.styl</code></p>
 <div class="hljs"><pre><code class="hljs stylus"><span class="hljs-comment">//夜间模式样式🌕🌚仅作部分配色修改。感谢Royce2003提供的代码</span>
 <span class="hljs-comment">/* 切换按钮 删掉*/</span>
@@ -630,7 +642,6 @@
   <span class="hljs-selector-class">.cbp_tmtimeline</span> &gt; <span class="hljs-selector-tag">li</span>:nth-child(<span class="hljs-number">2</span>n+<span class="hljs-number">1</span>) .cbp_tmlabel
     <span class="hljs-attribute">background</span>: <span class="hljs-number">#7e2907</span>
 <span class="hljs-comment">//Artitalk说说背景色</span></code></pre></div>
-
 <hr>
 <p>用到的工具：</p>
 <ul>

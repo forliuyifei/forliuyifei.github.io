@@ -280,7 +280,8 @@
               </p>
             
             <article class="markdown-body">
-              <h2 id="文章封面触摸过渡动画"><a href="#文章封面触摸过渡动画" class="headerlink" title="文章封面触摸过渡动画"></a>文章封面触摸过渡动画</h2><p>几天前看到<a href="https://royce2003.top/" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a>的面向小白的用css美化网站教程<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="CSS美化博客 第二期
+              <h2 id="文章封面触摸过渡动画"><a class="markdownIt-Anchor" href="#文章封面触摸过渡动画"></a> 文章封面触摸过渡动画</h2>
+<p>几天前看到<a href="https://royce2003.top/" target="_blank" rel="noopener external nofollow noreferrer">Royce2003</a>的面向小白的用css美化网站教程<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="CSS美化博客 第二期
 ">[1]</span></a></sup>，包含添加阴影、圆角及过渡动画，如下图：<img src="https://gitee.com/Royce2003/blogimages/raw/master/img/2335206_2f07b4cb_2241_1163@221x177.gif" srcset="/img/loading.gif" alt=""></p>
 <p>但我想要的只是给文章封面添加触摸变大过渡动画。</p>
 <p>先用万能的右键检查定位到自己需要改动的地方：</p>
@@ -350,19 +351,24 @@ div img{
     &amp;:hover
       transform: scale(<span class="hljs-number">1.1</span>)
       box-shadow:<span class="hljs-number">0</span>px <span class="hljs-number">0</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">23</span>,<span class="hljs-number">106</span>,<span class="hljs-number">196</span>,<span class="hljs-number">0.6</span>)</code></pre></div>
-
-<p>保存刷新页面看看，成功了！<br>速度和大小都合适。</p>
+<p>保存刷新页面看看，成功了！<br>
+速度和大小都合适。</p>
 <!-- ![](https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Snipaste_2020-04-24_19-46-12.png)  -->
-
 <hr>
-<h2 id="APlayer自动靠边收拢"><a href="#APlayer自动靠边收拢" class="headerlink" title="APlayer自动靠边收拢"></a>APlayer自动靠边收拢</h2><p>aplayer自带的<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%90%B8%E5%BA%95%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener external nofollow noreferrer">fixed和mini模式</a>在本站的显示效果一直很糟糕，碍眼，减低观赏性，还影响正文阅读，平时只能关闭它。</p>
+<h2 id="aplayer自动靠边收拢"><a class="markdownIt-Anchor" href="#aplayer自动靠边收拢"></a> APlayer自动靠边收拢</h2>
+<p>aplayer自带的<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%90%B8%E5%BA%95%E6%A8%A1%E5%BC%8F" target="_blank" rel="noopener external nofollow noreferrer">fixed和mini模式</a>在本站的显示效果一直很糟糕，碍眼，减低观赏性，还影响正文阅读，平时只能关闭它。</p>
 <p><img src="https://i.loli.net/2020/05/20/Bux5M68NUFXPIoS.jpg" srcset="/img/loading.gif" alt="手机截图"></p>
-<p>直至遇到这篇教程：<br><a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener external nofollow noreferrer">hexo集成Aplayer实现全局播放器吸底模式</a>  <sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="hexo集成Aplayer实现全局播放器吸底模式
+<p>直至遇到这篇教程： &nbsp;<br>
+<a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener external nofollow noreferrer">hexo集成Aplayer实现全局播放器吸底模式</a> &nbsp;<sup id="fnref:2" class="footnote-ref"><a href="#fn:2" rel="footnote"><span class="hint--top hint--rounded" aria-label="hexo集成Aplayer实现全局播放器吸底模式
 ">[2]</span></a></sup></p>
-<p>可恕吾愚钝，一直学不会引入自定义css😶<br><img src="https://i.loli.net/2020/05/20/FwPYLEfyiRpKoDs.png" srcset="/img/loading.gif" alt="image.png"></p>
-<p><strong>来自群友的指导💡</strong><br><img src="https://i.loli.net/2020/05/20/LHE4fgKIxSBciW2.png" srcset="/img/loading.gif" alt="image.png"><br><strong>操作</strong></p>
+<p>可恕吾愚钝，一直学不会引入自定义css😶<br>
+<img src="https://i.loli.net/2020/05/20/FwPYLEfyiRpKoDs.png" srcset="/img/loading.gif" alt="image.png"></p>
+<p><strong>来自群友的指导💡</strong><br>
+<img src="https://i.loli.net/2020/05/20/LHE4fgKIxSBciW2.png" srcset="/img/loading.gif" alt="image.png"><br>
+<strong>操作</strong></p>
 <ul>
-<li><p>直接修改main.styl，填入以下代码</p>
+<li>直接修改main.styl，填入以下代码</li>
+</ul>
 <div class="hljs"><pre><code class="hljs stylus"><span class="hljs-comment">//aplayer自动收起</span>
 <span class="hljs-selector-class">.aplayer</span><span class="hljs-selector-class">.aplayer-fixed</span><span class="hljs-selector-class">.aplayer-narrow</span> 
   .aplayer-body
@@ -370,21 +376,20 @@ div img{
   <span class="hljs-selector-class">.aplayer-body</span>:hover
     <span class="hljs-attribute">left</span>: <span class="hljs-number">0px</span> !important</code></pre></div>
 <p><img src="https://i.loli.net/2020/05/20/CTuMibmKPXwVGSs.png" srcset="/img/loading.gif" alt="image.png"></p>
-</li>
-<li><p>保存</p>
-</li>
-<li><p>刷新本地页面查看效果  </p>
-</li>
+<ul>
+<li>保存</li>
+<li>刷新本地页面查看效果</li>
 </ul>
 <p><img src="https://pic.downk.cc/item/5ec5474fc2a9a83be54eecdc.gif" srcset="/img/loading.gif" alt=""></p>
-<p><del>嗯又多了个不想更新主题的借口</del>🙊</p>
+<p><s>嗯又多了个不想更新主题的借口</s>🙊</p>
 <hr>
 <p>用到的工具：</p>
 <ul>
 <li><a href="https://www.upyun.com/webp?utm_source=zhihu&amp;utm_medium=referral&amp;utm_campaign=250760803&amp;utm_term=webp" target="_blank" rel="noopener external nofollow noreferrer">又拍云GIF转webp</a></li>
 </ul>
 <hr>
-<h2 id="便签note边缘发光"><a href="#便签note边缘发光" class="headerlink" title="便签note边缘发光"></a>便签note边缘发光</h2><div class="note note-success">
+<h2 id="便签note边缘发光"><a class="markdownIt-Anchor" href="#便签note边缘发光"></a> 便签note边缘发光</h2>
+<div class="note note-success">
             <p>示例1</p>
           </div>
 <div class="note note-info">
@@ -450,12 +455,14 @@ div img{
      transform: scale(<span class="hljs-number">1.0</span>) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) 
      box-shadow:<span class="hljs-number">6</span>px <span class="hljs-number">6</span>px <span class="hljs-number">16</span>px rgba(<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">15</span>,<span class="hljs-number">0.4</span>)
      border-radius: <span class="hljs-number">0.25</span>rem</code></pre></div>
-
 <p>有个点击抖动的小bug，不管它，凑合用吧。</p>
 <hr>
-<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><ul>
+<h2 id="其它"><a class="markdownIt-Anchor" href="#其它"></a> 其它</h2>
+<ul>
 <li><a href="/posts/27341.html">夜间模式🌗</a></li>
-<li>杂七杂八的小动画<div class="hljs"><pre><code class="hljs angelscript"><span class="hljs-comment">//插入图片鼠标悬浮发光</span>
+<li>杂七杂八的小动画</li>
+</ul>
+<div class="hljs"><pre><code class="hljs angelscript"><span class="hljs-comment">//插入图片鼠标悬浮发光</span>
 .markdown-body p &gt; img, .markdown-body p &gt; a &gt; img
    cursor: pointer
    transition: all <span class="hljs-number">0.5</span>s
@@ -521,10 +528,8 @@ div img{
    &amp;:hover
      transform: scale(<span class="hljs-number">1.0</span>) rotate(<span class="hljs-number">0</span>deg) translate(<span class="hljs-number">0</span>px,<span class="hljs-number">-2</span>px) !important
      box-shadow:<span class="hljs-number">0</span> <span class="hljs-number">2</span>px <span class="hljs-number">6</span>px <span class="hljs-number">1</span>px rgba(<span class="hljs-number">36</span>,<span class="hljs-number">146</span>,<span class="hljs-number">165</span>,<span class="hljs-number">0.4</span>) !important</code></pre></div>
-
-</li>
-</ul>
-<h4 id="一个小火箭🚀动画"><a href="#一个小火箭🚀动画" class="headerlink" title="一个小火箭🚀动画"></a>一个小火箭🚀动画</h4><p>可用于点击跳转链接或者页面回顶  </p>
+<h4 id="一个小火箭动画"><a class="markdownIt-Anchor" href="#一个小火箭动画"></a> 一个小火箭🚀动画</h4>
+<p>可用于点击跳转链接或者页面回顶</p>
 <p><strong>css部分</strong><sup id="fnref:3" class="footnote-ref"><a href="#fn:3" rel="footnote"><span class="hint--top hint--rounded" aria-label="27个精致的CSS3动画效果源代码下载
 ">[3]</span></a></sup></p>
 <div class="hljs"><pre><code class="hljs scss"><span class="hljs-comment">//火箭🚀动画</span>
@@ -912,7 +917,6 @@ div img{
 	}
 }
 //火箭🚀动画结束</code></pre></div>
-
 <p>找个合适的<code>.ejs</code>文件加入以下代码</p>
 <div class="hljs"><pre><code class="hljs xml">   <span class="hljs-comment">&lt;!-- 火箭🚀动画代码部分begin --&gt;</span>
    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"animation"</span>&gt;</span>
@@ -936,9 +940,8 @@ div img{
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre></div>
-
-
-<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><section class="footnotes"><hr><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener external nofollow noreferrer">CSS美化博客 第二期</a>
+<h3 id="参考"><a class="markdownIt-Anchor" href="#参考"></a> 参考</h3>
+<section class="footnotes"><hr><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://royce2003.top/posts/17142.html" target="_blank" rel="noopener external nofollow noreferrer">CSS美化博客 第二期</a>
 <a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:2" class="footnote-text"><span><a href="https://jsonpop.cn/posts/19777cfa/" target="_blank" rel="noopener external nofollow noreferrer">hexo集成Aplayer实现全局播放器吸底模式</a>
 <a href="#fnref:2" rev="footnote" class="footnote-backref"> ↩</a></span></span></li><li><span id="fn:3" class="footnote-text"><span><a href="https://www.w3cschool.cn/css3/css3-animation.html" target="_blank" rel="noopener external nofollow noreferrer">27个精致的CSS3动画效果源代码下载</a>
 <a href="#fnref:3" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section><script>

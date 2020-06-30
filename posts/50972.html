@@ -281,25 +281,28 @@
             
             <article class="markdown-body">
               <p>自定义域名<a href="liuyifei.club">liuyifei.club</a>直接解析到GitHub使用没问题,但增加一条国内Coding线路解析后,chrome打开网站出现错误,关键词 ‘HTTS’</p>
-<h3 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案:"></a>临时解决方案:</h3><ul>
+<h3 id="临时解决方案"><a class="markdownIt-Anchor" href="#临时解决方案"></a> 临时解决方案:</h3>
+<ul>
 <li>输入下面链接回车</li>
 </ul>
 <div class="hljs"><pre><code class="hljs avrasm"><span class="hljs-symbol">chrome:</span>//net-internals/<span class="hljs-meta">#hsts</span></code></pre></div>
-
-<p>​            或者<a href="chrome://net-internals/#hsts" rel="external nofollow noreferrer">chrome直接点开</a></p>
+<p>​			或者<a href="chrome://net-internals/#hsts" rel="external nofollow noreferrer">chrome直接点开</a></p>
 <ul>
 <li>最后一框填入 liuyifei.club</li>
 <li>刷新网站</li>
 </ul>
-<h3 id="长效解决办法"><a href="#长效解决办法" class="headerlink" title="长效解决办法"></a>长效解决办法</h3><p>因为本站是同时部署到GitHub和Coding的，解析设置为国内访问解析到Coding，海外访问解析到GitHub。</p>
+<h3 id="长效解决办法"><a class="markdownIt-Anchor" href="#长效解决办法"></a> 长效解决办法</h3>
+<p>因为本站是同时部署到GitHub和Coding的，解析设置为国内访问解析到Coding，海外访问解析到GitHub。</p>
 <ul>
 <li>先到域名解析设置里面把原先设置的海外解析路线暂停：</li>
 </ul>
 <p><img src="https://pic.downk.cc/item/5e9b174fc2a9a83be5f2180c.jpg" srcset="/img/loading.gif" alt=""></p>
 <ul>
-<li><p>再去Coding的 项目-&gt;静态网站-&gt;设置，继续申请证书，不出意外的话都能成功。<img src="https://pic.downk.cc/item/5e9b1912c2a9a83be5f37b19.jpg" srcset="/img/loading.gif" alt=""></p>
+<li>
+<p>再去Coding的 项目-&gt;静态网站-&gt;设置，继续申请证书，不出意外的话都能成功。<img src="https://pic.downk.cc/item/5e9b1912c2a9a83be5f37b19.jpg" srcset="/img/loading.gif" alt=""></p>
 </li>
-<li><p>申请成功后再恢复域名的海外解析路线即可。</p>
+<li>
+<p>申请成功后再恢复域名的海外解析路线即可。</p>
 <p>GitHub和Coding都可以设置强制HTTPS</p>
 </li>
 </ul>

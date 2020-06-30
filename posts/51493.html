@@ -225,7 +225,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      250 字
+      251 字
     </span>
   
 
@@ -280,20 +280,31 @@
               </p>
             
             <article class="markdown-body">
-              <p>使用Google搜索本站标签，出来的结果：  </p>
-<p><img src="https://i.loli.net/2020/05/25/wQJKONlGmPqHga3.png" srcset="/img/loading.gif" alt="image.png"><br>过于杂乱，其实我想让搜索引擎只抓取<code>https://liuyifei.club/tags/</code>而不包含/tags下面的一大堆子文件夹网页</p>
-<h4 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h4><p>只需一个通配符<code>*</code><br>在<strong>robots.txt</strong>加入<br><code>Disallow: /tags/*/</code></p>
-<p>建议使用<a href="https://www.google.com/webmasters/tools/robots-testing-tool" target="_blank" rel="noopener external nofollow noreferrer">robots.txt 测试工具</a>实时检测是否达到需要的效果效果<br><img src="https://i.loli.net/2020/05/25/Kew82MClOGUk5PW.png" srcset="/img/loading.gif" alt="image.png"></p>
+              <p>使用Google搜索本站标签，出来的结果：</p>
+<p><img src="https://i.loli.net/2020/05/25/wQJKONlGmPqHga3.png" srcset="/img/loading.gif" alt="image.png"><br>
+过于杂乱，其实我想让搜索引擎只抓取<code>https://liuyifei.club/tags/</code>而不包含/tags下面的一大堆子文件夹网页</p>
+<h4 id="方法"><a class="markdownIt-Anchor" href="#方法"></a> 方法</h4>
+<p>只需一个通配符<code>*</code><br>
+在<strong>robots.txt</strong>加入<br>
+<code>Disallow: /tags/*/</code></p>
+<p>建议使用<a href="https://www.google.com/webmasters/tools/robots-testing-tool" target="_blank" rel="noopener external nofollow noreferrer">robots.txt 测试工具</a>实时检测是否达到需要的效果效果<br>
+<img src="https://i.loli.net/2020/05/25/Kew82MClOGUk5PW.png" srcset="/img/loading.gif" alt="image.png"></p>
 <p><em>另外，如果想单独保留某个标签的搜索结果，可以添加 <code>Allow: /tags/某标签名/</code></em></p>
 <p>保存提交之后，再去Google Search Console的<strong>索引-覆盖率</strong>查看效果。</p>
 <hr>
 <p>参考资料:</p>
 <ul>
-<li><a href="https://support.google.com/webmasters/answer/6062596?hl=zh-Hans&amp;ref_topic=6061961" target="_blank" rel="noopener external nofollow noreferrer">robots.txt 文件使用入门</a></li>
-<li><a href="https://developers.google.com/search/reference/robots_txt" target="_blank" rel="noopener external nofollow noreferrer">Robots.txt 规范</a></li>
-</ul>
-<ul>
-<li>2020.05.28 补充<br>似乎实际情况并不理想，单个标签页仍会出现在谷歌搜索结果中。<br>还是直接<code>Disallow: /tags/</code>比较暴力🤔</li>
+<li>
+<p><a href="https://support.google.com/webmasters/answer/6062596?hl=zh-Hans&amp;ref_topic=6061961" target="_blank" rel="noopener external nofollow noreferrer">robots.txt 文件使用入门</a></p>
+</li>
+<li>
+<p><a href="https://developers.google.com/search/reference/robots_txt" target="_blank" rel="noopener external nofollow noreferrer">Robots.txt 规范</a></p>
+</li>
+<li>
+<p>2020.05.28 补充<br>
+似乎实际情况并不理想，单个标签页仍会出现在谷歌搜索结果中。<br>
+还是直接<code>Disallow: /tags/</code>比较暴力🤔</p>
+</li>
 </ul>
 <script>
         document.querySelectorAll('.github-emoji')

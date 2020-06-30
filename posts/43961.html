@@ -282,16 +282,12 @@
             <article class="markdown-body">
               <p>Windows 10的中文用户名怎么改成英文？其实改名字很简单，难就难在后续把中文名称下的文件夹和用户数据也顺利统一到新名称下。</p>
 <h5>1.快速启用Administrator账户</h5>  
-
 <p>以管理员模式启动命令提示符（Win+X组合键后就能看到），输入<code>net user administrator /active:yes</code>启用Administrator账户</p>
-
 <p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/3ba11c07a4cab2dad69e562be05e83df.png" srcset="/img/loading.gif" alt=""></p>
 <h5>2.注销当前账户并且修改文件夹名称</h5>
 <p>启用Administrator账户完成后，注销当前账户，使用Administrator登录（更稳妥的方式是进入安全模式后用Administrator登录）</p>
-
 <p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/cc47ced7c3c9f1775d27f66e1be93de4.png" srcset="/img/loading.gif" alt=""></p>
 <p>进入C:Users文件夹下，在想要更名的中文文件夹（需要改名的文件夹）下点击鼠标右键，选择“重命名”，然后就随便改名字吧</p>
-
 <p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/bc850b80bfbab645a6f4b9d2211dc16f.png" srcset="/img/loading.gif" alt=""></p>
 <h5>3.修改注册表</h5>
 <p>别着急重启电脑或注销/切换账户，Win+R之后输入regedit进入注册表编辑器，定位到</p>
@@ -303,15 +299,14 @@
           --Profilelist
 </code></pre></div>
 <p>在它下面的几个子项中逐一查看名为“ProfileImagePath”的字符串值，直到找到数值数据为原中文名路径的项目；将其修改为更名后的路径就行了。</p>
-
-<p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/49becb9a82a62b1490565569b5954915.png" srcset="/img/loading.gif" alt=""><br><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/4ee04967d12998a58ede7a53a1312970.png" srcset="/img/loading.gif" alt=""></p>
+<p><img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/49becb9a82a62b1490565569b5954915.png" srcset="/img/loading.gif" alt=""><br>
+<img src="http://xttd.147xz.com/d/file/wenzhang/win10/2017-09-20/4ee04967d12998a58ede7a53a1312970.png" srcset="/img/loading.gif" alt=""></p>
 
 <h5>4.关闭Administrator账户</h5>
 <p>当我们不再需要Administrator账户时，就可以将其关闭。以管理员模式启动命令提示符（Win+X组合键后就能看到）</p>
 <div class="hljs"><pre><code class="shell">C:WINDOWSsystem32&gt;net user administrator /active:no
 命令成功完成。
 </code></pre></div>
-
 <hr>
 <ul>
 <li>参考: <a href="http://www.xitongtiandi.net/wenzhang/win10/15351.html" target="_blank" rel="noopener external nofollow noreferrer">http://www.xitongtiandi.net/wenzhang/win10/15351.html</a></li>
