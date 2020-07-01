@@ -48,11 +48,11 @@
 }
 
 .postcard.green .additional {
-    background: linear-gradient(#92bCa6, #A2CCB6);
+    background: linear-gradient(#2492a5, #A2CCB6);
 }
 
-.postcard.blue .additional {
-    background: linear-gradient(#2492a5, #A2CCB6);
+.postcard.pink_blue .additional {
+    background: linear-gradient(#f5636f, #2492a5);
 }
 
 .postcard:hover .additional {
@@ -187,6 +187,11 @@
     bottom: 1rem;
     right: 1rem;
     font-size: 0.9em;
+}
+
+.intro-avatar img {
+    border-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
 }<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
