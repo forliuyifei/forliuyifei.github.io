@@ -15,9 +15,9 @@
 	-moz-transform: scale(0.76) rotate(45deg);
 	-ms-transform: scale(0.76) rotate(45deg);
 	-o-transform: scale(0.76) rotate(45deg);
-	transform: scale(0.3) rotate(45deg);
+	transform: scale(0.25) rotate(45deg);
 	top: 0%;
-	left: -85%
+	left: -65%
 }
 .spaceship .body {
 	width: 300px;
