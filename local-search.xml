@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>「踩坑」Android（刷机时）可能遇到的问题及解决方法</title>
+    <link href="/posts/40676.html"/>
+    <url>/posts/40676.html</url>
+    
+    <content type="html"><![CDATA[<div class="note note-danger">            <center><b>仅作自己遇过的问题记录，片面的经验之谈难免有些谬误</b></center><center><b>恳请懂行的大佬交流指正补充，造福广大翻车群众👀</b></center>          </div><h2 id="可能需要的工具"><a class="markdownIt-Anchor" href="#可能需要的工具"></a> 可能需要的工具</h2><ul><li>未被僵尸吃掉的脑子、良好的心态、检索技巧、亿点点运气</li><li>通畅的网络连接</li><li>数据线、电脑、硬盘/U盘/读卡器、USB-转接OTG线</li><li>热情好心且遇过同类问题的网友</li><li>推荐软件：<a href="https://liuyifei.lanzous.com/i1wpEe8i14f" target="_blank" rel="noopener external nofollow noreferrer" title="TOOLS_BY_CZ_V7.01.zip 一个图形化adb工具，用电脑控制手机进行一系列高权限操作，非常方便">搞机工具箱</a>、<a href="https://jianyv.com/br/" target="_blank" rel="noopener external nofollow noreferrer" title="不需要 ROOT 也不需要解锁，能有效防止应用在后台运行，从而让手机流畅省电。">黑阈</a>、<a href="https://appops.rikka.app/zh-hans/guide/" target="_blank" rel="noopener external nofollow noreferrer" title="借助 App Ops 修改隐藏的 appops 设置来（部分）控制权限。无需 root 也可使用，提供多种只需 adb 的工作模式。">App Ops</a>、<a href="https://www.htcp.net/924.html" target="_blank" rel="noopener external nofollow noreferrer" title="帮助你甄别那些对系统全局性能和耗电量有不良影响的应用程序，并通过独特的『绿色化』技术，阻止它们消耗您的电池电量，占用您的宝贵内存。经过『绿色化』工艺处理的应用，在您没有主动启动它们的时候，无法『偷偷』运行，而在您正常启动它们时仍然拥有完整的功能和体验，正如 iPhone 应用那样！">绿色守护</a>、<a href="https://github.com/Tornaco/Xposed-Application-Management-Mod" target="_blank" rel="noopener external nofollow noreferrer" title="老版本也挺好用的">应用管理xposed</a>…</li></ul><h2 id="一般问题"><a class="markdownIt-Anchor" href="#一般问题"></a> 一般问题</h2><h3 id="耗电快-续航尿崩"><a class="markdownIt-Anchor" href="#耗电快-续航尿崩"></a> 耗电快 续航尿崩</h3><ul><li>把不需要常驻后台的应用予以限制，包括但不限于使用系统自带的后台电池优化、黑阈、App Ops、绿色守护、应用管理xposed…</li><li>使用<a href="https://www.coolapk.com/apk/com.digibites.accubattery" target="_blank" rel="noopener external nofollow noreferrer">AccuBattery</a>之类的工具检测电池损耗（仅供参考！）</li><li>换新的原厂电池/大容量魔改电池（有风险）</li><li>更换省电的内核，比如谷歌一下<a href="https://www.google.com/search?q=kernel%20for%20lavender" target="_blank" rel="noopener external nofollow noreferrer">kernel for lavender</a></li><li>直接修改<a href="https://www.coolapk.com/apk/com.grarak.kerneladiutor" target="_blank" rel="noopener external nofollow noreferrer">内核调校</a>，把865限制成625，不玩游戏日常也够用。</li><li>能连WiFi别用4G、5G</li></ul><h3 id="异常卡顿-发热"><a class="markdownIt-Anchor" href="#异常卡顿-发热"></a> 异常卡顿、发热</h3><p>参考这篇图文了解卡顿原理：<br><a href="https://www.coolapk.com/feed/18799803?shareKey=Mjk0YjEyMzIyZDhhNWVmZDk4NDc~&amp;shareUid=702680&amp;shareFrom=com.coolapk.market_10.3.1" target="_blank" rel="noopener external nofollow noreferrer">开机内存占一半，应用后台杀不死？那些不了解的Android后台机制。酷安@Anm718</a></p><p>稍作总结：</p><ul><li><p><strong>提升安卓系统版本</strong>（被动or手动）。<br>尽量挑选能长期坚持系统更新的手机品牌型号，管卖不管后期维护的厂商都是流氓！<br>说到这里顺便缅怀我那部逝去的红米note4x，2017年的机子，出厂安卓6.0，小米只给升级7.0，但作为一代刷机小王子，它拥有极其丰富的ROM资源，标配999￥，也能走在系统更新的前列。<br>查看PE官网最近更新 <a href="https://download.pixelexperience.org/mido" target="_blank" rel="noopener external nofollow noreferrer">Android 10 2020/06/29</a><img src="https://raw.githubusercontent.com/PixelExperience/official_devices/master/images/mido.png" srcset="/img/loading.gif" style="zoom:15%;"></p></li><li><p><strong>能用网站就别装app</strong><br>点名批评淘宝👋卡慢臃肿一坨*，界面还贼丑。<br>京东至少我还用过几个能秒开且后台占用不高的版本🤐</p></li><li><p><strong>使用符合<a href="https://green-android.org/" target="_blank" rel="noopener external nofollow noreferrer" title="遵循公约的应用，后台不费电、手机不卡顿，跟 iPhone 一样省心。">Android 绿色应用公约</a>的应用</strong>，BAT三大流氓家的不得不用的软件版本需仔细挑选</p></li><li><p><strong>尽量挑选高SDK版本和64位的应用版本</strong>，比如我使用的安装自Google Play商店的微信7.0.15测试版，启动快，后台全部进缓存（明明本就该这样的）<br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/7/result-2020-07-02-18-11-48.jpg" srcset="/img/loading.gif" alt="微信后台占用情况" style="zoom:15%;"></p></li><li><p>对付不得不用的流氓软件</p><ul><li>找<strong>修改版</strong>，有潜在风险，若财产/隐私相关，<strong>请仔细甄别</strong></li><li>各类予以<strong>限制、修改</strong>的工具（通常需要root权限或者adb实现），按需选择：<ul><li><a href="https://jianyv.com/br/" target="_blank" rel="noopener external nofollow noreferrer">黑阈</a>：“不需要 ROOT 也不需要解锁，能有效防止应用在后台运行，从而让手机流畅省电。” 有root和adb两种模式，可<code>添加临时应用</code>（原理：冻结/停用应用，需要使用时临时启用，常用于对付毒瘤淘宝），</li><li><a href="https://www.coolapk.com/apk/com.catchingnow.icebox" target="_blank" rel="noopener external nofollow noreferrer">冰箱 IceBox</a>：同样有root和adb两种模式，冻结不需要常驻后台的应用，对于一些特别能唤醒并耗电的应用效果极佳。有免费限制。</li><li><a href="https://www.coolapk.com/apk/me.yourbay.airfrozen" target="_blank" rel="noopener external nofollow noreferrer">空调狗 AirFrozen</a> ："冻结"很多流氓的或者非流氓但又不常用的应用,从而加速手机的速度。跟冰箱差不多，但<strong>完全免费无限制</strong>。</li><li><a href="https://www.htcp.net/924.html" target="_blank" rel="noopener external nofollow noreferrer">绿色守护</a>： “帮助你甄别那些对系统全局性能和耗电量有不良影响的应用程序，并通过独特的『绿色化』技术，阻止它们消耗您的电池电量，占用您的宝贵内存。经过『绿色化』工艺处理的应用，在您没有主动启动它们的时候，无法『偷偷』运行，而在您正常启动它们时仍然拥有完整的功能和体验，正如 iPhone 应用那样！” 老牌应用，相比于上述3个应用，温和得多，<code>小剪刀</code>好用。对付流氓力不从心。</li><li><a href="https://appops.rikka.app/zh-hans/guide/" target="_blank" rel="noopener external nofollow noreferrer">App Ops</a>：“借助 App Ops 修改隐藏的 appops 设置来（部分）控制权限。无需 root 也可使用，提供多种只需 adb 的工作模式。” <strong>权限管理工具</strong>，值得把玩。</li><li><a href="https://github.com/Tornaco/Xposed-Application-Management-Mod" target="_blank" rel="noopener external nofollow noreferrer">应用管理xposed</a>：老版本也挺好用的，功能丰富强大,<code>移花接木</code>功能很好玩，可用于<strong>快速跳过启动广告</strong>直接进入应用主界面</li><li><a href="https://www.coolapk.com/apk/cn.wq.myandroidtools" target="_blank" rel="noopener external nofollow noreferrer">My Android Tools</a>： 主要用于禁用/开启安卓四大组件(activity,service,receiver,provider) 部分流氓中的流氓比如百度网盘👎👎👎治不住</li><li>待补充…</li></ul></li></ul></li></ul><h3 id="不小心清空照片"><a class="markdownIt-Anchor" href="#不小心清空照片"></a> 不小心清空照片</h3><ul><li><strong>别放弃！还有救</strong>：普通删除的文件没有真正从你的存储介质消失。</li><li><strong>防止被覆盖</strong>：现在开始尽量<strong>少对手机进行大文件读写操作</strong>，例如下载动辄破G的大型游戏和视频资源…</li><li><strong>寻找数据恢复软件</strong>：免费付费的都有，良莠不齐，多找找，看需求仔细挑选。上次用过一个<a href="https://liuyifei.lanzous.com/id3liza" target="_blank" rel="noopener external nofollow noreferrer">Dumpster_3.1.358.87ca.apk</a>，挺强大的，只是免费版有限制。</li><li><strong>求助专业的数据恢复公司</strong>，提防数据泄露，<s>冠希哥警告⚠</s></li></ul><h3 id="网速限制延迟断流"><a class="markdownIt-Anchor" href="#网速限制延迟断流"></a> 网速限制/延迟/断流</h3><p>换卡、换机、挪位置…</p><p>原因好多太复杂，不写</p><p>推荐一个<a href="https://www.coolapk.com/apk/com.qtrun.QuickTest" target="_blank" rel="noopener external nofollow noreferrer">网络信号大师</a>：看评论区怎么锁频段吧。（两个使用条件：手机基带处理器是高通芯片+必须拥有root权限）</p><h2 id="刷机问题"><a class="markdownIt-Anchor" href="#刷机问题"></a> 刷机问题</h2><h3 id="解bl锁失败"><a class="markdownIt-Anchor" href="#解bl锁失败"></a> 解bl锁失败</h3><p>小米手机进入fastboot模式，数据线连电脑，手机左上角出现小字<code>press any key to shut down</code></p><p>这是Win 10的USB3.0驱动问题导致的</p><p>解决措施:</p><ul><li>换个USB插口试试，2.0可能没问题</li><li>刷<a href="https://www.lanzous.com/i3pz0kd" target="_blank" rel="noopener external nofollow noreferrer">驱动修复</a>，下载解压右键管理员运行，不用转接器也不用装Win 7</li></ul><h3 id="错误7erro7"><a class="markdownIt-Anchor" href="#错误7erro7"></a> 错误7（erro7）</h3><p>大概是机型验证不过关，常见于把System分区清除之后，刷入ROM出现报错的情况。</p><p>解决办法：</p><ul><li>再三确定自己没有下错包</li><li>电脑使用WinRAR之类的解压缩工具打开ROM包找到<code>META-INF/com/google/android/updater-script</code>删掉图上这一行机型验证后保存。（也可能是两行，自行判断删多少，不放心的可以把updater-script复制一份到别的文件夹，万一删错，方便回退）<br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-5/%E5%88%A0%E9%99%A4%E6%9C%BA%E5%9E%8B%E9%AA%8C%E8%AF%81.jpg" srcset="/img/loading.gif" alt="微信后台占用情况" style="zoom:15%;"></li><li>将刷机包传回手机，进rec进行刷入即可成功（开不开机另说🤪）</li></ul><h3 id="开机卡谷歌验证"><a class="markdownIt-Anchor" href="#开机卡谷歌验证"></a> 开机卡谷歌验证</h3><p>如果刷机之前忘记退出原来的Google账户，下次再刷入包含GAPPS组件的ROM，开机后往往会由于网络原因（你懂的），无法继续进行验证，相当于被锁机（状态栏左上角有一个小🔒图标），即使能开机也做不了其它操作（悔恨x100）</p><ul><li><p>目前生效率最高的方法：简单粗暴，推荐</p><p>在twrp或者橙狐rec里面找到<code>终端</code>，输入下面代码（注意空格，不用换行），回车</p><div class="hljs"><pre><code class="hljs routeros">dd <span class="hljs-attribute">if</span>=/dev/zero <span class="hljs-attribute">of</span>=/dev/block/bootdevice/by-name/frp</code></pre></div><p>原理：让存储谷歌帐户的分区被填满。<br><s>到底是帐户还是账户</s></p></li><li><p>从网络着手：</p><ul><li>一部能访问外网的备用机（已root），<em>会折腾电脑热点、路由器代理也行</em></li><li>备用机先想办法让它能访问Google，自行了解，迫切需要的也可<a href="mailto:forliuyifei@gmail.com" rel="external nofollow noreferrer" title="运气好的话应该能马上回复">发邮件</a> 给本人（一块钱临时租一次，包教包会，我快续费不起小飞机了🤪）。</li><li>安装<a href="https://liuyifei.lanzous.com/i8sju3i" target="_blank" rel="noopener external nofollow noreferrer">VPN热点</a>，连接WiFi，开启无线中继，让卡验证的手机连上这个无线中继，即可走代理上网，验证上次登录的谷歌帐户，过程快慢取决于网络通畅度。<br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/7/Screenshot_20200703-084730.png" srcset="/img/loading.gif" alt="Screenshot_20200703-084730"></li></ul></li><li><p>其它跳过方法：大致介绍，懒得详述</p><ul><li>顺时针点击屏幕四角法</li><li>删除setupwizard，大概在System分区里面某个文件夹，自己找找。开机后部分按钮失灵，但起码能用了，想办法登录谷歌帐户，再退出谷歌帐户，进rec重刷当前完整包</li><li>有个Magisk模块，名字记不清，没成功过</li><li>adb命令也行（不记得😶）</li></ul></li></ul><h3 id="wifi和信号标志上的x或"><a class="markdownIt-Anchor" href="#wifi和信号标志上的x或"></a> WiFi和信号标志上的x或!</h3><p><a href="https://www.coolapk.com/apk/tech.evlsoc.captivemgr" target="_blank" rel="noopener external nofollow noreferrer">CaptiveMgr清除x和!</a> 去掉原生系统中由于中国大陆无法直连Google导致的WiFi和信号标志上的x或!的工具。<code>需要root权限</code></p><p>无root：<a href="https://www.evil42.com/index.php/archives/17/" target="_blank" rel="noopener external nofollow noreferrer">https://www.evil42.com/index.php/archives/17/</a></p><h3 id="无法解密data文件名乱码"><a class="markdownIt-Anchor" href="#无法解密data文件名乱码"></a> 无法解密data（文件名乱码）</h3><p>进rec或者连接电脑查看手机内部文件时，发现全部乱码😥<br>这个问题比较大，遇到这种情况要做好数据全部丢失的心理准备</p><p>大概率是因为data被加密而当前rec不支持解密<br>也可能之前正常但不知道弄错了啥导致的bug</p><p>总之这个加密挺烦的，可又不能没有，否则万一丢手机，数据被别人轻易拷贝获取，非常危险。</p><h4 id="可能有效的补救措施"><a class="markdownIt-Anchor" href="#可能有效的补救措施"></a> 可能有效的补救措施</h4><ul><li>换rec版本，一些魔改的新版rec或许有奇效，多问多找资源，自求多福吧</li></ul><h4 id="万不得已"><a class="markdownIt-Anchor" href="#万不得已"></a> 万不得已</h4><ul><li>只能格式化data，重刷，手机还得用不是？<br>格式化data ≠ 清除data分区</li><li>数据异常重要。<ul><li>封存手机</li><li>另请高明，寻找专业人士（花钱，愿意出马的就多了）</li><li>等待破解技术进步，现在没法解密的以后可能行得通<br>至少比冻体复苏实现的可能性高😏</li></ul></li></ul><h4 id="预防"><a class="markdownIt-Anchor" href="#预防"></a> 预防</h4><p>在流量和硬盘并不太贵的当下，对于重要的文件，强烈建议<code>日常自动云同步+隔阵子手动硬盘备份</code>双管齐下。养成良好的文件归纳整理习惯。<br>珍贵的照片、学习办公资料、实验数据、辛苦搜罗来的app安装包、到处都不让下载的音乐文件、调教好的各类应用配置、谷歌拼音输入法词库、有毛病的不能云同步的微信聊天记录…我丢失过太多次🤧</p><p><strong>刷机不备份，机佬两行泪。</strong></p><h3 id="magisk模块导致无法开机"><a class="markdownIt-Anchor" href="#magisk模块导致无法开机"></a> Magisk模块导致无法开机</h3><ul><li>rec内进入文件管理，找到<code>/data/adb/</code>，不出意外里边至少有个magisk文件夹和modules文件夹，modules文件夹下面就是你已安装的magisk模块，把可能出现问题的模块文件夹删掉，通常就能开机。</li><li>部分rec例如橙狐rec自带magisk管理，可以开启核心（core）模式再尝试开机。</li><li>简单粗暴的方法：刷卸载包，Magisk Uninstaller.zip，若仍无法开机则说明不是面具的问题</li><li>预防：<strong>Magisk Manager for recovery mod</strong>，自行了解</li></ul><h3 id="xposed模块导致无法开机"><a class="markdownIt-Anchor" href="#xposed模块导致无法开机"></a> Xposed模块导致无法开机</h3><p>进rec，文件管理，<code>/data/app/</code>，这是用户app安装位置，按时间降序排序，辨认出最近安装的xp模块包名，整个删之。</p><p>（好久不用xp了都，功能强大，能解决好多痛点，还有一堆黑科技玩法，但免不了影响流畅度）</p><p>太极和edxposed还没翻过车。</p><hr><p>有空想到再更。</p><p>有问题评论区补充或邮件联系。</p><p>愿天堂没有翻车🙏</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    
+    <categories>
+      
+      <category>原创</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>记录</tag>
+      
+      <tag>教程</tag>
+      
+      <tag>刷机</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>「说明书」文案风格及排版指南</title>
     <link href="/posts/5868.html"/>
     <url>/posts/5868.html</url>
@@ -363,9 +392,9 @@
       
       <tag>问题</tag>
       
-      <tag>音乐</tag>
-      
       <tag>美</tag>
+      
+      <tag>音乐</tag>
       
     </tags>
     
@@ -541,11 +570,11 @@
       
       <tag>问题&amp;解决</tag>
       
+      <tag>CDN</tag>
+      
       <tag>美化</tag>
       
       <tag>记录</tag>
-      
-      <tag>CDN</tag>
       
     </tags>
     
@@ -589,11 +618,11 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>美化</tag>
       
       <tag>记录</tag>
+      
+      <tag>hexo</tag>
       
       <tag>教程</tag>
       
@@ -801,9 +830,9 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>记录</tag>
+      
+      <tag>hexo</tag>
       
     </tags>
     
@@ -830,9 +859,9 @@
       
       <tag>问题&amp;解决</tag>
       
-      <tag>hexo</tag>
-      
       <tag>记录</tag>
+      
+      <tag>hexo</tag>
       
     </tags>
     
@@ -907,9 +936,9 @@
       
       <tag>问题&amp;解决</tag>
       
-      <tag>hexo</tag>
-      
       <tag>记录</tag>
+      
+      <tag>hexo</tag>
       
     </tags>
     
@@ -1480,11 +1509,11 @@
   
   
   <entry>
-    <title>[刷机记录]PE→MIUI12→Havoc</title>
+    <title>「刷机记录」PE→MIUI12→Havoc→PE</title>
     <link href="/posts/28684.html"/>
     <url>/posts/28684.html</url>
     
-    <content type="html"><![CDATA[<ul><li><p>进rec时卡在橙狐的启动界面，更至最新版recovery.img，成功进入</p></li><li><p>退出谷歌账号以防万一。<br>PE更新竟然出现问题，rom刷入成功但无限重启至rec，无法开机<br>找到之前的完整包应该能解决,但想换换口味了,这几个月的PE也不是很好用😶</p></li><li><p>备份部分数据至硬盘，格式化data，刷入MIUI 12内测版<br>成功开机，但极其卡顿，按照别人的前车之鉴更新桌面、改主题，依旧各种卡死，无奈🙄</p></li><li><p>老规矩格式化data，刷Havoc3.4版，出现错误7<br><strong>再三确定自己没有下错包</strong><br>打开ROM包找到<code>META-INF/com/google/android/updater-script</code>删掉这一行机型验证后保存</p></li></ul><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-5/%E5%88%A0%E9%99%A4%E6%9C%BA%E5%9E%8B%E9%AA%8C%E8%AF%81.jpg" srcset="/img/loading.gif" alt=""></p><p>重新刷入就能成功，<br><em>（也可能是两行，自行判断删多少，不放心的可以把updater-script复制一份到别的文件夹，万一删错，方便回退）</em></p><hr><h3 id="havoc特色"><a class="markdownIt-Anchor" href="#havoc特色"></a> Havoc特色：</h3><blockquote><ul><li>流畅省电自定义丰富，最基本的</li><li>手势可设置长滑触发操作项</li><li>长截图(~~不是很完美但也差不多够用。~~3.5版优化得很好了)</li><li>动画舒服，配合sub主题liv white，细节更漂亮</li><li><code>自带支持内录音频的录屏​功能</code></li><li>fps和CPU小浮窗</li><li>最近任务界面切换及其顺滑</li><li>平时鸡肋旦某些情况下可能有用的屏幕稳定功能</li><li>动画精确至0.1x级别调整</li><li><code>SafetyNet完美通过</code>，微信和支付宝指纹支付正常使用</li><li>WiFi信号比用PE的时候强一些</li><li>对双卡用户更友好，<code>支持磁贴快速切换双卡数据</code>(以前用过的类原生RR、AEX、LOS、PE、魔趣等等系统切卡都不方便)</li><li>其它原生系统有的功能它也基本不缺</li></ul></blockquote><hr><ul><li><a href="https://sourceforge.net/projects/havoc-os/files/" target="_blank" rel="noopener external nofollow noreferrer">Havoc仓库下载</a></li></ul><p>暂时就这些吧，想到再补充(￣▽￣)"</p><p><em><sub>最近经常纠结要不要句号</sub>🤔</em></p><hr><h3 id="预览视频"><a class="markdownIt-Anchor" href="#预览视频"></a> 预览视频</h3><p><strong>流量不够慎点</strong></p><p><s>演示的时候卡几下怪尴尬的</s><br>不能对660要求太多对吧🙄</p><p><video src="http://d0.ananas.chaoxing.com/download/948f6a17fbfd0739173f65578083d8d3?fn=%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%822020_05_27_16_54_41" width="50%" height="50%" controls="controls"></video></p><p>2.5x 动画演示<br>1分05秒有个细节</p><p><video src="http://d0.ananas.chaoxing.com/download/adfe68894dcc8e80e0ffe6c2b4e14e8e?fn=%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%822020_05_27_17_30_20" width="50%" height="50%" controls="controls"></video></p><p>最后吐槽一下h5，默认支持的视频格式范围太窄了，还得用格式工厂转换一下才能在网页中播放😑</p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-5/result-2020-05-27-17-50-14.jpg" srcset="/img/loading.gif" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<ul><li><p>进rec时卡在橙狐的启动界面，更至最新版recovery.img，成功进入</p></li><li><p>退出谷歌账号以防万一。<br>PE更新竟然出现问题，rom刷入成功但无限重启至rec，无法开机<br>找到之前的完整包应该能解决,但想换换口味了,这几个月的PE也不是很好用😶</p></li><li><p>备份部分数据至硬盘，格式化data，刷入MIUI 12内测版<br>成功开机，但极其卡顿，按照别人的前车之鉴更新桌面、改主题，依旧各种卡死，无奈🙄</p></li><li><p>老规矩格式化data，刷Havoc3.4版，出现错误7<br><strong>再三确定自己没有下错包</strong><br>打开ROM包找到<code>META-INF/com/google/android/updater-script</code>删掉这一行机型验证后保存</p></li></ul><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-5/%E5%88%A0%E9%99%A4%E6%9C%BA%E5%9E%8B%E9%AA%8C%E8%AF%81.jpg" srcset="/img/loading.gif" alt=""></p><p>重新刷入就能成功，<br><em>（也可能是两行，自行判断删多少，不放心的可以把updater-script复制一份到别的文件夹，万一删错，方便回退）</em></p><hr><h3 id="havoc特色"><a class="markdownIt-Anchor" href="#havoc特色"></a> Havoc特色：</h3><blockquote><ul><li>流畅省电自定义丰富，最基本的</li><li>手势可设置长滑触发操作项</li><li>长截图(~~不是很完美但也差不多够用。~~3.5版优化得很好了)</li><li>动画舒服，配合sub主题liv white，细节更漂亮</li><li><code>自带支持内录音频的录屏​功能</code></li><li>fps和CPU小浮窗</li><li>最近任务界面切换及其顺滑</li><li>平时鸡肋旦某些情况下可能有用的屏幕稳定功能</li><li>动画精确至0.1x级别调整</li><li><code>SafetyNet完美通过</code>，微信和支付宝指纹支付正常使用</li><li>WiFi信号比用PE的时候强一些</li><li>对双卡用户更友好，<code>支持磁贴快速切换双卡数据</code>(以前用过的类原生RR、AEX、LOS、PE、魔趣等等系统切卡都不方便)</li><li>其它原生系统有的功能它也基本不缺</li></ul></blockquote><hr><ul><li><a href="https://sourceforge.net/projects/havoc-os/files/" target="_blank" rel="noopener external nofollow noreferrer">Havoc仓库下载</a></li></ul><p>暂时就这些吧，想到再补充(￣▽￣)"</p><p><em><sub>最近经常纠结要不要句号</sub>🤔</em></p><hr><h3 id="预览视频"><a class="markdownIt-Anchor" href="#预览视频"></a> 预览视频</h3><p><strong>流量不够慎点</strong></p><p><s>演示的时候卡几下怪尴尬的</s><br>不能对660要求太多对吧🙄</p><p><video src="http://d0.ananas.chaoxing.com/download/948f6a17fbfd0739173f65578083d8d3?fn=%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%822020_05_27_16_54_41" width="50%" height="50%" controls="controls"></video></p><p>2.5x 动画演示<br>1分05秒有个细节</p><p><video src="http://d0.ananas.chaoxing.com/download/adfe68894dcc8e80e0ffe6c2b4e14e8e?fn=%E6%A0%BC%E5%BC%8F%E5%B7%A5%E5%8E%822020_05_27_17_30_20" width="50%" height="50%" controls="controls"></video></p><p>最后吐槽一下h5，默认支持的视频格式范围太窄了，还得用格式工厂转换一下才能在网页中播放😑</p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-5/result-2020-05-27-17-50-14.jpg" srcset="/img/loading.gif" alt=""></p><hr><h3 id="20200629"><a class="markdownIt-Anchor" href="#20200629"></a> 2020.06.29</h3><p>半夜作死，没错我又回到PE了(；′⌒`)<br>Havoc似乎越用越卡，大概是系统组件太多了，660伤不起😥</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     
     <categories>
@@ -1617,11 +1646,11 @@
     
     <tags>
       
-      <tag>hexo</tag>
-      
       <tag>美化</tag>
       
       <tag>记录</tag>
+      
+      <tag>hexo</tag>
       
     </tags>
     
@@ -2353,9 +2382,9 @@
       
       <tag>教程</tag>
       
-      <tag>图片处理</tag>
-      
       <tag>PS</tag>
+      
+      <tag>图片处理</tag>
       
     </tags>
     
