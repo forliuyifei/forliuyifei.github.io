@@ -1,12 +1,12 @@
 /*---Links Card---*/
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 300px) {
     .linkscard {
         display: none
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 300px) {
     .linkscard {
         margin: 0 auto;
         width: 500px;
