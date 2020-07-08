@@ -6,15 +6,16 @@ Allow: /about/
 Allow: /posts/
 Allow: /tags/教程/
 Allow: /cc/
+Allow: /links/
+Allow: /home/
+
 
 Disallow: /tags/
-Disallow: /links/
 Disallow: /categories/
 Disallow: /contact/
 Disallow: /tags/梦/
 Disallow: /tags/*/
 Disallow: /messageboard/
-Disallow: /home/
 Disallow: /weibo/
 Disallow: /miss/
 

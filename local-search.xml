@@ -4,19 +4,6 @@
   
   
   <entry>
-    <title>一台电脑搭建两个hexo博客</title>
-    <link href="/posts/1294.html"/>
-    <url>/posts/1294.html</url>
-    
-    <content type="html"><![CDATA[<p>占坑</p><h3 id="hexo-g不生成indexhtml"><a class="markdownIt-Anchor" href="#hexo-g不生成indexhtml"></a> hexo g不生成index.html</h3><p>参考：<a href="https://amito.me/2018/Solving-Hexo-Not-Generating-Static-Files/" target="_blank" rel="noopener external nofollow noreferrer">解决 Hexo 无法生成 index.html 等静态文件的问题</a></p><div class="hljs"><pre><code class="hljs jboss-cli">$ npm <span class="hljs-keyword">ls</span> <span class="hljs-params">--depth</span> 0</code></pre></div><p>出现</p><div class="hljs"><pre><code class="hljs angelscript">hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span> C:\Users\Xin\Desktop\hexo\loafing+-- <span class="hljs-symbol">hexo@</span><span class="hljs-number">4.2</span><span class="hljs-number">.1</span>+-- UNMET DEPENDENCY hexo-generator-<span class="hljs-symbol">archive@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>+-- UNMET DEPENDENCY hexo-generator-<span class="hljs-symbol">category@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>+-- UNMET DEPENDENCY hexo-generator-<span class="hljs-symbol">index@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>+-- UNMET DEPENDENCY hexo-generator-<span class="hljs-symbol">tag@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>+-- UNMET DEPENDENCY hexo-renderer-<span class="hljs-symbol">ejs@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>+-- UNMET DEPENDENCY hexo-renderer-<span class="hljs-symbol">marked@</span>^<span class="hljs-number">2.0</span><span class="hljs-number">.0</span>+-- UNMET DEPENDENCY hexo-renderer-<span class="hljs-symbol">stylus@</span>^<span class="hljs-number">1.1</span><span class="hljs-number">.0</span>`-- hexo-<span class="hljs-symbol">server@</span><span class="hljs-number">1.0</span><span class="hljs-number">.0</span>npm ERR! missing: hexo-generator-<span class="hljs-symbol">archive@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>, required by hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span>npm ERR! missing: hexo-generator-<span class="hljs-symbol">category@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>, required by hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span>npm ERR! missing: hexo-generator-<span class="hljs-symbol">index@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>, required by hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span>npm ERR! missing: hexo-generator-<span class="hljs-symbol">tag@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>, required by hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span>npm ERR! missing: hexo-renderer-<span class="hljs-symbol">ejs@</span>^<span class="hljs-number">1.0</span><span class="hljs-number">.0</span>, required by hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span>npm ERR! missing: hexo-renderer-<span class="hljs-symbol">marked@</span>^<span class="hljs-number">2.0</span><span class="hljs-number">.0</span>, required by hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span>npm ERR! missing: hexo-renderer-<span class="hljs-symbol">stylus@</span>^<span class="hljs-number">1.1</span><span class="hljs-number">.0</span>, required by hexo-<span class="hljs-symbol">site@</span><span class="hljs-number">0.0</span><span class="hljs-number">.0</span></code></pre></div><p>解决</p><div class="hljs"><pre><code class="hljs sql">$ npm <span class="hljs-keyword">install</span> <span class="hljs-comment">--save</span></code></pre></div><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>How to...</title>
     <link href="/posts/How-to-obtain-and-maintain-happiness.html"/>
     <url>/posts/How-to-obtain-and-maintain-happiness.html</url>
@@ -619,11 +606,11 @@
     
     <tags>
       
+      <tag>问题&amp;解决</tag>
+      
       <tag>CDN</tag>
       
       <tag>美化</tag>
-      
-      <tag>问题&amp;解决</tag>
       
       <tag>记录</tag>
       
@@ -700,9 +687,9 @@
     
     <tags>
       
-      <tag>诗</tag>
-      
       <tag>金庸</tag>
+      
+      <tag>诗</tag>
       
     </tags>
     
