@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-07-05T10:37:47.292Z</updated>
+  <updated>2020-07-10T14:13:44.679Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新域名 Loafing.cn 上线🎉🎉🎉</title>
+    <link href="https://liuyifei.club/posts/11590.html"/>
+    <id>https://liuyifei.club/posts/11590.html</id>
+    <published>2020-07-10T13:48:17.000Z</published>
+    <updated>2020-07-10T14:13:44.679Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong><a href="https://loafing.cn/" target="_blank" rel="noopener external nofollow noreferrer">预览</a></strong></p><p>搭配 <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank" rel="noopener external nofollow noreferrer">Cards主题</a> 使用，简洁快速。</p><p><em>好吧也不是很快，看脸，只部署单线GitHub，懒得再弄国内的Coding加速，Cloudflare也偶尔抽风。反正没人看，慢就慢吧，哼哼哼。</em></p><p>现在这个 liuyifei.club 站点折腾累了🙉</p><p>Loafing 比 liuyifei 更重要。（确信）<br>但这边也不会放弃的。（哪天续不起域名费用另说）</p><p>Cards主题或许更适合产出内容太慢的博主🤦‍♂️<br>多一些原创内容吧anyway。<br>自勉🙏</p><hr><p><strong>详参：<a href="https://loafing.cn/questions/#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%BA%8C%E4%B8%AAhexo%E5%8D%9A%E5%AE%A2" target="_blank" rel="noopener external nofollow noreferrer">为什么要创建第二个hexo博客</a></strong></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://loafing.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;预览&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;搭配 &lt;a href=&quot;http
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>How to...</title>
@@ -488,27 +511,6 @@
       <category term="音乐" scheme="https://liuyifei.club/tags/%E9%9F%B3%E4%B9%90/"/>
     
       <category term="美" scheme="https://liuyifei.club/tags/%E7%BE%8E/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我见青山多妩媚，料青山见我应如是。</title>
-    <link href="https://liuyifei.club/posts/3137.html"/>
-    <id>https://liuyifei.club/posts/3137.html</id>
-    <published>2020-06-01T12:28:00.000Z</published>
-    <updated>2020-06-01T13:23:00.267Z</updated>
-    
-    <content type="html"><![CDATA[<h4 id="center辛弃疾贺新郎甚矣吾衰矣-center"><a class="markdownIt-Anchor" href="#center辛弃疾贺新郎甚矣吾衰矣-center"></a> <center>辛弃疾《贺新郎·甚矣吾衰矣》 </center></h4><p>邑中园亭，仆皆为赋此词。一日，独坐停云，水声山色，竞来相娱。意溪山欲援例者，遂作数语，庶几仿佛渊明思亲友之意云。</p><p>甚矣吾衰矣。怅平生、交游零落，只今余几！白发空垂三千丈，一笑人间万事。问何物、能令公喜？我见青山多妩媚，料青山见我应如是。情与貌，略相似。</p><p>一尊搔首东窗里。想渊明、《停云》诗就，此时风味。江左沉酣求名者，岂识浊醪妙理。回首叫、云飞风起。不恨古人吾不见，恨古人不见吾狂耳。知我者，二三子。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      情与貌，略相似。
-    
-    </summary>
-    
-    
-    
-      <category term="诗" scheme="https://liuyifei.club/tags/%E8%AF%97/"/>
     
   </entry>
   
