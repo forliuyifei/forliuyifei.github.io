@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-07-10T14:13:44.679Z</updated>
+  <updated>2020-07-11T15:32:36.297Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>为什么百度搜索这么烂？！！</title>
+    <link href="https://liuyifei.club/posts/9603.html"/>
+    <id>https://liuyifei.club/posts/9603.html</id>
+    <published>2020-07-11T13:01:04.000Z</published>
+    <updated>2020-07-11T15:32:36.297Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里暂且不提百度为了恰饭丝毫不顾用户正常体验的恶心操作（恶意推广、谋财害命之类），仅吐槽它作为一款已发展十几年将近二十年的搜索引擎，怎么在最该做好的 <strong>“本分”</strong> 方面都如此不堪！</p><hr><p>曾经我以为很多东西搜不到，要么是 <strong>“由于相关法律法规不予显示”</strong>（这个完全可以理解），要么是搜索的人不懂<a href="https://sspai.com/post/34150" target="_blank" rel="noopener external nofollow noreferrer">技巧</a>，加上百度的算法不如谷歌 <strong>“聪明”</strong>，所以百度搜索的结果经常不能及时展现我们需要的信息。</p><p>但作为一个小破站的站长，建站84天以来，我愈发相信；</p><p><strong>百度就是烂！有恃无恐的烂，傲慢狂妄，不思进取。</strong></p><p>至于它为什么这么烂？I don’t know, What’s your problem, Robin Li?</p><p>大致叙述几点我遇到的情况：</p><ul><li><p>网站收录慢。在百度站长工具平台提交sitemap后，不是卡在“等待”状态，就是即使抓取成功，它也不收录站点地图里边的网页，爱咋地咋地吧各位站长们。</p></li><li><p>倾向于收录重复/相似的文章，原创内容反而更难被收录。<br>截至2020-07-11 22:01:58，使用百度搜索 <strong>site:liuyifei.club</strong>，</p><blockquote><p>找到相关结果数约12个</p></blockquote><p>8篇posts，4篇我从别处搜集过来作为收藏的古文、诗词、精辟的句子……4篇自己写的破事水。<br>4个其它页面：首页、留言页、归档页，还有这个Cloudflare弄的什么邮箱保护？ <a href="https://liuyifei.club/cdn-cgi/l/email-protection">https://liuyifei.club/cdn-cgi/l/email-protection</a><br>我记得刚开始那几天老是不收录，给我急坏了，最后终于显示一篇 <a href="https://liuyifei.club/posts/24299.html">牧羊人和野山羊🐐</a> 的概要，苦笑不得🙄……</p><p>对比谷歌：</p><blockquote><p>找到约 187 条结果 （用时 0.21 秒）</p></blockquote><p>应有尽有，新发布的文章几乎秒收录，（已经多次测试）<br>比如Google搜索 <strong>说明书 site:liuyifei.club</strong>，马上出现本站首页的摘要。</p></li><li><p>经常遇到这种情况，搜索稍微专深的问题，百度前几个结果都是互相复制粘贴来的，能解决问题还好，有时更气人的是一堆<a href="https://zh.moegirl.org/zh-hans/%E5%B0%8F%E7%BC%96%E4%BD%93" target="_blank" rel="noopener external nofollow noreferrer">小编体</a>：</p><blockquote><p>最近XX梗很火，那么XX是什么呢，XX是什么意思呢出自哪里？接下来和小编一起来了解一下吧。<br>（几段翻来覆去车轱辘话的正文）<br>好了，这就是小编给大家分享的XX是什么。希望大家看完这篇由小编精心整理的内容后，能对相关知识有所了解，解决你的困惑。</p></blockquote></li><li><p>更别提过期的链接、过时的问题解决方式，给人希望又使其破灭🤬🤬🤬</p></li><li><p>…</p></li></ul><p>所以不能怪国内环境下没有高质量文章产出（想想也不可能，中国这么多人，如此庞大的中文使用群体，我们能遇到的问题基本也是国人都遇过的，前车之鉴又何必跑到外边去找呢？）, 分明就是百度这铜臭老财不爱做有效收录。<br>所以我们反而需要以<strong>出口转内销</strong>的形式寻求问题的解决。</p><p>什么建站初期多发文章、关键词优化、robots.txt优化……百度根本油盐不进，收录我们这些小破站哪有百家号和莆田系医院能挣钱？</p><p>就不能更新地勤快些吗？<br>搜索结果优先放点近期的答案不好吗？<br>百度知道一堆水金币的不管管吗？</p><hr><p>累了，不吐不快，想到再补充。</p><p>附一篇第一次帮到从搜索引擎过来的苦者的博文（小激动）：<br><a href="https://liuyifei.club/posts/30773.html">Google 「站点地图可读取，但存在错误」</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这里暂且不提百度为了恰饭丝毫不顾用户正常体验的恶心操作（恶意推广、谋财害命之类），仅吐槽它作为一款已发展十几年将近二十年的搜索引擎，怎么在最该做好的 &lt;strong&gt;“本分”&lt;/strong&gt; 方面都如此不堪！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;曾经我以为很多东西搜不到，要么是 &lt;s
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
+    
+      <category term="吐槽" scheme="https://liuyifei.club/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>新域名 Loafing.cn 上线🎉🎉🎉</title>
     <link href="https://liuyifei.club/posts/11590.html"/>
     <id>https://liuyifei.club/posts/11590.html</id>
     <published>2020-07-10T13:48:17.000Z</published>
-    <updated>2020-07-10T14:13:44.679Z</updated>
+    <updated>2020-07-11T12:10:54.374Z</updated>
     
     <content type="html"><![CDATA[<p><strong><a href="https://loafing.cn/" target="_blank" rel="noopener external nofollow noreferrer">预览</a></strong></p><p>搭配 <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank" rel="noopener external nofollow noreferrer">Cards主题</a> 使用，简洁快速。</p><p><em>好吧也不是很快，看脸，只部署单线GitHub，懒得再弄国内的Coding加速，Cloudflare也偶尔抽风。反正没人看，慢就慢吧，哼哼哼。</em></p><p>现在这个 liuyifei.club 站点折腾累了🙉</p><p>Loafing 比 liuyifei 更重要。（确信）<br>但这边也不会放弃的。（哪天续不起域名费用另说）</p><p>Cards主题或许更适合产出内容太慢的博主🤦‍♂️<br>多一些原创内容吧anyway。<br>自勉🙏</p><hr><p><strong>详参：<a href="https://loafing.cn/questions/#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%BA%8C%E4%B8%AAhexo%E5%8D%9A%E5%AE%A2" target="_blank" rel="noopener external nofollow noreferrer">为什么要创建第二个hexo博客</a></strong></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -486,31 +516,6 @@
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>她的琴技一定有很大的进步（误）</title>
-    <link href="https://liuyifei.club/posts/18850.html"/>
-    <id>https://liuyifei.club/posts/18850.html</id>
-    <published>2020-06-02T02:12:00.000Z</published>
-    <updated>2020-06-26T08:40:54.286Z</updated>
-    
-    <content type="html"><![CDATA[<p>不是所有人都对音乐、钢琴或者丝袜美腿感兴趣，但想必大多数人都喜欢oppai🙈</p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200602101141.png" srcset="/img/loading.gif" alt=""><br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200602101705.png" srcset="/img/loading.gif" alt=""></p><p>可是，难道非得很直接地多暴露一点，大众才喜欢么？明明以前也看得出很有料的🙊</p><p><img src="https://i.loli.net/2020/06/02/PnTl2pGO3CUYM1a.png" srcset="/img/loading.gif" alt=""></p><hr><center>肤浅的人类（我也是🙉）</center><hr><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLsuPr27ROh0iA76FAwnG4FBG-rX-3cKRb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      肤浅的人类（我也是）
-    
-    </summary>
-    
-    
-    
-      <category term="问题" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98/"/>
-    
-      <category term="美" scheme="https://liuyifei.club/tags/%E7%BE%8E/"/>
-    
-      <category term="音乐" scheme="https://liuyifei.club/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
