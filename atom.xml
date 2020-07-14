@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>饿龙不是龙哩</title>
-  
+  <icon>https://liuyifei.club/img/favicon.png</icon>
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-07-11T15:32:36.297Z</updated>
+  <updated>2020-07-14T05:10:55.635Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -17,21 +17,48 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于RSS订阅的二三事</title>
+    <link href="https://liuyifei.club/posts/29490.html"/>
+    <id>https://liuyifei.club/posts/29490.html</id>
+    <published>2020-07-14T02:01:00.000Z</published>
+    <updated>2020-07-14T05:10:55.635Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="订阅本站"><a class="markdownIt-Anchor" href="#订阅本站"></a> 订阅本站📌</h2><p>如果您认为自己可能对本站<s>过去/现在/将来的</s>内容感兴趣，欢迎 <strong><a href="/atom.xml" title="atom.xml">订阅本站RSS</a></strong><br>本站文章将尽量保持全文Feed，部分内部样式复杂（乱）、元素过多的文章只提供标题和摘要。<br>当然出于私心还是希望有人多来光顾我这片小天地，能在底部评论交流、发表态度就更好了😶<!--为减少网页载入等待时间，不引入阅读量统计，孤零零的感觉😶--></p><a id="more"></a><p>（不了解RSS订阅的建议继续往下看）</p><hr><h3 id="rss是什么"><a class="markdownIt-Anchor" href="#rss是什么"></a> RSS是什么？</h3><p>网上对RSS（Really Simple Syndication）的相关介绍已经足够多，这里只做几条简要摘录，不赘述其原理与生成方法。</p><blockquote><p><strong>阮一峰：</strong><br><strong>“RSS就像一个网站的海报，里面包括这个网站的最新内容，会自动更新。”</strong></p></blockquote><blockquote><p>维基百科：<br>RSS（简易信息聚合）是一种消息来源格式规范，用以聚合经常发布更新数据的网站，例如博客文章、新闻、音频或视频的网摘。<br>RSS文件（或称做摘要、网络摘要、或频更新，提供到频道）包含全文或是节录的文字，再加上发布者所订阅之网摘数据和授权的元数据。<br>简单来说 RSS 能够让用户订阅个人网站个人博客，当订阅的网站有新文章是能够获得通知。</p></blockquote><h3 id="我们为什么需要rss"><a class="markdownIt-Anchor" href="#我们为什么需要rss"></a> 我们为什么需要RSS？</h3><ul><li><p>在浮躁年代回归优雅的阅读</p><blockquote><p>在信息爆炸的时代，脑子很容易被各种信息塞满，一个人常常会陷入只有各种输入而没有任何输出的境地。没有输出就算了，这种情况往往还伴随着整个脑子里全是别人灌输而来的思想，没有时间进行自己的思考，刷完微博还有知乎，看完知乎还有即刻，还有一些如36kr，Infoq，华尔街见闻，知名的技术博客，Pinterest，Instagram，等等。整个过程占用大量的时间，看不完的，就像游戏是玩不完的，剧是追不完的，综艺是看不完的……<br>作者：<a href="https://www.jianshu.com/p/31c53028d834" target="_blank" rel="noopener external nofollow noreferrer">古二白</a></p></blockquote></li><li><p>知识体系构建</p></li><li><p>稍后读</p></li><li><p>摆脱微信公众号等平台糟糕的阅读体验</p></li><li><p>聚合/筛选特定类型信息</p></li><li><p>…</p></li></ul><h4 id="rss-的优点"><a class="markdownIt-Anchor" href="#rss-的优点"></a> RSS 的优点</h4><ul><li>节省获取时间。<br>逐个点开网站太费事，使用RSS可以减少不同界面之间的切换和调动。</li><li>不需要科学上网也能订阅墙外的网站。<blockquote><p>兼听不一定明，但至少有利于增长见闻，了解外界哪些是敌人、哪些是我们的朋友。</p></blockquote></li><li>保持专注。RSS阅读界面干净，免除软件/网站广告的干扰，文字排版规范统一，适合深度阅读。<blockquote><p>如果手机安装使用Chrome浏览器，访问“符合规范”的网页，底部出现横条<code>“📱显示简化版视图”</code>，点击后往往可获得较佳的阅读体验，右上角还可<code>设置外观</code>，有浅、深、棕三色背景，Sans Serif、Serif、等宽三种字体，字体尺寸调节50%~200%，满足基本阅读需求。<br>两个页面举例：<em><a href="/posts/movies-watched.html">「记录」看过的电影</a>、<a href="https://liuyifei.club/posts/62840.html">金庸作品集 序</a></em></p></blockquote></li><li>高度定制。只有自己喜欢的内容出现，<s>不被强行喂*</s></li></ul><h4 id="缺点"><a class="markdownIt-Anchor" href="#缺点"></a> 缺点</h4><ol><li>内容提供方–无收入、无互动，不利于促进积极性</li><li>内容阅读方–订阅困难、上手门槛高，对不爱折腾的人来说很困难</li><li>网页图片抓取可能存在问题，例如懒加载功能导致的全部图片变成加载图</li></ol><h3 id="如何使用rss"><a class="markdownIt-Anchor" href="#如何使用rss"></a> 如何使用RSS？</h3><h4 id="获取订阅源"><a class="markdownIt-Anchor" href="#获取订阅源"></a> 获取订阅源</h4><ul><li><p>推荐一款油猴脚本：<a href="https://greasyfork.org/zh-CN/scripts/373252-rss-show-site-all-rss" target="_blank" rel="noopener external nofollow noreferrer">RSS+ : 显示当前网站所有的 RSS</a></p><blockquote><p>能找到很多 RSS 订阅源！<br>当你浏览感兴趣的网页时，自动检测当前网站是否支持RSS订阅。<br>比如：微博、贴吧、知乎、雪球、起点、斗鱼、BiliBili、CSDN、v2ex、草榴、instagram、twitter、tumblr、youtube、github、reddit、medium、dribbble……<br>支持设置 RSSHub 服务的域名。</p></blockquote></li><li><p><a href="https://docs.rsshub.app/" target="_blank" rel="noopener external nofollow noreferrer">RSSHub</a></p><blockquote><p>RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源。RSSHub 借助于开源社区的力量快速发展中，目前已适配数百家网站的上千项内容</p></blockquote></li><li><p>肉眼观察<br>很多博客都会在醒目的位置放上自己的订阅图标，找到它们，添加进自己的RSS阅读器。（订阅链接一般以<code>atom.xml</code>或者<code>rss.xml</code>结尾）</p></li></ul><h4 id="rss阅读器推荐"><a class="markdownIt-Anchor" href="#rss阅读器推荐"></a> RSS阅读器推荐</h4><p>只提几个自己用过且仍有印象的，具体怎么挑选建议自行了解<br>（基本被墙，好吧又增加难度）</p><ul><li><p>Feedme<br>国人作品，支持的源非常多</p></li><li><p>Feedly<br>界面简约</p></li><li><p>Inoreader<br>功能多，稍显繁杂</p></li></ul><p>（更多的使用方法不想再写了,容易过时🤦‍♂️各类工具和方法更新换代的速度太快）</p><h3 id="订阅推荐"><a class="markdownIt-Anchor" href="#订阅推荐"></a> 订阅推荐</h3><ul><li><a href="https://rsshub.app/who/news-room/feature-stories" target="_blank" rel="noopener external nofollow noreferrer">世界卫生组织 WHO 媒体中心</a></li><li><a href="http://www.ruanyifeng.com/blog/atom.xml" target="_blank" rel="noopener external nofollow noreferrer">阮一峰的个人网站</a></li><li><a href="https://blog.ichr.me/atom.xml" target="_blank" rel="noopener external nofollow noreferrer">ChrAlpha 的幻想乡</a></li><li><a href="https://rsshub.app/houxu/live/5" target="_blank" rel="noopener external nofollow noreferrer">后续-往事进展</a></li><li><a href="https://rsshub.app/weseepro/newest-direct" target="_blank" rel="noopener external nofollow noreferrer">刷屏-最新</a></li><li><a href="https://rsshub.app/kzfeed/topic/KklZRd9a04OgA" target="_blank" rel="noopener external nofollow noreferrer">快知 - 值得一读的好文</a></li><li><a href="https://sspai.com/feed" target="_blank" rel="noopener external nofollow noreferrer">少数派</a></li><li><a href="https://loafing.cn/atom.xml" target="_blank" rel="noopener">若风</a></li></ul><hr><h3 id="建议参阅"><a class="markdownIt-Anchor" href="#建议参阅"></a> <strong>建议参阅：</strong></h3><ul><li><a href="https://diygod.me/ohmyrss/" target="_blank" rel="noopener external nofollow noreferrer">我有特别的 RSS 使用技巧</a></li><li><a href="https://sspai.com/post/56391" target="_blank" rel="noopener external nofollow noreferrer">高效获取信息，你需要这份 RSS 入门指南</a></li><li><a href="https://sspai.com/search/post/rss" target="_blank" rel="noopener external nofollow noreferrer">“RSS”搜索结果-少数派</a></li></ul><hr><p>头图来自 <a href="https://www.files.ly/photos/tZc3vjPCk-Q" target="_blank" rel="noopener external nofollow noreferrer">Unaplash</a>， 使用DogeDoge CDN加速。</p><p>本文首发于：<a href="https://loafing.cn/posts/RSS-for-what.html" target="_blank" rel="noopener">关于RSS订阅的二三事｜若风｜2020.07.13</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;订阅本站&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#订阅本站&quot;&gt;&lt;/a&gt; 订阅本站📌&lt;/h2&gt;
+&lt;p&gt;如果您认为自己可能对本站&lt;s&gt;过去/现在/将来的&lt;/s&gt;内容感兴趣，欢迎 &lt;strong&gt;&lt;a href=&quot;/atom.xml&quot; title=&quot;atom.xml&quot;&gt;订阅本站RSS&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+本站文章将尽量保持全文Feed，部分内部样式复杂（乱）、元素过多的文章只提供标题和摘要。&lt;br&gt;
+当然出于私心还是希望有人多来光顾我这片小天地，能在底部评论交流、发表态度就更好了😶&lt;!--为减少网页载入等待时间，不引入阅读量统计，孤零零的感觉😶--&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>为什么百度搜索这么烂？！！</title>
     <link href="https://liuyifei.club/posts/9603.html"/>
     <id>https://liuyifei.club/posts/9603.html</id>
     <published>2020-07-11T13:01:04.000Z</published>
-    <updated>2020-07-11T15:32:36.297Z</updated>
+    <updated>2020-07-14T04:53:50.272Z</updated>
     
-    <content type="html"><![CDATA[<p>这里暂且不提百度为了恰饭丝毫不顾用户正常体验的恶心操作（恶意推广、谋财害命之类），仅吐槽它作为一款已发展十几年将近二十年的搜索引擎，怎么在最该做好的 <strong>“本分”</strong> 方面都如此不堪！</p><hr><p>曾经我以为很多东西搜不到，要么是 <strong>“由于相关法律法规不予显示”</strong>（这个完全可以理解），要么是搜索的人不懂<a href="https://sspai.com/post/34150" target="_blank" rel="noopener external nofollow noreferrer">技巧</a>，加上百度的算法不如谷歌 <strong>“聪明”</strong>，所以百度搜索的结果经常不能及时展现我们需要的信息。</p><p>但作为一个小破站的站长，建站84天以来，我愈发相信；</p><p><strong>百度就是烂！有恃无恐的烂，傲慢狂妄，不思进取。</strong></p><p>至于它为什么这么烂？I don’t know, What’s your problem, Robin Li?</p><p>大致叙述几点我遇到的情况：</p><ul><li><p>网站收录慢。在百度站长工具平台提交sitemap后，不是卡在“等待”状态，就是即使抓取成功，它也不收录站点地图里边的网页，爱咋地咋地吧各位站长们。</p></li><li><p>倾向于收录重复/相似的文章，原创内容反而更难被收录。<br>截至2020-07-11 22:01:58，使用百度搜索 <strong>site:liuyifei.club</strong>，</p><blockquote><p>找到相关结果数约12个</p></blockquote><p>8篇posts，4篇我从别处搜集过来作为收藏的古文、诗词、精辟的句子……4篇自己写的破事水。<br>4个其它页面：首页、留言页、归档页，还有这个Cloudflare弄的什么邮箱保护？ <a href="https://liuyifei.club/cdn-cgi/l/email-protection">https://liuyifei.club/cdn-cgi/l/email-protection</a><br>我记得刚开始那几天老是不收录，给我急坏了，最后终于显示一篇 <a href="https://liuyifei.club/posts/24299.html">牧羊人和野山羊🐐</a> 的概要，苦笑不得🙄……</p><p>对比谷歌：</p><blockquote><p>找到约 187 条结果 （用时 0.21 秒）</p></blockquote><p>应有尽有，新发布的文章几乎秒收录，（已经多次测试）<br>比如Google搜索 <strong>说明书 site:liuyifei.club</strong>，马上出现本站首页的摘要。</p></li><li><p>经常遇到这种情况，搜索稍微专深的问题，百度前几个结果都是互相复制粘贴来的，能解决问题还好，有时更气人的是一堆<a href="https://zh.moegirl.org/zh-hans/%E5%B0%8F%E7%BC%96%E4%BD%93" target="_blank" rel="noopener external nofollow noreferrer">小编体</a>：</p><blockquote><p>最近XX梗很火，那么XX是什么呢，XX是什么意思呢出自哪里？接下来和小编一起来了解一下吧。<br>（几段翻来覆去车轱辘话的正文）<br>好了，这就是小编给大家分享的XX是什么。希望大家看完这篇由小编精心整理的内容后，能对相关知识有所了解，解决你的困惑。</p></blockquote></li><li><p>更别提过期的链接、过时的问题解决方式，给人希望又使其破灭🤬🤬🤬</p></li><li><p>…</p></li></ul><p>所以不能怪国内环境下没有高质量文章产出（想想也不可能，中国这么多人，如此庞大的中文使用群体，我们能遇到的问题基本也是国人都遇过的，前车之鉴又何必跑到外边去找呢？）, 分明就是百度这铜臭老财不爱做有效收录。<br>所以我们反而需要以<strong>出口转内销</strong>的形式寻求问题的解决。</p><p>什么建站初期多发文章、关键词优化、robots.txt优化……百度根本油盐不进，收录我们这些小破站哪有百家号和莆田系医院能挣钱？</p><p>就不能更新地勤快些吗？<br>搜索结果优先放点近期的答案不好吗？<br>百度知道一堆水金币的不管管吗？</p><hr><p>累了，不吐不快，想到再补充。</p><p>附一篇第一次帮到从搜索引擎过来的苦者的博文（小激动）：<br><a href="https://liuyifei.club/posts/30773.html">Google 「站点地图可读取，但存在错误」</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    <content type="html"><![CDATA[<p>这里暂且不提百度为了恰饭丝毫不顾用户正常体验的恶心操作（恶意推广、谋财害命之类），仅吐槽它作为一款已发展十几年将近二十年的搜索引擎，怎么在最该做好的 <strong>“本分”</strong> 方面都如此不堪！</p><hr><p>曾经我以为很多东西搜不到，要么是 <strong>“由于相关法律法规不予显示”</strong>（这个完全可以理解），要么是搜索的人不懂<a href="https://sspai.com/post/34150" target="_blank" rel="noopener external nofollow noreferrer">技巧</a>，加上百度的算法不如谷歌 <strong>“聪明”</strong>，所以百度搜索的结果经常不能及时展现我们需要的信息。</p><p>但作为一个小破站的站长，建站84天以来，我愈发相信；</p><p><strong>百度就是烂！有恃无恐的烂，傲慢狂妄，不思进取。</strong></p><p>至于它为什么这么烂？I don’t know, What’s your problem, Robin Li?</p><p>大致叙述几点我遇到的情况：</p><ul><li><p>网站收录慢。在百度站长工具平台提交sitemap后，不是卡在“等待”状态，就是即使抓取成功，它也不收录站点地图里边的网页，爱咋地咋地吧各位站长们。</p></li><li><p>倾向于收录重复/相似的文章，原创内容反而更难被收录。<br>截至2020-07-11 22:01:58，使用百度搜索 <strong>site:liuyifei.club</strong>，</p><blockquote><p>找到相关结果数约12个</p></blockquote><p>8篇posts，4篇我从别处搜集过来作为收藏的古文、诗词、精辟的句子……4篇自己写的破事水。<br>4个其它页面：首页、留言页、归档页，还有这个Cloudflare弄的什么邮箱保护？ <a href="https://liuyifei.club/cdn-cgi/l/email-protection">https://liuyifei.club/cdn-cgi/l/email-protection</a><br>我记得刚开始那几天老是不收录，给我急坏了，最后终于显示一篇 <a href="https://liuyifei.club/posts/24299.html">牧羊人和野山羊🐐</a> 的概要，苦笑不得🙄……</p><p>对比谷歌：</p><blockquote><p>找到约 187 条结果 （用时 0.21 秒）</p></blockquote><p>应有尽有，新发布的文章几乎秒收录，（已经多次测试）<br>比如Google搜索 <strong>说明书 site:liuyifei.club</strong>，马上出现本站首页的摘要。</p></li><li><p>经常遇到这种情况，搜索稍微专深的问题，百度前几个结果都是互相复制粘贴来的，能解决问题还好，有时更气人的是一堆<a href="https://zh.moegirl.org/zh-hans/%E5%B0%8F%E7%BC%96%E4%BD%93" target="_blank" rel="noopener external nofollow noreferrer">小编体</a>：</p><blockquote><p>最近XX梗很火，那么XX是什么呢，XX是什么意思呢出自哪里？接下来和小编一起来了解一下吧。<br>（几段翻来覆去车轱辘话的正文）<br>好了，这就是小编给大家分享的XX是什么。希望大家看完这篇由小编精心整理的内容后，能对相关知识有所了解，解决你的困惑。</p></blockquote></li><li><p>更别提过期的链接、过时的问题解决方式，给人希望又使其破灭🤬🤬🤬</p></li><li><p>…</p></li></ul><p>所以不能怪国内环境下没有高质量文章产出（想想也不可能，中国这么多人，如此庞大的中文使用群体，我们能遇到的问题基本也是国人都遇过的，前车之鉴又何必跑到外边去找呢？）, 分明就是百度这铜臭老财不爱做有效收录。<br>所以我们反而需要以<strong>出口转内销</strong>的形式寻求问题的解决。</p><p>什么建站初期多发文章、关键词优化、robots.txt优化……百度根本油盐不进，收录我们这些小破站哪有百家号和莆田系医院能挣钱？</p><p>就不能更新地勤快些吗？<br>搜索结果优先放点近期的答案不好吗？<br>百度知道一堆水金币的不管管吗？</p><hr><p>累了，不吐不快，想到再补充。</p><p>附一篇第一次帮到从搜索引擎过来的苦者的博文（小激动）：<br><a href="https://liuyifei.club/posts/30773.html">Google 「站点地图可读取，但存在错误」</a></p><hr><h3 id="搜索引擎推荐"><a class="markdownIt-Anchor" href="#搜索引擎推荐"></a> 搜索引擎推荐</h3><p>想起来了，国内有个新出的 多吉搜索 <a href="https://www.dogedoge.com/" target="_blank" rel="noopener external nofollow noreferrer">DogeDoge.com</a>，良心，收录速度很靠谱。</p><p>2020-07-14 12:30:41<br>看看新站的收录情况<br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/7/TB29H%6094LAX%7BY%5DC$N4WZBIA.webp" srcset="/img/loading.gif" alt=""></p><p>感动到爆哭，这么快！</p><p><a href="https://mijisou.com/" target="_blank" rel="noopener external nofollow noreferrer">秘迹搜</a>也还行，值得一试。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这里暂且不提百度为了恰饭丝毫不顾用户正常体验的恶心操作（恶意推广、谋财害命之类），仅吐槽它作为一款已发展十几年将近二十年的搜索引擎，怎么在最该做好的 &lt;strong&gt;“本分”&lt;/strong&gt; 方面都如此不堪！&lt;/p&gt;
+        
+        
+          &lt;p&gt;这里暂且不提百度为了恰饭丝毫不顾用户正常体验的恶心操作（恶意推广、谋财害命之类），仅吐槽它作为一款已发展十几年将近二十年的搜索引擎，怎么在最该做好的 &lt;strong&gt;“本分”&lt;/strong&gt; 方面都如此不堪！&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;曾经我以为很多东西搜不到，要么是 &lt;s
+&lt;p&gt;曾经我以为很多东西搜不到，要么是
+        
       
     
     </summary>
@@ -51,36 +78,20 @@
     <link href="https://liuyifei.club/posts/11590.html"/>
     <id>https://liuyifei.club/posts/11590.html</id>
     <published>2020-07-10T13:48:17.000Z</published>
-    <updated>2020-07-11T12:10:54.374Z</updated>
+    <updated>2020-07-14T05:06:00.720Z</updated>
     
-    <content type="html"><![CDATA[<p><strong><a href="https://loafing.cn/" target="_blank" rel="noopener external nofollow noreferrer">预览</a></strong></p><p>搭配 <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank" rel="noopener external nofollow noreferrer">Cards主题</a> 使用，简洁快速。</p><p><em>好吧也不是很快，看脸，只部署单线GitHub，懒得再弄国内的Coding加速，Cloudflare也偶尔抽风。反正没人看，慢就慢吧，哼哼哼。</em></p><p>现在这个 liuyifei.club 站点折腾累了🙉</p><p>Loafing 比 liuyifei 更重要。（确信）<br>但这边也不会放弃的。（哪天续不起域名费用另说）</p><p>Cards主题或许更适合产出内容太慢的博主🤦‍♂️<br>多一些原创内容吧anyway。<br>自勉🙏</p><hr><p><strong>详参：<a href="https://loafing.cn/questions/#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%BA%8C%E4%B8%AAhexo%E5%8D%9A%E5%AE%A2" target="_blank" rel="noopener external nofollow noreferrer">为什么要创建第二个hexo博客</a></strong></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://loafing.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener external nofollow noreferrer&quot;&gt;预览&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;搭配 &lt;a href=&quot;http
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>How to...</title>
-    <link href="https://liuyifei.club/posts/How-to-obtain-and-maintain-happiness.html"/>
-    <id>https://liuyifei.club/posts/How-to-obtain-and-maintain-happiness.html</id>
-    <published>2020-07-05T09:43:32.000Z</published>
-    <updated>2020-07-05T10:37:47.292Z</updated>
-    
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="" />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="b8eff8b438255e34f8e58b7ce2df4d7a661d6728578d1e562d190066e6182670">87f6e7b730ea317ce487122d44b6376f588d628325559f989095c6caa61bb9ec041dab14b066d573357237f67520c6b9484d1746ba1119c38a2900afb03e5d922e824c63c34c8d8a0b55adbf390ebad8d7acca2b4c9a8591033fcb1e3714e0a979df666166c283c78eb8dfeef0b776bf812f33247fc7c0f212bd575e3336e6283f0d8ebb49383255ead42f70d7d001311d97cc1f97996a04ad84d35eae826a6a97d9d0aca975dd0de4441bf221e4a363b16bb86855d658de4aa786d51ea781ac748837da4faeda4f7234a66681e95eeadc7655d050635351cd82e70d3ec36e8ab7e8c887685ccea642ac7015f902aa99d37ae19ef692dbaaf6a35700a5553e2d80a9e34086c6d466f2c6f40d47cd0c33d642c90d2f097454f5fb9f1995dde397b08d0e4d9be0e2c3c703f69813439efecd5e159c80a3381261a6c68494e82bacbc5deba8b07cdecf47714ff6941106a744cd38321ca31cc6e8b499a7f4efd39fd8308cf565014042b59d8657f0e0c19ded0b86a5976c510f3528bc389849e07b3f278ad79672524719da9529b1ba7a6d5baa1133daa453905d4a1237d481a83f9971f7ebe9d38fc2523c55f5ec9242049bdc97272326cf02bd1b301c03db3972272a261552f71edcd513c2893ee2aa1b992a3c1f0f505a02c176234d037a0566e9fb42ef24cd147d8d44f431f1e868aecaa29bab1a125cc55193a61c73c60c27e64d2b2b9f56e49bf2f7da6c81e5172f861719c12ebe715b48e83cda161d98470dc9432e0a5d3f6e81917816a1d3a277f80fa804cad26299b4fd50c742760f522df0c819c3723fd926be8867990a64e8bf990c5022b51faaaa658192070c72df03752ac8e86182a8bfa921c18818597b093b917229af0f07bf959d7f7683387bec77adaee6d0429f43b372864f1419b549aaed500159b1da40acc201b896b08676f5d6e1e66976a4ccdf286309002d8deaaadc3f611b24fea01aea8f7bb81fb79c48a48d6dd81afa91940e0e38cd8190f4ee71204c6d8409fddfeb633b263021d6c2af18157c0b5de7e957c4b84a2aec13098531140193762a6150ed02bc348d5b14bc589a6e6870b43739fa7996b51af21c198898cb1b22d8eae404251bdfc526665951393930678299487f22c490907adb1737b070122dfd718b6a0bb6696fa414012420b7ff6c0cc50e6b347f424252496d68b92195ad195cc776a03d2b1e71c69245f4b83cfeae7b8281dfd451a80eff7a591cb3bc4675cc4480bbf0fd456145548370efacdff12eb4ad3f3e944ff3039baa1182ea4a465f7606a90fe3535c4d03c9b352c144976623fe27a1276625f1a53d83883e8bdecf1000a69a23690dea5893994fee36379d5fbb1a5b817a307efa826b464b684014521beacf65cdcd2305fba39aeb12d56758047a9dbb795d35dca760901bce9c2ff789e151f85241d6ae0d08e55a8e7aa175433f9b56c2720af5a774fcd427d7f210fb8f9557af41172e03fa358362cd0556dca6faf5aa1161ac16af419b7276426351b23cdfecf70a0ea734b2c71cceeb9342c1f074d4577383b8f4b8d37377300ca81c318594</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<p><strong><a href="https://loafing.cn/" target="_blank" rel="noopener">预览</a></strong></p><p>搭配 <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank" rel="noopener external nofollow noreferrer">Cards主题</a> 使用，简洁快速。</p><p><em>~~好吧也不不一定很快，看脸。~~继续GitHub和Coding双线部署，Cloudflare也偶尔抽风。反正没人看，慢就慢吧，免费的服务不能要求太高。</em></p><p>现在这个 liuyifei.club 站点折腾累了🙉</p><p>Loafing 比 liuyifei 更重要。（确信）<br><strong>liuyifei只是喜欢，loafing才是真爱。</strong><br>但这边也不会放弃的。（哪天续不起域名费用另说）</p><p>Cards主题或许更适合产出内容太慢的博主🤦‍♂️<br>多一些原创内容吧anyway。<br>自勉🙏</p><hr><p><strong>详参：<a href="https://loafing.cn/questions/#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%BA%8C%E4%B8%AAhexo%E5%8D%9A%E5%AE%A2" target="_blank" rel="noopener">为什么要创建第二个hexo博客</a></strong></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
     <summary type="html">
     
-      Here&#39;s something encrypted, password is required to continue reading.
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://loafing.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;预览&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;搭配 &lt;a
+        
+      
     
     </summary>
     
@@ -174,13 +185,13 @@
     
       
       
-        &lt;p&gt;英文日期分英式和美式，如下：&lt;/p&gt;
+        
+        
+          &lt;p&gt;英文日期分英式和美式，如下：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;8th March,2004 或8 March,2004（英式）&lt;/li&gt;
-&lt;li&gt;March 8th,2004 或March 8,2004（美式）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;日期写法宜遵从下列规则：&lt;/p&gt;
-&lt;ol
+&lt;li&gt;March 8th,2004 或March
+        
       
     
     </summary>
@@ -229,9 +240,12 @@
     
       
       
-        &lt;p&gt;隐身涂料是什么？它能让飞机隐身的原理是什么？它是如何制备？发展过程和发展方向是什么？&lt;/p&gt;
+        
+        
+          &lt;p&gt;隐身涂料是什么？它能让飞机隐身的原理是什么？它是如何制备？发展过程和发展方向是什么？&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id=&quot;隐身涂料stealth-material&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#隐身涂料stealth-materia
+&lt;h2 id=&quot;隐身涂料stealth-material&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;
+        
       
     
     </summary>
@@ -255,9 +269,12 @@
     
       
       
-        &lt;p&gt;jade6已经安装好，运行库也没缺失，可是导入PDF卡片库这块儿卡步骤了。&lt;/p&gt;
+        
+        
+          &lt;p&gt;jade6已经安装好，运行库也没缺失，可是导入PDF卡片库这块儿卡步骤了。&lt;/p&gt;
 &lt;p&gt;按照教程修改注册表&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/20200620151
+&lt;p&gt;&lt;img
+        
       
     
     </summary>
@@ -341,13 +358,13 @@
     
       <category term="哲学" scheme="https://liuyifei.club/tags/%E5%93%B2%E5%AD%A6/"/>
     
-      <category term="阅读" scheme="https://liuyifei.club/tags/%E9%98%85%E8%AF%BB/"/>
-    
-      <category term="教育" scheme="https://liuyifei.club/tags/%E6%95%99%E8%82%B2/"/>
-    
       <category term="智慧" scheme="https://liuyifei.club/tags/%E6%99%BA%E6%85%A7/"/>
     
       <category term="自勉" scheme="https://liuyifei.club/tags/%E8%87%AA%E5%8B%89/"/>
+    
+      <category term="教育" scheme="https://liuyifei.club/tags/%E6%95%99%E8%82%B2/"/>
+    
+      <category term="阅读" scheme="https://liuyifei.club/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
@@ -387,12 +404,12 @@
     
       
       
-        &lt;ul&gt;
+        
+        
+          &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;标点符号和前边的单词之间不要加空格。空格是分隔单词用的，标点要紧跟在最后一个单词后边。比如「I’m fine.」而不是「I’m fine_.」。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;**每句话与上一句的标点之间一定要有空格。**空格是分隔单词用的，如果前
+&lt;p&gt;标点符号和前边的单词之间不要加空格。空格是分隔单词用的，标点要紧跟在最后一个单词后边。比如「I’m fine.」而不是「I’m
+        
       
     
     </summary>
@@ -408,7 +425,7 @@
     <link href="https://liuyifei.club/posts/9756.html"/>
     <id>https://liuyifei.club/posts/9756.html</id>
     <published>2020-06-06T13:11:00.000Z</published>
-    <updated>2020-06-06T23:13:14.177Z</updated>
+    <updated>2020-07-12T00:53:49.786Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/%E7%99%BD%E6%97%A5%E6%A2%A6%E6%83%B3%E5%AE%B6.jpg" srcset="/img/loading.gif" alt="20200606 result-2020-06-05-00-33-15"></p><hr><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/37c0a42f08932053.webp" srcset="/img/loading.gif" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs2.webp" srcset="/img/loading.gif" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs3.webp" srcset="/img/loading.gif" alt="20200606 xlbs3"></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs4.webp" srcset="/img/loading.gif" alt="20200606 xlbs4"></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs5.webp" srcset="/img/loading.gif" alt="20200606 xlbs5"></p><p><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Movie/xlbs6.webp" srcset="/img/loading.gif" alt="20200606 xlbs6"></p><blockquote><p>I ask you about love, you’ll probably quote me s sonnet. But you’ve never looked at a woman and been totally vulnerable, known someone that could level you with her eyes, feelin’ like God put and angel on earth just for you,who could rescue you from the depths of hell, and you wouldn’t know what it’s like to be her angel, to have that love for her, be there forever, through anyghin, through cancer. And you wouldn’t know about sleeping sittin’ up in a hospital room for two months, holding her hand, because the doctors could see in your eyes that the terms “visiting hours” don’t apply to you. You don’t know about real loss, 'cause that only occurs when you love something more than you love yourself.</p></blockquote><blockquote><p>如果我问你爱情，你会引述十四行诗，但你从没有因为看见一个女人而变得脆弱，知道有一个人能以双眼击倒你，她是上帝为你安排的天使，她能从地狱救出你，你不理解当她的天使的滋味，拥有对她的爱，直到永远。经历这一切，经历癌症。你无法体会在医院睡两个月，因为医生一看到你就知道，会客时间的规定对你无效。你不了解真正的失去，因为那只有当你有爱别人胜于自己才能体会。</p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -423,6 +440,8 @@
       <category term="爱" scheme="https://liuyifei.club/tags/%E7%88%B1/"/>
     
       <category term="哲学" scheme="https://liuyifei.club/tags/%E5%93%B2%E5%AD%A6/"/>
+    
+      <category term="影视截图" scheme="https://liuyifei.club/tags/%E5%BD%B1%E8%A7%86%E6%88%AA%E5%9B%BE/"/>
     
   </entry>
   
