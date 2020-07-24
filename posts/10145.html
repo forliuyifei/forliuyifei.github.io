@@ -19,7 +19,7 @@
   <meta name="description" content="世界太吵，寻一处僻静乐土|冼仙&amp;acute;blog|命里缺水|专业腹诽|记录|分享|碎碎念|热爱一切美好... ">
   <meta name="author" content="冼仙">
   <!--把这条注释掉嘤嘤嘤 <meta name="keywords" content="Hexo-theme-Fluid,刘亦菲颜粉,台词控,刷机包|实用工具|玩机教程|奇技淫巧|影视截图|电脑壁纸|资源"> -->
-  <title>「踩坑」Android（刷机时）可能遇到的问题及解决方法 - 饿龙不是龙哩</title>
+  <title>处世的「妙法」 - 饿龙不是龙哩</title>
 
   <!--如果页面有关键词，则用页面的关键词，否则仅使用配置文件的关键词-->
   
@@ -229,7 +229,7 @@
 </nav>
 
     <div class="view intro-2" id="background" parallax=true
-         style="background: url('https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/Cover/ecea1b1fdfee4b7e87f4dd54ba659b2b.webp') no-repeat center center;
+         style="background: url('https://cdn.jsdelivr.net/gh/forliuyifei/forliuyifei.github.io@master/img/gy.webp') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -242,8 +242,8 @@
               
   <div class="mt-3 post-meta">
     <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-    <time datetime="2020-07-02 15:12">
-      2020 七月 2日 , 星期四 , 15:12 下午
+    <time datetime="2020-07-24 16:50">
+      2020 七月 24日 , 星期五 , 16:50 下午
     </time>
   </div>
 
@@ -253,7 +253,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      2.8k 字
+      2.3k 字
     </span>
   
 
@@ -263,7 +263,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      10
+      7
        分钟
     </span>
   
@@ -303,179 +303,42 @@
             
               <p class="note note-info">
                 
-                  最后更新于：2020 七月 24日 , 星期五 , 17:10 下午
+                  最后更新于：2020 七月 24日 , 星期五 , 17:33 下午
                 
               </p>
             
             <article class="markdown-body">
-              <div class="note note-danger">
-            <center><b>仅作自己遇过的问题记录，片面的经验之谈难免有些谬误</b></center><center><b>恳请懂行的大佬交流指正补充，造福广大翻车群众👀</b></center>
-          </div>
-<h2 id="可能需要的工具"><a class="markdownIt-Anchor" href="#可能需要的工具"></a> 可能需要的工具</h2>
-<ul>
-<li>未被僵尸吃掉的脑子、良好的心态、检索技巧、亿点点运气</li>
-<li>通畅的网络连接</li>
-<li>数据线、电脑、硬盘/U盘/读卡器、USB-转接OTG线</li>
-<li>热情好心且遇过同类问题的网友</li>
-<li>推荐软件：<a href="https://liuyifei.lanzous.com/i1wpEe8i14f" target="_blank" rel="noopener external nofollow noreferrer" title="TOOLS_BY_CZ_V7.01.zip 一个图形化adb工具，用电脑控制手机进行一系列高权限操作，非常方便">搞机工具箱</a>、<a href="https://jianyv.com/br/" target="_blank" rel="noopener external nofollow noreferrer" title="不需要 ROOT 也不需要解锁，能有效防止应用在后台运行，从而让手机流畅省电。">黑阈</a>、<a href="https://appops.rikka.app/zh-hans/guide/" target="_blank" rel="noopener external nofollow noreferrer" title="借助 App Ops 修改隐藏的 appops 设置来（部分）控制权限。无需 root 也可使用，提供多种只需 adb 的工作模式。">App Ops</a>、<a href="https://www.htcp.net/924.html" target="_blank" rel="noopener external nofollow noreferrer" title="帮助你甄别那些对系统全局性能和耗电量有不良影响的应用程序，并通过独特的『绿色化』技术，阻止它们消耗您的电池电量，占用您的宝贵内存。经过『绿色化』工艺处理的应用，在您没有主动启动它们的时候，无法『偷偷』运行，而在您正常启动它们时仍然拥有完整的功能和体验，正如 iPhone 应用那样！">绿色守护</a>、<a href="https://github.com/Tornaco/Xposed-Application-Management-Mod" target="_blank" rel="noopener external nofollow noreferrer" title="老版本也挺好用的">应用管理xposed</a>…</li>
-</ul>
-<h2 id="一般问题"><a class="markdownIt-Anchor" href="#一般问题"></a> 一般问题</h2>
-<h3 id="耗电快-续航尿崩"><a class="markdownIt-Anchor" href="#耗电快-续航尿崩"></a> 耗电快 续航尿崩</h3>
-<ul>
-<li>把不需要常驻后台的应用予以限制，包括但不限于使用系统自带的后台电池优化、黑阈、App Ops、绿色守护、应用管理xposed…</li>
-<li>使用<a href="https://www.coolapk.com/apk/com.digibites.accubattery" target="_blank" rel="noopener external nofollow noreferrer">AccuBattery</a>之类的工具检测电池损耗（仅供参考！）</li>
-<li>换新的原厂电池/大容量魔改电池（有风险）</li>
-<li>更换省电的内核，比如谷歌一下<a href="https://www.google.com/search?q=kernel%20for%20lavender" target="_blank" rel="noopener external nofollow noreferrer">kernel for lavender</a></li>
-<li>直接修改<a href="https://www.coolapk.com/apk/com.grarak.kerneladiutor" target="_blank" rel="noopener external nofollow noreferrer">内核调校</a>，把865限制成625，不玩游戏日常也够用。</li>
-<li>能连WiFi别用4G、5G</li>
-</ul>
-<h3 id="异常卡顿-发热"><a class="markdownIt-Anchor" href="#异常卡顿-发热"></a> 异常卡顿、发热</h3>
-<p>参考这篇图文了解卡顿原理：<br>
-<a href="https://www.coolapk.com/feed/18799803?shareKey=Mjk0YjEyMzIyZDhhNWVmZDk4NDc~&amp;shareUid=702680&amp;shareFrom=com.coolapk.market_10.3.1" target="_blank" rel="noopener external nofollow noreferrer">开机内存占一半，应用后台杀不死？那些不了解的Android后台机制。酷安@Anm718</a></p>
-<p>稍作总结：</p>
-<ul>
-<li>
-<p><strong>提升安卓系统版本</strong>（被动or手动）。<br>
-尽量挑选能长期坚持系统更新的手机品牌型号，管卖不管后期维护的厂商都是流氓！<br>
-说到这里顺便缅怀我那部逝去的红米note4x，2017年的机子，出厂安卓6.0，小米只给升级7.0，但作为一代刷机小王子，它拥有极其丰富的ROM资源，标配999￥，也能走在系统更新的前列。<br>
-查看PE官网最近更新 <a href="https://download.pixelexperience.org/mido" target="_blank" rel="noopener external nofollow noreferrer">Android 10 2020/06/29</a><img src="https://raw.githubusercontent.com/PixelExperience/official_devices/master/images/mido.png" srcset="/img/loading.gif" style="zoom:15%;"></p>
-</li>
-<li>
-<p><strong>能用网站就别装app</strong><br>
-点名批评淘宝👋卡慢臃肿一坨*，界面还贼丑。<br>
-京东至少我还用过几个能秒开且后台占用不高的版本🤐</p>
-</li>
-<li>
-<p><strong>使用符合<a href="https://green-android.org/" target="_blank" rel="noopener external nofollow noreferrer" title="遵循公约的应用，后台不费电、手机不卡顿，跟 iPhone 一样省心。">Android 绿色应用公约</a>的应用</strong>，BAT三大流氓家的不得不用的软件版本需仔细挑选</p>
-</li>
-<li>
-<p><strong>尽量挑选高SDK版本和64位的应用版本</strong>，比如我使用的安装自Google Play商店的微信7.0.15测试版，启动快，后台全部进缓存（明明本就该这样的）<br>
-<img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/7/result-2020-07-02-18-11-48.jpg" srcset="/img/loading.gif" alt="微信后台占用情况" style="zoom:15%;"></p>
-</li>
-<li>
-<p>对付不得不用的流氓软件</p>
-<ul>
-<li>找<strong>修改版</strong>，有潜在风险，若财产/隐私相关，<strong>请仔细甄别</strong></li>
-<li>各类予以<strong>限制、修改</strong>的工具（通常需要root权限或者adb实现），按需选择：
-<ul>
-<li><a href="https://jianyv.com/br/" target="_blank" rel="noopener external nofollow noreferrer">黑阈</a>：“不需要 ROOT 也不需要解锁，能有效防止应用在后台运行，从而让手机流畅省电。” 有root和adb两种模式，可<code>添加临时应用</code>（原理：冻结/停用应用，需要使用时临时启用，常用于对付毒瘤淘宝），</li>
-<li><a href="https://www.coolapk.com/apk/com.catchingnow.icebox" target="_blank" rel="noopener external nofollow noreferrer">冰箱 IceBox</a>：同样有root和adb两种模式，冻结不需要常驻后台的应用，对于一些特别能唤醒并耗电的应用效果极佳。有免费限制。</li>
-<li><a href="https://www.coolapk.com/apk/me.yourbay.airfrozen" target="_blank" rel="noopener external nofollow noreferrer">空调狗 AirFrozen</a> ："冻结"很多流氓的或者非流氓但又不常用的应用,从而加速手机的速度。跟冰箱差不多，但<strong>完全免费无限制</strong>。</li>
-<li><a href="https://www.htcp.net/924.html" target="_blank" rel="noopener external nofollow noreferrer">绿色守护</a>： “帮助你甄别那些对系统全局性能和耗电量有不良影响的应用程序，并通过独特的『绿色化』技术，阻止它们消耗您的电池电量，占用您的宝贵内存。经过『绿色化』工艺处理的应用，在您没有主动启动它们的时候，无法『偷偷』运行，而在您正常启动它们时仍然拥有完整的功能和体验，正如 iPhone 应用那样！” 老牌应用，相比于上述3个应用，温和得多，<code>小剪刀</code>好用。对付流氓力不从心。</li>
-<li><a href="https://appops.rikka.app/zh-hans/guide/" target="_blank" rel="noopener external nofollow noreferrer">App Ops</a>：“借助 App Ops 修改隐藏的 appops 设置来（部分）控制权限。无需 root 也可使用，提供多种只需 adb 的工作模式。” <strong>权限管理工具</strong>，值得把玩。</li>
-<li><a href="https://github.com/Tornaco/Xposed-Application-Management-Mod" target="_blank" rel="noopener external nofollow noreferrer">应用管理xposed</a>：老版本也挺好用的，功能丰富强大,<code>移花接木</code>功能很好玩，可用于<strong>快速跳过启动广告</strong>直接进入应用主界面</li>
-<li><a href="https://www.coolapk.com/apk/cn.wq.myandroidtools" target="_blank" rel="noopener external nofollow noreferrer">My Android Tools</a>： 主要用于禁用/开启安卓四大组件(activity,service,receiver,provider) 部分流氓中的流氓比如百度网盘👎👎👎治不住</li>
-<li>待补充…</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="不小心清空照片"><a class="markdownIt-Anchor" href="#不小心清空照片"></a> 不小心清空照片</h3>
-<ul>
-<li><strong>别放弃！还有救</strong>：普通删除的文件没有真正从你的存储介质消失。</li>
-<li><strong>防止被覆盖</strong>：现在开始尽量<strong>少对手机进行大文件读写操作</strong>，例如下载动辄破G的大型游戏和视频资源…</li>
-<li><strong>寻找数据恢复软件</strong>：免费付费的都有，良莠不齐，多找找，看需求仔细挑选。上次用过一个<a href="https://liuyifei.lanzous.com/id3liza" target="_blank" rel="noopener external nofollow noreferrer">Dumpster_3.1.358.87ca.apk</a>，挺强大的，只是免费版有限制。</li>
-<li><strong>求助专业的数据恢复公司</strong>，提防数据泄露，<s>冠希哥警告⚠</s></li>
-</ul>
-<h3 id="网速限制延迟断流"><a class="markdownIt-Anchor" href="#网速限制延迟断流"></a> 网速限制/延迟/断流</h3>
-<p>换卡、换机、挪位置…</p>
-<p>原因好多太复杂，不写</p>
-<p>推荐一个<a href="https://www.coolapk.com/apk/com.qtrun.QuickTest" target="_blank" rel="noopener external nofollow noreferrer">网络信号大师</a>：看评论区怎么锁频段吧。（两个使用条件：手机基带处理器是高通芯片+必须拥有root权限）</p>
-<h2 id="刷机问题"><a class="markdownIt-Anchor" href="#刷机问题"></a> 刷机问题</h2>
-<h3 id="解bl锁失败"><a class="markdownIt-Anchor" href="#解bl锁失败"></a> 解bl锁失败</h3>
-<p>小米手机进入fastboot模式，数据线连电脑，手机左上角出现小字<code>press any key to shut down</code></p>
-<p>这是Win 10的USB3.0驱动问题导致的</p>
-<p>解决措施:</p>
-<ul>
-<li>换个USB插口试试，2.0可能没问题</li>
-<li>刷<a href="https://www.lanzous.com/i3pz0kd" target="_blank" rel="noopener external nofollow noreferrer">驱动修复</a>，下载解压右键管理员运行，不用转接器也不用装Win 7</li>
-</ul>
-<h3 id="错误7erro7"><a class="markdownIt-Anchor" href="#错误7erro7"></a> 错误7（erro7）</h3>
-<p>大概是机型验证不过关，常见于把System分区清除之后，刷入ROM出现报错的情况。</p>
-<p>解决办法：</p>
-<ul>
-<li>再三确定自己没有下错包</li>
-<li>电脑使用WinRAR之类的解压缩工具打开ROM包找到<code>META-INF/com/google/android/updater-script</code>删掉图上这一行机型验证后保存。（也可能是两行，自行判断删多少，不放心的可以把updater-script复制一份到别的文件夹，万一删错，方便回退）<br>
-<img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020-5/%E5%88%A0%E9%99%A4%E6%9C%BA%E5%9E%8B%E9%AA%8C%E8%AF%81.jpg" srcset="/img/loading.gif" alt="微信后台占用情况" style="zoom:15%;"></li>
-<li>将刷机包传回手机，进rec进行刷入即可成功（开不开机另说🤪）</li>
-</ul>
-<h3 id="开机卡谷歌验证"><a class="markdownIt-Anchor" href="#开机卡谷歌验证"></a> 开机卡谷歌验证</h3>
-<p>如果刷机之前忘记退出原来的Google账户，下次再刷入包含GAPPS组件的ROM，开机后往往会由于网络原因（你懂的），无法继续进行验证，相当于被锁机（状态栏左上角有一个小🔒图标），即使能开机也做不了其它操作（悔恨x100）</p>
-<ul>
-<li>
-<p>目前生效率最高的方法：简单粗暴，推荐</p>
-<p>在twrp或者橙狐rec里面找到<code>终端</code>，输入下面代码（注意空格，不用换行），回车</p>
-<div class="hljs"><pre><code class="hljs routeros">dd <span class="hljs-attribute">if</span>=/dev/zero <span class="hljs-attribute">of</span>=/dev/block/bootdevice/by-name/frp</code></pre></div>
-<p>原理：让存储谷歌帐户的分区被填满。<br>
-<s>到底是帐户还是账户</s></p>
-</li>
-<li>
-<p>从网络着手：</p>
-<ul>
-<li>一部能访问外网的备用机（已root），<em>会折腾电脑热点、路由器代理也行</em></li>
-<li>备用机先想办法让它能访问Google，自行了解，迫切需要的也可<a href="mailto:forliuyifei@gmail.com" rel="external nofollow noreferrer" title="运气好的话应该能马上回复">发邮件</a> 给本人（一块钱临时租一次，包教包会，我快续费不起小飞机了🤪）。</li>
-<li>安装<a href="https://liuyifei.lanzous.com/i8sju3i" target="_blank" rel="noopener external nofollow noreferrer">VPN热点</a>，连接WiFi，开启无线中继，让卡验证的手机连上这个无线中继，即可走代理上网，验证上次登录的谷歌帐户，过程快慢取决于网络通畅度。<br>
-<img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/7/Screenshot_20200703-084730.png" srcset="/img/loading.gif" alt="Screenshot_20200703-084730"></li>
-</ul>
-</li>
-<li>
-<p>其它跳过方法：大致介绍，懒得详述</p>
-<ul>
-<li>顺时针点击屏幕四角法</li>
-<li>删除setupwizard，大概在System分区里面某个文件夹，自己找找。开机后部分按钮失灵，但起码能用了，想办法登录谷歌帐户，再退出谷歌帐户，进rec重刷当前完整包</li>
-<li>有个Magisk模块，名字记不清，没成功过</li>
-<li>adb命令也行（不记得😶）</li>
-</ul>
-</li>
-</ul>
-<h3 id="wifi和信号标志上的x或"><a class="markdownIt-Anchor" href="#wifi和信号标志上的x或"></a> WiFi和信号标志上的x或!</h3>
-<p><a href="https://www.coolapk.com/apk/tech.evlsoc.captivemgr" target="_blank" rel="noopener external nofollow noreferrer">CaptiveMgr清除x和!</a> 去掉原生系统中由于中国大陆无法直连Google导致的WiFi和信号标志上的x或!的工具。<code>需要root权限</code></p>
-<p>无root：<a href="https://www.evil42.com/index.php/archives/17/" target="_blank" rel="noopener external nofollow noreferrer">https://www.evil42.com/index.php/archives/17/</a></p>
-<h3 id="无法解密data文件名乱码"><a class="markdownIt-Anchor" href="#无法解密data文件名乱码"></a> 无法解密data（文件名乱码）</h3>
-<p>进rec或者连接电脑查看手机内部文件时，发现全部乱码😥<br>
-这个问题比较大，遇到这种情况要做好数据全部丢失的心理准备</p>
-<p>大概率是因为data被加密而当前rec不支持解密<br>
-也可能之前正常但不知道弄错了啥导致的bug</p>
-<p>总之这个加密挺烦的，可又不能没有，否则万一丢手机，数据被别人轻易拷贝获取，非常危险。</p>
-<h4 id="可能有效的补救措施"><a class="markdownIt-Anchor" href="#可能有效的补救措施"></a> 可能有效的补救措施</h4>
-<ul>
-<li>换rec版本，一些魔改的新版rec或许有奇效，多问多找资源，自求多福吧</li>
-</ul>
-<h4 id="万不得已"><a class="markdownIt-Anchor" href="#万不得已"></a> 万不得已</h4>
-<ul>
-<li>只能格式化data，重刷，手机还得用不是？<br>
-格式化data ≠ 清除data分区</li>
-<li>数据异常重要。
-<ul>
-<li>封存手机</li>
-<li>另请高明，寻找专业人士（花钱，愿意出马的就多了）</li>
-<li>等待破解技术进步，现在没法解密的以后可能行得通<br>
-至少比冻体复苏实现的可能性高😏</li>
-</ul>
-</li>
-</ul>
-<h4 id="预防"><a class="markdownIt-Anchor" href="#预防"></a> 预防</h4>
-<p>在流量和硬盘并不太贵的当下，对于重要的文件，强烈建议<code>日常自动云同步+隔阵子手动硬盘备份</code>双管齐下。养成良好的文件归纳整理习惯。<br>
-珍贵的照片、学习办公资料、实验数据、辛苦搜罗来的app安装包、到处都不让下载的音乐文件、调教好的各类应用配置、谷歌拼音输入法词库、有毛病的不能云同步的微信聊天记录…我丢失过太多次🤧</p>
-<p><strong>刷机不备份，机佬两行泪。</strong></p>
-<h3 id="magisk模块导致无法开机"><a class="markdownIt-Anchor" href="#magisk模块导致无法开机"></a> Magisk模块导致无法开机</h3>
-<ul>
-<li>rec内进入文件管理，找到<code>/data/adb/</code>，不出意外里边至少有个magisk文件夹和modules文件夹，modules文件夹下面就是你已安装的magisk模块，把可能出现问题的模块文件夹删掉，通常就能开机。</li>
-<li>部分rec例如橙狐rec自带magisk管理，可以开启核心（core）模式再尝试开机。</li>
-<li>简单粗暴的方法：刷卸载包，Magisk Uninstaller.zip，若仍无法开机则说明不是面具的问题</li>
-<li>预防：<strong>Magisk Manager for recovery mod</strong>，自行了解</li>
-</ul>
-<h3 id="xposed模块导致无法开机"><a class="markdownIt-Anchor" href="#xposed模块导致无法开机"></a> Xposed模块导致无法开机</h3>
-<p>进rec，文件管理，<code>/data/app/</code>，这是用户app安装位置，按时间降序排序，辨认出最近安装的xp模块包名，整个删之。</p>
-<p>（好久不用xp了都，功能强大，能解决好多痛点，还有一堆黑科技玩法，但免不了影响流畅度）</p>
-<p>太极和edxposed还没翻过车。</p>
+              <h2 id="center我的籍和系center"><a class="markdownIt-Anchor" href="#center我的籍和系center"></a> <center>我的“籍”和“系”</center></h2>
+<p>虽然因为我劝过人少──或者竟不──读中国书，曾蒙一位不相识的青年先生赐信要我搬出中国去②，但是我终于没有走。而且我究竟是中国人，读过中国书的，因此也颇知道些处世的妙法。譬如，假使要掉文袋③，可以说说“桃红柳绿”，这些事是大家早已公认的，谁也不会说你错。如果论史，就赞几句孔明，骂一通秦桧④，这些是非也早经论定，学述一回决没有什么差池；况且秦太师的党羽现已半个无存，也可保毫无危险。至于近事呢，勿谈为佳，否则连你的籍贯也许会使你由可“尊敬”而变为“可惜”的。</p>
+<p>我记得宋朝是不许南人做宰相的，那是他们的“祖制”，只可惜终于不能坚持⑤。</p>
+<p>至于“某籍”人说不得话，却是我近来的新发见。也还是女师大的风潮，我说了几句话。但我先要声明，我既然说过，颇知道些处世的妙法，为什么又去说话呢？那是，因为，我是见过清末捣乱的人，没有生长在太平盛世，所以纵使颇有些涵养工夫，有时也不免要开口，客气地说，就是大不“安分”的。于是乎我说话了，不料陈西滢先生早已常常听到一种“流言”，那大致是“女师大的风潮，有北京教育界占最大势力的某籍某系的人在暗中鼓动”。现在我一说话，恰巧化“暗”为“明”，就使这常常听到流言的西滢先生代为“可惜”，虽然他存心忠厚，“自然还是不信平素所很尊敬的人会暗中挑剔风潮”；无奈“流言”却“更加传布得厉害了”，这怎不使人“怀疑”⑥呢？自然是难怪的。</p>
+<p>陈西滢与凌叔华</p>
+<p>我确有一个“籍”，也是各人各有一个的籍，不足为奇。</p>
+<p>但我是什么“系”呢？自己想想，既非“研究系”，也非“交通系”⑦，真不知怎么一回事。只好再精查，细想；终于也明白了，现在写它出来，庶几乎免得又有“流言”，以为我是黑籍的政客。</p>
+<p>因为应付某国某君⑧的嘱托，我正写了一点自己的履历，第一句是“我于一八八一年生在浙江省绍兴府城里一家姓周的家里”，这里就说明了我的“籍”。但自从到了“可惜”的地位之后，我便又在末尾添上一句道，“近几年我又兼做北京大学，师范大学，女子师范大学的国文系讲师”，这大概就是我的“系”了。我真不料我竟成了这样的一个“系”。</p>
+<p>我常常要“挑剔”文字是确的，至于“挑剔风潮”这一种连字面都不通的阴谋，我至今还不知道是怎样的做法。何以一有流言，我就得沉默，否则立刻犯了嫌疑，至于使和我毫不相干的人如西滢先生者也来代为“可惜”呢？那么，如果流言说我正在钻营，我就得自己锁在房里了；如果流言说我想做皇帝，我就得连忙自称奴才了。然而古人却确是这样做过了，还留下些什么“空穴来风，桐乳来巢”⑨的鬼格言。可惜我总不耐烦敬步后尘；不得已，我只好对于无论是谁，先奉还他无端送给我的“尊敬”。</p>
+<p>其实，现今的将“尊敬”来布施和拜领的人们，也就都是上了古人的当。我们的乏的古人想了几千年，得到一个制驭别人的巧法：可压服的将他压服，否则将他抬高。而抬高也就是一种压服的手段，常常微微示意说，你应该这样，倘不，我要将你摔下来了。求人尊敬的可怜虫于是默默地坐着；</p>
+<p>但偶然也放开喉咙道“有利必有弊呀！”“彼亦一是非，此亦一是非⑩呀！”“猗欤休哉⑾呀！”听众遂亦同声赞叹道，“对呀对呀，可敬极了呀！”这样的互相敷衍下去，自己以为有趣。</p>
+<p>从此这一个办法便成为八面锋⑿，杀掉了许多乏人和白痴，但是穿了圣贤的衣冠入殓。可怜他们竟不知道自己将褒贬他的人们的身价估得太大了，反至于连自己的原价也一同失掉。</p>
+<p>人类是进化的，现在的人心　当然比古人的高洁；但是“尊敬”的流毒，却还不下于流言，尤其是有谁装腔作势，要来将这撒去时，更足使乏人和白痴惶恐。我本来也无可尊敬；</p>
+<p>也不愿受人尊敬，免得不如人意的时候，又被人摔下来。更明白地说罢：我所憎恶的太多了，应该自己也得到憎恶，这才还有点像活在人间；如果收得的乃是相反的布施，于我倒是一个冷嘲，使我对于自己也要大加侮蔑；如果收得的是吞吞吐吐的不知道算什么，则使我感到将要呕哕似的恶心。然而无论如何，“流言”总不能吓哑我的嘴……。</p>
+<p>六月二日晨</p>
+<p>【注释】</p>
+<p>①本篇最初发表于一九二五年六月五日《莽原》周刊第七期。<br>
+②指署名“瞎嘴”写于一九二五年三月五日的致作者的信。这封信攻击作者的《青年必读书》，其中说：“我诚恳的希望：一、鲁迅先生是感觉‘现在青年最要紧的是“行”，不是“言”’，所以敢请你出来作我们一般可怜的青年的领袖先搬到外国（连家眷）去，然后我要做个摇旗呐喊的小卒。二、鲁迅先生搬家到外国后，我们大家都应马上搬去。”（按着重号系原件所有）<br>
+③掉文袋：亦作掉书袋。《南唐书·彭利用传》：“言必据书史，断章破句，以代常谈，俗谓之掉书袋。”<br>
+④孔明：诸葛亮（181—234），字孔明，琅琊阳都（今山东沂南）人，三国时的政治家和军事家。曾任蜀汉丞相。秦桧（1090—1155），字会之，江宁（今南京）人。曾任南宋宰相，加太师衔，是主张降金的内奸，诬杀抗金名将岳飞的主谋。<br>
+⑤关于宋朝不许南人做宰相，据宋代笔记小说《道山清话》（著者不详）载：“太祖（赵匡胤）尝有言，不用南人为相，实录、国史皆载，陶谷《开基万年录》、《开宝史谱》言之甚详，皆言太祖亲写‘南人不得坐吾此堂’，刻石政事堂上。”这个“祖制”，在真宗天禧元年（1017）王钦若（江西新喻人）做了宰相后，就被打破。<br>
+⑥指陈西滢。他在《现代评论》第一卷第二十五期（一九二五年五月三十日）发表的《闲话》中说：“以前学校闹风潮，学生几乎没有对的，现在学校闹风潮，学生几乎没有错的。这可以说是今昔言论界的一种信条。在我这种喜欢怀疑的人看来，这两种观念都无非是迷信。”<br>
+⑦“研究系”：一九一六年袁世凯死后，在黎元洪任北洋政府总统、段祺瑞任国务总理期间，原进步党首领梁启超、汤化龙等组织“宪法研究会”，依附段祺瑞，并勾结西南军阀，进行政治投机活动，这个政客集团被称为“研究系”。“交通系”，袁世凯的秘书长兼交通银行总理梁士诒曾奉命组织他的部属为“公民党”，充当袁世凯当选总统和复辟帝制的工具，这个政客集团被称为“交通系”。<br>
+⑧指苏联人王希礼，原名：波．阿．瓦西里耶夫(Б．Α．Βасильев)，俄文本《阿Q正传》的最初翻译者，当时是在河南的国民军第二军俄国顾问团成员。作者曾为他的译本写过序及《著者自叙传略》，后都编入《集外集》中。<br>
+⑨“空穴来风，桐乳来巢”：语出《文选》宋玉《风赋》李善注引《庄子》（佚文）：“空阅来风，桐乳致巢。”据晋代司马彪注：“门户孔空，风善从之；桐子似乳，著其叶而生，其叶似箕，鸟喜巢其中也。”这里的意思是说：流言之来，一定是本有可乘之隙的缘故。<br>
+⑩“彼亦一是非，此亦一是非”：语见《庄子·齐物论》。<br>
+⑾“猗欤体哉”：叹美词。<br>
+⑿八面锋：锋利无比的意思。清代陈春在《永嘉先生八面锋》（传为南宋陈傅良著）一书的跋文中说：“物之不可犯者锋，锋而至于八则面面相当，往无不利。”</p>
+<p>收入《华盖集》</p>
 <hr>
-<p>有空想到再更。</p>
-<p>有问题评论区补充或邮件联系。</p>
-<p>愿天堂没有翻车🙏</p>
-<hr>
-<iframe src="https://loafing.cn/Donate/simple/" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:210px; width:100%;" frameborder="0" scrolling="no"></iframe>  
+<p><a href="https://www.kekeshici.com/shicizhoubian/mingrenzuopin/luxun/37971.html" target="_blank" rel="noopener external nofollow noreferrer">注解与赏析</a></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -503,7 +366,7 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/%E5%8E%9F%E5%88%9B/">原创</a>
+                      <a class="hover-with-bg" href="/categories/%E6%94%B6%E8%97%8F/">收藏</a>
                     
                   </div>
                 
@@ -511,11 +374,9 @@
                   <div class="post-meta">
                     <i class="iconfont icon-tags"></i>
                     
-                      <a class="hover-with-bg" href="/tags/%E8%AE%B0%E5%BD%95/">记录</a>
+                      <a class="hover-with-bg" href="/tags/%E9%B2%81%E8%BF%85/">鲁迅</a>
                     
-                      <a class="hover-with-bg" href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E5%88%B7%E6%9C%BA/">刷机</a>
+                      <a class="hover-with-bg" href="/tags/%E6%99%BA%E6%85%A7/">智慧</a>
                     
                   </div>
                 
@@ -528,18 +389,12 @@
                   <div class="post-prev col-6">
                     
                     
-                      <a href="/posts/63257.html">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">《藤野先生后来怎么样了？被自卑隔阂的友谊》</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </div>
                   <div class="post-next col-6">
                     
                     
-                      <a href="/posts/5868.html">
-                        <span class="hidden-mobile">「说明书」文案风格及排版指南</span>
+                      <a href="/posts/29490.html">
+                        <span class="hidden-mobile">关于RSS订阅的二三事</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -875,7 +730,7 @@
       if ('true' === 'true') {
         var viewCtn = document.querySelector('#leancloud-post-views-container');
         if (viewCtn || enableIncr) {
-          var target = decodeURI('/posts/40676.html');
+          var target = decodeURI('/posts/10145.html');
           var viewGetter = getRecord(Counter, target).then((record) => {
             incrArr.push(buildIncrement(record.objectId))
             if (viewCtn) {
@@ -969,7 +824,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "「踩坑」Android（刷机时）可能遇到的问题及解决方法&nbsp;",
+        "处世的「妙法」&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
