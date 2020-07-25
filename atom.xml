@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liuyifei.club/"/>
-  <updated>2020-07-24T09:33:34.177Z</updated>
+  <updated>2020-07-25T11:10:46.831Z</updated>
   <id>https://liuyifei.club/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「无奈」为什么OneDrive也要被墙？</title>
+    <link href="https://liuyifei.club/posts/42630.html"/>
+    <id>https://liuyifei.club/posts/42630.html</id>
+    <published>2020-07-25T10:30:57.000Z</published>
+    <updated>2020-07-25T11:10:46.831Z</updated>
+    
+    <content type="html"><![CDATA[<p>有时候正常访问，可今天挂代理也不行，ping一下IP地址试试：</p><div class="hljs"><pre><code class="hljs angelscript">C:\WINDOWS\system32&gt;ping onedrive.live.com正在 Ping onedrive.live.com [<span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span>] 具有 <span class="hljs-number">32</span> 字节的数据:来自 <span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span> 的回复: 字节=<span class="hljs-number">32</span> 时间&lt;<span class="hljs-number">1</span>ms TTL=<span class="hljs-number">128</span>来自 <span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span> 的回复: 字节=<span class="hljs-number">32</span> 时间&lt;<span class="hljs-number">1</span>ms TTL=<span class="hljs-number">128</span>来自 <span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span> 的回复: 字节=<span class="hljs-number">32</span> 时间&lt;<span class="hljs-number">1</span>ms TTL=<span class="hljs-number">128</span>来自 <span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span> 的回复: 字节=<span class="hljs-number">32</span> 时间&lt;<span class="hljs-number">1</span>ms TTL=<span class="hljs-number">128</span><span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span> 的 Ping 统计信息:    数据包: 已发送 = <span class="hljs-number">4</span>，已接收 = <span class="hljs-number">4</span>，丢失 = <span class="hljs-number">0</span> (<span class="hljs-number">0</span>% 丢失)，往返行程的估计时间(以毫秒为单位):    最短 = <span class="hljs-number">0</span>ms，最长 = <span class="hljs-number">0</span>ms，平均 = <span class="hljs-number">0</span>ms</code></pre></div><p>好家伙，怎么指向本地IP地址了？</p><p>挂全局代理也不行。</p><p>网上找找办法，添加两个DNS记录到<code>C:\Windows\System32\drivers\etc\hosts</code></p><div class="hljs"><pre><code class="hljs css">134<span class="hljs-selector-class">.170</span><span class="hljs-selector-class">.108</span><span class="hljs-selector-class">.26</span> <span class="hljs-selector-tag">onedrive</span><span class="hljs-selector-class">.live</span><span class="hljs-selector-class">.com</span> 134<span class="hljs-selector-class">.170</span><span class="hljs-selector-class">.109</span><span class="hljs-selector-class">.48</span> <span class="hljs-selector-tag">skyapi</span><span class="hljs-selector-class">.onedrive</span><span class="hljs-selector-class">.live</span><span class="hljs-selector-class">.com</span></code></pre></div><p><em>有时候需要把hosts文件拖出一份放在别的位置进行修改再移回去用管理员权限替换，有时候又能直接修改源文件进行保存，玄学。</em></p><hr><p>这是国情的无奈，可微软既然想在大陆开展业务，为什么不能想想办法、协商一下呢？</p><hr><p>顺便分享一份好东西：<strong><a href="https://lyfclub.herokuapp.com/pictures/%E5%A5%BD%E5%BA%B7%E6%BB%B4/wanimal1983.rar" target="_blank" rel="noopener external nofollow noreferrer">wanimal1983.rar</a>    解压密码=2<sup>10</sup></strong></p><p>建议使用IDM、aria2或者ADM多线程下载😏放心，不是葫芦娃。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;有时候正常访问，可今天挂代理也不行，ping一下IP地址试试：&lt;/p&gt;
+&lt;div class=&quot;hljs&quot;&gt;&lt;pre&gt;&lt;code class=&quot;hljs angelscript&quot;&gt;C:\WINDOWS\system32&amp;gt;ping
+        
+      
+    
+    </summary>
+    
+    
+      <category term="原创" scheme="https://liuyifei.club/categories/%E5%8E%9F%E5%88%9B/"/>
+    
+    
+      <category term="问题&amp;解决" scheme="https://liuyifei.club/tags/%E9%97%AE%E9%A2%98-%E8%A7%A3%E5%86%B3/"/>
+    
+      <category term="教程" scheme="https://liuyifei.club/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="吐槽" scheme="https://liuyifei.club/tags/%E5%90%90%E6%A7%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>处世的「妙法」</title>
@@ -70,7 +104,7 @@
     <link href="https://liuyifei.club/posts/9603.html"/>
     <id>https://liuyifei.club/posts/9603.html</id>
     <published>2020-07-11T13:01:04.000Z</published>
-    <updated>2020-07-14T04:53:50.272Z</updated>
+    <updated>2020-07-25T10:41:03.767Z</updated>
     
     <content type="html"><![CDATA[<p>这里暂且不提百度为了恰饭丝毫不顾用户正常体验的恶心操作（恶意推广、谋财害命之类），仅吐槽它作为一款已发展十几年将近二十年的搜索引擎，怎么在最该做好的 <strong>“本分”</strong> 方面都如此不堪！</p><hr><p>曾经我以为很多东西搜不到，要么是 <strong>“由于相关法律法规不予显示”</strong>（这个完全可以理解），要么是搜索的人不懂<a href="https://sspai.com/post/34150" target="_blank" rel="noopener external nofollow noreferrer">技巧</a>，加上百度的算法不如谷歌 <strong>“聪明”</strong>，所以百度搜索的结果经常不能及时展现我们需要的信息。</p><p>但作为一个小破站的站长，建站84天以来，我愈发相信；</p><p><strong>百度就是烂！有恃无恐的烂，傲慢狂妄，不思进取。</strong></p><p>至于它为什么这么烂？I don’t know, What’s your problem, Robin Li?</p><p>大致叙述几点我遇到的情况：</p><ul><li><p>网站收录慢。在百度站长工具平台提交sitemap后，不是卡在“等待”状态，就是即使抓取成功，它也不收录站点地图里边的网页，爱咋地咋地吧各位站长们。</p></li><li><p>倾向于收录重复/相似的文章，原创内容反而更难被收录。<br>截至2020-07-11 22:01:58，使用百度搜索 <strong>site:liuyifei.club</strong>，</p><blockquote><p>找到相关结果数约12个</p></blockquote><p>8篇posts，4篇我从别处搜集过来作为收藏的古文、诗词、精辟的句子……4篇自己写的破事水。<br>4个其它页面：首页、留言页、归档页，还有这个Cloudflare弄的什么邮箱保护？ <a href="https://liuyifei.club/cdn-cgi/l/email-protection">https://liuyifei.club/cdn-cgi/l/email-protection</a><br>我记得刚开始那几天老是不收录，给我急坏了，最后终于显示一篇 <a href="https://liuyifei.club/posts/24299.html">牧羊人和野山羊🐐</a> 的概要，苦笑不得🙄……</p><p>对比谷歌：</p><blockquote><p>找到约 187 条结果 （用时 0.21 秒）</p></blockquote><p>应有尽有，新发布的文章几乎秒收录，（已经多次测试）<br>比如Google搜索 <strong>说明书 site:liuyifei.club</strong>，马上出现本站首页的摘要。</p></li><li><p>经常遇到这种情况，搜索稍微专深的问题，百度前几个结果都是互相复制粘贴来的，能解决问题还好，有时更气人的是一堆<a href="https://zh.moegirl.org/zh-hans/%E5%B0%8F%E7%BC%96%E4%BD%93" target="_blank" rel="noopener external nofollow noreferrer">小编体</a>：</p><blockquote><p>最近XX梗很火，那么XX是什么呢，XX是什么意思呢出自哪里？接下来和小编一起来了解一下吧。<br>（几段翻来覆去车轱辘话的正文）<br>好了，这就是小编给大家分享的XX是什么。希望大家看完这篇由小编精心整理的内容后，能对相关知识有所了解，解决你的困惑。</p></blockquote></li><li><p>更别提过期的链接、过时的问题解决方式，给人希望又使其破灭🤬🤬🤬</p></li><li><p>…</p></li></ul><p>所以不能怪国内环境下没有高质量文章产出（想想也不可能，中国这么多人，如此庞大的中文使用群体，我们能遇到的问题基本也是国人都遇过的，前车之鉴又何必跑到外边去找呢？）, 分明就是百度这铜臭老财不爱做有效收录。<br>所以我们反而需要以<strong>出口转内销</strong>的形式寻求问题的解决。</p><p>什么建站初期多发文章、关键词优化、robots.txt优化……百度根本油盐不进，收录我们这些小破站哪有百家号和莆田系医院能挣钱？</p><p>就不能更新地勤快些吗？<br>搜索结果优先放点近期的答案不好吗？<br>百度知道一堆水金币的不管管吗？</p><hr><p>累了，不吐不快，想到再补充。</p><p>附一篇第一次帮到从搜索引擎过来的苦者的博文（小激动）：<br><a href="https://liuyifei.club/posts/30773.html">Google 「站点地图可读取，但存在错误」</a></p><hr><h3 id="搜索引擎推荐"><a class="markdownIt-Anchor" href="#搜索引擎推荐"></a> 搜索引擎推荐</h3><p>想起来了，国内有个新出的 多吉搜索 <a href="https://www.dogedoge.com/" target="_blank" rel="noopener external nofollow noreferrer">DogeDoge.com</a>，良心，收录速度很靠谱。</p><p>2020-07-14 12:30:41<br>看看新站的收录情况<br><img src="https://cdn.jsdelivr.net/gh/forliuyifei/img@mater/img/2020/7/TB29H%6094LAX%7BY%5DC$N4WZBIA.webp" srcset="/img/loading.gif" alt=""></p><p>感动到爆哭，这么快！</p><p><a href="https://mijisou.com/" target="_blank" rel="noopener external nofollow noreferrer">秘迹搜</a>也还行，值得一试。</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
     
@@ -518,29 +552,6 @@
     
       <category term="转载" scheme="https://liuyifei.club/categories/%E8%BD%AC%E8%BD%BD/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>酷刑</title>
-    <link href="https://liuyifei.club/posts/51274.html"/>
-    <id>https://liuyifei.club/posts/51274.html</id>
-    <published>2020-06-03T08:28:00.000Z</published>
-    <updated>2020-06-26T09:11:44.652Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="center偶成-南腔北调集-鲁迅center"><a class="markdownIt-Anchor" href="#center偶成-南腔北调集-鲁迅center"></a> <center>偶成 / 南腔北调集 / 鲁迅</center></h3><p>九月二十日的《申报》上，有一则嘉善地方的新闻，摘录起来，就是──</p><p>“本县大窑乡沈和声与子林生，被著匪石塘小弟绑架而去，勒索三万元。沈姓家以中人之产，迁延未决。讵料该帮股匪乃将沈和声父子及苏境方面绑来肉票，在丁棚北，北荡滩地方，大施酷刑。法以布条遍贴背上，另用生漆涂敷，俟其稍干，将布之一端，连皮揭起，则痛彻心肺，哀号呼救，惨不忍闻。时为该处居民目睹，恻然心伤，尽将惨状报告沈姓，速即往赎，否则恐无生还。帮匪手段之酷，洵属骇闻。”</p><p>“酷刑”的记载，在各地方的报纸上是时时可以看到的，但我们只在看见时觉得“酷”，不久就忘记了，而实在也真是记不胜记。然而酷刑的方法，却决不是突然就会发明，一定都有它的师承或祖传，例如这石塘小弟所采用的，便是一个古法，见于士大夫未必肯看，而下等人却大抵知道的《说岳全传》一名《精忠传》上，是秦桧要岳飞自认“汉奸”，逼供之际所用的方法，但使用的材料，却是麻条和鱼鳔②。我以为生漆之说，是未必的确的，因为这东西很不容易干燥。</p><p>“酷刑”的发明和改良者，倒是虎吏和暴君，这是他们唯一的事业，而且也有工夫来考究。这是所以威民，也所以除奸的，然而《老子》说得好，“为之斗斛以量之，则并与斗斛而窃之，……③”有被刑的资格的也就来玩一个“剪窃”。张献忠的剥人皮④，不是一种骇闻么？但他之前已有一位剥了“逆臣”景清的皮的永乐皇帝⑤在。</p><p>奴隶们受惯了“酷刑”的教育，他只知道对人应该用酷刑。</p><p>但是，对于酷刑的效果的意见，主人和奴隶们是不一样的。主人及其帮闲们，多是智识者，他能推测，知道酷刑施之于敌对，能够给与怎样的痛苦，所以他会精心结撰，进步起来。奴才们却一定是愚人，他不能“推己及人”，更不能推想一下，就“感同身受”。只要他有权，会采用成法自然也难说，然而他的主意，是没有智识者所测度的那么惨厉的。绥拉菲摩维支在《铁流》里，写农民杀掉了一个贵人的小女儿，那母亲哭得很凄惨，他却诧异道，哭什么呢，我们死掉多少小孩子，一点也没哭过⑥。他不是残酷，他一向不知道人命会这么宝贵，他觉得奇怪了。</p><p>奴隶们受惯了猪狗的待遇，他只知道人们无异于猪狗。</p><p>用奴隶或半奴隶的幸福者，向来只怕“奴隶造反”，真是无怪的。</p><p>要防“奴隶造反”，就更加用“酷刑”，而“酷刑”却因此更到了末路。在现代，枪毙是早已不足为奇了，枭首陈尸，也只能博得民众暂时的鉴赏，而抢劫，绑架，作乱的还是不减少，并且连绑匪也对于别人用起酷刑来了。酷的教育，使人们见酷而不再觉其酷，例如无端杀死几个民众，先前是大家就会嚷起来的，现在却只如见了日常茶饭事。人民真被治得好像厚皮的，没有感觉的癞象一样了，但正因为成了癞皮，所以又会踏着残酷前进，这也是虎吏和暴君所不及料，而即使料及，也还是毫无办法的。</p><p>九月二十日</p><p>=<mark><mark>【注释】</mark></mark>=</p><p>① 本篇最初发表于一九三三年十月十五日《申报月刊》第二卷第十号，署名洛文。</p><p>② 秦桧（1090─1155）：江宁（今南京）人，宋高宗（赵构）</p><p>时任宰相，是主张降金的内奸，诬杀抗金名将岳飞的主谋。这里说他用麻条、鱼鳔逼供的事，见《说岳全传》第六十回。</p><p>③ “为之斗斛以量之，则并与斗斛而窃之”语见《庄子·胠箧》。文中的《老子》应作《庄子》。</p><p>④ 张献忠（1606─1646）：延安柳树涧（今陕西定边东）人，明末农民起义领袖之一。旧史书常有关于他杀人的夸大记载。剥人皮的事，见清代彭遵泗著的《蜀碧》一书。</p><p>⑤ 永乐皇帝：即明成祖朱棣。他原封燕王，起兵推翻建文帝朱允炆后称帝，建文帝的旧臣景清不肯顺从，朱棣“剥其皮，草椟之，械系长安门，磔其骨肉。”（见《明史记事本末》）</p><p>⑥ 《铁流》：长篇小说，苏联作家绥拉菲摩维支著，描写苏联国内战争时期一支游击队在布尔什维克领导下斗争成长的故事。这里所引的情节，见该书第三十三章。</p><hr><p>附件：<a href="https://liuyifei.lanzous.com/imtd5e1y0ti" target="_blank" rel="noopener external nofollow noreferrer">鲁迅文集.epub</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-    
-    <summary type="html">
-    
-      奴隶们受惯了“酷刑”的教育，他只知道对人应该用酷刑。
-    
-    </summary>
-    
-    
-      <category term="收藏" scheme="https://liuyifei.club/categories/%E6%94%B6%E8%97%8F/"/>
-    
-    
-      <category term="鲁迅" scheme="https://liuyifei.club/tags/%E9%B2%81%E8%BF%85/"/>
     
   </entry>
   
