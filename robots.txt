@@ -1,0 +1,23 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /about/
+Allow: /posts/
+Allow: /tags/教程/
+Allow: /cc/
+Allow: /links/
+Allow: /home/
+Allow: /tags/
+
+Disallow: /categories/
+Disallow: /contact/
+Disallow: /tags/梦/
+Disallow: /tags/*/
+Disallow: /messageboard/
+Disallow: /weibo/
+Disallow: /miss/
+Disallow: /cdn-cgi/
+
+
+Sitemap: https://liuyifei.club/sitemap.xml

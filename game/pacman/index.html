@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Pac-Man . 吃豆人游戏</title>
+		<meta name="description" content="吃豆人（Pac-Man）是上世纪80年代一款经典街机游戏，游戏的主角小精灵的形象甚至被作为一种大众文化符号。本游戏使用HTML5完美移植该游戏，设置了多个关卡并改良了幽灵的寻路算法，可作为Canvas游戏学习的案例演示。">
+		<meta name="keywords" content="吃豆人,FC吃豆子,吃豆游戏,Pac-Man,HTML5游戏,Javascript游戏引擎">
+		<link rel="shortcut icon" href="https://liuyifei.club/game/pacman/favicon.png">
+		<style>
+			*{padding:0;margin:0;}
+			.wrapper{
+				width: 960px;
+				margin:0 auto;
+				color:#999;
+			}
+			canvas{display:block;background: #000;}
+			.info{
+				line-height: 30px;
+				text-align: center;
+				margin-bottom: 10px;
+			}
+			p{
+				line-height: 24px;
+				text-indent: 2em;
+				font-size: 14px;
+			}
+			.mod-botton{
+				height: 32px;
+				padding: 15px 0;
+				text-align: center;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div class="wrapper">
+			<canvas id="canvas" width="960" height="640">不支持画布</canvas>
+			<p>这款吃豆人游戏的开发是我在学习和探索HTML5游戏的一次尝试，也是对这款经典街机游戏的致敬。游戏大致还原了我印象中Pac-Man的样子，在移植关卡和玩法规则的同时，在游戏中加入了游戏角色动画管理和幽灵的智能寻址算法，实现了幽灵对玩家的围堵。希望能通过游戏和代码和你分享一些我对游戏开发的感悟。————by 作者：<a href="https://github.com/mumuy/pacman" target="_blank" rel="noopener external nofollow noreferrer">路人甲</a></p>
+
+		</div>
+		<script src="https://liuyifei.club/game/pacman/game.js"></script>
+		<script src="https://liuyifei.club/game/pacman/index.js"></script>
+		<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+	</body>
+</html>
